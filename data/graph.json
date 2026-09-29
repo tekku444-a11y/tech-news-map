@@ -1,10 +1,75 @@
 {
- "generatedAt": "2026-09-30T00:30:54+09:00",
+ "generatedAt": "2026-09-30T01:07:04+09:00",
  "lastUpdated": "2026-09-29",
  "counts": {
   "items": 35,
   "links": 83
  },
+ "themes": [
+  {
+   "key": "agent",
+   "name": "AIエージェント・安全",
+   "short": "AI安全",
+   "color": "#f87171",
+   "count": 5
+  },
+  {
+   "key": "security",
+   "name": "セキュリティ・攻撃",
+   "short": "セキュリティ",
+   "color": "#fb923c",
+   "count": 3
+  },
+  {
+   "key": "policy",
+   "name": "政策・規制",
+   "short": "政策・規制",
+   "color": "#e879f9",
+   "count": 3
+  },
+  {
+   "key": "chipdesign",
+   "name": "AIチップ設計・EDA",
+   "short": "チップ設計",
+   "color": "#38bdf8",
+   "count": 4
+  },
+  {
+   "key": "device",
+   "name": "スマホ・端末",
+   "short": "スマホ・端末",
+   "color": "#4ade80",
+   "count": 7
+  },
+  {
+   "key": "infra",
+   "name": "AIインフラ・DC",
+   "short": "AIインフラ",
+   "color": "#2dd4bf",
+   "count": 3
+  },
+  {
+   "key": "semi",
+   "name": "半導体・製造",
+   "short": "半導体",
+   "color": "#fbbf24",
+   "count": 5
+  },
+  {
+   "key": "model",
+   "name": "AIモデル・サービス",
+   "short": "AIモデル",
+   "color": "#818cf8",
+   "count": 5
+  },
+  {
+   "key": "other",
+   "name": "その他",
+   "short": "その他",
+   "color": "#94a3b8",
+   "count": 0
+  }
+ ],
  "items": [
   {
    "id": "2026-08-26-1",
@@ -22,7 +87,8 @@
     "zero-day"
    ],
    "source": "朝のテック5本",
-   "ai": true
+   "ai": true,
+   "theme": "agent"
   },
   {
    "id": "kt-2026-09-19-iphone18pro",
@@ -50,6 +116,7 @@
    "video": "koredake-tech-iphone18pro-20260919.mp4",
    "cover_title": "iPhone 18 Pro、中身は別物",
    "credit": "日経クロステック｜2026.9.19",
+   "theme": "device",
    "posts": [
     {
      "post_date": "2026-09-19",
@@ -86,6 +153,7 @@
    "video": "koredake-tech-mediatek-2nm-20260920.mp4",
    "cover_title": "MediaTekも2nm？ iPhoneと何が違う",
    "credit": "マイナビTECH+｜2026.9.15",
+   "theme": "device",
    "posts": [
     {
      "post_date": "2026-09-20",
@@ -109,7 +177,8 @@
     "Japan"
    ],
    "source": "朝のテック5本",
-   "ai": true
+   "ai": true,
+   "theme": "policy"
   },
   {
    "id": "2026-09-21-2",
@@ -126,7 +195,8 @@
     "pricing"
    ],
    "source": "朝のテック5本",
-   "ai": false
+   "ai": false,
+   "theme": "semi"
   },
   {
    "id": "2026-09-21-3",
@@ -142,7 +212,8 @@
     "AI-infra"
    ],
    "source": "朝のテック5本",
-   "ai": false
+   "ai": false,
+   "theme": "semi"
   },
   {
    "id": "2026-09-21-4",
@@ -160,7 +231,8 @@
     "chip-design"
    ],
    "source": "朝のテック5本",
-   "ai": true
+   "ai": true,
+   "theme": "chipdesign"
   },
   {
    "id": "2026-09-21-5",
@@ -176,7 +248,8 @@
     "alignment"
    ],
    "source": "朝のテック5本",
-   "ai": true
+   "ai": true,
+   "theme": "agent"
   },
   {
    "id": "kt-2026-09-21-memory-wall",
@@ -207,6 +280,7 @@
    "video": "koredake-tech-memory-wall-20260921.mp4",
    "cover_title": "スマホAI、勝負はメモリ",
    "credit": "Qualcomm OnQ｜2026.9.21",
+   "theme": "device",
    "posts": [
     {
      "post_date": "2026-09-21",
@@ -244,6 +318,7 @@
    "video": "koredake-tech-googlebook-20260922.mp4",
    "cover_title": "Googlebookは、Chromebookの上位互換じゃない",
    "credit": "Google公式｜2026.9.21",
+   "theme": "device",
    "posts": [
     {
      "post_date": "2026-09-22",
@@ -271,6 +346,7 @@
     "Snapdragon"
    ],
    "hook_contrast": "同じ「8 Elite Gen 6」でもExtremeは別チップ、旗艦が2つ",
+   "theme": "device",
    "posts": [
     {
      "post_date": null,
@@ -297,7 +373,8 @@
     "China"
    ],
    "source": "朝のテック5本",
-   "ai": true
+   "ai": true,
+   "theme": "infra"
   },
   {
    "id": "2026-09-23-3",
@@ -314,6 +391,7 @@
    ],
    "source": "朝のテック5本",
    "ai": true,
+   "theme": "model",
    "posts": [
     {
      "post_date": "2026-09-24",
@@ -336,7 +414,8 @@
     "AI-abuse"
    ],
    "source": "朝のテック5本",
-   "ai": true
+   "ai": true,
+   "theme": "security"
   },
   {
    "id": "2026-09-23-5",
@@ -355,7 +434,8 @@
     "security"
    ],
    "source": "朝のテック5本",
-   "ai": true
+   "ai": true,
+   "theme": "security"
   },
   {
    "id": "kt-2026-09-24-gpt6-claude-price",
@@ -386,6 +466,7 @@
    "video": "koredake-tech-gpt6-claude-price-20260924.mp4",
    "cover_title": "GPT-6とClaude値下げ DeepSeekに追いついてない",
    "credit": "OpenAI・Anthropic・DeepSeek｜2026.9.24",
+   "theme": "model",
    "posts": [
     {
      "post_date": "2026-09-24",
@@ -421,6 +502,7 @@
    "video": "koredake-tech-suncatcher-20260925.mp4",
    "cover_title": "宇宙DC、まだ15分だけ",
    "credit": "Ars Technica・Reuters・Google｜2026.9.25",
+   "theme": "infra",
    "posts": [
     {
      "post_date": "2026-09-25",
@@ -455,6 +537,7 @@
    "video": "koredake-tech-agent-vs-chat-20260926.mp4",
    "cover_title": "エージェント｜チャットと別物",
    "credit": "Guardian・TechCrunch｜2026.9",
+   "theme": "agent",
    "posts": [
     {
      "post_date": "2026-09-26",
@@ -478,7 +561,8 @@
     "incident-response"
    ],
    "source": "朝のテック5本",
-   "ai": true
+   "ai": true,
+   "theme": "policy"
   },
   {
    "id": "2026-09-27-2",
@@ -499,6 +583,7 @@
    ],
    "source": "朝のテック5本",
    "ai": true,
+   "theme": "policy",
    "posts": [
     {
      "post_date": "2026-09-26",
@@ -523,7 +608,8 @@
     "AI-infra"
    ],
    "source": "朝のテック5本",
-   "ai": false
+   "ai": false,
+   "theme": "semi"
   },
   {
    "id": "2026-09-27-4",
@@ -540,7 +626,8 @@
     "on-device"
    ],
    "source": "朝のテック5本",
-   "ai": false
+   "ai": false,
+   "theme": "device"
   },
   {
    "id": "2026-09-27-5",
@@ -558,7 +645,8 @@
     "RTL"
    ],
    "source": "朝のテック5本",
-   "ai": true
+   "ai": true,
+   "theme": "chipdesign"
   },
   {
    "id": "kt-2026-09-27-autopilot",
@@ -587,6 +675,7 @@
    "video": "koredake-tech-autopilot-20260927.mp4",
    "cover_title": "Autopilot｜寝ても動く",
    "credit": "Microsoft Blog｜2026.9",
+   "theme": "model",
    "posts": [
     {
      "post_date": "2026-09-27",
@@ -609,7 +698,8 @@
     "alignment"
    ],
    "source": "朝のテック5本",
-   "ai": true
+   "ai": true,
+   "theme": "agent"
   },
   {
    "id": "2026-09-28-2",
@@ -627,7 +717,8 @@
     "KEV"
    ],
    "source": "朝のテック5本",
-   "ai": false
+   "ai": false,
+   "theme": "security"
   },
   {
    "id": "2026-09-28-3",
@@ -650,6 +741,7 @@
     "Autopilot"
    ],
    "hook_contrast": "同じAutopilotでも、こちらはMicrosoft Copilotの製品名（Synopsysのは設計エージェント）",
+   "theme": "model",
    "posts": [
     {
      "post_date": "2026-09-27",
@@ -673,7 +765,8 @@
     "RTL"
    ],
    "source": "朝のテック5本",
-   "ai": true
+   "ai": true,
+   "theme": "chipdesign"
   },
   {
    "id": "2026-09-28-5",
@@ -690,7 +783,8 @@
     "semiconductor"
    ],
    "source": "朝のテック5本",
-   "ai": false
+   "ai": false,
+   "theme": "infra"
   },
   {
    "id": "kt-2026-09-28-modem-patent",
@@ -721,6 +815,7 @@
    "video": "koredake-tech-modem-patent-20260928.mp4",
    "cover_title": "Apple｜使用料は払う",
    "credit": "Qualcomm発表｜2026.9",
+   "theme": "device",
    "posts": [
     {
      "post_date": "2026-09-28",
@@ -745,7 +840,8 @@
     "sandbox"
    ],
    "source": "朝のテック5本",
-   "ai": true
+   "ai": true,
+   "theme": "agent"
   },
   {
    "id": "2026-09-29-2",
@@ -763,7 +859,8 @@
     "M&A"
    ],
    "source": "朝のテック5本",
-   "ai": true
+   "ai": true,
+   "theme": "model"
   },
   {
    "id": "2026-09-29-3",
@@ -781,7 +878,8 @@
     "Japan"
    ],
    "source": "朝のテック5本",
-   "ai": false
+   "ai": false,
+   "theme": "semi"
   },
   {
    "id": "2026-09-29-4",
@@ -803,7 +901,8 @@
     "2nm"
    ],
    "source": "朝のテック5本",
-   "ai": false
+   "ai": false,
+   "theme": "semi"
   },
   {
    "id": "2026-09-29-5",
@@ -824,7 +923,8 @@
     "Synopsys",
     "Autopilot"
    ],
-   "hook_contrast": "同じAutopilotでも、こちらはチップ設計エージェント（MicrosoftのはCopilotの製品名）"
+   "hook_contrast": "同じAutopilotでも、こちらはチップ設計エージェント（MicrosoftのはCopilotの製品名）",
+   "theme": "chipdesign"
   }
  ],
  "links": [

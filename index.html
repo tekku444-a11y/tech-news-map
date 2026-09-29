@@ -17,29 +17,36 @@
   <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
   <link rel="stylesheet" href="app.css">
 </head>
-<body>
+<body data-view="overview">
   <header id="hdr">
-    <div class="hdr-row">
-      <h1>テックニュース相関図</h1>
-      <span id="updated" class="updated">最終更新: —</span>
+    <div class="bar">
+      <button id="back" class="back" type="button" aria-label="戻る" hidden>‹</button>
+      <div class="ttl">
+        <nav id="crumb" class="crumb" aria-label="現在地"></nav>
+        <h1 id="title">テックニュース相関図</h1>
+      </div>
+      <span id="updated" class="updated">更新 —</span>
     </div>
-    <div class="hdr-row sub">
-      <div id="legend" class="legend" aria-label="凡例"></div>
+    <div class="ctrl">
+      <div class="seg" role="group" aria-label="期間">
+        <button type="button" data-period="all" aria-pressed="true">全期間</button>
+        <button type="button" data-period="2w" aria-pressed="false">直近2週間</button>
+      </div>
       <label class="toggle">
         <input type="checkbox" id="weak">
-        <span>弱いリンクも表示</span>
+        <span>弱いリンクも</span>
       </label>
     </div>
   </header>
 
   <main id="graph" aria-label="相関グラフ"></main>
+  <div id="hint" class="hint"></div>
   <div id="status" class="status">読み込み中…</div>
 
-  <button id="fit" class="fab" type="button" aria-label="全体を表示">全体</button>
+  <button id="fit" class="fab" type="button" aria-label="全体を表示">全体表示</button>
 
   <section id="sheet" class="sheet" aria-hidden="true" role="dialog" aria-label="ニュース詳細">
-    <div class="grabber" aria-hidden="true"></div>
-    <button id="sheet-close" class="sheet-close" type="button" aria-label="閉じる">×</button>
+    <button id="grab" class="grab" type="button" aria-label="詳細の大きさを切り替え"><span class="grabber"></span></button>
     <div id="sheet-body" class="sheet-body"></div>
   </section>
 
