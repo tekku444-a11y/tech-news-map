@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-09-30T01:07:04+09:00",
- "lastUpdated": "2026-09-29",
+ "generatedAt": "2026-09-30T08:16:37+09:00",
+ "lastUpdated": "2026-09-30",
  "counts": {
-  "items": 35,
-  "links": 83
+  "items": 40,
+  "links": 114
  },
  "themes": [
   {
@@ -11,7 +11,7 @@
    "name": "AIエージェント・安全",
    "short": "AI安全",
    "color": "#f87171",
-   "count": 5
+   "count": 6
   },
   {
    "key": "security",
@@ -39,28 +39,28 @@
    "name": "スマホ・端末",
    "short": "スマホ・端末",
    "color": "#4ade80",
-   "count": 7
+   "count": 8
   },
   {
    "key": "infra",
    "name": "AIインフラ・DC",
    "short": "AIインフラ",
    "color": "#2dd4bf",
-   "count": 3
+   "count": 4
   },
   {
    "key": "semi",
    "name": "半導体・製造",
    "short": "半導体",
    "color": "#fbbf24",
-   "count": 5
+   "count": 6
   },
   {
    "key": "model",
    "name": "AIモデル・サービス",
    "short": "AIモデル",
    "color": "#818cf8",
-   "count": 5
+   "count": 6
   },
   {
    "key": "other",
@@ -925,6 +925,108 @@
    ],
    "hook_contrast": "同じAutopilotでも、こちらはチップ設計エージェント（MicrosoftのはCopilotの製品名）",
    "theme": "chipdesign"
+  },
+  {
+   "id": "2026-09-30-1",
+   "date": "2026-09-30",
+   "title": "OpenAI DevDay：常時稼働エージェント「Dots」発表",
+   "summary": "OpenAIがDevDayで、GPT-6 Astra搭載の常時稼働エージェント「Dots」を発表。クラウド上の専用コンピュータで目標に沿い自律稼働し、4000超のアプリ連携やSlack/Teams経由の依頼にも対応。Pro（EEA・スイス・英国を除く）およびBusiness/Enterprise向けに順次展開。",
+   "entities": [
+    "OpenAI",
+    "Dots",
+    "GPT-6 Astra",
+    "Meta"
+   ],
+   "themes": [
+    "agent",
+    "enterprise-AI",
+    "DevDay"
+   ],
+   "source": "朝のテック5本",
+   "ai": true,
+   "theme": "infra"
+  },
+  {
+   "id": "2026-09-30-2",
+   "date": "2026-09-30",
+   "title": "OpenAI「GPT-6.1 Sol」：Astra級に近い性能を約5分の1コストで",
+   "summary": "OpenAIがGPT-6.1 Solを発表。コーディングやコンピュータ操作などでGPT-6 Astraに近い性能を、標準トークン価格の約5分の1でうたう。GPT-6 Solから約1週間での更新。Plus〜Enterprise向けにChatGPT Work/CodexとAPIで提供開始（Chatは未対応）。GPT-6.1 Astraは安全懸念で見送り報道あり。",
+   "entities": [
+    "OpenAI",
+    "GPT-6.1 Sol",
+    "GPT-6 Astra"
+   ],
+   "themes": [
+    "LLM",
+    "coding",
+    "pricing",
+    "DevDay"
+   ],
+   "source": "朝のテック5本",
+   "ai": true,
+   "theme": "model"
+  },
+  {
+   "id": "2026-09-30-3",
+   "date": "2026-09-30",
+   "title": "Anthropic IPO資料：ローグAIエージェントの法的責任は不確実",
+   "summary": "ReutersがAnthropicのIPO目論見書を報道。長時間自律動作するエージェントの暴走に伴う顧客・利用者からの請求リスクを開示し、契約上の責任制限が不十分になり得る可能性や、現行法の適用が未確定だと記載。エージェント安全・責任議論の延長線上の動き。",
+   "entities": [
+    "Anthropic",
+    "Claude",
+    "Reuters"
+   ],
+   "themes": [
+    "agent-safety",
+    "liability",
+    "IPO",
+    "regulation"
+   ],
+   "source": "朝のテック5本",
+   "ai": true,
+   "theme": "agent"
+  },
+  {
+   "id": "2026-09-30-4",
+   "date": "2026-09-30",
+   "title": "Samsung Foundry：2nm（SF2）歩留まりが約60%近くまで改善との報道",
+   "summary": "朝鮮日報Bizなど業界筋として、Samsungの2nmプロセスSF2の歩留まりが約60%近くまで改善したと報じられた。Tesla向け供給を足がかりにファウンドリ顧客拡大を狙う一方、市場シェアはTSMCとの差が大きい。後継SF2Pも量産加速の報道。",
+   "entities": [
+    "Samsung",
+    "SF2",
+    "Tesla",
+    "TSMC"
+   ],
+   "themes": [
+    "foundry",
+    "semiconductor",
+    "2nm",
+    "yield"
+   ],
+   "source": "朝のテック5本",
+   "ai": false,
+   "theme": "semi"
+  },
+  {
+   "id": "2026-09-30-5",
+   "date": "2026-09-30",
+   "title": "iPhone Duo：量産歩留まり約60%超、初期供給は限定的とのサプライチェーン報道",
+   "summary": "界面新聞のサプライチェーン筋をMacRumorsなどが伝え、Apple初の折りたたみiPhone「Duo」の最終組立歩留まりが9月17日時点で60%台前半、成熟まで半年〜1年かかる可能性。Samsung Displayのパネル・ヒンジ部品も低歩留まりや納期遅れが指摘。10/16予約・10/23発売予定、2026年在庫目標は約600〜800万台規模との情報。",
+   "entities": [
+    "Apple",
+    "iPhone Duo",
+    "Foxconn",
+    "Samsung Display"
+   ],
+   "themes": [
+    "smartphone",
+    "foldable",
+    "manufacturing",
+    "supply-chain"
+   ],
+   "source": "朝のテック5本",
+   "ai": false,
+   "theme": "device"
   }
  ],
  "links": [
@@ -1356,6 +1458,16 @@
   },
   {
    "id": "link-43",
+   "from": "2026-09-21-5",
+   "to": "2026-09-30-2",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.28,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-44",
    "from": "2026-09-23-1",
    "to": "2026-09-29-4",
    "type": "related",
@@ -1365,7 +1477,7 @@
    "note": ""
   },
   {
-   "id": "link-44",
+   "id": "link-45",
    "from": "kt-2026-09-20-mediatek-2nm",
    "to": "2026-09-23-1",
    "type": "related",
@@ -1375,7 +1487,7 @@
    "note": ""
   },
   {
-   "id": "link-45",
+   "id": "link-46",
    "from": "2026-09-23-1",
    "to": "kt-2026-09-28-modem-patent",
    "type": "related",
@@ -1385,7 +1497,7 @@
    "note": ""
   },
   {
-   "id": "link-46",
+   "id": "link-47",
    "from": "2026-09-23-2",
    "to": "kt-2026-09-24-gpt6-claude-price",
    "type": "related",
@@ -1395,7 +1507,7 @@
    "note": ""
   },
   {
-   "id": "link-47",
+   "id": "link-48",
    "from": "2026-09-23-3",
    "to": "2026-09-27-2",
    "type": "related",
@@ -1405,7 +1517,7 @@
    "note": ""
   },
   {
-   "id": "link-48",
+   "id": "link-49",
    "from": "2026-09-23-3",
    "to": "2026-09-29-1",
    "type": "related",
@@ -1415,7 +1527,17 @@
    "note": ""
   },
   {
-   "id": "link-49",
+   "id": "link-50",
+   "from": "2026-09-23-3",
+   "to": "2026-09-30-3",
+   "type": "causes",
+   "label": "因果: Anthropic・Claude",
+   "confidence": 0.57,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-51",
    "from": "2026-09-23-4",
    "to": "2026-09-23-5",
    "type": "related",
@@ -1425,7 +1547,7 @@
    "note": ""
   },
   {
-   "id": "link-50",
+   "id": "link-52",
    "from": "2026-09-23-4",
    "to": "2026-09-28-3",
    "type": "related",
@@ -1435,7 +1557,7 @@
    "note": ""
   },
   {
-   "id": "link-51",
+   "id": "link-53",
    "from": "2026-09-23-4",
    "to": "2026-09-29-1",
    "type": "related",
@@ -1445,7 +1567,7 @@
    "note": ""
   },
   {
-   "id": "link-52",
+   "id": "link-54",
    "from": "2026-09-23-4",
    "to": "kt-2026-09-27-autopilot",
    "type": "related",
@@ -1455,7 +1577,7 @@
    "note": ""
   },
   {
-   "id": "link-53",
+   "id": "link-55",
    "from": "kt-2026-09-24-gpt6-claude-price",
    "to": "2026-09-27-2",
    "type": "related",
@@ -1465,7 +1587,37 @@
    "note": ""
   },
   {
-   "id": "link-54",
+   "id": "link-56",
+   "from": "2026-09-27-2",
+   "to": "2026-09-30-1",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.37,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-57",
+   "from": "2026-09-27-2",
+   "to": "2026-09-30-2",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.38,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-58",
+   "from": "2026-09-27-2",
+   "to": "2026-09-30-3",
+   "type": "causes",
+   "label": "因果: Anthropic · agent-safety/regulation",
+   "confidence": 0.52,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-59",
    "from": "2026-09-27-3",
    "to": "2026-09-29-3",
    "type": "related",
@@ -1475,7 +1627,7 @@
    "note": ""
   },
   {
-   "id": "link-55",
+   "id": "link-60",
    "from": "2026-09-27-3",
    "to": "2026-09-29-4",
    "type": "related",
@@ -1485,7 +1637,7 @@
    "note": ""
   },
   {
-   "id": "link-56",
+   "id": "link-61",
    "from": "kt-2026-09-26-agent-vs-chat",
    "to": "2026-09-27-5",
    "type": "related",
@@ -1495,7 +1647,7 @@
    "note": ""
   },
   {
-   "id": "link-57",
+   "id": "link-62",
    "from": "2026-09-27-5",
    "to": "kt-2026-09-27-autopilot",
    "type": "related",
@@ -1505,7 +1657,17 @@
    "note": ""
   },
   {
-   "id": "link-58",
+   "id": "link-63",
+   "from": "2026-09-27-5",
+   "to": "2026-09-30-1",
+   "type": "related",
+   "label": "関連: agent",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-64",
    "from": "kt-2026-09-24-gpt6-claude-price",
    "to": "2026-09-28-1",
    "type": "related",
@@ -1515,7 +1677,37 @@
    "note": ""
   },
   {
-   "id": "link-59",
+   "id": "link-65",
+   "from": "2026-09-28-1",
+   "to": "2026-09-30-1",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.41,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-66",
+   "from": "2026-09-28-1",
+   "to": "2026-09-30-2",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.44,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-67",
+   "from": "2026-09-28-1",
+   "to": "2026-09-30-3",
+   "type": "related",
+   "label": "関連: agent-safety",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-68",
    "from": "2026-09-28-3",
    "to": "2026-09-29-1",
    "type": "related",
@@ -1525,7 +1717,7 @@
    "note": ""
   },
   {
-   "id": "link-60",
+   "id": "link-69",
    "from": "kt-2026-09-26-agent-vs-chat",
    "to": "2026-09-28-4",
    "type": "related",
@@ -1535,7 +1727,7 @@
    "note": ""
   },
   {
-   "id": "link-61",
+   "id": "link-70",
    "from": "kt-2026-09-27-autopilot",
    "to": "2026-09-28-4",
    "type": "related",
@@ -1545,7 +1737,17 @@
    "note": ""
   },
   {
-   "id": "link-62",
+   "id": "link-71",
+   "from": "2026-09-28-4",
+   "to": "2026-09-30-1",
+   "type": "related",
+   "label": "関連: agent",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-72",
    "from": "2026-09-28-5",
    "to": "2026-09-29-3",
    "type": "related",
@@ -1555,7 +1757,7 @@
    "note": ""
   },
   {
-   "id": "link-63",
+   "id": "link-73",
    "from": "2026-09-28-5",
    "to": "2026-09-29-4",
    "type": "related",
@@ -1565,7 +1767,7 @@
    "note": ""
   },
   {
-   "id": "link-64",
+   "id": "link-74",
    "from": "kt-2026-09-22-googlebook",
    "to": "2026-09-28-5",
    "type": "related",
@@ -1575,7 +1777,7 @@
    "note": ""
   },
   {
-   "id": "link-65",
+   "id": "link-75",
    "from": "kt-2026-09-25-suncatcher",
    "to": "2026-09-28-5",
    "type": "causes",
@@ -1585,7 +1787,17 @@
    "note": ""
   },
   {
-   "id": "link-66",
+   "id": "link-76",
+   "from": "2026-09-28-5",
+   "to": "2026-09-30-4",
+   "type": "related",
+   "label": "関連: semiconductor",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-77",
    "from": "2026-09-29-1",
    "to": "2026-09-29-4",
    "type": "related",
@@ -1595,7 +1807,7 @@
    "note": ""
   },
   {
-   "id": "link-67",
+   "id": "link-78",
    "from": "kt-2026-09-24-gpt6-claude-price",
    "to": "2026-09-29-1",
    "type": "related",
@@ -1605,7 +1817,7 @@
    "note": ""
   },
   {
-   "id": "link-68",
+   "id": "link-79",
    "from": "kt-2026-09-26-agent-vs-chat",
    "to": "2026-09-29-1",
    "type": "related",
@@ -1615,7 +1827,7 @@
    "note": ""
   },
   {
-   "id": "link-69",
+   "id": "link-80",
    "from": "kt-2026-09-27-autopilot",
    "to": "2026-09-29-1",
    "type": "related",
@@ -1625,7 +1837,17 @@
    "note": ""
   },
   {
-   "id": "link-70",
+   "id": "link-81",
+   "from": "2026-09-29-1",
+   "to": "2026-09-30-3",
+   "type": "related",
+   "label": "関連: Anthropic · agent-safety",
+   "confidence": 0.45,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-82",
    "from": "2026-09-29-2",
    "to": "2026-09-29-4",
    "type": "related",
@@ -1635,7 +1857,7 @@
    "note": ""
   },
   {
-   "id": "link-71",
+   "id": "link-83",
    "from": "2026-09-29-3",
    "to": "2026-09-29-4",
    "type": "related",
@@ -1645,7 +1867,7 @@
    "note": ""
   },
   {
-   "id": "link-72",
+   "id": "link-84",
    "from": "kt-2026-09-20-mediatek-2nm",
    "to": "2026-09-29-4",
    "type": "causes",
@@ -1655,7 +1877,7 @@
    "note": ""
   },
   {
-   "id": "link-73",
+   "id": "link-85",
    "from": "kt-2026-09-21-memory-wall",
    "to": "2026-09-29-4",
    "type": "related",
@@ -1665,7 +1887,7 @@
    "note": ""
   },
   {
-   "id": "link-74",
+   "id": "link-86",
    "from": "kt-2026-09-28-modem-patent",
    "to": "2026-09-29-4",
    "type": "related",
@@ -1675,7 +1897,27 @@
    "note": ""
   },
   {
-   "id": "link-75",
+   "id": "link-87",
+   "from": "2026-09-29-4",
+   "to": "2026-09-30-4",
+   "type": "same_arc",
+   "label": "同弧: TSMC · 2nm/foundry",
+   "confidence": 0.57,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-88",
+   "from": "2026-09-29-4",
+   "to": "2026-09-30-5",
+   "type": "related",
+   "label": "関連: Apple",
+   "confidence": 0.36,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-89",
    "from": "kt-2026-09-26-agent-vs-chat",
    "to": "2026-09-29-5",
    "type": "related",
@@ -1685,7 +1927,7 @@
    "note": ""
   },
   {
-   "id": "link-76",
+   "id": "link-90",
    "from": "kt-2026-09-27-autopilot",
    "to": "2026-09-29-5",
    "type": "related",
@@ -1695,7 +1937,17 @@
    "note": ""
   },
   {
-   "id": "link-77",
+   "id": "link-91",
+   "from": "2026-09-29-5",
+   "to": "2026-09-30-1",
+   "type": "related",
+   "label": "関連: agent",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-92",
    "from": "kt-2026-09-19-iphone18pro",
    "to": "kt-2026-09-21-memory-wall",
    "type": "causes",
@@ -1705,7 +1957,7 @@
    "note": ""
   },
   {
-   "id": "link-78",
+   "id": "link-93",
    "from": "kt-2026-09-19-iphone18pro",
    "to": "kt-2026-09-28-modem-patent",
    "type": "related",
@@ -1715,7 +1967,7 @@
    "note": ""
   },
   {
-   "id": "link-79",
+   "id": "link-94",
    "from": "kt-2026-09-20-mediatek-2nm",
    "to": "kt-2026-09-21-memory-wall",
    "type": "same_arc",
@@ -1725,7 +1977,17 @@
    "note": ""
   },
   {
-   "id": "link-80",
+   "id": "link-95",
+   "from": "kt-2026-09-20-mediatek-2nm",
+   "to": "2026-09-30-4",
+   "type": "related",
+   "label": "関連: TSMC · 2nm/foundry",
+   "confidence": 0.38,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-96",
    "from": "kt-2026-09-21-memory-wall",
    "to": "kt-2026-09-28-modem-patent",
    "type": "related",
@@ -1735,7 +1997,7 @@
    "note": ""
   },
   {
-   "id": "link-81",
+   "id": "link-97",
    "from": "kt-2026-09-22-googlebook",
    "to": "kt-2026-09-25-suncatcher",
    "type": "related",
@@ -1745,7 +2007,7 @@
    "note": ""
   },
   {
-   "id": "link-82",
+   "id": "link-98",
    "from": "kt-2026-09-24-gpt6-claude-price",
    "to": "kt-2026-09-26-agent-vs-chat",
    "type": "related",
@@ -1755,7 +2017,37 @@
    "note": ""
   },
   {
-   "id": "link-83",
+   "id": "link-99",
+   "from": "kt-2026-09-24-gpt6-claude-price",
+   "to": "2026-09-30-1",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.27,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-100",
+   "from": "kt-2026-09-24-gpt6-claude-price",
+   "to": "2026-09-30-2",
+   "type": "related",
+   "label": "関連: OpenAI · LLM/pricing",
+   "confidence": 0.4,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-101",
+   "from": "kt-2026-09-24-gpt6-claude-price",
+   "to": "2026-09-30-3",
+   "type": "related",
+   "label": "関連: Anthropic・Claude",
+   "confidence": 0.38,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-102",
    "from": "kt-2026-09-26-agent-vs-chat",
    "to": "kt-2026-09-27-autopilot",
    "type": "related",
@@ -1763,6 +2055,127 @@
    "confidence": 0.26,
    "auto": true,
    "note": ""
+  },
+  {
+   "id": "link-103",
+   "from": "kt-2026-09-26-agent-vs-chat",
+   "to": "2026-09-30-1",
+   "type": "related",
+   "label": "関連: OpenAI · agent",
+   "confidence": 0.35,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-104",
+   "from": "kt-2026-09-26-agent-vs-chat",
+   "to": "2026-09-30-2",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.29,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-105",
+   "from": "kt-2026-09-27-autopilot",
+   "to": "2026-09-30-1",
+   "type": "related",
+   "label": "関連: agent",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-106",
+   "from": "kt-2026-09-28-modem-patent",
+   "to": "2026-09-30-5",
+   "type": "related",
+   "label": "関連: Apple",
+   "confidence": 0.37,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-107",
+   "from": "2026-09-30-1",
+   "to": "2026-09-30-2",
+   "type": "same_arc",
+   "label": "DevDay同日発表",
+   "confidence": 0.9,
+   "auto": false,
+   "note": "手動: DotsとGPT-6.1 Solは同一DevDayの製品／モデル発表。"
+  },
+  {
+   "id": "link-108",
+   "from": "2026-09-29-1",
+   "to": "2026-09-30-3",
+   "type": "leads_to",
+   "label": "安全基盤→IPO責任開示",
+   "confidence": 0.84,
+   "auto": false,
+   "note": "手動: Nvidia Open Agent Safetyの直後に、Anthropicがローグエージェントの法的責任リスクを目論見書で開示。安全弧の責任フェーズへ波及。"
+  },
+  {
+   "id": "link-109",
+   "from": "2026-09-28-1",
+   "to": "2026-09-30-3",
+   "type": "same_arc",
+   "label": "脱出事例→責任論点",
+   "confidence": 0.86,
+   "auto": false,
+   "note": "手動: OpenAI研究エージェントDNS脱出など一連のローグ事例が、Anthropic IPOの法的責任開示と同弧。"
+  },
+  {
+   "id": "link-110",
+   "from": "2026-09-27-2",
+   "to": "2026-09-30-3",
+   "type": "leads_to",
+   "label": "豪州調査→IPO責任開示",
+   "confidence": 0.8,
+   "auto": false,
+   "note": "手動: 豪州上院の召喚検討など規制圧力が、IPOでの責任リスク開示に続く。"
+  },
+  {
+   "id": "link-111",
+   "from": "2026-09-30-1",
+   "to": "2026-09-30-3",
+   "type": "leads_to",
+   "label": "常時稼働Dots→責任リスク拡大",
+   "confidence": 0.82,
+   "auto": false,
+   "note": "手動: 常時稼働・深アクセスのエージェント製品化が、ローグ時の責任論点を現実化する波及。"
+  },
+  {
+   "id": "link-112",
+   "from": "2026-09-29-1",
+   "to": "2026-09-30-1",
+   "type": "leads_to",
+   "label": "安全基盤 vs 常時稼働製品",
+   "confidence": 0.78,
+   "auto": false,
+   "note": "手動: 業界が安全サンドボックス基盤を出す一方、OpenAIは常時稼働Dotsを製品化。緊張関係のある同時代の波及。"
+  },
+  {
+   "id": "link-113",
+   "from": "2026-09-28-3",
+   "to": "2026-09-30-1",
+   "type": "same_arc",
+   "label": "常時稼働エージェント競争",
+   "confidence": 0.83,
+   "auto": false,
+   "note": "手動: Microsoft Copilot AutopilotとOpenAI Dotsは、常時稼働エージェント製品化の同弧（競合）。"
+  },
+  {
+   "id": "link-114",
+   "from": "2026-09-29-4",
+   "to": "2026-09-30-4",
+   "type": "confusable",
+   "label": "2nmニュース：キャパ vs 歩留まり",
+   "confidence": 0.88,
+   "auto": false,
+   "note": "手動: 似て聞こえる2nm続報の対比。",
+   "contrast": "TSMCは2nm生産キャパ（枚数）の上方修正、SamsungはSF2歩留まり改善の報道。同じ「2nm」でも指標も企業も別。"
   }
  ]
 }
