@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-29T23:39:28+09:00",
+ "generatedAt": "2026-09-30T00:30:54+09:00",
  "lastUpdated": "2026-09-29",
  "counts": {
   "items": 35,
@@ -716,7 +716,7 @@
     "Apple",
     "Qualcomm"
    ],
-   "hook_contrast": "モデムは自社でも、特許使用料の契約は残る（チップ供給と特許は別）",
+   "hook_contrast": "チップ供給と特許は別",
    "kind": "koredake_post",
    "video": "koredake-tech-modem-patent-20260928.mp4",
    "cover_title": "Apple｜使用料は払う",
