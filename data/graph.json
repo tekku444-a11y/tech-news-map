@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-30T08:16:37+09:00",
+ "generatedAt": "2026-09-30T08:17:22+09:00",
  "lastUpdated": "2026-09-30",
  "counts": {
   "items": 40,
@@ -11,7 +11,7 @@
    "name": "AIエージェント・安全",
    "short": "AI安全",
    "color": "#f87171",
-   "count": 6
+   "count": 7
   },
   {
    "key": "security",
@@ -46,7 +46,7 @@
    "name": "AIインフラ・DC",
    "short": "AIインフラ",
    "color": "#2dd4bf",
-   "count": 4
+   "count": 3
   },
   {
    "key": "semi",
@@ -944,7 +944,7 @@
    ],
    "source": "朝のテック5本",
    "ai": true,
-   "theme": "infra"
+   "theme": "agent"
   },
   {
    "id": "2026-09-30-2",
