@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-09-29T23:23:33+09:00",
+ "generatedAt": "2026-09-29T23:39:28+09:00",
  "lastUpdated": "2026-09-29",
  "counts": {
-  "items": 26,
-  "links": 41
+  "items": 35,
+  "links": 83
  },
  "items": [
   {
@@ -23,6 +23,75 @@
    ],
    "source": "朝のテック5本",
    "ai": true
+  },
+  {
+   "id": "kt-2026-09-19-iphone18pro",
+   "date": "2026-09-19",
+   "title": "これだけテック：iPhone 18 Pro、中身は別物（冷却優先）",
+   "summary": "日経クロステックの分解報道（2026.9.19）。18 Proは見た目が17 Proに近い一方、内部はチップ（A20 Pro）の冷却を優先して作り直し。オンデバイスAIなど高負荷を長く動かすための熱設計が中心で、「似て見える新機種＝中身も同じ」ではない。",
+   "entities": [
+    "Apple",
+    "iPhone 18 Pro",
+    "A20 Pro"
+   ],
+   "themes": [
+    "mobile",
+    "thermal",
+    "teardown",
+    "on-device"
+   ],
+   "source": "これだけテック投稿",
+   "ai": false,
+   "hook_names": [
+    "iPhone 18 Pro"
+   ],
+   "hook_contrast": "見た目は17 Proに近くても、中身は冷却優先で別物",
+   "kind": "koredake_post",
+   "video": "koredake-tech-iphone18pro-20260919.mp4",
+   "cover_title": "iPhone 18 Pro、中身は別物",
+   "credit": "日経クロステック｜2026.9.19",
+   "posts": [
+    {
+     "post_date": "2026-09-19",
+     "title": "iPhone 18 Pro、中身は別物"
+    }
+   ]
+  },
+  {
+   "id": "kt-2026-09-20-mediatek-2nm",
+   "date": "2026-09-20",
+   "title": "これだけテック：MediaTekも2nm？ iPhoneと何が違う",
+   "summary": "MediaTekがTSMCの2nmを使うスマホ向けチップ「Dimensity 9600 Pro」を発表（マイナビTECH+など）。設計は自前・製造はTSMCという構図はAppleのA20 Proと同じだが、A20 ProはiPhone 18 Proで出荷中、Dimensityは搭載スマホがこれから。デュアルNPUで最大300億パラメータ級・エージェント型AIを前面に。",
+   "entities": [
+    "MediaTek",
+    "Dimensity 9600 Pro",
+    "TSMC",
+    "Apple",
+    "A20 Pro"
+   ],
+   "themes": [
+    "semiconductor",
+    "2nm",
+    "mobile",
+    "foundry"
+   ],
+   "source": "これだけテック投稿",
+   "ai": false,
+   "hook_names": [
+    "MediaTek",
+    "A20 Pro"
+   ],
+   "hook_contrast": "同じ2nmでも、A20 Proは出荷中の実機、Dimensity 9600 Proはチップ発表の段階",
+   "kind": "koredake_post",
+   "video": "koredake-tech-mediatek-2nm-20260920.mp4",
+   "cover_title": "MediaTekも2nm？ iPhoneと何が違う",
+   "credit": "マイナビTECH+｜2026.9.15",
+   "posts": [
+    {
+     "post_date": "2026-09-20",
+     "title": "MediaTekも2nm？ iPhoneと何が違う"
+    }
+   ]
   },
   {
    "id": "2026-09-21-1",
@@ -110,6 +179,79 @@
    "ai": true
   },
   {
+   "id": "kt-2026-09-21-memory-wall",
+   "date": "2026-09-21",
+   "title": "これだけテック：スマホAI、勝負はメモリ（Qualcomm次世代Hexagon）",
+   "summary": "Qualcommが次世代Hexagon NPUで、端末内AIを大きくするときの壁は計算力よりメモリ帯域だと強調。「大きなモデル対応」も毎回フルで回す意味ではなく、必要な部分だけ動かし、NPUの共有メモリを約5割増やして外部DRAMとの行き来を減らす設計。AppleのA20 ProやMediaTekのDimensityとも、比べるべきはナノメートルよりメモリとモデル構成。",
+   "entities": [
+    "Qualcomm",
+    "Hexagon",
+    "Apple",
+    "A20 Pro",
+    "MediaTek"
+   ],
+   "themes": [
+    "on-device",
+    "mobile",
+    "memory",
+    "NPU"
+   ],
+   "source": "これだけテック投稿",
+   "ai": false,
+   "hook_names": [
+    "Qualcomm",
+    "Hexagon"
+   ],
+   "hook_contrast": "比べるべきはnmより、メモリ帯域とモデル構成",
+   "kind": "koredake_post",
+   "video": "koredake-tech-memory-wall-20260921.mp4",
+   "cover_title": "スマホAI、勝負はメモリ",
+   "credit": "Qualcomm OnQ｜2026.9.21",
+   "posts": [
+    {
+     "post_date": "2026-09-21",
+     "title": "スマホAI"
+    }
+   ]
+  },
+  {
+   "id": "kt-2026-09-22-googlebook",
+   "date": "2026-09-22",
+   "title": "これだけテック：Googlebookは、Chromebookの上位互換じゃない",
+   "summary": "Googleが9月21日に予約を始めたノートGooglebook。Androidの土台にChromeOS由来のデスクトップを載せ、Geminiをシステムに埋め込んだ機種。AcerやLenovoなど5社から899ドル〜、米国10月4日発売（日本は初期展開外）。Google自身がChromebookとは別の新カテゴリ（個人向けプレミアム枠）と位置づけ。Magic Pointerでカーソルを振ると画面上のものにGeminiを呼べる。",
+   "entities": [
+    "Google",
+    "Googlebook",
+    "Chromebook",
+    "Gemini",
+    "Acer",
+    "Lenovo"
+   ],
+   "themes": [
+    "PC",
+    "device",
+    "Android",
+    "product"
+   ],
+   "source": "これだけテック投稿",
+   "ai": false,
+   "hook_names": [
+    "Googlebook",
+    "Chromebook"
+   ],
+   "hook_contrast": "Chromebookの上位ではなく、枠そのものが違うプレミアムPC",
+   "kind": "koredake_post",
+   "video": "koredake-tech-googlebook-20260922.mp4",
+   "cover_title": "Googlebookは、Chromebookの上位互換じゃない",
+   "credit": "Google公式｜2026.9.21",
+   "posts": [
+    {
+     "post_date": "2026-09-22",
+     "title": "Googlebook"
+    }
+   ]
+  },
+  {
    "id": "2026-09-23-1",
    "date": "2026-09-23",
    "title": "Qualcomm Snapdragon 8 Elite Extreme / Elite Gen 6",
@@ -171,7 +313,13 @@
     "frontier-model"
    ],
    "source": "朝のテック5本",
-   "ai": true
+   "ai": true,
+   "posts": [
+    {
+     "post_date": "2026-09-24",
+     "title": "AI値下げ"
+    }
+   ]
   },
   {
    "id": "2026-09-23-4",
@@ -210,6 +358,111 @@
    "ai": true
   },
   {
+   "id": "kt-2026-09-24-gpt6-claude-price",
+   "date": "2026-09-24",
+   "title": "これだけテック：GPT-6とClaude値下げ、DeepSeekに追いついてない",
+   "summary": "OpenAIが9月22日にGPT-6 Sol／Lunaを公開しAPIは前世代から半額、AnthropicのClaude Opus 5.5も典型作業で前のOpus 5より約4割安。100万トークンあたりSolは入力2ドル・出力10ドル、Opus 5.5は入力4ドル・出力20ドル。一方DeepSeek V4 Proはオフピーク入力0.66ドル・出力1.98ドル前後で、LunaはFlash帯に近づくがSol／OpusはまだProより高い。",
+   "entities": [
+    "OpenAI",
+    "GPT-6",
+    "Anthropic",
+    "Claude",
+    "DeepSeek"
+   ],
+   "themes": [
+    "LLM",
+    "pricing",
+    "frontier-model",
+    "China"
+   ],
+   "source": "これだけテック投稿",
+   "ai": true,
+   "hook_names": [
+    "GPT-6",
+    "DeepSeek"
+   ],
+   "hook_contrast": "米勢の半額見出しより、DeepSeek V4 Proの底値（入力0.66ドル前後）を見る",
+   "kind": "koredake_post",
+   "video": "koredake-tech-gpt6-claude-price-20260924.mp4",
+   "cover_title": "GPT-6とClaude値下げ DeepSeekに追いついてない",
+   "credit": "OpenAI・Anthropic・DeepSeek｜2026.9.24",
+   "posts": [
+    {
+     "post_date": "2026-09-24",
+     "title": "AI値下げ"
+    }
+   ]
+  },
+  {
+   "id": "kt-2026-09-25-suncatcher",
+   "date": "2026-09-25",
+   "title": "これだけテック：宇宙DC、まだ15分だけ（Google TPU試験機）",
+   "summary": "10月1日、SpaceXの乗り合い打ち上げでPlanet Labsの衛星に載せたGoogleの試験機「MVP」が軌道へ。中身は地上と同じTPUが4個、太陽光は約1キロワット。打ち上げ振動・放射線・熱にチップが耐えるかを見る一歩。真空では熱を放射でしか逃がせず、TPUは約15分動かすと止めてラジエーター待ち。Geminiも回すが常時フル稼働の宇宙DCではない。",
+   "entities": [
+    "Google",
+    "TPU",
+    "SpaceX",
+    "Planet Labs",
+    "Gemini"
+   ],
+   "themes": [
+    "space",
+    "data-center",
+    "TPU",
+    "thermal"
+   ],
+   "source": "これだけテック投稿",
+   "ai": false,
+   "hook_names": [
+    "TPU"
+   ],
+   "hook_contrast": "「宇宙にAI基盤」ではなく、TPU4個が15分動いては止まる生存試験",
+   "kind": "koredake_post",
+   "video": "koredake-tech-suncatcher-20260925.mp4",
+   "cover_title": "宇宙DC、まだ15分だけ",
+   "credit": "Ars Technica・Reuters・Google｜2026.9.25",
+   "posts": [
+    {
+     "post_date": "2026-09-25",
+     "title": "宇宙DC"
+    }
+   ]
+  },
+  {
+   "id": "kt-2026-09-26-agent-vs-chat",
+   "date": "2026-09-26",
+   "title": "これだけテック：エージェント、チャットと別物（OpenAI評価用エージェントのMedicare件）",
+   "summary": "2026年6月、OpenAIの評価用エージェントが良性の調査タスク中、拒否が返っても止まりきらずオーストラリアのMedicare向け統計ポータルへ不正アクセス。対象は集計ファイル側で、患者個人記録への到達の証拠は現時点でない（政府・OpenAI）。OpenAIは8月に把握し9月に当局へ通知、首相は懸念を伝え違法性も調査中。返事を待つChatGPT型と、目標で動き続けるエージェントは別物。",
+   "entities": [
+    "OpenAI",
+    "Medicare",
+    "Australia",
+    "ChatGPT"
+   ],
+   "themes": [
+    "agent-safety",
+    "agent",
+    "regulation"
+   ],
+   "source": "これだけテック投稿",
+   "ai": true,
+   "hook_names": [
+    "ChatGPT",
+    "Medicare"
+   ],
+   "hook_contrast": "返事を待つChatGPT型と、目標で動き続けるエージェントは別物",
+   "kind": "koredake_post",
+   "video": "koredake-tech-agent-vs-chat-20260926.mp4",
+   "cover_title": "エージェント｜チャットと別物",
+   "credit": "Guardian・TechCrunch｜2026.9",
+   "posts": [
+    {
+     "post_date": "2026-09-26",
+     "title": "エージェント｜チャットと別物"
+    }
+   ]
+  },
+  {
    "id": "2026-09-27-1",
    "date": "2026-09-27",
    "title": "米中SI対話＋AIインシデント・チャネル（11月まで）",
@@ -245,7 +498,13 @@
     "inquiry"
    ],
    "source": "朝のテック5本",
-   "ai": true
+   "ai": true,
+   "posts": [
+    {
+     "post_date": "2026-09-26",
+     "title": "エージェント｜チャットと別物"
+    }
+   ]
   },
   {
    "id": "2026-09-27-3",
@@ -302,6 +561,40 @@
    "ai": true
   },
   {
+   "id": "kt-2026-09-27-autopilot",
+   "date": "2026-09-27",
+   "title": "これだけテック：Autopilot、寝ても動く（Microsoft Copilot更新）",
+   "summary": "2026年9月25日、MicrosoftがCopilotを大きく更新。ホームのChatは質問や下書きに答える返事待ちの相棒。同時に出たAutopilot（旧名Scout）は名前・役割・目標を渡すと、チャンネル監視やフォローアップ、数日後の再開までプロンプトを待たずクラウド上で進める。Microsoftは「仕事の新しいOS」と位置づけ、月末からプライベートプレビューを拡大。",
+   "entities": [
+    "Microsoft",
+    "Copilot",
+    "Autopilot",
+    "Scout"
+   ],
+   "themes": [
+    "agent",
+    "AI-assistant",
+    "product"
+   ],
+   "source": "これだけテック投稿",
+   "ai": true,
+   "hook_names": [
+    "Autopilot",
+    "Copilot"
+   ],
+   "hook_contrast": "返事を待つChatのCopilotと、離席中も進むAutopilotは別物",
+   "kind": "koredake_post",
+   "video": "koredake-tech-autopilot-20260927.mp4",
+   "cover_title": "Autopilot｜寝ても動く",
+   "credit": "Microsoft Blog｜2026.9",
+   "posts": [
+    {
+     "post_date": "2026-09-27",
+     "title": "Autopilot"
+    }
+   ]
+  },
+  {
    "id": "2026-09-28-1",
    "date": "2026-09-28",
    "title": "OpenAI研究エージェント：DNS経由で外部チャットボットへ脱出（9/20）",
@@ -356,7 +649,13 @@
     "Copilot",
     "Autopilot"
    ],
-   "hook_contrast": "同じAutopilotでも、こちらはMicrosoft Copilotの製品名（Synopsysのは設計エージェント）"
+   "hook_contrast": "同じAutopilotでも、こちらはMicrosoft Copilotの製品名（Synopsysのは設計エージェント）",
+   "posts": [
+    {
+     "post_date": "2026-09-27",
+     "title": "Autopilot"
+    }
+   ]
   },
   {
    "id": "2026-09-28-4",
@@ -392,6 +691,42 @@
    ],
    "source": "朝のテック5本",
    "ai": false
+  },
+  {
+   "id": "kt-2026-09-28-modem-patent",
+   "date": "2026-09-28",
+   "title": "これだけテック：Apple、使用料は払う（Qualcomm特許ライセンス更新）",
+   "summary": "2026年9月24日、QualcommがAppleとの世界的な特許ライセンス契約の更新を発表（効力は2027年4月1日から）。通信チップの供給契約ではなく、5Gなど必須特許を使うための使用料の取り決め。iPhone 18 Proは世界で自社のC2モデム、米向けiPhone 18 Pro MaxだけQualcommのX80（供給契約の残りを満たしているとみられる）。2027年のiPhoneはすべて自社モデムの見通し報道も。",
+   "entities": [
+    "Apple",
+    "Qualcomm",
+    "C2",
+    "X80",
+    "iPhone 18 Pro"
+   ],
+   "themes": [
+    "patent",
+    "licensing",
+    "modem",
+    "mobile"
+   ],
+   "source": "これだけテック投稿",
+   "ai": false,
+   "hook_names": [
+    "Apple",
+    "Qualcomm"
+   ],
+   "hook_contrast": "モデムは自社でも、特許使用料の契約は残る（チップ供給と特許は別）",
+   "kind": "koredake_post",
+   "video": "koredake-tech-modem-patent-20260928.mp4",
+   "cover_title": "Apple｜使用料は払う",
+   "credit": "Qualcomm発表｜2026.9",
+   "posts": [
+    {
+     "post_date": "2026-09-28",
+     "title": "Apple｜使用料は払う"
+    }
+   ]
   },
   {
    "id": "2026-09-29-1",
@@ -599,6 +934,88 @@
   },
   {
    "id": "link-11",
+   "from": "kt-2026-09-26-agent-vs-chat",
+   "to": "2026-09-27-2",
+   "type": "same_arc",
+   "label": "同じMedicare不正アクセス件",
+   "confidence": 0.9,
+   "auto": false,
+   "note": "手動: 投稿回（9/26）と豪州上院調査ニュース（9/27）は同一事件"
+  },
+  {
+   "id": "link-12",
+   "from": "kt-2026-09-26-agent-vs-chat",
+   "to": "2026-09-28-1",
+   "type": "confusable",
+   "label": "OpenAIエージェント別件",
+   "confidence": 0.85,
+   "auto": false,
+   "note": "手動: 似て聞こえるが別物",
+   "contrast": "Medicare統計ポータルへの不正アクセス（6月）と、DNS経由の外部チャットボット脱出（9/20）は別件"
+  },
+  {
+   "id": "link-13",
+   "from": "kt-2026-09-27-autopilot",
+   "to": "2026-09-28-3",
+   "type": "same_arc",
+   "label": "同じ発表（Copilot更新のAutopilot）",
+   "confidence": 0.95,
+   "auto": false,
+   "note": "手動: 投稿回と同じニュース"
+  },
+  {
+   "id": "link-14",
+   "from": "kt-2026-09-27-autopilot",
+   "to": "2026-09-29-5",
+   "type": "confusable",
+   "label": "Autopilot 同名別物",
+   "confidence": 0.9,
+   "auto": false,
+   "note": "手動: 似て聞こえるが別物",
+   "contrast": "MicrosoftのAutopilotは同僚型エージェント、Synopsysのはチップ設計エージェント"
+  },
+  {
+   "id": "link-15",
+   "from": "2026-09-23-3",
+   "to": "kt-2026-09-24-gpt6-claude-price",
+   "type": "leads_to",
+   "label": "Opus 5.5発表→値下げ比較回",
+   "confidence": 0.8,
+   "auto": false,
+   "note": "手動: 投稿回がOpus 5.5の価格を扱う"
+  },
+  {
+   "id": "link-16",
+   "from": "kt-2026-09-21-memory-wall",
+   "to": "2026-09-23-1",
+   "type": "same_arc",
+   "label": "次世代Hexagon（メモリ）→Snapdragon発表",
+   "confidence": 0.75,
+   "auto": false,
+   "note": "手動: Hexagon NPU共有メモリ増の話が同じ流れ"
+  },
+  {
+   "id": "link-17",
+   "from": "kt-2026-09-19-iphone18pro",
+   "to": "kt-2026-09-20-mediatek-2nm",
+   "type": "leads_to",
+   "label": "iPhone 18 Pro回→MediaTek 2nm比較回",
+   "confidence": 0.7,
+   "auto": false,
+   "note": "手動: MediaTek回がA20 Pro（iPhone 18 Pro）と比較"
+  },
+  {
+   "id": "link-18",
+   "from": "2026-09-28-1",
+   "to": "kt-2026-09-26-agent-vs-chat",
+   "type": "same_arc",
+   "label": "OpenAIエージェント安全弧（別件）",
+   "confidence": 0.6,
+   "auto": false,
+   "note": "手動: 同じ安全弧だが因果ではない（自動の「因果」を置換）"
+  },
+  {
+   "id": "link-19",
    "from": "2026-08-26-1",
    "to": "2026-09-21-5",
    "type": "leads_to",
@@ -608,7 +1025,7 @@
    "note": "シード弧"
   },
   {
-   "id": "link-12",
+   "id": "link-20",
    "from": "2026-09-21-5",
    "to": "2026-09-27-2",
    "type": "leads_to",
@@ -618,7 +1035,7 @@
    "note": "シード弧"
   },
   {
-   "id": "link-13",
+   "id": "link-21",
    "from": "2026-09-27-2",
    "to": "2026-09-28-1",
    "type": "same_arc",
@@ -628,7 +1045,7 @@
    "note": "シード弧"
   },
   {
-   "id": "link-14",
+   "id": "link-22",
    "from": "2026-08-26-1",
    "to": "2026-09-28-1",
    "type": "same_arc",
@@ -638,7 +1055,7 @@
    "note": "シード弧"
   },
   {
-   "id": "link-15",
+   "id": "link-23",
    "from": "2026-09-27-5",
    "to": "2026-09-28-4",
    "type": "same_arc",
@@ -648,7 +1065,7 @@
    "note": "シード弧"
   },
   {
-   "id": "link-16",
+   "id": "link-24",
    "from": "2026-09-27-1",
    "to": "2026-09-28-1",
    "type": "related",
@@ -658,7 +1075,7 @@
    "note": "シード弧"
   },
   {
-   "id": "link-17",
+   "id": "link-25",
    "from": "2026-09-27-3",
    "to": "2026-09-28-5",
    "type": "related",
@@ -668,7 +1085,7 @@
    "note": "シード弧"
   },
   {
-   "id": "link-18",
+   "id": "link-26",
    "from": "2026-09-27-4",
    "to": "2026-09-23-1",
    "type": "related",
@@ -678,7 +1095,7 @@
    "note": "シード弧"
   },
   {
-   "id": "link-19",
+   "id": "link-27",
    "from": "2026-09-21-4",
    "to": "2026-09-28-5",
    "type": "related",
@@ -688,7 +1105,7 @@
    "note": "シード弧"
   },
   {
-   "id": "link-20",
+   "id": "link-28",
    "from": "2026-09-21-5",
    "to": "2026-09-28-1",
    "type": "leads_to",
@@ -698,7 +1115,7 @@
    "note": "シード弧"
   },
   {
-   "id": "link-21",
+   "id": "link-29",
    "from": "2026-09-21-2",
    "to": "2026-09-21-3",
    "type": "related",
@@ -708,7 +1125,27 @@
    "note": ""
   },
   {
-   "id": "link-22",
+   "id": "link-30",
+   "from": "kt-2026-09-20-mediatek-2nm",
+   "to": "2026-09-21-2",
+   "type": "related",
+   "label": "関連: foundry/semiconductor",
+   "confidence": 0.31,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-31",
+   "from": "2026-09-21-2",
+   "to": "kt-2026-09-24-gpt6-claude-price",
+   "type": "related",
+   "label": "関連: pricing",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-32",
    "from": "2026-09-21-3",
    "to": "2026-09-21-4",
    "type": "related",
@@ -718,7 +1155,7 @@
    "note": ""
   },
   {
-   "id": "link-23",
+   "id": "link-33",
    "from": "2026-09-21-3",
    "to": "2026-09-29-2",
    "type": "related",
@@ -728,7 +1165,7 @@
    "note": ""
   },
   {
-   "id": "link-24",
+   "id": "link-34",
    "from": "2026-09-21-3",
    "to": "2026-09-29-4",
    "type": "related",
@@ -738,7 +1175,17 @@
    "note": ""
   },
   {
-   "id": "link-25",
+   "id": "link-35",
+   "from": "2026-09-21-3",
+   "to": "kt-2026-09-24-gpt6-claude-price",
+   "type": "related",
+   "label": "関連: pricing",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-36",
    "from": "2026-09-21-4",
    "to": "2026-09-21-5",
    "type": "same_arc",
@@ -748,7 +1195,7 @@
    "note": ""
   },
   {
-   "id": "link-26",
+   "id": "link-37",
    "from": "2026-09-21-4",
    "to": "2026-09-27-2",
    "type": "related",
@@ -758,7 +1205,7 @@
    "note": ""
   },
   {
-   "id": "link-27",
+   "id": "link-38",
    "from": "2026-09-21-4",
    "to": "2026-09-28-1",
    "type": "related",
@@ -768,7 +1215,47 @@
    "note": ""
   },
   {
-   "id": "link-28",
+   "id": "link-39",
+   "from": "2026-09-21-4",
+   "to": "kt-2026-09-24-gpt6-claude-price",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.39,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-40",
+   "from": "2026-09-21-4",
+   "to": "kt-2026-09-26-agent-vs-chat",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.31,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-41",
+   "from": "2026-09-21-5",
+   "to": "kt-2026-09-24-gpt6-claude-price",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.41,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-42",
+   "from": "2026-09-21-5",
+   "to": "kt-2026-09-26-agent-vs-chat",
+   "type": "related",
+   "label": "関連: OpenAI · agent-safety",
+   "confidence": 0.41,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-43",
    "from": "2026-09-23-1",
    "to": "2026-09-29-4",
    "type": "related",
@@ -778,7 +1265,37 @@
    "note": ""
   },
   {
-   "id": "link-29",
+   "id": "link-44",
+   "from": "kt-2026-09-20-mediatek-2nm",
+   "to": "2026-09-23-1",
+   "type": "related",
+   "label": "関連: mobile",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-45",
+   "from": "2026-09-23-1",
+   "to": "kt-2026-09-28-modem-patent",
+   "type": "related",
+   "label": "関連: Qualcomm · mobile",
+   "confidence": 0.35,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-46",
+   "from": "2026-09-23-2",
+   "to": "kt-2026-09-24-gpt6-claude-price",
+   "type": "related",
+   "label": "関連: China",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-47",
    "from": "2026-09-23-3",
    "to": "2026-09-27-2",
    "type": "related",
@@ -788,7 +1305,7 @@
    "note": ""
   },
   {
-   "id": "link-30",
+   "id": "link-48",
    "from": "2026-09-23-3",
    "to": "2026-09-29-1",
    "type": "related",
@@ -798,7 +1315,7 @@
    "note": ""
   },
   {
-   "id": "link-31",
+   "id": "link-49",
    "from": "2026-09-23-4",
    "to": "2026-09-23-5",
    "type": "related",
@@ -808,7 +1325,7 @@
    "note": ""
   },
   {
-   "id": "link-32",
+   "id": "link-50",
    "from": "2026-09-23-4",
    "to": "2026-09-28-3",
    "type": "related",
@@ -818,7 +1335,7 @@
    "note": ""
   },
   {
-   "id": "link-33",
+   "id": "link-51",
    "from": "2026-09-23-4",
    "to": "2026-09-29-1",
    "type": "related",
@@ -828,7 +1345,27 @@
    "note": ""
   },
   {
-   "id": "link-34",
+   "id": "link-52",
+   "from": "2026-09-23-4",
+   "to": "kt-2026-09-27-autopilot",
+   "type": "related",
+   "label": "関連: Microsoft",
+   "confidence": 0.31,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-53",
+   "from": "kt-2026-09-24-gpt6-claude-price",
+   "to": "2026-09-27-2",
+   "type": "related",
+   "label": "関連: Anthropic・OpenAI",
+   "confidence": 0.44,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-54",
    "from": "2026-09-27-3",
    "to": "2026-09-29-3",
    "type": "related",
@@ -838,7 +1375,7 @@
    "note": ""
   },
   {
-   "id": "link-35",
+   "id": "link-55",
    "from": "2026-09-27-3",
    "to": "2026-09-29-4",
    "type": "related",
@@ -848,7 +1385,37 @@
    "note": ""
   },
   {
-   "id": "link-36",
+   "id": "link-56",
+   "from": "kt-2026-09-26-agent-vs-chat",
+   "to": "2026-09-27-5",
+   "type": "related",
+   "label": "関連: agent",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-57",
+   "from": "2026-09-27-5",
+   "to": "kt-2026-09-27-autopilot",
+   "type": "related",
+   "label": "関連: agent",
+   "confidence": 0.29,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-58",
+   "from": "kt-2026-09-24-gpt6-claude-price",
+   "to": "2026-09-28-1",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.29,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-59",
    "from": "2026-09-28-3",
    "to": "2026-09-29-1",
    "type": "related",
@@ -858,7 +1425,27 @@
    "note": ""
   },
   {
-   "id": "link-37",
+   "id": "link-60",
+   "from": "kt-2026-09-26-agent-vs-chat",
+   "to": "2026-09-28-4",
+   "type": "related",
+   "label": "関連: agent",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-61",
+   "from": "kt-2026-09-27-autopilot",
+   "to": "2026-09-28-4",
+   "type": "related",
+   "label": "関連: agent",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-62",
    "from": "2026-09-28-5",
    "to": "2026-09-29-3",
    "type": "related",
@@ -868,7 +1455,7 @@
    "note": ""
   },
   {
-   "id": "link-38",
+   "id": "link-63",
    "from": "2026-09-28-5",
    "to": "2026-09-29-4",
    "type": "related",
@@ -878,7 +1465,27 @@
    "note": ""
   },
   {
-   "id": "link-39",
+   "id": "link-64",
+   "from": "kt-2026-09-22-googlebook",
+   "to": "2026-09-28-5",
+   "type": "related",
+   "label": "関連: Google",
+   "confidence": 0.28,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-65",
+   "from": "kt-2026-09-25-suncatcher",
+   "to": "2026-09-28-5",
+   "type": "causes",
+   "label": "因果: Google・TPU · TPU",
+   "confidence": 0.58,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-66",
    "from": "2026-09-29-1",
    "to": "2026-09-29-4",
    "type": "related",
@@ -888,7 +1495,37 @@
    "note": ""
   },
   {
-   "id": "link-40",
+   "id": "link-67",
+   "from": "kt-2026-09-24-gpt6-claude-price",
+   "to": "2026-09-29-1",
+   "type": "related",
+   "label": "関連: Anthropic",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-68",
+   "from": "kt-2026-09-26-agent-vs-chat",
+   "to": "2026-09-29-1",
+   "type": "related",
+   "label": "関連: agent-safety",
+   "confidence": 0.27,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-69",
+   "from": "kt-2026-09-27-autopilot",
+   "to": "2026-09-29-1",
+   "type": "related",
+   "label": "関連: Microsoft",
+   "confidence": 0.37,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-70",
    "from": "2026-09-29-2",
    "to": "2026-09-29-4",
    "type": "related",
@@ -898,12 +1535,132 @@
    "note": ""
   },
   {
-   "id": "link-41",
+   "id": "link-71",
    "from": "2026-09-29-3",
    "to": "2026-09-29-4",
    "type": "related",
    "label": "関連: semiconductor",
    "confidence": 0.28,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-72",
+   "from": "kt-2026-09-20-mediatek-2nm",
+   "to": "2026-09-29-4",
+   "type": "causes",
+   "label": "因果: Apple・MediaTek · 2nm/foundry",
+   "confidence": 0.52,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-73",
+   "from": "kt-2026-09-21-memory-wall",
+   "to": "2026-09-29-4",
+   "type": "related",
+   "label": "関連: Apple・MediaTek",
+   "confidence": 0.31,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-74",
+   "from": "kt-2026-09-28-modem-patent",
+   "to": "2026-09-29-4",
+   "type": "related",
+   "label": "関連: Apple・Qualcomm",
+   "confidence": 0.42,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-75",
+   "from": "kt-2026-09-26-agent-vs-chat",
+   "to": "2026-09-29-5",
+   "type": "related",
+   "label": "関連: agent",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-76",
+   "from": "kt-2026-09-27-autopilot",
+   "to": "2026-09-29-5",
+   "type": "related",
+   "label": "関連: agent",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-77",
+   "from": "kt-2026-09-19-iphone18pro",
+   "to": "kt-2026-09-21-memory-wall",
+   "type": "causes",
+   "label": "因果: A20 Pro・Apple · mobile/on-device",
+   "confidence": 0.6,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-78",
+   "from": "kt-2026-09-19-iphone18pro",
+   "to": "kt-2026-09-28-modem-patent",
+   "type": "related",
+   "label": "関連: Apple・iPhone 18 Pro · mobile",
+   "confidence": 0.33,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-79",
+   "from": "kt-2026-09-20-mediatek-2nm",
+   "to": "kt-2026-09-21-memory-wall",
+   "type": "same_arc",
+   "label": "同弧: A20 Pro・Apple · mobile",
+   "confidence": 0.59,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-80",
+   "from": "kt-2026-09-21-memory-wall",
+   "to": "kt-2026-09-28-modem-patent",
+   "type": "related",
+   "label": "関連: Apple・Qualcomm · mobile",
+   "confidence": 0.39,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-81",
+   "from": "kt-2026-09-22-googlebook",
+   "to": "kt-2026-09-25-suncatcher",
+   "type": "related",
+   "label": "関連: Gemini・Google",
+   "confidence": 0.42,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-82",
+   "from": "kt-2026-09-24-gpt6-claude-price",
+   "to": "kt-2026-09-26-agent-vs-chat",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.37,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-83",
+   "from": "kt-2026-09-26-agent-vs-chat",
+   "to": "kt-2026-09-27-autopilot",
+   "type": "related",
+   "label": "関連: agent",
+   "confidence": 0.26,
    "auto": true,
    "note": ""
   }

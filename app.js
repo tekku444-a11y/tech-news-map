@@ -23,6 +23,8 @@
       themes: ["physical-AI", "edge-AI", "on-device", "mobile", "manufacturing", "robotics"] },
   ];
   var OTHER = { key: "other", name: "その他", short: "他", color: "#c4b5fd" };
+  var KT_COLOR = "#f472b6"; // これだけテック投稿回 (kind: koredake_post)
+  function isKt(it) { return !!it && it.kind === "koredake_post"; }
 
   var $ = function (s) { return document.querySelector(s); };
   var state = { items: [], links: [], byId: {}, network: null, nodes: null, edges: null, showWeak: false, latest: "" };
@@ -77,6 +79,26 @@
       var rec = recency(it.date);
       var latest = it.date === state.latest;
       var bgAlpha = 0.18 + 0.22 * rec;
+      if (isKt(it)) {
+        return {
+          id: it.id,
+          label: "▶ " + shortDate(it.date) + " これだけ\n" + vtrunc(it.cover_title || it.title, LABEL_UNITS),
+          shape: "box",
+          margin: { top: 10, right: 12, bottom: 10, left: 12 },
+          widthConstraint: { maximum: 170 },
+          borderWidth: 2,
+          shapeProperties: { borderRadius: 16, borderDashes: [6, 3] },
+          color: {
+            background: "rgba(80,7,36,0.96)",
+            border: KT_COLOR,
+            highlight: { background: hexA(KT_COLOR, 0.4), border: "#ffffff" },
+            hover: { background: hexA(KT_COLOR, 0.3), border: KT_COLOR },
+          },
+          font: { size: NODE_FONT, color: "#fce7f3",
+            face: "-apple-system, Hiragino Sans, Noto Sans JP, Noto Sans CJK JP, sans-serif", multi: false },
+          shadow: false,
+        };
+      }
       return {
         id: it.id,
         label: shortDate(it.date) + (it.posts && it.posts.length ? " ▶" : "") + "\n" + vtrunc(it.title, LABEL_UNITS),
@@ -281,11 +303,19 @@
     var g = groupOf(it);
     var conns = connectionsOf(id);
     var html = "";
-    html += '<div class="date"><span>' + esc(it.date) + '</span><span class="chip" style="background:' + g.color + '">' + esc(g.name) + "</span>" +
+    html += '<div class="date"><span>' + esc(it.date) + "</span>" +
+      (isKt(it) ? '<span class="chip kt">▶ これだけテック投稿</span>' : '<span class="chip" style="background:' + g.color + '">' + esc(g.name) + "</span>") +
       (it.ai === true ? '<span class="chip ai">AI</span>' : it.ai === false ? '<span class="chip nonai">AI以外</span>' : "") +
-      (it.posts && it.posts.length ? '<span class="chip posted">▶ 投稿済</span>' : "") + "</div>";
+      (!isKt(it) && it.posts && it.posts.length ? '<span class="chip posted">▶ 投稿済</span>' : "") + "</div>";
     html += "<h2>" + esc(it.title) + "</h2>";
     if (it.summary) html += '<p class="summary">' + esc(it.summary) + "</p>";
+    if (isKt(it)) {
+      var kt = [];
+      if (it.cover_title) kt.push("カバー: 「" + esc(it.cover_title) + "」");
+      if (it.video) kt.push("動画: " + esc(it.video));
+      if (it.credit) kt.push("クレジット: " + esc(it.credit));
+      if (kt.length) html += '<div class="ktbox">' + kt.join("<br>") + "</div>";
+    }
     var hn = it.hook_names || [];
     if (hn.length || it.hook_contrast) {
       html += '<div class="hook"><div class="hh">カバー用</div>';
@@ -293,7 +323,7 @@
       if (it.hook_contrast) html += "<div>対比: " + esc(it.hook_contrast) + "</div>";
       html += "</div>";
     }
-    if (it.posts && it.posts.length) {
+    if (!isKt(it) && it.posts && it.posts.length) {
       html += '<div class="posted-list">' + it.posts.map(function (p) {
         return "▶ " + esc(p.post_date ? shortDate(p.post_date) : "日付不明") + "「" + esc(p.title) + "」";
       }).join("<br>") + "</div>";
@@ -357,6 +387,7 @@
     var html = GROUPS.concat([OTHER]).filter(function (g) { return used[g.key]; }).map(function (g) {
       return '<span><i style="background:' + g.color + '"></i>' + esc(g.short) + "</span>";
     }).join("");
+    if (state.items.some(isKt)) html += '<span><i class="kt"></i>▶ 投稿回</span>';
     if (state.links.some(function (L) { return L.type === "confusable"; })) {
       html += '<span><i class="dash"></i>似て聞こえる</span>';
     }

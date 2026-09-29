@@ -114,3 +114,9 @@ h1 { font-size: 18px; margin: 0; font-weight: 700; letter-spacing: 0.02em; white
 .conn .contrast {
   font-size: 13px; color: #e9d5ff; margin-top: 4px; padding-left: 8px; border-left: 3px dashed #c084fc;
 }
+.legend i.kt { background: rgba(80,7,36,0.96); border: 1.5px dashed #f472b6; box-sizing: border-box; }
+.sheet .chip.kt { background: #f472b6; }
+.sheet .ktbox {
+  font-size: 12px; line-height: 1.6; color: #fbcfe8; margin: 0 0 10px; word-break: break-all;
+  padding: 8px 10px; border-radius: 10px; border: 1px dashed #f472b6; background: rgba(131, 24, 67, 0.2);
+}
