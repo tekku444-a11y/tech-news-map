@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-09-29T17:31:25+09:00",
+ "generatedAt": "2026-09-29T23:23:33+09:00",
  "lastUpdated": "2026-09-29",
  "counts": {
   "items": 26,
-  "links": 37
+  "links": 41
  },
  "items": [
   {
@@ -21,7 +21,8 @@
     "sandbox",
     "zero-day"
    ],
-   "source": "朝のテック5本"
+   "source": "朝のテック5本",
+   "ai": true
   },
   {
    "id": "2026-09-21-1",
@@ -38,7 +39,8 @@
     "manufacturing",
     "Japan"
    ],
-   "source": "朝のテック5本"
+   "source": "朝のテック5本",
+   "ai": true
   },
   {
    "id": "2026-09-21-2",
@@ -54,7 +56,8 @@
     "foundry",
     "pricing"
    ],
-   "source": "朝のテック5本"
+   "source": "朝のテック5本",
+   "ai": false
   },
   {
    "id": "2026-09-21-3",
@@ -69,7 +72,8 @@
     "pricing",
     "AI-infra"
    ],
-   "source": "朝のテック5本"
+   "source": "朝のテック5本",
+   "ai": false
   },
   {
    "id": "2026-09-21-4",
@@ -86,7 +90,8 @@
     "AI-infra",
     "chip-design"
    ],
-   "source": "朝のテック5本"
+   "source": "朝のテック5本",
+   "ai": true
   },
   {
    "id": "2026-09-21-5",
@@ -101,7 +106,8 @@
     "sandbox",
     "alignment"
    ],
-   "source": "朝のテック5本"
+   "source": "朝のテック5本",
+   "ai": true
   },
   {
    "id": "2026-09-23-1",
@@ -117,7 +123,22 @@
     "mobile",
     "on-device"
    ],
-   "source": "朝のテック5本"
+   "source": "朝のテック5本",
+   "ai": false,
+   "hook_names": [
+    "Snapdragon"
+   ],
+   "hook_contrast": "同じ「8 Elite Gen 6」でもExtremeは別チップ、旗艦が2つ",
+   "posts": [
+    {
+     "post_date": null,
+     "title": "Snapdragon Extreme Gen 6 チップ内メモリー"
+    },
+    {
+     "post_date": "2026-09-29",
+     "title": "Snapdragon｜旗艦が2つ"
+    }
+   ]
   },
   {
    "id": "2026-09-23-2",
@@ -133,7 +154,8 @@
     "cloud",
     "China"
    ],
-   "source": "朝のテック5本"
+   "source": "朝のテック5本",
+   "ai": true
   },
   {
    "id": "2026-09-23-3",
@@ -148,7 +170,8 @@
     "LLM",
     "frontier-model"
    ],
-   "source": "朝のテック5本"
+   "source": "朝のテック5本",
+   "ai": true
   },
   {
    "id": "2026-09-23-4",
@@ -164,7 +187,8 @@
     "phishing",
     "AI-abuse"
    ],
-   "source": "朝のテック5本"
+   "source": "朝のテック5本",
+   "ai": true
   },
   {
    "id": "2026-09-23-5",
@@ -182,7 +206,8 @@
     "LLM-abuse",
     "security"
    ],
-   "source": "朝のテック5本"
+   "source": "朝のテック5本",
+   "ai": true
   },
   {
    "id": "2026-09-27-1",
@@ -199,7 +224,8 @@
     "geopolitics",
     "incident-response"
    ],
-   "source": "朝のテック5本"
+   "source": "朝のテック5本",
+   "ai": true
   },
   {
    "id": "2026-09-27-2",
@@ -218,7 +244,8 @@
     "regulation",
     "inquiry"
    ],
-   "source": "朝のテック5本"
+   "source": "朝のテック5本",
+   "ai": true
   },
   {
    "id": "2026-09-27-3",
@@ -236,7 +263,8 @@
     "Japan",
     "AI-infra"
    ],
-   "source": "朝のテック5本"
+   "source": "朝のテック5本",
+   "ai": false
   },
   {
    "id": "2026-09-27-4",
@@ -252,7 +280,8 @@
     "chiplet",
     "on-device"
    ],
-   "source": "朝のテック5本"
+   "source": "朝のテック5本",
+   "ai": false
   },
   {
    "id": "2026-09-27-5",
@@ -269,7 +298,8 @@
     "EDA",
     "RTL"
    ],
-   "source": "朝のテック5本"
+   "source": "朝のテック5本",
+   "ai": true
   },
   {
    "id": "2026-09-28-1",
@@ -285,7 +315,8 @@
     "sandbox",
     "alignment"
    ],
-   "source": "朝のテック5本"
+   "source": "朝のテック5本",
+   "ai": true
   },
   {
    "id": "2026-09-28-2",
@@ -302,7 +333,8 @@
     "security",
     "KEV"
    ],
-   "source": "朝のテック5本"
+   "source": "朝のテック5本",
+   "ai": false
   },
   {
    "id": "2026-09-28-3",
@@ -318,7 +350,13 @@
     "product",
     "AI-assistant"
    ],
-   "source": "朝のテック5本"
+   "source": "朝のテック5本",
+   "ai": true,
+   "hook_names": [
+    "Copilot",
+    "Autopilot"
+   ],
+   "hook_contrast": "同じAutopilotでも、こちらはMicrosoft Copilotの製品名（Synopsysのは設計エージェント）"
   },
   {
    "id": "2026-09-28-4",
@@ -335,7 +373,8 @@
     "EDA",
     "RTL"
    ],
-   "source": "朝のテック5本"
+   "source": "朝のテック5本",
+   "ai": true
   },
   {
    "id": "2026-09-28-5",
@@ -351,7 +390,8 @@
     "AI-infra",
     "semiconductor"
    ],
-   "source": "朝のテック5本"
+   "source": "朝のテック5本",
+   "ai": false
   },
   {
    "id": "2026-09-29-1",
@@ -369,7 +409,8 @@
     "agent-safety",
     "sandbox"
    ],
-   "source": "朝のテック5本"
+   "source": "朝のテック5本",
+   "ai": true
   },
   {
    "id": "2026-09-29-2",
@@ -386,7 +427,8 @@
     "physical-AI",
     "M&A"
    ],
-   "source": "朝のテック5本"
+   "source": "朝のテック5本",
+   "ai": true
   },
   {
    "id": "2026-09-29-3",
@@ -403,7 +445,8 @@
     "SiC",
     "Japan"
    ],
-   "source": "朝のテック5本"
+   "source": "朝のテック5本",
+   "ai": false
   },
   {
    "id": "2026-09-29-4",
@@ -424,7 +467,8 @@
     "AI-infra",
     "2nm"
    ],
-   "source": "朝のテック5本"
+   "source": "朝のテック5本",
+   "ai": false
   },
   {
    "id": "2026-09-29-5",
@@ -439,7 +483,13 @@
     "agent",
     "EDA"
    ],
-   "source": "朝のテック5本"
+   "source": "朝のテック5本",
+   "ai": true,
+   "hook_names": [
+    "Synopsys",
+    "Autopilot"
+   ],
+   "hook_contrast": "同じAutopilotでも、こちらはチップ設計エージェント（MicrosoftのはCopilotの製品名）"
   }
  ],
  "links": [
@@ -505,6 +555,50 @@
   },
   {
    "id": "link-7",
+   "from": "2026-09-28-3",
+   "to": "2026-09-29-5",
+   "type": "confusable",
+   "label": "Autopilot 同名別物",
+   "confidence": 0.9,
+   "auto": false,
+   "note": "手動: 似て聞こえるが別物",
+   "contrast": "MicrosoftはCopilotの製品名、Synopsysはチップ設計エージェント"
+  },
+  {
+   "id": "link-8",
+   "from": "2026-09-23-4",
+   "to": "2026-09-23-5",
+   "type": "confusable",
+   "label": "AI悪用マルウェア2種",
+   "confidence": 0.9,
+   "auto": false,
+   "note": "手動: 似て聞こえるが別物",
+   "contrast": "EvilTokensはフィッシング請負（PhaaS）、CLOSEDQUORUMはLLMに指令を聞くC2"
+  },
+  {
+   "id": "link-9",
+   "from": "2026-09-23-1",
+   "to": "2026-09-27-4",
+   "type": "confusable",
+   "label": "エッジAIチップ2種",
+   "confidence": 0.9,
+   "auto": false,
+   "note": "手動: 似て聞こえるが別物",
+   "contrast": "Snapdragonはスマホ用SoC、RAIDENは機器向けチップレット"
+  },
+  {
+   "id": "link-10",
+   "from": "2026-08-26-1",
+   "to": "2026-09-28-1",
+   "type": "confusable",
+   "label": "エージェント脱出2件",
+   "confidence": 0.9,
+   "auto": false,
+   "note": "手動: 似て聞こえるが別物",
+   "contrast": "HFはArtifactoryゼロデイ経由、OpenAIはDNS経由で外部チャットボットへ"
+  },
+  {
+   "id": "link-11",
    "from": "2026-08-26-1",
    "to": "2026-09-21-5",
    "type": "leads_to",
@@ -514,7 +608,7 @@
    "note": "シード弧"
   },
   {
-   "id": "link-8",
+   "id": "link-12",
    "from": "2026-09-21-5",
    "to": "2026-09-27-2",
    "type": "leads_to",
@@ -524,7 +618,7 @@
    "note": "シード弧"
   },
   {
-   "id": "link-9",
+   "id": "link-13",
    "from": "2026-09-27-2",
    "to": "2026-09-28-1",
    "type": "same_arc",
@@ -534,7 +628,7 @@
    "note": "シード弧"
   },
   {
-   "id": "link-10",
+   "id": "link-14",
    "from": "2026-08-26-1",
    "to": "2026-09-28-1",
    "type": "same_arc",
@@ -544,7 +638,7 @@
    "note": "シード弧"
   },
   {
-   "id": "link-11",
+   "id": "link-15",
    "from": "2026-09-27-5",
    "to": "2026-09-28-4",
    "type": "same_arc",
@@ -554,7 +648,7 @@
    "note": "シード弧"
   },
   {
-   "id": "link-12",
+   "id": "link-16",
    "from": "2026-09-27-1",
    "to": "2026-09-28-1",
    "type": "related",
@@ -564,7 +658,7 @@
    "note": "シード弧"
   },
   {
-   "id": "link-13",
+   "id": "link-17",
    "from": "2026-09-27-3",
    "to": "2026-09-28-5",
    "type": "related",
@@ -574,7 +668,7 @@
    "note": "シード弧"
   },
   {
-   "id": "link-14",
+   "id": "link-18",
    "from": "2026-09-27-4",
    "to": "2026-09-23-1",
    "type": "related",
@@ -584,7 +678,7 @@
    "note": "シード弧"
   },
   {
-   "id": "link-15",
+   "id": "link-19",
    "from": "2026-09-21-4",
    "to": "2026-09-28-5",
    "type": "related",
@@ -594,7 +688,7 @@
    "note": "シード弧"
   },
   {
-   "id": "link-16",
+   "id": "link-20",
    "from": "2026-09-21-5",
    "to": "2026-09-28-1",
    "type": "leads_to",
@@ -604,7 +698,7 @@
    "note": "シード弧"
   },
   {
-   "id": "link-17",
+   "id": "link-21",
    "from": "2026-09-21-2",
    "to": "2026-09-21-3",
    "type": "related",
@@ -614,7 +708,7 @@
    "note": ""
   },
   {
-   "id": "link-18",
+   "id": "link-22",
    "from": "2026-09-21-3",
    "to": "2026-09-21-4",
    "type": "related",
@@ -624,7 +718,7 @@
    "note": ""
   },
   {
-   "id": "link-19",
+   "id": "link-23",
    "from": "2026-09-21-3",
    "to": "2026-09-29-2",
    "type": "related",
@@ -634,7 +728,7 @@
    "note": ""
   },
   {
-   "id": "link-20",
+   "id": "link-24",
    "from": "2026-09-21-3",
    "to": "2026-09-29-4",
    "type": "related",
@@ -644,7 +738,7 @@
    "note": ""
   },
   {
-   "id": "link-21",
+   "id": "link-25",
    "from": "2026-09-21-4",
    "to": "2026-09-21-5",
    "type": "same_arc",
@@ -654,7 +748,7 @@
    "note": ""
   },
   {
-   "id": "link-22",
+   "id": "link-26",
    "from": "2026-09-21-4",
    "to": "2026-09-27-2",
    "type": "related",
@@ -664,7 +758,7 @@
    "note": ""
   },
   {
-   "id": "link-23",
+   "id": "link-27",
    "from": "2026-09-21-4",
    "to": "2026-09-28-1",
    "type": "related",
@@ -674,7 +768,7 @@
    "note": ""
   },
   {
-   "id": "link-24",
+   "id": "link-28",
    "from": "2026-09-23-1",
    "to": "2026-09-29-4",
    "type": "related",
@@ -684,7 +778,7 @@
    "note": ""
   },
   {
-   "id": "link-25",
+   "id": "link-29",
    "from": "2026-09-23-3",
    "to": "2026-09-27-2",
    "type": "related",
@@ -694,7 +788,7 @@
    "note": ""
   },
   {
-   "id": "link-26",
+   "id": "link-30",
    "from": "2026-09-23-3",
    "to": "2026-09-29-1",
    "type": "related",
@@ -704,7 +798,7 @@
    "note": ""
   },
   {
-   "id": "link-27",
+   "id": "link-31",
    "from": "2026-09-23-4",
    "to": "2026-09-23-5",
    "type": "related",
@@ -714,7 +808,7 @@
    "note": ""
   },
   {
-   "id": "link-28",
+   "id": "link-32",
    "from": "2026-09-23-4",
    "to": "2026-09-28-3",
    "type": "related",
@@ -724,7 +818,7 @@
    "note": ""
   },
   {
-   "id": "link-29",
+   "id": "link-33",
    "from": "2026-09-23-4",
    "to": "2026-09-29-1",
    "type": "related",
@@ -734,7 +828,7 @@
    "note": ""
   },
   {
-   "id": "link-30",
+   "id": "link-34",
    "from": "2026-09-27-3",
    "to": "2026-09-29-3",
    "type": "related",
@@ -744,7 +838,7 @@
    "note": ""
   },
   {
-   "id": "link-31",
+   "id": "link-35",
    "from": "2026-09-27-3",
    "to": "2026-09-29-4",
    "type": "related",
@@ -754,7 +848,7 @@
    "note": ""
   },
   {
-   "id": "link-32",
+   "id": "link-36",
    "from": "2026-09-28-3",
    "to": "2026-09-29-1",
    "type": "related",
@@ -764,7 +858,7 @@
    "note": ""
   },
   {
-   "id": "link-33",
+   "id": "link-37",
    "from": "2026-09-28-5",
    "to": "2026-09-29-3",
    "type": "related",
@@ -774,7 +868,7 @@
    "note": ""
   },
   {
-   "id": "link-34",
+   "id": "link-38",
    "from": "2026-09-28-5",
    "to": "2026-09-29-4",
    "type": "related",
@@ -784,7 +878,7 @@
    "note": ""
   },
   {
-   "id": "link-35",
+   "id": "link-39",
    "from": "2026-09-29-1",
    "to": "2026-09-29-4",
    "type": "related",
@@ -794,7 +888,7 @@
    "note": ""
   },
   {
-   "id": "link-36",
+   "id": "link-40",
    "from": "2026-09-29-2",
    "to": "2026-09-29-4",
    "type": "related",
@@ -804,7 +898,7 @@
    "note": ""
   },
   {
-   "id": "link-37",
+   "id": "link-41",
    "from": "2026-09-29-3",
    "to": "2026-09-29-4",
    "type": "related",

@@ -8,8 +8,8 @@
   var LABEL_UNITS = 34; // ~17 全角 chars per node label
   var MIN_INITIAL_SCALE = 0.62; // keeps node labels >= ~12-13px on first paint
 
-  var TYPE_COLORS = { causes: "#ef4444", leads_to: "#f59e0b", same_arc: "#3b82f6", related: "#94a3b8" };
-  var TYPE_LABELS = { causes: "因果", leads_to: "波及", same_arc: "同弧", related: "関連" };
+  var TYPE_COLORS = { causes: "#ef4444", leads_to: "#f59e0b", same_arc: "#3b82f6", related: "#94a3b8", confusable: "#c084fc" };
+  var TYPE_LABELS = { causes: "因果", leads_to: "波及", same_arc: "同弧", related: "関連", confusable: "似て聞こえる" };
 
   // Theme groups -> node color (first matching group wins, by item theme order)
   var GROUPS = [
@@ -79,7 +79,7 @@
       var bgAlpha = 0.18 + 0.22 * rec;
       return {
         id: it.id,
-        label: shortDate(it.date) + "\n" + vtrunc(it.title, LABEL_UNITS),
+        label: shortDate(it.date) + (it.posts && it.posts.length ? " ▶" : "") + "\n" + vtrunc(it.title, LABEL_UNITS),
         shape: "box",
         margin: { top: 10, right: 12, bottom: 10, left: 12 },
         widthConstraint: { maximum: 170 },
@@ -108,6 +108,19 @@
       var conf = Math.max(0, Math.min(1, L.confidence));
       var op = 0.25 + 0.75 * conf;
       var strong = conf >= 0.6;
+      if (L.type === "confusable") {
+        return {
+          id: L.id, from: L.from, to: L.to,
+          label: L.label ? truncate(L.label, 16) : undefined,
+          width: 2.5,
+          color: { color: hexA(c, 0.9), highlight: c, hover: c },
+          dashes: [5, 7],
+          font: { size: EDGE_FONT, color: "#e9d5ff", strokeWidth: 4, strokeColor: "#0f1419", align: "horizontal",
+            face: "-apple-system, Hiragino Sans, Noto Sans JP, Noto Sans CJK JP, sans-serif" },
+          smooth: { enabled: true, type: "curvedCW", roundness: 0.3 },
+          selectionWidth: 2,
+        };
+      }
       return {
         id: L.id,
         from: L.from,
@@ -252,7 +265,7 @@
       var other = L.from === id ? L.to : L.from;
       var it = state.byId[other];
       if (!it) return;
-      var dir = L.type === "causes" || L.type === "leads_to" ? (L.from === id ? "→" : "←") : "↔";
+      var dir = L.type === "causes" || L.type === "leads_to" ? (L.from === id ? "→" : "←") : "↔"; // confusable: ↔
       out.push({ L: L, it: it, dir: dir });
     });
     out.sort(function (a, b) {
@@ -268,9 +281,23 @@
     var g = groupOf(it);
     var conns = connectionsOf(id);
     var html = "";
-    html += '<div class="date"><span>' + esc(it.date) + '</span><span class="chip" style="background:' + g.color + '">' + esc(g.name) + "</span></div>";
+    html += '<div class="date"><span>' + esc(it.date) + '</span><span class="chip" style="background:' + g.color + '">' + esc(g.name) + "</span>" +
+      (it.ai === true ? '<span class="chip ai">AI</span>' : it.ai === false ? '<span class="chip nonai">AI以外</span>' : "") +
+      (it.posts && it.posts.length ? '<span class="chip posted">▶ 投稿済</span>' : "") + "</div>";
     html += "<h2>" + esc(it.title) + "</h2>";
     if (it.summary) html += '<p class="summary">' + esc(it.summary) + "</p>";
+    var hn = it.hook_names || [];
+    if (hn.length || it.hook_contrast) {
+      html += '<div class="hook"><div class="hh">カバー用</div>';
+      if (hn.length) html += '<div>具体名: ' + hn.slice(0, 2).map(function (n) { return '<b class="hn">' + esc(n) + "</b>"; }).join(" ") + "</div>";
+      if (it.hook_contrast) html += "<div>対比: " + esc(it.hook_contrast) + "</div>";
+      html += "</div>";
+    }
+    if (it.posts && it.posts.length) {
+      html += '<div class="posted-list">' + it.posts.map(function (p) {
+        return "▶ " + esc(p.post_date ? shortDate(p.post_date) : "日付不明") + "「" + esc(p.title) + "」";
+      }).join("<br>") + "</div>";
+    }
     var meta = [];
     if (it.entities && it.entities.length) meta.push("関係: " + it.entities.map(esc).join("、"));
     if (it.themes && it.themes.length) meta.push("テーマ: " + it.themes.map(esc).join(" / "));
@@ -289,6 +316,7 @@
           "<span>信頼度 " + c.L.confidence.toFixed(2) + (c.L.auto ? "（自動）" : "（手動）") + "</span>" +
           (c.L.label ? "<span>· " + esc(c.L.label) + "</span>" : "") + "</div>" +
           '<div class="t">' + esc(shortDate(c.it.date)) + "　" + esc(c.it.title) + "</div>" +
+          (c.L.contrast ? '<div class="contrast">違い: ' + esc(c.L.contrast) + "</div>" : "") +
           "</button></li>";
       });
       html += "</ul>";
@@ -329,6 +357,9 @@
     var html = GROUPS.concat([OTHER]).filter(function (g) { return used[g.key]; }).map(function (g) {
       return '<span><i style="background:' + g.color + '"></i>' + esc(g.short) + "</span>";
     }).join("");
+    if (state.links.some(function (L) { return L.type === "confusable"; })) {
+      html += '<span><i class="dash"></i>似て聞こえる</span>';
+    }
     $("#legend").innerHTML = html;
   }
 
