@@ -142,6 +142,20 @@ button.chip { cursor: pointer; }
   font-size: 13px; line-height: 1.6; color: #fbcfe8; margin: 0 0 12px; word-break: break-all;
   padding: 8px 10px; border-radius: 10px; border: 1px dashed #f472b6; background: rgba(131, 24, 67, 0.2);
 }
+.chip.addm { background: #6ee7b7; }
+/* hand-written follow-up notes (items.addenda) */
+.sheet .addendum {
+  margin: 0 0 14px; padding: 11px 13px 12px; border-radius: 12px;
+  border: 1px solid #059669; border-left-width: 5px; background: rgba(6, 78, 59, 0.28);
+}
+.sheet .addendum .ah { display: flex; align-items: center; gap: 8px; font-size: 13px; color: #a7f3d0; }
+.sheet .addendum .ah b {
+  font-size: 13px; color: #052e16; background: #6ee7b7; border-radius: 999px; padding: 2px 9px; line-height: 1.4;
+}
+.sheet .addendum h4 { font-size: 17px; line-height: 1.5; margin: 7px 0 6px; color: #ecfdf5; }
+.sheet .addendum p { font-size: 16px; line-height: 1.75; margin: 0 0 9px; color: #dbe3ec; }
+.sheet .addendum .src { font-size: 14px; line-height: 1.6; color: var(--muted); margin-top: 4px; word-break: break-all; }
+.sheet .addendum a { color: #7dd3fc; text-decoration: underline; text-underline-offset: 2px; }
 .conn { list-style: none; padding: 0; margin: 0; }
 .conn li { margin: 0 0 9px; }
 .conn button {

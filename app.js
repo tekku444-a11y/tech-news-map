@@ -27,6 +27,21 @@
 
   // ------------------------------------------------------------------ helpers
   function isKt(it) { return !!it && it.kind === "koredake_post"; }
+  function hasAddenda(it) { return !!it && Array.isArray(it.addenda) && it.addenda.length > 0; }
+  // hand-written follow-up notes (items.addenda): labeled box, one <p> per line, source links
+  function addendaHtml(it) {
+    if (!hasAddenda(it)) return "";
+    return it.addenda.map(function (a) {
+      var paras = String(a.body || "").split(/\r?\n/).filter(function (x) { return x.trim(); });
+      var srcs = (a.sources || []).filter(function (x) { return x && /^https?:\/\//.test(x.url || ""); });
+      return '<section class="addendum"><div class="ah"><b>追加情報</b>' + (a.date ? "<span>" + esc(a.date) + "</span>" : "") + "</div>" +
+        (a.title ? "<h4>" + esc(a.title) + "</h4>" : "") +
+        paras.map(function (x) { return "<p>" + esc(x) + "</p>"; }).join("") +
+        (srcs.length ? '<div class="src">出典: ' + srcs.map(function (x) {
+          return '<a href="' + esc(x.url) + '" target="_blank" rel="noopener">' + esc(x.label || x.url) + "</a>";
+        }).join("、") + "</div>" : "") + "</section>";
+    }).join("");
+  }
   function isWeak(L) { return L.auto && L.confidence < WEAK_THRESHOLD; }
   function esc(s) {
     return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
@@ -493,7 +508,8 @@
       node.color = { background: ext ? "rgba(60,8,30,0.9)" : "rgba(80,7,36,0.96)", border: ext ? hexA(KT_COLOR, 0.6) : KT_COLOR };
       node.font = nodeFont(fs, ext ? "rgba(252,231,243,0.72)" : "#fce7f3", tagged ? hexA(th.color, ext ? 0.8 : 1) : null);
     } else {
-      node.label = tag + shortDate(it.date) + (it.posts && it.posts.length ? " ▶" : "") + (latest && !ext ? " 新" : "") + "\n" + T(vtrunc(it.title, opt.units));
+      node.label = tag + shortDate(it.date) + (it.posts && it.posts.length ? " ▶" : "") + (latest && !ext ? " 新" : "") +
+        (hasAddenda(it) && !ext && !opt.tag ? " 追加情報あり" : "") + "\n" + T(vtrunc(it.title, opt.units));
       node.color = { background: ext ? "rgba(18,24,32,0.92)" : focus ? hexA(th.color, 0.22) : "rgba(22,29,38,0.97)",
         border: ext ? hexA(th.color, 0.55) : th.color };
       node.font = nodeFont(fs, ext ? "rgba(203,213,225,0.8)" : "#f1f5f9", tagged ? hexA(th.color, ext ? 0.85 : 1) : null);
@@ -659,7 +675,8 @@
       '<button type="button" class="chip" data-theme="' + esc(th.key) + '" style="background:' + th.color + '">' + esc(th.name) + "</button>" +
       (isKt(it) ? '<span class="chip kt">▶ 投稿回</span>' : "") +
       (it.ai === true ? '<span class="chip ai">AI</span>' : it.ai === false ? '<span class="chip nonai">AI以外</span>' : "") +
-      (!isKt(it) && it.posts && it.posts.length ? '<span class="chip posted">▶ 投稿済</span>' : "") + "</div>";
+      (!isKt(it) && it.posts && it.posts.length ? '<span class="chip posted">▶ 投稿済</span>' : "") +
+      (hasAddenda(it) ? '<span class="chip addm">追加情報あり</span>' : "") + "</div>";
     html += "<h2>" + esc(it.title) + "</h2>";
     if (it.summary) html += '<p class="summary">' + esc(it.summary) + "</p>";
     if (isKt(it)) {
@@ -681,6 +698,7 @@
         return "▶ " + esc(p.post_date ? shortDate(p.post_date) : "日付不明") + "「" + esc(p.title) + "」";
       }).join("<br>") + "</div>";
     }
+    html += addendaHtml(it);
     var meta = [];
     if (it.entities && it.entities.length) meta.push("関係: " + it.entities.map(esc).join("、"));
     if (it.source) meta.push("出典: " + esc(it.source));

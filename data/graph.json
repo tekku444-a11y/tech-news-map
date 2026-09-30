@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-30T08:17:22+09:00",
+ "generatedAt": "2026-09-30T10:28:26+09:00",
  "lastUpdated": "2026-09-30",
  "counts": {
   "items": 40,
@@ -984,6 +984,19 @@
    ],
    "source": "朝のテック5本",
    "ai": true,
+   "addenda": [
+    {
+     "date": "2026-09-30",
+     "title": "追加情報：利用者側の責任は？",
+     "body": "目論見書（ロイター報道の範囲）が開示しているのは、エージェントの暴走で顧客・利用者からAnthropicが訴えられるリスク。「利用者が責任を負う」とは書いていない。利用者に関わる記述は「エージェントの行為が、使った利用者をどこまで法的に縛るか」が未決着の論点として挙がっている1点のみ。\n一方、Anthropicの現行規約では利用者側の責任が重い。一般向け規約は、エージェントの操作も含めて利用者が責任を負い、利用は自己責任と明記しており、Anthropicの賠償上限は過去6か月の支払額か100ドルの大きい方。企業向けでも、出力の使い方の判断は顧客の責任とされている。\nつまり今は損害の多くが利用者側に残る作りで、Anthropicが恐れているのは、裁判所がこの上限・免責を無効として負担が会社に戻ること。FTCのファーガソン委員長は、指示した開発者・利用者の責任を示唆している。\n※目論見書は非公開のため、引用はロイター経由。",
+     "sources": [
+      {
+       "label": "Reuters（CNA転載）",
+       "url": "https://www.channelnewsasia.com/business/exclusive-anthropic-says-rogue-ai-agents-pose-uncertain-legal-risk-company-6419291"
+      }
+     ]
+    }
+   ],
    "theme": "agent"
   },
   {
@@ -1026,7 +1039,13 @@
    ],
    "source": "朝のテック5本",
    "ai": false,
-   "theme": "device"
+   "theme": "device",
+   "posts": [
+    {
+     "post_date": "2026-09-30",
+     "title": "iPhone Duo｜歩留まり60%"
+    }
+   ]
   }
  ],
  "links": [
