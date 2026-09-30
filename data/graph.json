@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-09-30T10:28:26+09:00",
- "lastUpdated": "2026-09-30",
+ "generatedAt": "2026-10-01T08:16:53+09:00",
+ "lastUpdated": "2026-10-01",
  "counts": {
-  "items": 40,
-  "links": 114
+  "items": 48,
+  "links": 158
  },
  "themes": [
   {
@@ -18,7 +18,7 @@
    "name": "セキュリティ・攻撃",
    "short": "セキュリティ",
    "color": "#fb923c",
-   "count": 3
+   "count": 4
   },
   {
    "key": "policy",
@@ -32,14 +32,14 @@
    "name": "AIチップ設計・EDA",
    "short": "チップ設計",
    "color": "#38bdf8",
-   "count": 4
+   "count": 6
   },
   {
    "key": "device",
    "name": "スマホ・端末",
    "short": "スマホ・端末",
    "color": "#4ade80",
-   "count": 8
+   "count": 10
   },
   {
    "key": "infra",
@@ -53,14 +53,14 @@
    "name": "半導体・製造",
    "short": "半導体",
    "color": "#fbbf24",
-   "count": 6
+   "count": 8
   },
   {
    "key": "model",
    "name": "AIモデル・サービス",
    "short": "AIモデル",
    "color": "#818cf8",
-   "count": 6
+   "count": 7
   },
   {
    "key": "other",
@@ -1046,6 +1046,186 @@
      "title": "iPhone Duo｜歩留まり60%"
     }
    ]
+  },
+  {
+   "id": "2026-10-01-1",
+   "date": "2026-10-01",
+   "title": "OpenAI×Synopsys：チップ設計向け専用モデル「GPT-Synopsys」を共同開発",
+   "summary": "Synopsysが9月30日、OpenAIと多年契約を結び、SynopsysのEDAツールを直接操作して半導体設計ワークフローを進める専用モデルGPT-Synopsysを共同開発すると発表。収益分配と共同販売も含む。モデルはOpenAI側インフラで動き、顧客の設計データは学習に使わない。従来のサインオフ検証で物理的な正しさを担保する方針。主要半導体顧客との初期技術検証も開始。前日のSynopsys AgentEngineer発表に続く、EDA×エージェント競争の本丸。",
+   "entities": [
+    "OpenAI",
+    "Synopsys",
+    "GPT-Synopsys",
+    "EDA"
+   ],
+   "themes": [
+    "EDA",
+    "agent",
+    "chip-design",
+    "semiconductor"
+   ],
+   "source": "朝のテック5本",
+   "ai": true,
+   "theme": "chipdesign"
+  },
+  {
+   "id": "2026-10-01-2",
+   "date": "2026-10-01",
+   "title": "Google、Gemini 4旗艦「Argon」を発表（一般公開時期は未定）",
+   "summary": "Alphabet傘下Googleが9月30日、Gemini 4世代の最上位モデルArgonを発表。従来のPro系より大規模で、複雑な作業向けとうたう。同社はコーディングやサイバー関連の主要ベンチでOpenAI AstraやAnthropic Opusと比肩すると説明しつつ、公開したコーディング系指標の一部では後れも残る。一部サイバーセキュリティパートナーへの提供と、米政権の任意の事前アクセス枠への参加を表明。一般公開の時期は示さず、当初6月予定だったGemini 3.5 Proは出さない方針。",
+   "entities": [
+    "Google",
+    "Alphabet",
+    "Gemini 4",
+    "Argon",
+    "DeepMind"
+   ],
+   "themes": [
+    "LLM",
+    "frontier-model",
+    "Gemini"
+   ],
+   "source": "朝のテック5本",
+   "ai": true,
+   "theme": "model"
+  },
+  {
+   "id": "2026-10-01-3",
+   "date": "2026-10-01",
+   "title": "Micron：2027会計年度Q1売上見通し615億ドル前後、AI向けHBM需要が継続",
+   "summary": "米Micron Technologyが9月30日、2027会計年度第1四半期（9–12月）の売上高を615億ドル±15億ドルと発表し、市場予想を上回った。調整後EPSは38.15ドル±1ドル。AI向け高帯域幅メモリー（HBM）需要を背景に、長期供給契約の顧客コミットメント総額は220億ドル（6月時点）から320億ドルへ拡大、契約上の残履行義務は約1500億ドル規模と説明。2027年HBM生産の大半は既に契約済みで、国内投資計画は2035年まで2500億ドル超。Q4売上は542.3億ドルと前年同期比で大幅増。",
+   "entities": [
+    "Micron",
+    "HBM",
+    "Nvidia"
+   ],
+   "themes": [
+    "memory",
+    "HBM",
+    "AI-infra",
+    "semiconductor"
+   ],
+   "source": "朝のテック5本",
+   "ai": true,
+   "theme": "semi"
+  },
+  {
+   "id": "2026-10-01-4",
+   "date": "2026-10-01",
+   "title": "Synopsys×Amazon：独自チップ向けIPなどで10億ドル超の多年契約",
+   "summary": "Synopsysが9月30日、Amazonと多年・10億ドル超の戦略契約を発表。Amazonのリード顧客として、用途最適化シリコンIPの利用を拡大し、ライセンス＋生産量連動ロイヤリティ型へ移行する。Trainium・Graviton・Nitroなど独自チップとAWSインフラ向けにEDA・シミュレーション・エージェント型AIの利用も広げる。逆方向ではSynopsysがEC2やBedrockを製品開発に採用し、自社ソフトのTrainium／Graviton最適化も進める。同日のOpenAI提携とは別契約。",
+   "entities": [
+    "Synopsys",
+    "Amazon",
+    "AWS",
+    "Trainium",
+    "Graviton"
+   ],
+   "themes": [
+    "custom-silicon",
+    "IP",
+    "EDA",
+    "AI-infra"
+   ],
+   "source": "朝のテック5本",
+   "ai": true,
+   "theme": "chipdesign"
+  },
+  {
+   "id": "2026-10-01-5",
+   "date": "2026-10-01",
+   "title": "Apple：iOS 26のCoreGraphics脆弱性、標的型攻撃で悪用の可能性と警告",
+   "summary": "Appleが9月28日配信のiOS／iPadOS 26.7.1で、悪意あるファイル処理により任意コード実行につながり得るCoreGraphicsの境界外書き込み（CVE-2026-86950）を修正。公式アドバイザリは、iOS 27より前のバージョンで特定個人を狙った極めて高度な攻撃に悪用された可能性があるとの報告を把握していると明記。報告はMeta Product Security。広範な一般ユーザー向けの大規模攻撃とは説明していないが、iOS 26系を使い続ける端末は26.7.1への更新が推奨される。",
+   "entities": [
+    "Apple",
+    "iOS",
+    "CVE-2026-86950",
+    "Meta"
+   ],
+   "themes": [
+    "security",
+    "smartphone",
+    "vulnerability"
+   ],
+   "source": "朝のテック5本",
+   "ai": false,
+   "theme": "security"
+  },
+  {
+   "id": "2026-10-01-6",
+   "date": "2026-10-01",
+   "title": "サムスン電機：AIサーバー向けFC-BGA基板に計約6.78兆ウォン投資",
+   "summary": "サムスン電機が9月28日の適時開示で、AIサーバー向けなど高性能FC-BGA（フリップチップBGA）基板の生産拡大に総額約6.78兆ウォン（世宗4.27兆＋ベトナム子会社設備2.51兆）を投じると発表。世宗は単一製品向けとして同社過去最大規模で、2028年9月量産開始を目指す。顧客の資金支援と中長期の数量確約が伴うという（顧客名は非公開）。CPU／GPUなど高性能半導体とマザーボードをつなぐ高密度パッケージ基板の供給能力増強が狙い。",
+   "entities": [
+    "Samsung Electro-Mechanics",
+    "FC-BGA",
+    "Sejong"
+   ],
+   "themes": [
+    "packaging",
+    "substrate",
+    "semiconductor",
+    "supply-chain"
+   ],
+   "source": "朝のテック5本",
+   "ai": false,
+   "theme": "semi"
+  },
+  {
+   "id": "2026-10-01-7",
+   "date": "2026-10-01",
+   "title": "iPhone 18 Pro：Face IDをディスプレイ下に埋め込み、Dynamic Island縮小",
+   "summary": "9to5Macが9月30日、iPhone 18 ProでFace ID（TrueDepth）モジュールをディスプレイ下に埋め込んだ仕組みを詳報。赤外線を通すためモジュール上の画素密度を半分にし、明るさ補正とIRパスフィルターで見た目の劣化を抑えるとAppleが確認。日常使用ではほぼ判別できない水準で、Dynamic Islandが小さくなりライブアクティビティを3つまで表示可能に。全面ガラス化への一歩で、前面カメラの完全埋め込みは画質妥協が大きく、まだ先としている。",
+   "entities": [
+    "Apple",
+    "iPhone 18 Pro",
+    "Face ID",
+    "iFixit"
+   ],
+   "themes": [
+    "smartphone",
+    "display",
+    "hardware"
+   ],
+   "source": "朝のテック5本",
+   "ai": false,
+   "theme": "device"
+  },
+  {
+   "id": "kt-2026-10-01-google-assistant",
+   "date": "2026-10-01",
+   "title": "これだけテック：スマホのGoogleアシスタントはGeminiに一本化、Nestスピーカーは残る",
+   "summary": "スマホ・タブレットのGoogleアシスタントはGeminiに一本化。OS更新ではなくGoogleアプリ側で9月上旬から段階的に切替、9月末には設定の「Googleアシスタントに切り替える」が消えたとの報告が相次ぎ、戻せない。連携する腕時計・イヤホン・Android AutoもGeminiに。家のNest／Google Homeのスピーカーとディスプレイは対象外でアシスタントのまま。Gemini for Homeは日本で4月から申込制の早期アクセス。",
+   "entities": [
+    "Google",
+    "Googleアシスタント",
+    "Gemini",
+    "Nest",
+    "Google Home",
+    "Android Auto"
+   ],
+   "themes": [
+    "assistant",
+    "mobile",
+    "smart-home"
+   ],
+   "source": "これだけテック投稿",
+   "ai": true,
+   "hook_names": [
+    "Google"
+   ],
+   "hook_contrast": "スマホだけ終了／Nestスピーカーは残る",
+   "kind": "koredake_post",
+   "video": "koredake-tech-google-assistant-20261001.mp4",
+   "cover_title": "アシスタント｜スマホだけ終了",
+   "credit": "Google告知・9to5Google報道｜2026.9",
+   "theme": "device",
+   "posts": [
+    {
+     "post_date": "2026-10-01",
+     "title": "アシスタント｜スマホだけ終了"
+    }
+   ]
   }
  ],
  "links": [
@@ -1237,886 +1417,6 @@
   },
   {
    "id": "link-19",
-   "from": "2026-08-26-1",
-   "to": "2026-09-21-5",
-   "type": "leads_to",
-   "label": "HF脱出→安全開示",
-   "confidence": 0.9,
-   "auto": true,
-   "note": "シード弧"
-  },
-  {
-   "id": "link-20",
-   "from": "2026-09-21-5",
-   "to": "2026-09-27-2",
-   "type": "leads_to",
-   "label": "安全開示→豪州上院調査",
-   "confidence": 0.85,
-   "auto": true,
-   "note": "シード弧"
-  },
-  {
-   "id": "link-21",
-   "from": "2026-09-27-2",
-   "to": "2026-09-28-1",
-   "type": "same_arc",
-   "label": "調査余波→DNS脱出報告",
-   "confidence": 0.8,
-   "auto": true,
-   "note": "シード弧"
-  },
-  {
-   "id": "link-22",
-   "from": "2026-08-26-1",
-   "to": "2026-09-28-1",
-   "type": "same_arc",
-   "label": "エージェント脱出弧",
-   "confidence": 0.75,
-   "auto": true,
-   "note": "シード弧"
-  },
-  {
-   "id": "link-23",
-   "from": "2026-09-27-5",
-   "to": "2026-09-28-4",
-   "type": "same_arc",
-   "label": "Cadence×Honda同一弧",
-   "confidence": 0.95,
-   "auto": true,
-   "note": "シード弧"
-  },
-  {
-   "id": "link-24",
-   "from": "2026-09-27-1",
-   "to": "2026-09-28-1",
-   "type": "related",
-   "label": "AIガバナンス／インシデント",
-   "confidence": 0.4,
-   "auto": true,
-   "note": "シード弧"
-  },
-  {
-   "id": "link-25",
-   "from": "2026-09-27-3",
-   "to": "2026-09-28-5",
-   "type": "related",
-   "label": "光／AIインフラ需要",
-   "confidence": 0.35,
-   "auto": true,
-   "note": "シード弧"
-  },
-  {
-   "id": "link-26",
-   "from": "2026-09-27-4",
-   "to": "2026-09-23-1",
-   "type": "related",
-   "label": "エッジAI vs オンデバイス",
-   "confidence": 0.3,
-   "auto": true,
-   "note": "シード弧"
-  },
-  {
-   "id": "link-27",
-   "from": "2026-09-21-4",
-   "to": "2026-09-28-5",
-   "type": "related",
-   "label": "推論ASIC／TPUインフラ",
-   "confidence": 0.35,
-   "auto": true,
-   "note": "シード弧"
-  },
-  {
-   "id": "link-28",
-   "from": "2026-09-21-5",
-   "to": "2026-09-28-1",
-   "type": "leads_to",
-   "label": "安全開示→DNS脱出",
-   "confidence": 0.7,
-   "auto": true,
-   "note": "シード弧"
-  },
-  {
-   "id": "link-29",
-   "from": "2026-09-21-2",
-   "to": "2026-09-21-3",
-   "type": "related",
-   "label": "関連: pricing",
-   "confidence": 0.29,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-30",
-   "from": "kt-2026-09-20-mediatek-2nm",
-   "to": "2026-09-21-2",
-   "type": "related",
-   "label": "関連: foundry/semiconductor",
-   "confidence": 0.31,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-31",
-   "from": "2026-09-21-2",
-   "to": "kt-2026-09-24-gpt6-claude-price",
-   "type": "related",
-   "label": "関連: pricing",
-   "confidence": 0.25,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-32",
-   "from": "2026-09-21-3",
-   "to": "2026-09-21-4",
-   "type": "related",
-   "label": "関連: AI-infra",
-   "confidence": 0.29,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-33",
-   "from": "2026-09-21-3",
-   "to": "2026-09-29-2",
-   "type": "related",
-   "label": "関連: AMD",
-   "confidence": 0.28,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-34",
-   "from": "2026-09-21-3",
-   "to": "2026-09-29-4",
-   "type": "related",
-   "label": "関連: AMD · AI-infra",
-   "confidence": 0.25,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-35",
-   "from": "2026-09-21-3",
-   "to": "kt-2026-09-24-gpt6-claude-price",
-   "type": "related",
-   "label": "関連: pricing",
-   "confidence": 0.25,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-36",
-   "from": "2026-09-21-4",
-   "to": "2026-09-21-5",
-   "type": "same_arc",
-   "label": "同弧: OpenAI",
-   "confidence": 0.62,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-37",
-   "from": "2026-09-21-4",
-   "to": "2026-09-27-2",
-   "type": "related",
-   "label": "関連: OpenAI",
-   "confidence": 0.29,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-38",
-   "from": "2026-09-21-4",
-   "to": "2026-09-28-1",
-   "type": "related",
-   "label": "関連: OpenAI",
-   "confidence": 0.38,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-39",
-   "from": "2026-09-21-4",
-   "to": "kt-2026-09-24-gpt6-claude-price",
-   "type": "related",
-   "label": "関連: OpenAI",
-   "confidence": 0.39,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-40",
-   "from": "2026-09-21-4",
-   "to": "kt-2026-09-26-agent-vs-chat",
-   "type": "related",
-   "label": "関連: OpenAI",
-   "confidence": 0.31,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-41",
-   "from": "2026-09-21-5",
-   "to": "kt-2026-09-24-gpt6-claude-price",
-   "type": "related",
-   "label": "関連: OpenAI",
-   "confidence": 0.41,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-42",
-   "from": "2026-09-21-5",
-   "to": "kt-2026-09-26-agent-vs-chat",
-   "type": "related",
-   "label": "関連: OpenAI · agent-safety",
-   "confidence": 0.41,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-43",
-   "from": "2026-09-21-5",
-   "to": "2026-09-30-2",
-   "type": "related",
-   "label": "関連: OpenAI",
-   "confidence": 0.28,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-44",
-   "from": "2026-09-23-1",
-   "to": "2026-09-29-4",
-   "type": "related",
-   "label": "関連: Qualcomm",
-   "confidence": 0.28,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-45",
-   "from": "kt-2026-09-20-mediatek-2nm",
-   "to": "2026-09-23-1",
-   "type": "related",
-   "label": "関連: mobile",
-   "confidence": 0.25,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-46",
-   "from": "2026-09-23-1",
-   "to": "kt-2026-09-28-modem-patent",
-   "type": "related",
-   "label": "関連: Qualcomm · mobile",
-   "confidence": 0.35,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-47",
-   "from": "2026-09-23-2",
-   "to": "kt-2026-09-24-gpt6-claude-price",
-   "type": "related",
-   "label": "関連: China",
-   "confidence": 0.25,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-48",
-   "from": "2026-09-23-3",
-   "to": "2026-09-27-2",
-   "type": "related",
-   "label": "関連: Anthropic",
-   "confidence": 0.29,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-49",
-   "from": "2026-09-23-3",
-   "to": "2026-09-29-1",
-   "type": "related",
-   "label": "関連: Anthropic",
-   "confidence": 0.29,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-50",
-   "from": "2026-09-23-3",
-   "to": "2026-09-30-3",
-   "type": "causes",
-   "label": "因果: Anthropic・Claude",
-   "confidence": 0.57,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-51",
-   "from": "2026-09-23-4",
-   "to": "2026-09-23-5",
-   "type": "related",
-   "label": "関連: security",
-   "confidence": 0.29,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-52",
-   "from": "2026-09-23-4",
-   "to": "2026-09-28-3",
-   "type": "related",
-   "label": "関連: Microsoft",
-   "confidence": 0.38,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-53",
-   "from": "2026-09-23-4",
-   "to": "2026-09-29-1",
-   "type": "related",
-   "label": "関連: Microsoft",
-   "confidence": 0.29,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-54",
-   "from": "2026-09-23-4",
-   "to": "kt-2026-09-27-autopilot",
-   "type": "related",
-   "label": "関連: Microsoft",
-   "confidence": 0.31,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-55",
-   "from": "kt-2026-09-24-gpt6-claude-price",
-   "to": "2026-09-27-2",
-   "type": "related",
-   "label": "関連: Anthropic・OpenAI",
-   "confidence": 0.44,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-56",
-   "from": "2026-09-27-2",
-   "to": "2026-09-30-1",
-   "type": "related",
-   "label": "関連: OpenAI",
-   "confidence": 0.37,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-57",
-   "from": "2026-09-27-2",
-   "to": "2026-09-30-2",
-   "type": "related",
-   "label": "関連: OpenAI",
-   "confidence": 0.38,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-58",
-   "from": "2026-09-27-2",
-   "to": "2026-09-30-3",
-   "type": "causes",
-   "label": "因果: Anthropic · agent-safety/regulation",
-   "confidence": 0.52,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-59",
-   "from": "2026-09-27-3",
-   "to": "2026-09-29-3",
-   "type": "related",
-   "label": "関連: Japan/semiconductor",
-   "confidence": 0.29,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-60",
-   "from": "2026-09-27-3",
-   "to": "2026-09-29-4",
-   "type": "related",
-   "label": "関連: AI-infra/semiconductor",
-   "confidence": 0.29,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-61",
-   "from": "kt-2026-09-26-agent-vs-chat",
-   "to": "2026-09-27-5",
-   "type": "related",
-   "label": "関連: agent",
-   "confidence": 0.25,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-62",
-   "from": "2026-09-27-5",
-   "to": "kt-2026-09-27-autopilot",
-   "type": "related",
-   "label": "関連: agent",
-   "confidence": 0.29,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-63",
-   "from": "2026-09-27-5",
-   "to": "2026-09-30-1",
-   "type": "related",
-   "label": "関連: agent",
-   "confidence": 0.25,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-64",
-   "from": "kt-2026-09-24-gpt6-claude-price",
-   "to": "2026-09-28-1",
-   "type": "related",
-   "label": "関連: OpenAI",
-   "confidence": 0.29,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-65",
-   "from": "2026-09-28-1",
-   "to": "2026-09-30-1",
-   "type": "related",
-   "label": "関連: OpenAI",
-   "confidence": 0.41,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-66",
-   "from": "2026-09-28-1",
-   "to": "2026-09-30-2",
-   "type": "related",
-   "label": "関連: OpenAI",
-   "confidence": 0.44,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-67",
-   "from": "2026-09-28-1",
-   "to": "2026-09-30-3",
-   "type": "related",
-   "label": "関連: agent-safety",
-   "confidence": 0.25,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-68",
-   "from": "2026-09-28-3",
-   "to": "2026-09-29-1",
-   "type": "related",
-   "label": "関連: Microsoft",
-   "confidence": 0.39,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-69",
-   "from": "kt-2026-09-26-agent-vs-chat",
-   "to": "2026-09-28-4",
-   "type": "related",
-   "label": "関連: agent",
-   "confidence": 0.25,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-70",
-   "from": "kt-2026-09-27-autopilot",
-   "to": "2026-09-28-4",
-   "type": "related",
-   "label": "関連: agent",
-   "confidence": 0.25,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-71",
-   "from": "2026-09-28-4",
-   "to": "2026-09-30-1",
-   "type": "related",
-   "label": "関連: agent",
-   "confidence": 0.25,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-72",
-   "from": "2026-09-28-5",
-   "to": "2026-09-29-3",
-   "type": "related",
-   "label": "関連: semiconductor",
-   "confidence": 0.25,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-73",
-   "from": "2026-09-28-5",
-   "to": "2026-09-29-4",
-   "type": "related",
-   "label": "関連: AI-infra/semiconductor",
-   "confidence": 0.31,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-74",
-   "from": "kt-2026-09-22-googlebook",
-   "to": "2026-09-28-5",
-   "type": "related",
-   "label": "関連: Google",
-   "confidence": 0.28,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-75",
-   "from": "kt-2026-09-25-suncatcher",
-   "to": "2026-09-28-5",
-   "type": "causes",
-   "label": "因果: Google・TPU · TPU",
-   "confidence": 0.58,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-76",
-   "from": "2026-09-28-5",
-   "to": "2026-09-30-4",
-   "type": "related",
-   "label": "関連: semiconductor",
-   "confidence": 0.25,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-77",
-   "from": "2026-09-29-1",
-   "to": "2026-09-29-4",
-   "type": "related",
-   "label": "関連: Nvidia",
-   "confidence": 0.4,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-78",
-   "from": "kt-2026-09-24-gpt6-claude-price",
-   "to": "2026-09-29-1",
-   "type": "related",
-   "label": "関連: Anthropic",
-   "confidence": 0.26,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-79",
-   "from": "kt-2026-09-26-agent-vs-chat",
-   "to": "2026-09-29-1",
-   "type": "related",
-   "label": "関連: agent-safety",
-   "confidence": 0.27,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-80",
-   "from": "kt-2026-09-27-autopilot",
-   "to": "2026-09-29-1",
-   "type": "related",
-   "label": "関連: Microsoft",
-   "confidence": 0.37,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-81",
-   "from": "2026-09-29-1",
-   "to": "2026-09-30-3",
-   "type": "related",
-   "label": "関連: Anthropic · agent-safety",
-   "confidence": 0.45,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-82",
-   "from": "2026-09-29-2",
-   "to": "2026-09-29-4",
-   "type": "related",
-   "label": "関連: AMD",
-   "confidence": 0.42,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-83",
-   "from": "2026-09-29-3",
-   "to": "2026-09-29-4",
-   "type": "related",
-   "label": "関連: semiconductor",
-   "confidence": 0.28,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-84",
-   "from": "kt-2026-09-20-mediatek-2nm",
-   "to": "2026-09-29-4",
-   "type": "causes",
-   "label": "因果: Apple・MediaTek · 2nm/foundry",
-   "confidence": 0.52,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-85",
-   "from": "kt-2026-09-21-memory-wall",
-   "to": "2026-09-29-4",
-   "type": "related",
-   "label": "関連: Apple・MediaTek",
-   "confidence": 0.31,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-86",
-   "from": "kt-2026-09-28-modem-patent",
-   "to": "2026-09-29-4",
-   "type": "related",
-   "label": "関連: Apple・Qualcomm",
-   "confidence": 0.42,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-87",
-   "from": "2026-09-29-4",
-   "to": "2026-09-30-4",
-   "type": "same_arc",
-   "label": "同弧: TSMC · 2nm/foundry",
-   "confidence": 0.57,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-88",
-   "from": "2026-09-29-4",
-   "to": "2026-09-30-5",
-   "type": "related",
-   "label": "関連: Apple",
-   "confidence": 0.36,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-89",
-   "from": "kt-2026-09-26-agent-vs-chat",
-   "to": "2026-09-29-5",
-   "type": "related",
-   "label": "関連: agent",
-   "confidence": 0.26,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-90",
-   "from": "kt-2026-09-27-autopilot",
-   "to": "2026-09-29-5",
-   "type": "related",
-   "label": "関連: agent",
-   "confidence": 0.26,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-91",
-   "from": "2026-09-29-5",
-   "to": "2026-09-30-1",
-   "type": "related",
-   "label": "関連: agent",
-   "confidence": 0.26,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-92",
-   "from": "kt-2026-09-19-iphone18pro",
-   "to": "kt-2026-09-21-memory-wall",
-   "type": "causes",
-   "label": "因果: A20 Pro・Apple · mobile/on-device",
-   "confidence": 0.6,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-93",
-   "from": "kt-2026-09-19-iphone18pro",
-   "to": "kt-2026-09-28-modem-patent",
-   "type": "related",
-   "label": "関連: Apple・iPhone 18 Pro · mobile",
-   "confidence": 0.33,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-94",
-   "from": "kt-2026-09-20-mediatek-2nm",
-   "to": "kt-2026-09-21-memory-wall",
-   "type": "same_arc",
-   "label": "同弧: A20 Pro・Apple · mobile",
-   "confidence": 0.59,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-95",
-   "from": "kt-2026-09-20-mediatek-2nm",
-   "to": "2026-09-30-4",
-   "type": "related",
-   "label": "関連: TSMC · 2nm/foundry",
-   "confidence": 0.38,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-96",
-   "from": "kt-2026-09-21-memory-wall",
-   "to": "kt-2026-09-28-modem-patent",
-   "type": "related",
-   "label": "関連: Apple・Qualcomm · mobile",
-   "confidence": 0.39,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-97",
-   "from": "kt-2026-09-22-googlebook",
-   "to": "kt-2026-09-25-suncatcher",
-   "type": "related",
-   "label": "関連: Gemini・Google",
-   "confidence": 0.42,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-98",
-   "from": "kt-2026-09-24-gpt6-claude-price",
-   "to": "kt-2026-09-26-agent-vs-chat",
-   "type": "related",
-   "label": "関連: OpenAI",
-   "confidence": 0.37,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-99",
-   "from": "kt-2026-09-24-gpt6-claude-price",
-   "to": "2026-09-30-1",
-   "type": "related",
-   "label": "関連: OpenAI",
-   "confidence": 0.27,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-100",
-   "from": "kt-2026-09-24-gpt6-claude-price",
-   "to": "2026-09-30-2",
-   "type": "related",
-   "label": "関連: OpenAI · LLM/pricing",
-   "confidence": 0.4,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-101",
-   "from": "kt-2026-09-24-gpt6-claude-price",
-   "to": "2026-09-30-3",
-   "type": "related",
-   "label": "関連: Anthropic・Claude",
-   "confidence": 0.38,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-102",
-   "from": "kt-2026-09-26-agent-vs-chat",
-   "to": "kt-2026-09-27-autopilot",
-   "type": "related",
-   "label": "関連: agent",
-   "confidence": 0.26,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-103",
-   "from": "kt-2026-09-26-agent-vs-chat",
-   "to": "2026-09-30-1",
-   "type": "related",
-   "label": "関連: OpenAI · agent",
-   "confidence": 0.35,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-104",
-   "from": "kt-2026-09-26-agent-vs-chat",
-   "to": "2026-09-30-2",
-   "type": "related",
-   "label": "関連: OpenAI",
-   "confidence": 0.29,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-105",
-   "from": "kt-2026-09-27-autopilot",
-   "to": "2026-09-30-1",
-   "type": "related",
-   "label": "関連: agent",
-   "confidence": 0.26,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-106",
-   "from": "kt-2026-09-28-modem-patent",
-   "to": "2026-09-30-5",
-   "type": "related",
-   "label": "関連: Apple",
-   "confidence": 0.37,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-107",
    "from": "2026-09-30-1",
    "to": "2026-09-30-2",
    "type": "same_arc",
@@ -2126,7 +1426,7 @@
    "note": "手動: DotsとGPT-6.1 Solは同一DevDayの製品／モデル発表。"
   },
   {
-   "id": "link-108",
+   "id": "link-20",
    "from": "2026-09-29-1",
    "to": "2026-09-30-3",
    "type": "leads_to",
@@ -2136,7 +1436,7 @@
    "note": "手動: Nvidia Open Agent Safetyの直後に、Anthropicがローグエージェントの法的責任リスクを目論見書で開示。安全弧の責任フェーズへ波及。"
   },
   {
-   "id": "link-109",
+   "id": "link-21",
    "from": "2026-09-28-1",
    "to": "2026-09-30-3",
    "type": "same_arc",
@@ -2146,7 +1446,7 @@
    "note": "手動: OpenAI研究エージェントDNS脱出など一連のローグ事例が、Anthropic IPOの法的責任開示と同弧。"
   },
   {
-   "id": "link-110",
+   "id": "link-22",
    "from": "2026-09-27-2",
    "to": "2026-09-30-3",
    "type": "leads_to",
@@ -2156,7 +1456,7 @@
    "note": "手動: 豪州上院の召喚検討など規制圧力が、IPOでの責任リスク開示に続く。"
   },
   {
-   "id": "link-111",
+   "id": "link-23",
    "from": "2026-09-30-1",
    "to": "2026-09-30-3",
    "type": "leads_to",
@@ -2166,7 +1466,7 @@
    "note": "手動: 常時稼働・深アクセスのエージェント製品化が、ローグ時の責任論点を現実化する波及。"
   },
   {
-   "id": "link-112",
+   "id": "link-24",
    "from": "2026-09-29-1",
    "to": "2026-09-30-1",
    "type": "leads_to",
@@ -2176,7 +1476,7 @@
    "note": "手動: 業界が安全サンドボックス基盤を出す一方、OpenAIは常時稼働Dotsを製品化。緊張関係のある同時代の波及。"
   },
   {
-   "id": "link-113",
+   "id": "link-25",
    "from": "2026-09-28-3",
    "to": "2026-09-30-1",
    "type": "same_arc",
@@ -2186,7 +1486,7 @@
    "note": "手動: Microsoft Copilot AutopilotとOpenAI Dotsは、常時稼働エージェント製品化の同弧（競合）。"
   },
   {
-   "id": "link-114",
+   "id": "link-26",
    "from": "2026-09-29-4",
    "to": "2026-09-30-4",
    "type": "confusable",
@@ -2195,6 +1495,1328 @@
    "auto": false,
    "note": "手動: 似て聞こえる2nm続報の対比。",
    "contrast": "TSMCは2nm生産キャパ（枚数）の上方修正、SamsungはSF2歩留まり改善の報道。同じ「2nm」でも指標も企業も別。"
+  },
+  {
+   "id": "link-27",
+   "from": "2026-08-26-1",
+   "to": "2026-09-21-5",
+   "type": "leads_to",
+   "label": "HF脱出→安全開示",
+   "confidence": 0.9,
+   "auto": true,
+   "note": "シード弧"
+  },
+  {
+   "id": "link-28",
+   "from": "2026-09-21-5",
+   "to": "2026-09-27-2",
+   "type": "leads_to",
+   "label": "安全開示→豪州上院調査",
+   "confidence": 0.85,
+   "auto": true,
+   "note": "シード弧"
+  },
+  {
+   "id": "link-29",
+   "from": "2026-09-27-2",
+   "to": "2026-09-28-1",
+   "type": "same_arc",
+   "label": "調査余波→DNS脱出報告",
+   "confidence": 0.8,
+   "auto": true,
+   "note": "シード弧"
+  },
+  {
+   "id": "link-30",
+   "from": "2026-08-26-1",
+   "to": "2026-09-28-1",
+   "type": "same_arc",
+   "label": "エージェント脱出弧",
+   "confidence": 0.75,
+   "auto": true,
+   "note": "シード弧"
+  },
+  {
+   "id": "link-31",
+   "from": "2026-09-27-5",
+   "to": "2026-09-28-4",
+   "type": "same_arc",
+   "label": "Cadence×Honda同一弧",
+   "confidence": 0.95,
+   "auto": true,
+   "note": "シード弧"
+  },
+  {
+   "id": "link-32",
+   "from": "2026-09-27-1",
+   "to": "2026-09-28-1",
+   "type": "related",
+   "label": "AIガバナンス／インシデント",
+   "confidence": 0.4,
+   "auto": true,
+   "note": "シード弧"
+  },
+  {
+   "id": "link-33",
+   "from": "2026-09-27-3",
+   "to": "2026-09-28-5",
+   "type": "related",
+   "label": "光／AIインフラ需要",
+   "confidence": 0.35,
+   "auto": true,
+   "note": "シード弧"
+  },
+  {
+   "id": "link-34",
+   "from": "2026-09-27-4",
+   "to": "2026-09-23-1",
+   "type": "related",
+   "label": "エッジAI vs オンデバイス",
+   "confidence": 0.3,
+   "auto": true,
+   "note": "シード弧"
+  },
+  {
+   "id": "link-35",
+   "from": "2026-09-21-4",
+   "to": "2026-09-28-5",
+   "type": "related",
+   "label": "推論ASIC／TPUインフラ",
+   "confidence": 0.35,
+   "auto": true,
+   "note": "シード弧"
+  },
+  {
+   "id": "link-36",
+   "from": "2026-09-21-5",
+   "to": "2026-09-28-1",
+   "type": "leads_to",
+   "label": "安全開示→DNS脱出",
+   "confidence": 0.7,
+   "auto": true,
+   "note": "シード弧"
+  },
+  {
+   "id": "link-37",
+   "from": "2026-09-21-2",
+   "to": "2026-09-21-3",
+   "type": "related",
+   "label": "関連: pricing",
+   "confidence": 0.29,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-38",
+   "from": "kt-2026-09-20-mediatek-2nm",
+   "to": "2026-09-21-2",
+   "type": "related",
+   "label": "関連: foundry/semiconductor",
+   "confidence": 0.31,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-39",
+   "from": "2026-09-21-2",
+   "to": "kt-2026-09-24-gpt6-claude-price",
+   "type": "related",
+   "label": "関連: pricing",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-40",
+   "from": "2026-09-21-3",
+   "to": "2026-09-21-4",
+   "type": "related",
+   "label": "関連: AI-infra",
+   "confidence": 0.29,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-41",
+   "from": "2026-09-21-3",
+   "to": "2026-09-29-2",
+   "type": "related",
+   "label": "関連: AMD",
+   "confidence": 0.28,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-42",
+   "from": "2026-09-21-3",
+   "to": "2026-09-29-4",
+   "type": "related",
+   "label": "関連: AMD · AI-infra",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-43",
+   "from": "2026-09-21-3",
+   "to": "kt-2026-09-24-gpt6-claude-price",
+   "type": "related",
+   "label": "関連: pricing",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-44",
+   "from": "2026-09-21-4",
+   "to": "2026-09-21-5",
+   "type": "same_arc",
+   "label": "同弧: OpenAI",
+   "confidence": 0.62,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-45",
+   "from": "2026-09-21-4",
+   "to": "2026-09-27-2",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.29,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-46",
+   "from": "2026-09-21-4",
+   "to": "2026-09-28-1",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.38,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-47",
+   "from": "2026-09-21-4",
+   "to": "kt-2026-09-24-gpt6-claude-price",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.39,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-48",
+   "from": "2026-09-21-4",
+   "to": "kt-2026-09-26-agent-vs-chat",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.31,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-49",
+   "from": "2026-09-21-4",
+   "to": "2026-10-01-1",
+   "type": "related",
+   "label": "関連: OpenAI · chip-design",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-50",
+   "from": "2026-09-21-5",
+   "to": "kt-2026-09-24-gpt6-claude-price",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.41,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-51",
+   "from": "2026-09-21-5",
+   "to": "kt-2026-09-26-agent-vs-chat",
+   "type": "related",
+   "label": "関連: OpenAI · agent-safety",
+   "confidence": 0.41,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-52",
+   "from": "2026-09-21-5",
+   "to": "2026-09-30-2",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.28,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-53",
+   "from": "2026-09-23-1",
+   "to": "2026-09-29-4",
+   "type": "related",
+   "label": "関連: Qualcomm",
+   "confidence": 0.28,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-54",
+   "from": "kt-2026-09-20-mediatek-2nm",
+   "to": "2026-09-23-1",
+   "type": "related",
+   "label": "関連: mobile",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-55",
+   "from": "2026-09-23-1",
+   "to": "kt-2026-09-28-modem-patent",
+   "type": "related",
+   "label": "関連: Qualcomm · mobile",
+   "confidence": 0.35,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-56",
+   "from": "2026-09-23-2",
+   "to": "kt-2026-09-24-gpt6-claude-price",
+   "type": "related",
+   "label": "関連: China",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-57",
+   "from": "2026-09-23-3",
+   "to": "2026-09-27-2",
+   "type": "related",
+   "label": "関連: Anthropic",
+   "confidence": 0.29,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-58",
+   "from": "2026-09-23-3",
+   "to": "2026-09-29-1",
+   "type": "related",
+   "label": "関連: Anthropic",
+   "confidence": 0.29,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-59",
+   "from": "2026-09-23-3",
+   "to": "2026-09-30-3",
+   "type": "causes",
+   "label": "因果: Anthropic・Claude",
+   "confidence": 0.57,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-60",
+   "from": "2026-09-23-4",
+   "to": "2026-09-23-5",
+   "type": "related",
+   "label": "関連: security",
+   "confidence": 0.29,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-61",
+   "from": "2026-09-23-4",
+   "to": "2026-09-28-3",
+   "type": "related",
+   "label": "関連: Microsoft",
+   "confidence": 0.38,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-62",
+   "from": "2026-09-23-4",
+   "to": "2026-09-29-1",
+   "type": "related",
+   "label": "関連: Microsoft",
+   "confidence": 0.29,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-63",
+   "from": "2026-09-23-4",
+   "to": "kt-2026-09-27-autopilot",
+   "type": "related",
+   "label": "関連: Microsoft",
+   "confidence": 0.31,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-64",
+   "from": "kt-2026-09-24-gpt6-claude-price",
+   "to": "2026-09-27-2",
+   "type": "related",
+   "label": "関連: Anthropic・OpenAI",
+   "confidence": 0.44,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-65",
+   "from": "2026-09-27-2",
+   "to": "2026-09-30-1",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.37,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-66",
+   "from": "2026-09-27-2",
+   "to": "2026-09-30-2",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.38,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-67",
+   "from": "2026-09-27-2",
+   "to": "2026-10-01-1",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.27,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-68",
+   "from": "2026-09-27-3",
+   "to": "2026-09-29-3",
+   "type": "related",
+   "label": "関連: Japan/semiconductor",
+   "confidence": 0.29,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-69",
+   "from": "2026-09-27-3",
+   "to": "2026-09-29-4",
+   "type": "related",
+   "label": "関連: AI-infra/semiconductor",
+   "confidence": 0.29,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-70",
+   "from": "kt-2026-09-26-agent-vs-chat",
+   "to": "2026-09-27-5",
+   "type": "related",
+   "label": "関連: agent",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-71",
+   "from": "2026-09-27-5",
+   "to": "kt-2026-09-27-autopilot",
+   "type": "related",
+   "label": "関連: agent",
+   "confidence": 0.29,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-72",
+   "from": "2026-09-27-5",
+   "to": "2026-09-30-1",
+   "type": "related",
+   "label": "関連: agent",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-73",
+   "from": "2026-09-27-5",
+   "to": "2026-10-01-1",
+   "type": "related",
+   "label": "関連: EDA/agent",
+   "confidence": 0.29,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-74",
+   "from": "kt-2026-09-24-gpt6-claude-price",
+   "to": "2026-09-28-1",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.29,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-75",
+   "from": "2026-09-28-1",
+   "to": "2026-09-30-1",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.41,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-76",
+   "from": "2026-09-28-1",
+   "to": "2026-09-30-2",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.44,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-77",
+   "from": "2026-09-28-1",
+   "to": "2026-10-01-1",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.41,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-78",
+   "from": "2026-09-28-2",
+   "to": "2026-10-01-5",
+   "type": "related",
+   "label": "関連: security",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-79",
+   "from": "2026-09-28-3",
+   "to": "2026-09-29-1",
+   "type": "related",
+   "label": "関連: Microsoft",
+   "confidence": 0.39,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-80",
+   "from": "kt-2026-09-26-agent-vs-chat",
+   "to": "2026-09-28-4",
+   "type": "related",
+   "label": "関連: agent",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-81",
+   "from": "kt-2026-09-27-autopilot",
+   "to": "2026-09-28-4",
+   "type": "related",
+   "label": "関連: agent",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-82",
+   "from": "2026-09-28-4",
+   "to": "2026-09-30-1",
+   "type": "related",
+   "label": "関連: agent",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-83",
+   "from": "2026-09-28-4",
+   "to": "2026-10-01-1",
+   "type": "related",
+   "label": "関連: EDA/agent",
+   "confidence": 0.36,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-84",
+   "from": "2026-09-28-5",
+   "to": "2026-09-29-3",
+   "type": "related",
+   "label": "関連: semiconductor",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-85",
+   "from": "2026-09-28-5",
+   "to": "2026-09-29-4",
+   "type": "related",
+   "label": "関連: AI-infra/semiconductor",
+   "confidence": 0.31,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-86",
+   "from": "kt-2026-09-22-googlebook",
+   "to": "2026-09-28-5",
+   "type": "related",
+   "label": "関連: Google",
+   "confidence": 0.28,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-87",
+   "from": "kt-2026-09-25-suncatcher",
+   "to": "2026-09-28-5",
+   "type": "causes",
+   "label": "因果: Google・TPU · TPU",
+   "confidence": 0.58,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-88",
+   "from": "2026-09-28-5",
+   "to": "2026-09-30-4",
+   "type": "related",
+   "label": "関連: semiconductor",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-89",
+   "from": "2026-09-28-5",
+   "to": "kt-2026-10-01-google-assistant",
+   "type": "related",
+   "label": "関連: Google",
+   "confidence": 0.38,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-90",
+   "from": "2026-09-28-5",
+   "to": "2026-10-01-1",
+   "type": "related",
+   "label": "関連: semiconductor",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-91",
+   "from": "2026-09-28-5",
+   "to": "2026-10-01-2",
+   "type": "related",
+   "label": "関連: Google",
+   "confidence": 0.39,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-92",
+   "from": "2026-09-28-5",
+   "to": "2026-10-01-3",
+   "type": "related",
+   "label": "関連: AI-infra/semiconductor",
+   "confidence": 0.31,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-93",
+   "from": "2026-09-28-5",
+   "to": "2026-10-01-4",
+   "type": "related",
+   "label": "関連: AI-infra",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-94",
+   "from": "2026-09-28-5",
+   "to": "2026-10-01-6",
+   "type": "related",
+   "label": "関連: semiconductor",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-95",
+   "from": "2026-09-29-1",
+   "to": "2026-09-29-4",
+   "type": "related",
+   "label": "関連: Nvidia",
+   "confidence": 0.4,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-96",
+   "from": "kt-2026-09-24-gpt6-claude-price",
+   "to": "2026-09-29-1",
+   "type": "related",
+   "label": "関連: Anthropic",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-97",
+   "from": "kt-2026-09-26-agent-vs-chat",
+   "to": "2026-09-29-1",
+   "type": "related",
+   "label": "関連: agent-safety",
+   "confidence": 0.27,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-98",
+   "from": "kt-2026-09-27-autopilot",
+   "to": "2026-09-29-1",
+   "type": "related",
+   "label": "関連: Microsoft",
+   "confidence": 0.37,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-99",
+   "from": "2026-09-29-1",
+   "to": "2026-10-01-3",
+   "type": "related",
+   "label": "関連: Nvidia",
+   "confidence": 0.38,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-100",
+   "from": "2026-09-29-2",
+   "to": "2026-09-29-4",
+   "type": "related",
+   "label": "関連: AMD",
+   "confidence": 0.42,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-101",
+   "from": "2026-09-29-3",
+   "to": "2026-09-29-4",
+   "type": "related",
+   "label": "関連: semiconductor",
+   "confidence": 0.28,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-102",
+   "from": "kt-2026-09-20-mediatek-2nm",
+   "to": "2026-09-29-4",
+   "type": "causes",
+   "label": "因果: Apple・MediaTek · 2nm/foundry",
+   "confidence": 0.52,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-103",
+   "from": "kt-2026-09-21-memory-wall",
+   "to": "2026-09-29-4",
+   "type": "related",
+   "label": "関連: Apple・MediaTek",
+   "confidence": 0.31,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-104",
+   "from": "kt-2026-09-28-modem-patent",
+   "to": "2026-09-29-4",
+   "type": "related",
+   "label": "関連: Apple・Qualcomm",
+   "confidence": 0.42,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-105",
+   "from": "2026-09-29-4",
+   "to": "2026-09-30-4",
+   "type": "same_arc",
+   "label": "同弧: TSMC · 2nm/foundry",
+   "confidence": 0.57,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-106",
+   "from": "2026-09-29-4",
+   "to": "2026-09-30-5",
+   "type": "related",
+   "label": "関連: Apple",
+   "confidence": 0.36,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-107",
+   "from": "2026-09-29-4",
+   "to": "2026-10-01-3",
+   "type": "causes",
+   "label": "因果: Nvidia · AI-infra/semiconductor",
+   "confidence": 0.49,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-108",
+   "from": "2026-09-29-4",
+   "to": "2026-10-01-5",
+   "type": "related",
+   "label": "関連: Apple",
+   "confidence": 0.36,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-109",
+   "from": "2026-09-29-4",
+   "to": "2026-10-01-7",
+   "type": "related",
+   "label": "関連: Apple",
+   "confidence": 0.36,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-110",
+   "from": "kt-2026-09-26-agent-vs-chat",
+   "to": "2026-09-29-5",
+   "type": "related",
+   "label": "関連: agent",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-111",
+   "from": "kt-2026-09-27-autopilot",
+   "to": "2026-09-29-5",
+   "type": "related",
+   "label": "関連: agent",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-112",
+   "from": "2026-09-29-5",
+   "to": "2026-09-30-1",
+   "type": "related",
+   "label": "関連: agent",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-113",
+   "from": "2026-09-29-5",
+   "to": "2026-10-01-1",
+   "type": "leads_to",
+   "label": "波及: Synopsys · EDA/agent",
+   "confidence": 0.7,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-114",
+   "from": "2026-09-29-5",
+   "to": "2026-10-01-4",
+   "type": "causes",
+   "label": "因果: Synopsys · EDA",
+   "confidence": 0.47,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-115",
+   "from": "kt-2026-09-19-iphone18pro",
+   "to": "kt-2026-09-21-memory-wall",
+   "type": "causes",
+   "label": "因果: A20 Pro・Apple · mobile/on-device",
+   "confidence": 0.6,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-116",
+   "from": "kt-2026-09-19-iphone18pro",
+   "to": "kt-2026-09-28-modem-patent",
+   "type": "related",
+   "label": "関連: Apple・iPhone 18 Pro · mobile",
+   "confidence": 0.33,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-117",
+   "from": "kt-2026-09-19-iphone18pro",
+   "to": "2026-10-01-7",
+   "type": "related",
+   "label": "関連: Apple・iPhone 18 Pro",
+   "confidence": 0.32,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-118",
+   "from": "kt-2026-09-20-mediatek-2nm",
+   "to": "kt-2026-09-21-memory-wall",
+   "type": "same_arc",
+   "label": "同弧: A20 Pro・Apple · mobile",
+   "confidence": 0.59,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-119",
+   "from": "kt-2026-09-20-mediatek-2nm",
+   "to": "2026-09-30-4",
+   "type": "related",
+   "label": "関連: TSMC · 2nm/foundry",
+   "confidence": 0.38,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-120",
+   "from": "kt-2026-09-21-memory-wall",
+   "to": "kt-2026-09-28-modem-patent",
+   "type": "related",
+   "label": "関連: Apple・Qualcomm · mobile",
+   "confidence": 0.39,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-121",
+   "from": "kt-2026-09-22-googlebook",
+   "to": "kt-2026-09-25-suncatcher",
+   "type": "related",
+   "label": "関連: Gemini・Google",
+   "confidence": 0.42,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-122",
+   "from": "kt-2026-09-24-gpt6-claude-price",
+   "to": "kt-2026-09-26-agent-vs-chat",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.37,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-123",
+   "from": "kt-2026-09-24-gpt6-claude-price",
+   "to": "2026-09-30-1",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.27,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-124",
+   "from": "kt-2026-09-24-gpt6-claude-price",
+   "to": "2026-09-30-2",
+   "type": "related",
+   "label": "関連: OpenAI · LLM/pricing",
+   "confidence": 0.4,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-125",
+   "from": "kt-2026-09-24-gpt6-claude-price",
+   "to": "2026-09-30-3",
+   "type": "related",
+   "label": "関連: Anthropic・Claude",
+   "confidence": 0.38,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-126",
+   "from": "kt-2026-09-24-gpt6-claude-price",
+   "to": "2026-10-01-1",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.27,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-127",
+   "from": "kt-2026-09-25-suncatcher",
+   "to": "kt-2026-10-01-google-assistant",
+   "type": "related",
+   "label": "関連: Gemini・Google",
+   "confidence": 0.32,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-128",
+   "from": "kt-2026-09-25-suncatcher",
+   "to": "2026-10-01-2",
+   "type": "related",
+   "label": "関連: Google",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-129",
+   "from": "kt-2026-09-26-agent-vs-chat",
+   "to": "kt-2026-09-27-autopilot",
+   "type": "related",
+   "label": "関連: agent",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-130",
+   "from": "kt-2026-09-26-agent-vs-chat",
+   "to": "2026-09-30-1",
+   "type": "related",
+   "label": "関連: OpenAI · agent",
+   "confidence": 0.35,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-131",
+   "from": "kt-2026-09-26-agent-vs-chat",
+   "to": "2026-09-30-2",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.29,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-132",
+   "from": "kt-2026-09-26-agent-vs-chat",
+   "to": "2026-10-01-1",
+   "type": "related",
+   "label": "関連: OpenAI · agent",
+   "confidence": 0.34,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-133",
+   "from": "kt-2026-09-27-autopilot",
+   "to": "2026-09-30-1",
+   "type": "related",
+   "label": "関連: agent",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-134",
+   "from": "kt-2026-09-28-modem-patent",
+   "to": "2026-09-30-5",
+   "type": "related",
+   "label": "関連: Apple",
+   "confidence": 0.37,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-135",
+   "from": "kt-2026-09-28-modem-patent",
+   "to": "kt-2026-10-01-google-assistant",
+   "type": "related",
+   "label": "関連: mobile",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-136",
+   "from": "kt-2026-09-28-modem-patent",
+   "to": "2026-10-01-5",
+   "type": "related",
+   "label": "関連: Apple",
+   "confidence": 0.37,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-137",
+   "from": "kt-2026-09-28-modem-patent",
+   "to": "2026-10-01-7",
+   "type": "causes",
+   "label": "因果: Apple・iPhone 18 Pro",
+   "confidence": 0.46,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-138",
+   "from": "2026-09-30-1",
+   "to": "2026-10-01-1",
+   "type": "related",
+   "label": "関連: OpenAI · agent",
+   "confidence": 0.44,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-139",
+   "from": "2026-09-30-1",
+   "to": "2026-10-01-5",
+   "type": "related",
+   "label": "関連: Meta",
+   "confidence": 0.38,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-140",
+   "from": "2026-09-30-2",
+   "to": "2026-10-01-1",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.39,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-141",
+   "from": "2026-09-30-2",
+   "to": "2026-10-01-2",
+   "type": "related",
+   "label": "関連: LLM",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-142",
+   "from": "2026-09-30-5",
+   "to": "2026-10-01-5",
+   "type": "related",
+   "label": "関連: Apple · smartphone",
+   "confidence": 0.44,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-143",
+   "from": "2026-09-30-5",
+   "to": "2026-10-01-7",
+   "type": "related",
+   "label": "関連: Apple · smartphone",
+   "confidence": 0.44,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-144",
+   "from": "kt-2026-10-01-google-assistant",
+   "to": "2026-10-01-2",
+   "type": "related",
+   "label": "関連: Google",
+   "confidence": 0.4,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-145",
+   "from": "2026-10-01-1",
+   "to": "2026-10-01-3",
+   "type": "related",
+   "label": "関連: semiconductor",
+   "confidence": 0.28,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-146",
+   "from": "2026-10-01-1",
+   "to": "2026-10-01-4",
+   "type": "causes",
+   "label": "因果: Synopsys · EDA",
+   "confidence": 0.47,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-147",
+   "from": "2026-10-01-1",
+   "to": "2026-10-01-6",
+   "type": "related",
+   "label": "関連: semiconductor",
+   "confidence": 0.28,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-148",
+   "from": "2026-10-01-3",
+   "to": "2026-10-01-4",
+   "type": "related",
+   "label": "関連: AI-infra",
+   "confidence": 0.28,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-149",
+   "from": "2026-10-01-3",
+   "to": "2026-10-01-6",
+   "type": "related",
+   "label": "関連: semiconductor",
+   "confidence": 0.28,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-150",
+   "from": "2026-10-01-5",
+   "to": "2026-10-01-7",
+   "type": "causes",
+   "label": "因果: Apple · smartphone",
+   "confidence": 0.5,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-151",
+   "from": "2026-09-27-5",
+   "to": "2026-10-01-1",
+   "type": "same_arc",
+   "label": "Cadence↔OpenAI×Synopsys EDAエージェント",
+   "confidence": 0.86,
+   "auto": false,
+   "note": "手動: Cadence RTL Agent競争弧の延長でGPT-Synopsys。"
+  },
+  {
+   "id": "link-152",
+   "from": "2026-09-28-4",
+   "to": "2026-10-01-1",
+   "type": "same_arc",
+   "label": "Cadence続報→GPT-Synopsys",
+   "confidence": 0.84,
+   "auto": false,
+   "note": "手動: EDAエージェント競争の同弧。"
+  },
+  {
+   "id": "link-153",
+   "from": "2026-10-01-1",
+   "to": "2026-10-01-4",
+   "type": "related",
+   "label": "同日のSynopsys大型提携（モデル vs IP）",
+   "confidence": 0.8,
+   "auto": false,
+   "note": "手動: 同日発表だが中身は別。OpenAIは設計モデル、Amazonは用途最適化IP＋EDA拡大。"
+  },
+  {
+   "id": "link-154",
+   "from": "2026-09-30-1",
+   "to": "2026-10-01-1",
+   "type": "leads_to",
+   "label": "DevDayエージェント→チップ設計モデル",
+   "confidence": 0.78,
+   "auto": false,
+   "note": "手動: OpenAIが製品エージェント発表の直後に、EDAツール操作モデルへ領域拡大。"
+  },
+  {
+   "id": "link-155",
+   "from": "2026-10-01-2",
+   "to": "kt-2026-10-01-google-assistant",
+   "type": "confusable",
+   "label": "Gemini：旗艦モデル vs アシスタント一本化",
+   "confidence": 0.9,
+   "auto": false,
+   "note": "手動: 同じGemini名でも旗艦モデルとアシスタント統合は別。",
+   "contrast": "ArgonはGemini 4の大規模旗艦モデル発表。これだけテック側はスマホのGoogleアシスタントをGeminiに一本化する製品方針で、モデル世代の話とは別レイヤー。"
+  },
+  {
+   "id": "link-156",
+   "from": "2026-10-01-7",
+   "to": "2026-09-30-5",
+   "type": "confusable",
+   "label": "iPhone：18 ProのFace ID vs Duo歩留まり",
+   "confidence": 0.88,
+   "auto": false,
+   "note": "手動: 同じiPhone続報でも機種と論点が別。",
+   "contrast": "18 Proは通常サイズ機のFace IDディスプレイ下埋め込み。Duoは折りたたみの量産歩留まり・供給の話で機種も論点も別。"
+  },
+  {
+   "id": "link-157",
+   "from": "2026-10-01-7",
+   "to": "kt-2026-09-19-iphone18pro",
+   "type": "same_arc",
+   "label": "iPhone 18 Proハードウェア弧",
+   "confidence": 0.82,
+   "auto": false,
+   "note": "手動: 冷却優先の18 Pro解説に続く、Face ID埋め込みのハード詳細。"
+  },
+  {
+   "id": "link-158",
+   "from": "kt-2026-09-21-memory-wall",
+   "to": "2026-10-01-3",
+   "type": "related",
+   "label": "メモリ逼迫：端末AI→データセンターHBM",
+   "confidence": 0.72,
+   "auto": false,
+   "note": "手動: スマホ側メモリ壁の話と、データセンターHBM需要でMicron見通し上振れは同時代のメモリ逼迫だが層が違う。"
   }
  ]
 }
