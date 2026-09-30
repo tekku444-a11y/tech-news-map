@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-01T08:16:53+09:00",
+ "generatedAt": "2026-10-01T08:32:34+09:00",
  "lastUpdated": "2026-10-01",
  "counts": {
   "items": 48,
@@ -1066,6 +1066,13 @@
    ],
    "source": "朝のテック5本",
    "ai": true,
+   "addenda": [
+    {
+     "date": "2026-10-01",
+     "title": "追加情報：OpenAIとAmazonの関係",
+     "body": "OpenAIとAmazonの関係：2025年11月、OpenAIはAWSと7年・総額380億ドルのクラウド利用契約（Nvidia GPUの計算能力）を結び、Microsoft依存から調達先を広げた。2026年にはAmazonによるOpenAIへの大型出資検討も報じられている（9月末時点の進捗は未確認）。\n一方Amazonは、OpenAIの最大のライバルであるAnthropicの大株主・主要クラウド提供元。取引はあるが、AI開発では競争相手側を支える、ねじれた関係。\n9/30のSynopsys×OpenAI（設計ツールを動かす専用モデル）とSynopsys×Amazon（独自チップ設計とクラウド）は別々の契約で、OpenAIとAmazonが共同で何かをするわけではない。Synopsysが、AI開発元とチップを作る大手の両方へ同時に手を広げた形。"
+    }
+   ],
    "theme": "chipdesign"
   },
   {
@@ -1129,6 +1136,13 @@
    ],
    "source": "朝のテック5本",
    "ai": true,
+   "addenda": [
+    {
+     "date": "2026-10-01",
+     "title": "追加情報：OpenAIとAmazonの関係",
+     "body": "OpenAIとAmazonの関係：2025年11月、OpenAIはAWSと7年・総額380億ドルのクラウド利用契約（Nvidia GPUの計算能力）を結び、Microsoft依存から調達先を広げた。2026年にはAmazonによるOpenAIへの大型出資検討も報じられている（9月末時点の進捗は未確認）。\n一方Amazonは、OpenAIの最大のライバルであるAnthropicの大株主・主要クラウド提供元。取引はあるが、AI開発では競争相手側を支える、ねじれた関係。\n9/30のSynopsys×OpenAI（設計ツールを動かす専用モデル）とSynopsys×Amazon（独自チップ設計とクラウド）は別々の契約で、OpenAIとAmazonが共同で何かをするわけではない。Synopsysが、AI開発元とチップを作る大手の両方へ同時に手を広げた形。"
+    }
+   ],
    "theme": "chipdesign"
   },
   {
@@ -2361,10 +2375,10 @@
    "from": "2026-09-29-5",
    "to": "2026-10-01-1",
    "type": "leads_to",
-   "label": "波及: Synopsys · EDA/agent",
-   "confidence": 0.7,
-   "auto": true,
-   "note": ""
+   "label": "AgentEngineer→GPT-Synopsys",
+   "confidence": 0.92,
+   "auto": false,
+   "note": "手動強化: Synopsys EDAエージェント発表の翌日、OpenAIと専用モデル共同開発。"
   },
   {
    "id": "link-114",
