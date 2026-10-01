@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-02T08:10:03+09:00",
+ "generatedAt": "2026-10-02T08:10:45+09:00",
  "lastUpdated": "2026-10-02",
  "counts": {
   "items": 56,
@@ -2744,10 +2744,10 @@
    "from": "2026-09-29-4",
    "to": "2026-10-02-6",
    "type": "leads_to",
-   "label": "波及: AMD・Apple · foundry/semiconductor",
-   "confidence": 0.69,
-   "auto": true,
-   "note": ""
+   "label": "2nmキャパ拡大→米テキサス第2拠点検討",
+   "confidence": 0.78,
+   "auto": false,
+   "note": "手動: 先進ノード需要と地政学・関税を背景にした米国内拡張"
   },
   {
    "id": "link-132",
