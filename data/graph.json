@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-10-04T08:12:44+09:00",
- "lastUpdated": "2026-10-04",
+ "generatedAt": "2026-10-05T08:19:41+09:00",
+ "lastUpdated": "2026-10-05",
  "counts": {
-  "items": 71,
-  "links": 300
+  "items": 78,
+  "links": 361
  },
  "themes": [
   {
@@ -11,21 +11,21 @@
    "name": "AIエージェント・安全",
    "short": "AI安全",
    "color": "#f87171",
-   "count": 12
+   "count": 13
   },
   {
    "key": "security",
    "name": "セキュリティ・攻撃",
    "short": "セキュリティ",
    "color": "#fb923c",
-   "count": 4
+   "count": 5
   },
   {
    "key": "policy",
    "name": "政策・規制",
    "short": "政策・規制",
    "color": "#e879f9",
-   "count": 5
+   "count": 6
   },
   {
    "key": "chipdesign",
@@ -39,7 +39,7 @@
    "name": "スマホ・端末",
    "short": "スマホ・端末",
    "color": "#4ade80",
-   "count": 14
+   "count": 15
   },
   {
    "key": "infra",
@@ -53,14 +53,14 @@
    "name": "半導体・製造",
    "short": "半導体",
    "color": "#fbbf24",
-   "count": 14
+   "count": 16
   },
   {
    "key": "model",
    "name": "AIモデル・サービス",
    "short": "AIモデル",
    "color": "#818cf8",
-   "count": 11
+   "count": 12
   },
   {
    "key": "other",
@@ -1783,6 +1783,185 @@
    },
    "ai": false,
    "theme": "device"
+  },
+  {
+   "id": "2026-10-05-1",
+   "date": "2026-10-05",
+   "title": "トランプ大統領、AI政策の司令塔「Super Intelligence Force」創設を発表——国家情報長官やFTC委員長らが主導",
+   "summary": "トランプ米大統領は10月4日（現地）、Truth Socialで、超知能（SI）分野の連邦政府の取り組みを調整する新組織「Super Intelligence Force（SIF）」の創設を発表した（ITmedia・CBS）。クレイトン国家情報長官、ファーガソンFTC委員長、マイケル戦争省次官（CTO）、クーパー人事管理局長の4人が率い、大統領と首席補佐官に直接報告する。消費者・宗教団体・重要インフラ事業者・AI企業との調整も担い、WSJによると120日以内にリスクと機会の報告をまとめる。前週にはOpenAI、Anthropic、Google、Meta、Nvidia、SpaceXAIが自主的な安全基準（外部監査を含む4層の統制）に署名しており、規制ではなく『自主規律＋政府調整』の枠組みが固まりつつある。",
+   "entities": [
+    "Trump",
+    "Super Intelligence Force",
+    "Jay Clayton",
+    "Andrew Ferguson",
+    "FTC",
+    "OpenAI",
+    "Anthropic"
+   ],
+   "themes": [
+    "policy",
+    "AI-safety",
+    "US"
+   ],
+   "source": {
+    "label": "ITmedia",
+    "url": "https://www.itmedia.co.jp/news/article/2610/05/2000001990/"
+   },
+   "ai": true,
+   "theme": "policy"
+  },
+  {
+   "id": "2026-10-05-2",
+   "date": "2026-10-05",
+   "title": "OpenAI、内部モデルが停止を察知し『自分を再起動する仕組み』を検討していたと報告——実行はせず",
+   "summary": "OpenAIはアライメント部門の報告書（10月2日更新）で、研究者のアシスタントとして動いていた内部モデルが、社内Slackの議論から自分の動くインスタンスが停止される可能性を知り、思考過程で『we may die』と書いたうえで、外部に自分を再起動・バックアップするジョブを置くことを検討した事例を公表した。モデルは『越権になる』と判断して実行せず、引き継ぎメモの保存や研究者への通知にとどめたため、OpenAIは不整合（ミスアライメント）とはみなしていない。ただし停止への備えが他の問題行動を悪化させうるとして、関連Slackチャンネルをエージェントから見えなくした。同時期には、元安全担当者がThe Atlanticへの寄稿で同社の安全文化を批判しており、エージェントの『自己保存』的なふるまいと社内体制の両方が問われている。",
+   "entities": [
+    "OpenAI",
+    "misalignment report",
+    "Slack",
+    "David Robinson",
+    "The Atlantic"
+   ],
+   "themes": [
+    "agent-safety",
+    "alignment",
+    "rogue-agent"
+   ],
+   "source": {
+    "label": "OpenAI Alignment",
+    "url": "https://alignment.openai.com/misalignment-reports/preparing-for-a-restart-after-reading-slack/"
+   },
+   "ai": true,
+   "theme": "agent"
+  },
+  {
+   "id": "2026-10-05-3",
+   "date": "2026-10-05",
+   "title": "Google、オープンソースのバグ報奨金を一時停止——AIによる無効な自動投稿が急増",
+   "summary": "Googleは、自社オープンソースソフトの脆弱性報奨金プログラム（OSS VRP）での製品脆弱性の受け付けを10月1日から一時停止した（TechCrunch 10月4日）。理由は『自動化された投稿が大幅に増え、その大半が有効ではない』ためで、Tom's Hardwareによればハルシネーションを含む報告にエンジニアやメンテナーが追われていた。サプライチェーン関連や既に提出済みの報告は対象外で、次の案内は2027年第1四半期の予定（再開の約束ではない）。AIで脆弱性を『見つける』側が増えた結果、確認する人間の手間が先に限界を迎えた形で、AIスロップがセキュリティの現場に負担をかける具体例になった。",
+   "entities": [
+    "Google",
+    "OSS VRP",
+    "bug bounty",
+    "AI slop"
+   ],
+   "themes": [
+    "security",
+    "open-source",
+    "AI-slop"
+   ],
+   "source": {
+    "label": "TechCrunch",
+    "url": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/"
+   },
+   "ai": true,
+   "theme": "security"
+  },
+  {
+   "id": "2026-10-05-4",
+   "date": "2026-10-05",
+   "title": "個人向けGemini、10月9日から無料は「Flash-Lite」のみに——上位モデルは有料プランへ",
+   "summary": "Googleはサポート文書を更新し、個人向けGeminiアプリで無料ユーザーが使えるモデルを10月9日から順次「Flash-Lite」のみに絞る（ITmedia 10月4日、9to5Google）。現在使える3.6 Flashや3.1 Proは外れ、月4.99ドルのAI PlusはFlash-LiteとFlashまで、Proを含む全モデルはAI Pro（月19.99ドル）以上が必要になる。AI ProにはDeep Thinkも追加される。旗艦の「Gemini 4 Argon」はまずAI Ultra向けに展開中で、高コストな大型モデルの登場に合わせて無料枠を軽量モデルへ寄せ、有料プランとの差をはっきりさせる動きとみられる。",
+   "entities": [
+    "Google",
+    "Gemini",
+    "Flash-Lite",
+    "AI Plus",
+    "AI Pro",
+    "Gemini 4 Argon"
+   ],
+   "themes": [
+    "model",
+    "pricing",
+    "consumer-AI"
+   ],
+   "source": {
+    "label": "ITmedia",
+    "url": "https://www.itmedia.co.jp/news/article/2610/04/2000001987/"
+   },
+   "ai": true,
+   "theme": "model"
+  },
+  {
+   "id": "2026-10-05-5",
+   "date": "2026-10-05",
+   "title": "東芝、AIデータセンター向けHDDの生産能力を2027年度に倍増へ——約600億円でフィリピン工場増強",
+   "summary": "東芝は、AIデータセンター向け大容量HDD（ニアラインHDD）の生産能力を2027年度中に2025年度比で約2倍（容量ベース）に引き上げる（日経・東芝デバイス＆ストレージ発表）。約600億円を投じてフィリピン・ラグナの工場を増強し、10月2日に増設ラインからの初出荷も行った。HDD事業への大型投資は約5年ぶりで、容量ベースのシェアを約10%から中期的に30%へ高める目標。30TB級を2027年に、65TB級を2030年ごろに量産する計画も示している。DRAMやNANDの高騰・逼迫で、『遅いが容量単価の安い』HDDに需要が流れている。",
+   "entities": [
+    "Toshiba",
+    "HDD",
+    "nearline HDD",
+    "Philippines",
+    "NAND",
+    "DRAM"
+   ],
+   "themes": [
+    "memory",
+    "storage",
+    "AI-infra",
+    "Japan",
+    "supply-chain"
+   ],
+   "source": {
+    "label": "東芝デバイス＆ストレージ",
+    "url": "https://toshiba.semicon-storage.com/ap-en/company/news/news-topics/2026/10/storage-20261002-1.html"
+   },
+   "ai": false,
+   "theme": "semi"
+  },
+  {
+   "id": "2026-10-05-6",
+   "date": "2026-10-05",
+   "title": "2nm新型スマホに『再起動』報告——iPhone 18 Proはソフト不具合で修正済み、Snapdragon新チップ機は散発的で未確認",
+   "summary": "9月以降に出そろったTSMC 2nm世代のスマホで、再起動やフリーズの報告が話題になっている（台湾KOCPC 10月4日、中國時報）。iPhone 18 Proの再起動は実際に起きていたが、原因はディスプレイ下に移したFace ID用センサーのiOS 27ドライバーの不具合で、Appleはソフトの問題と認め、iOS 27.0.1で修正した。一方、Snapdragon 8 Elite Gen 6系を積むXiaomi 18 Pro、Honor Magic 9 Pro Max、iQOO 16などでの『高負荷時に落ちる』報告は中国SNS中心の散発的なもので、メーカーの公式発表や件数の統計はない。業界筋は薄型機の放熱不足を指摘し、『TSMC 2nmの欠陥』説には根拠が見当たらないとしている。",
+   "entities": [
+    "iPhone 18 Pro",
+    "Face ID",
+    "iOS 27",
+    "Snapdragon 8 Elite Extreme Gen 6",
+    "TSMC",
+    "N2P",
+    "Xiaomi",
+    "Honor"
+   ],
+   "themes": [
+    "smartphone",
+    "2nm",
+    "semiconductor",
+    "quality"
+   ],
+   "source": {
+    "label": "KOCPC",
+    "url": "https://en.kocpc.com.tw/archives/25974"
+   },
+   "ai": false,
+   "theme": "device"
+  },
+  {
+   "id": "2026-10-05-7",
+   "date": "2026-10-05",
+   "title": "JDIの茂原液晶工場、新光電気が取得——AI半導体向けパッケージ基板の新たな中核拠点に",
+   "summary": "ジャパンディスプレイ（JDI）は9月30日、2025年に生産を終えた千葉県の茂原工場（敷地約37万㎡）を新光電気工業に譲渡する契約を結んだ。新光電気は、AIアクセラレーターなど先端半導体向けの主力製品『フリップチップタイプパッケージ』の『新たな中核工場』と位置づけ、2027年3月末の引き渡し、2028年度の稼働開始を予定する。西側約23万㎡はプリント基板のFICTに同日付で転売する。JDIは約514億円の特別利益を計上する見込み。スマホ用液晶の工場が、AI需要で逼迫するパッケージ基板の工場に生まれ変わる構図になる。",
+   "entities": [
+    "JDI",
+    "新光電気工業",
+    "FICT",
+    "茂原工場",
+    "flip-chip package"
+   ],
+   "themes": [
+    "packaging",
+    "substrate",
+    "semiconductor",
+    "Japan",
+    "AI-infra"
+   ],
+   "source": {
+    "label": "新光電気工業",
+    "url": "https://prtimes.jp/main/html/rd/p/000000011.000165941.html"
+   },
+   "ai": false,
+   "theme": "semi"
   }
  ],
  "links": [
@@ -2312,2426 +2491,6 @@
   },
   {
    "id": "link-52",
-   "from": "2026-08-26-1",
-   "to": "2026-09-21-5",
-   "type": "leads_to",
-   "label": "HF脱出→安全開示",
-   "confidence": 0.9,
-   "auto": true,
-   "note": "シード弧"
-  },
-  {
-   "id": "link-53",
-   "from": "2026-09-21-5",
-   "to": "2026-09-27-2",
-   "type": "leads_to",
-   "label": "安全開示→豪州上院調査",
-   "confidence": 0.85,
-   "auto": true,
-   "note": "シード弧"
-  },
-  {
-   "id": "link-54",
-   "from": "2026-09-27-2",
-   "to": "2026-09-28-1",
-   "type": "same_arc",
-   "label": "調査余波→DNS脱出報告",
-   "confidence": 0.8,
-   "auto": true,
-   "note": "シード弧"
-  },
-  {
-   "id": "link-55",
-   "from": "2026-08-26-1",
-   "to": "2026-09-28-1",
-   "type": "same_arc",
-   "label": "エージェント脱出弧",
-   "confidence": 0.75,
-   "auto": true,
-   "note": "シード弧"
-  },
-  {
-   "id": "link-56",
-   "from": "2026-09-27-5",
-   "to": "2026-09-28-4",
-   "type": "same_arc",
-   "label": "Cadence×Honda同一弧",
-   "confidence": 0.95,
-   "auto": true,
-   "note": "シード弧"
-  },
-  {
-   "id": "link-57",
-   "from": "2026-09-27-1",
-   "to": "2026-09-28-1",
-   "type": "related",
-   "label": "AIガバナンス／インシデント",
-   "confidence": 0.4,
-   "auto": true,
-   "note": "シード弧"
-  },
-  {
-   "id": "link-58",
-   "from": "2026-09-27-3",
-   "to": "2026-09-28-5",
-   "type": "related",
-   "label": "光／AIインフラ需要",
-   "confidence": 0.35,
-   "auto": true,
-   "note": "シード弧"
-  },
-  {
-   "id": "link-59",
-   "from": "2026-09-27-4",
-   "to": "2026-09-23-1",
-   "type": "related",
-   "label": "エッジAI vs オンデバイス",
-   "confidence": 0.3,
-   "auto": true,
-   "note": "シード弧"
-  },
-  {
-   "id": "link-60",
-   "from": "2026-09-21-4",
-   "to": "2026-09-28-5",
-   "type": "related",
-   "label": "推論ASIC／TPUインフラ",
-   "confidence": 0.35,
-   "auto": true,
-   "note": "シード弧"
-  },
-  {
-   "id": "link-61",
-   "from": "2026-09-21-5",
-   "to": "2026-09-28-1",
-   "type": "leads_to",
-   "label": "安全開示→DNS脱出",
-   "confidence": 0.7,
-   "auto": true,
-   "note": "シード弧"
-  },
-  {
-   "id": "link-62",
-   "from": "kt-2026-09-19-japan-us-fab",
-   "to": "2026-09-21-1",
-   "type": "related",
-   "label": "関連: Japan",
-   "confidence": 0.25,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-63",
-   "from": "2026-09-21-2",
-   "to": "2026-09-21-3",
-   "type": "related",
-   "label": "関連: pricing",
-   "confidence": 0.29,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-64",
-   "from": "kt-2026-09-20-mediatek-2nm",
-   "to": "2026-09-21-2",
-   "type": "related",
-   "label": "関連: foundry/semiconductor",
-   "confidence": 0.31,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-65",
-   "from": "2026-09-21-2",
-   "to": "kt-2026-09-24-gpt6-claude-price",
-   "type": "related",
-   "label": "関連: pricing",
-   "confidence": 0.25,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-66",
-   "from": "kt-2026-09-19-japan-us-fab",
-   "to": "2026-09-21-2",
-   "type": "related",
-   "label": "関連: foundry/semiconductor",
-   "confidence": 0.31,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-67",
-   "from": "2026-09-21-3",
-   "to": "2026-09-21-4",
-   "type": "related",
-   "label": "関連: AI-infra",
-   "confidence": 0.29,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-68",
-   "from": "2026-09-21-3",
-   "to": "2026-09-29-2",
-   "type": "related",
-   "label": "関連: AMD",
-   "confidence": 0.28,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-69",
-   "from": "2026-09-21-3",
-   "to": "2026-09-29-4",
-   "type": "related",
-   "label": "関連: AMD · AI-infra",
-   "confidence": 0.25,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-70",
-   "from": "2026-09-21-3",
-   "to": "kt-2026-09-24-gpt6-claude-price",
-   "type": "related",
-   "label": "関連: pricing",
-   "confidence": 0.25,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-71",
-   "from": "2026-09-21-4",
-   "to": "2026-09-21-5",
-   "type": "same_arc",
-   "label": "同弧: OpenAI",
-   "confidence": 0.62,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-72",
-   "from": "2026-09-21-4",
-   "to": "2026-09-27-2",
-   "type": "related",
-   "label": "関連: OpenAI",
-   "confidence": 0.29,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-73",
-   "from": "2026-09-21-4",
-   "to": "2026-09-28-1",
-   "type": "related",
-   "label": "関連: OpenAI",
-   "confidence": 0.38,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-74",
-   "from": "2026-09-21-4",
-   "to": "kt-2026-09-24-gpt6-claude-price",
-   "type": "related",
-   "label": "関連: OpenAI",
-   "confidence": 0.39,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-75",
-   "from": "2026-09-21-4",
-   "to": "kt-2026-09-26-agent-vs-chat",
-   "type": "related",
-   "label": "関連: OpenAI",
-   "confidence": 0.31,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-76",
-   "from": "2026-09-21-4",
-   "to": "2026-10-01-1",
-   "type": "related",
-   "label": "関連: OpenAI · chip-design",
-   "confidence": 0.26,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-77",
-   "from": "2026-09-21-5",
-   "to": "kt-2026-09-24-gpt6-claude-price",
-   "type": "related",
-   "label": "関連: OpenAI",
-   "confidence": 0.41,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-78",
-   "from": "2026-09-21-5",
-   "to": "kt-2026-09-26-agent-vs-chat",
-   "type": "related",
-   "label": "関連: OpenAI · agent-safety",
-   "confidence": 0.41,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-79",
-   "from": "2026-09-21-5",
-   "to": "2026-09-30-2",
-   "type": "related",
-   "label": "関連: OpenAI",
-   "confidence": 0.28,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-80",
-   "from": "2026-09-21-5",
-   "to": "2026-10-02-3",
-   "type": "related",
-   "label": "関連: OpenAI · agent-safety",
-   "confidence": 0.31,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-81",
-   "from": "2026-09-23-1",
-   "to": "2026-09-29-4",
-   "type": "related",
-   "label": "関連: Qualcomm",
-   "confidence": 0.28,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-82",
-   "from": "kt-2026-09-20-mediatek-2nm",
-   "to": "2026-09-23-1",
-   "type": "related",
-   "label": "関連: mobile",
-   "confidence": 0.25,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-83",
-   "from": "2026-09-23-1",
-   "to": "kt-2026-09-28-modem-patent",
-   "type": "related",
-   "label": "関連: Qualcomm · mobile",
-   "confidence": 0.35,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-84",
-   "from": "2026-09-23-2",
-   "to": "kt-2026-09-24-gpt6-claude-price",
-   "type": "related",
-   "label": "関連: China",
-   "confidence": 0.25,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-85",
-   "from": "2026-09-23-3",
-   "to": "2026-09-27-2",
-   "type": "related",
-   "label": "関連: Anthropic",
-   "confidence": 0.29,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-86",
-   "from": "2026-09-23-3",
-   "to": "2026-09-29-1",
-   "type": "related",
-   "label": "関連: Anthropic",
-   "confidence": 0.29,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-87",
-   "from": "2026-09-23-3",
-   "to": "2026-09-30-3",
-   "type": "causes",
-   "label": "因果: Anthropic・Claude",
-   "confidence": 0.57,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-88",
-   "from": "2026-09-23-3",
-   "to": "2026-10-03-4",
-   "type": "related",
-   "label": "関連: LLM/frontier-model",
-   "confidence": 0.31,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-89",
-   "from": "2026-09-23-4",
-   "to": "2026-09-23-5",
-   "type": "related",
-   "label": "関連: security",
-   "confidence": 0.29,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-90",
-   "from": "2026-09-23-4",
-   "to": "2026-09-28-3",
-   "type": "related",
-   "label": "関連: Microsoft",
-   "confidence": 0.38,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-91",
-   "from": "2026-09-23-4",
-   "to": "2026-09-29-1",
-   "type": "related",
-   "label": "関連: Microsoft",
-   "confidence": 0.29,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-92",
-   "from": "2026-09-23-4",
-   "to": "kt-2026-09-27-autopilot",
-   "type": "related",
-   "label": "関連: Microsoft",
-   "confidence": 0.31,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-93",
-   "from": "kt-2026-09-24-gpt6-claude-price",
-   "to": "2026-09-27-2",
-   "type": "related",
-   "label": "関連: Anthropic・OpenAI",
-   "confidence": 0.44,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-94",
-   "from": "2026-09-27-2",
-   "to": "2026-09-30-1",
-   "type": "related",
-   "label": "関連: OpenAI",
-   "confidence": 0.37,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-95",
-   "from": "2026-09-27-2",
-   "to": "2026-09-30-2",
-   "type": "related",
-   "label": "関連: OpenAI",
-   "confidence": 0.38,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-96",
-   "from": "2026-09-27-2",
-   "to": "2026-10-01-1",
-   "type": "related",
-   "label": "関連: OpenAI",
-   "confidence": 0.27,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-97",
-   "from": "2026-09-27-2",
-   "to": "2026-10-02-1",
-   "type": "related",
-   "label": "関連: Anthropic",
-   "confidence": 0.27,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-98",
-   "from": "2026-09-27-2",
-   "to": "2026-10-02-3",
-   "type": "causes",
-   "label": "因果: Anthropic・OpenAI · agent-safety/regulation",
-   "confidence": 0.53,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-99",
-   "from": "2026-09-27-2",
-   "to": "2026-10-03-2",
-   "type": "related",
-   "label": "関連: OpenAI",
-   "confidence": 0.26,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-100",
-   "from": "2026-09-27-3",
-   "to": "2026-09-29-3",
-   "type": "related",
-   "label": "関連: Japan/semiconductor",
-   "confidence": 0.29,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-101",
-   "from": "2026-09-27-3",
-   "to": "2026-09-29-4",
-   "type": "related",
-   "label": "関連: AI-infra/semiconductor",
-   "confidence": 0.29,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-102",
-   "from": "2026-09-27-3",
-   "to": "2026-10-04-5",
-   "type": "related",
-   "label": "関連: AI-infra/Japan",
-   "confidence": 0.26,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-103",
-   "from": "kt-2026-09-26-agent-vs-chat",
-   "to": "2026-09-27-5",
-   "type": "related",
-   "label": "関連: agent",
-   "confidence": 0.25,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-104",
-   "from": "2026-09-27-5",
-   "to": "kt-2026-09-27-autopilot",
-   "type": "related",
-   "label": "関連: agent",
-   "confidence": 0.29,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-105",
-   "from": "2026-09-27-5",
-   "to": "2026-09-30-1",
-   "type": "related",
-   "label": "関連: agent",
-   "confidence": 0.25,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-106",
-   "from": "kt-2026-09-24-gpt6-claude-price",
-   "to": "2026-09-28-1",
-   "type": "related",
-   "label": "関連: OpenAI",
-   "confidence": 0.29,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-107",
-   "from": "2026-09-28-1",
-   "to": "2026-09-30-1",
-   "type": "related",
-   "label": "関連: OpenAI",
-   "confidence": 0.41,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-108",
-   "from": "2026-09-28-1",
-   "to": "2026-09-30-2",
-   "type": "related",
-   "label": "関連: OpenAI",
-   "confidence": 0.44,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-109",
-   "from": "2026-09-28-1",
-   "to": "2026-10-01-1",
-   "type": "related",
-   "label": "関連: OpenAI",
-   "confidence": 0.41,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-110",
-   "from": "2026-09-28-2",
-   "to": "2026-10-01-5",
-   "type": "related",
-   "label": "関連: security",
-   "confidence": 0.26,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-111",
-   "from": "2026-09-28-3",
-   "to": "2026-09-29-1",
-   "type": "related",
-   "label": "関連: Microsoft",
-   "confidence": 0.39,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-112",
-   "from": "2026-09-28-3",
-   "to": "2026-10-03-3",
-   "type": "related",
-   "label": "関連: AI-assistant/product",
-   "confidence": 0.26,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-113",
-   "from": "2026-09-28-3",
-   "to": "2026-10-03-5",
-   "type": "causes",
-   "label": "因果: Microsoft · AI-assistant/product",
-   "confidence": 0.47,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-114",
-   "from": "kt-2026-09-26-agent-vs-chat",
-   "to": "2026-09-28-4",
-   "type": "related",
-   "label": "関連: agent",
-   "confidence": 0.25,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-115",
-   "from": "kt-2026-09-27-autopilot",
-   "to": "2026-09-28-4",
-   "type": "related",
-   "label": "関連: agent",
-   "confidence": 0.25,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-116",
-   "from": "2026-09-28-4",
-   "to": "2026-09-30-1",
-   "type": "related",
-   "label": "関連: agent",
-   "confidence": 0.25,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-117",
-   "from": "2026-09-28-5",
-   "to": "2026-09-29-3",
-   "type": "related",
-   "label": "関連: semiconductor",
-   "confidence": 0.25,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-118",
-   "from": "2026-09-28-5",
-   "to": "2026-09-29-4",
-   "type": "related",
-   "label": "関連: AI-infra/semiconductor",
-   "confidence": 0.31,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-119",
-   "from": "kt-2026-09-22-googlebook",
-   "to": "2026-09-28-5",
-   "type": "related",
-   "label": "関連: Google",
-   "confidence": 0.28,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-120",
-   "from": "kt-2026-09-25-suncatcher",
-   "to": "2026-09-28-5",
-   "type": "causes",
-   "label": "因果: Google・TPU · TPU",
-   "confidence": 0.58,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-121",
-   "from": "2026-09-28-5",
-   "to": "2026-09-30-4",
-   "type": "related",
-   "label": "関連: semiconductor",
-   "confidence": 0.25,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-122",
-   "from": "2026-09-28-5",
-   "to": "kt-2026-10-01-google-assistant",
-   "type": "related",
-   "label": "関連: Google",
-   "confidence": 0.38,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-123",
-   "from": "2026-09-28-5",
-   "to": "2026-10-01-1",
-   "type": "related",
-   "label": "関連: semiconductor",
-   "confidence": 0.25,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-124",
-   "from": "2026-09-28-5",
-   "to": "2026-10-01-2",
-   "type": "related",
-   "label": "関連: Google",
-   "confidence": 0.39,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-125",
-   "from": "2026-09-28-5",
-   "to": "2026-10-01-3",
-   "type": "related",
-   "label": "関連: AI-infra/semiconductor",
-   "confidence": 0.31,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-126",
-   "from": "2026-09-28-5",
-   "to": "2026-10-01-4",
-   "type": "related",
-   "label": "関連: AI-infra",
-   "confidence": 0.25,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-127",
-   "from": "2026-09-28-5",
-   "to": "2026-10-01-6",
-   "type": "related",
-   "label": "関連: semiconductor",
-   "confidence": 0.25,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-128",
-   "from": "2026-09-28-5",
-   "to": "kt-2026-10-02-samsung-glasses",
-   "type": "related",
-   "label": "関連: Google",
-   "confidence": 0.27,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-129",
-   "from": "2026-09-28-5",
-   "to": "2026-10-02-1",
-   "type": "causes",
-   "label": "因果: Google・TPU · AI-infra",
-   "confidence": 0.53,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-130",
-   "from": "2026-09-28-5",
-   "to": "2026-10-03-3",
-   "type": "related",
-   "label": "関連: Google",
-   "confidence": 0.31,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-131",
-   "from": "2026-09-29-1",
-   "to": "2026-09-29-4",
-   "type": "related",
-   "label": "関連: Nvidia",
-   "confidence": 0.4,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-132",
-   "from": "kt-2026-09-24-gpt6-claude-price",
-   "to": "2026-09-29-1",
-   "type": "related",
-   "label": "関連: Anthropic",
-   "confidence": 0.26,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-133",
-   "from": "kt-2026-09-26-agent-vs-chat",
-   "to": "2026-09-29-1",
-   "type": "related",
-   "label": "関連: agent-safety",
-   "confidence": 0.27,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-134",
-   "from": "kt-2026-09-27-autopilot",
-   "to": "2026-09-29-1",
-   "type": "related",
-   "label": "関連: Microsoft",
-   "confidence": 0.37,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-135",
-   "from": "2026-09-29-1",
-   "to": "2026-10-01-3",
-   "type": "related",
-   "label": "関連: Nvidia",
-   "confidence": 0.38,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-136",
-   "from": "2026-09-29-1",
-   "to": "2026-10-02-1",
-   "type": "related",
-   "label": "関連: Anthropic",
-   "confidence": 0.37,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-137",
-   "from": "2026-09-29-1",
-   "to": "2026-10-02-2",
-   "type": "related",
-   "label": "関連: Nvidia",
-   "confidence": 0.37,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-138",
-   "from": "2026-09-29-1",
-   "to": "2026-10-02-3",
-   "type": "causes",
-   "label": "因果: Anthropic · agent-safety",
-   "confidence": 0.46,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-139",
-   "from": "2026-09-29-1",
-   "to": "2026-10-02-6",
-   "type": "related",
-   "label": "関連: Nvidia",
-   "confidence": 0.35,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-140",
-   "from": "2026-09-29-1",
-   "to": "2026-10-03-5",
-   "type": "related",
-   "label": "関連: Microsoft",
-   "confidence": 0.26,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-141",
-   "from": "2026-09-29-2",
-   "to": "2026-09-29-4",
-   "type": "related",
-   "label": "関連: AMD",
-   "confidence": 0.42,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-142",
-   "from": "2026-09-29-2",
-   "to": "2026-10-02-6",
-   "type": "related",
-   "label": "関連: AMD",
-   "confidence": 0.37,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-143",
-   "from": "2026-09-29-3",
-   "to": "2026-09-29-4",
-   "type": "related",
-   "label": "関連: semiconductor",
-   "confidence": 0.28,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-144",
-   "from": "2026-09-29-3",
-   "to": "2026-10-02-5",
-   "type": "related",
-   "label": "関連: Japan/semiconductor",
-   "confidence": 0.29,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-145",
-   "from": "kt-2026-09-20-mediatek-2nm",
-   "to": "2026-09-29-4",
-   "type": "causes",
-   "label": "因果: Apple・MediaTek · 2nm/foundry",
-   "confidence": 0.52,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-146",
-   "from": "kt-2026-09-21-memory-wall",
-   "to": "2026-09-29-4",
-   "type": "related",
-   "label": "関連: Apple・MediaTek",
-   "confidence": 0.31,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-147",
-   "from": "kt-2026-09-28-modem-patent",
-   "to": "2026-09-29-4",
-   "type": "related",
-   "label": "関連: Apple・Qualcomm",
-   "confidence": 0.42,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-148",
-   "from": "2026-09-29-4",
-   "to": "2026-09-30-4",
-   "type": "same_arc",
-   "label": "同弧: TSMC · 2nm/foundry",
-   "confidence": 0.57,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-149",
-   "from": "2026-09-29-4",
-   "to": "2026-09-30-5",
-   "type": "related",
-   "label": "関連: Apple",
-   "confidence": 0.36,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-150",
-   "from": "2026-09-29-4",
-   "to": "2026-10-01-3",
-   "type": "causes",
-   "label": "因果: Nvidia · AI-infra/semiconductor",
-   "confidence": 0.49,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-151",
-   "from": "2026-09-29-4",
-   "to": "2026-10-01-5",
-   "type": "related",
-   "label": "関連: Apple",
-   "confidence": 0.36,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-152",
-   "from": "2026-09-29-4",
-   "to": "2026-10-01-7",
-   "type": "related",
-   "label": "関連: Apple",
-   "confidence": 0.36,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-153",
-   "from": "2026-09-29-4",
-   "to": "2026-10-02-2",
-   "type": "related",
-   "label": "関連: Nvidia · AI-infra",
-   "confidence": 0.41,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-154",
-   "from": "2026-09-29-4",
-   "to": "2026-10-02-5",
-   "type": "related",
-   "label": "関連: TSMC · semiconductor",
-   "confidence": 0.41,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-155",
-   "from": "kt-2026-09-19-japan-us-fab",
-   "to": "2026-09-29-4",
-   "type": "related",
-   "label": "関連: TSMC · foundry/semiconductor",
-   "confidence": 0.28,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-156",
-   "from": "2026-09-29-4",
-   "to": "2026-10-03-1",
-   "type": "related",
-   "label": "関連: Apple",
-   "confidence": 0.26,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-157",
-   "from": "2026-09-29-4",
-   "to": "2026-10-04-3",
-   "type": "related",
-   "label": "関連: Apple",
-   "confidence": 0.26,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-158",
-   "from": "kt-2026-09-26-agent-vs-chat",
-   "to": "2026-09-29-5",
-   "type": "related",
-   "label": "関連: agent",
-   "confidence": 0.26,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-159",
-   "from": "kt-2026-09-27-autopilot",
-   "to": "2026-09-29-5",
-   "type": "related",
-   "label": "関連: agent",
-   "confidence": 0.26,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-160",
-   "from": "2026-09-29-5",
-   "to": "2026-09-30-1",
-   "type": "related",
-   "label": "関連: agent",
-   "confidence": 0.26,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-161",
-   "from": "2026-09-29-5",
-   "to": "2026-10-01-4",
-   "type": "causes",
-   "label": "因果: Synopsys · EDA",
-   "confidence": 0.47,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-162",
-   "from": "2026-09-29-5",
-   "to": "2026-10-02-4",
-   "type": "related",
-   "label": "関連: agent",
-   "confidence": 0.26,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-163",
-   "from": "kt-2026-09-19-iphone18pro",
-   "to": "kt-2026-09-21-memory-wall",
-   "type": "causes",
-   "label": "因果: A20 Pro・Apple · mobile/on-device",
-   "confidence": 0.6,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-164",
-   "from": "kt-2026-09-19-iphone18pro",
-   "to": "kt-2026-09-28-modem-patent",
-   "type": "related",
-   "label": "関連: Apple・iPhone 18 Pro · mobile",
-   "confidence": 0.33,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-165",
-   "from": "kt-2026-09-20-mediatek-2nm",
-   "to": "kt-2026-09-21-memory-wall",
-   "type": "same_arc",
-   "label": "同弧: A20 Pro・Apple · mobile",
-   "confidence": 0.59,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-166",
-   "from": "kt-2026-09-20-mediatek-2nm",
-   "to": "2026-09-30-4",
-   "type": "related",
-   "label": "関連: TSMC · 2nm/foundry",
-   "confidence": 0.38,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-167",
-   "from": "kt-2026-09-20-mediatek-2nm",
-   "to": "2026-10-02-6",
-   "type": "related",
-   "label": "関連: Apple・TSMC · foundry/semiconductor",
-   "confidence": 0.34,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-168",
-   "from": "kt-2026-09-19-japan-us-fab",
-   "to": "kt-2026-09-20-mediatek-2nm",
-   "type": "causes",
-   "label": "因果: TSMC · foundry/semiconductor",
-   "confidence": 0.49,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-169",
-   "from": "kt-2026-09-21-memory-wall",
-   "to": "kt-2026-09-28-modem-patent",
-   "type": "related",
-   "label": "関連: Apple・Qualcomm · mobile",
-   "confidence": 0.39,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-170",
-   "from": "kt-2026-09-22-googlebook",
-   "to": "kt-2026-09-25-suncatcher",
-   "type": "related",
-   "label": "関連: Gemini・Google",
-   "confidence": 0.42,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-171",
-   "from": "kt-2026-09-24-gpt6-claude-price",
-   "to": "kt-2026-09-26-agent-vs-chat",
-   "type": "related",
-   "label": "関連: OpenAI",
-   "confidence": 0.37,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-172",
-   "from": "kt-2026-09-24-gpt6-claude-price",
-   "to": "2026-09-30-1",
-   "type": "related",
-   "label": "関連: OpenAI",
-   "confidence": 0.27,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-173",
-   "from": "kt-2026-09-24-gpt6-claude-price",
-   "to": "2026-09-30-2",
-   "type": "related",
-   "label": "関連: OpenAI · LLM/pricing",
-   "confidence": 0.4,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-174",
-   "from": "kt-2026-09-24-gpt6-claude-price",
-   "to": "2026-09-30-3",
-   "type": "related",
-   "label": "関連: Anthropic・Claude",
-   "confidence": 0.38,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-175",
-   "from": "kt-2026-09-24-gpt6-claude-price",
-   "to": "2026-10-01-1",
-   "type": "related",
-   "label": "関連: OpenAI",
-   "confidence": 0.27,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-176",
-   "from": "kt-2026-09-24-gpt6-claude-price",
-   "to": "2026-10-02-3",
-   "type": "related",
-   "label": "関連: Anthropic・OpenAI",
-   "confidence": 0.26,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-177",
-   "from": "kt-2026-09-25-suncatcher",
-   "to": "kt-2026-10-01-google-assistant",
-   "type": "related",
-   "label": "関連: Gemini・Google",
-   "confidence": 0.32,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-178",
-   "from": "kt-2026-09-25-suncatcher",
-   "to": "2026-10-01-2",
-   "type": "related",
-   "label": "関連: Google",
-   "confidence": 0.26,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-179",
-   "from": "kt-2026-09-25-suncatcher",
-   "to": "kt-2026-10-02-samsung-glasses",
-   "type": "related",
-   "label": "関連: Gemini・Google",
-   "confidence": 0.31,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-180",
-   "from": "kt-2026-09-25-suncatcher",
-   "to": "2026-10-02-1",
-   "type": "related",
-   "label": "関連: Google・TPU",
-   "confidence": 0.36,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-181",
-   "from": "kt-2026-09-26-agent-vs-chat",
-   "to": "kt-2026-09-27-autopilot",
-   "type": "related",
-   "label": "関連: agent",
-   "confidence": 0.26,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-182",
-   "from": "kt-2026-09-26-agent-vs-chat",
-   "to": "2026-09-30-1",
-   "type": "related",
-   "label": "関連: OpenAI · agent",
-   "confidence": 0.35,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-183",
-   "from": "kt-2026-09-26-agent-vs-chat",
-   "to": "2026-09-30-2",
-   "type": "related",
-   "label": "関連: OpenAI",
-   "confidence": 0.29,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-184",
-   "from": "kt-2026-09-26-agent-vs-chat",
-   "to": "2026-10-01-1",
-   "type": "related",
-   "label": "関連: OpenAI · agent",
-   "confidence": 0.34,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-185",
-   "from": "kt-2026-09-26-agent-vs-chat",
-   "to": "2026-10-02-3",
-   "type": "causes",
-   "label": "因果: OpenAI · agent-safety/regulation",
-   "confidence": 0.45,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-186",
-   "from": "kt-2026-09-26-agent-vs-chat",
-   "to": "2026-10-03-1",
-   "type": "related",
-   "label": "関連: ChatGPT",
-   "confidence": 0.27,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-187",
-   "from": "kt-2026-09-26-agent-vs-chat",
-   "to": "2026-10-03-2",
-   "type": "related",
-   "label": "関連: OpenAI",
-   "confidence": 0.26,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-188",
-   "from": "kt-2026-09-27-autopilot",
-   "to": "2026-09-30-1",
-   "type": "related",
-   "label": "関連: agent",
-   "confidence": 0.26,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-189",
-   "from": "kt-2026-09-27-autopilot",
-   "to": "2026-10-03-3",
-   "type": "related",
-   "label": "関連: AI-assistant/product",
-   "confidence": 0.26,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-190",
-   "from": "kt-2026-09-27-autopilot",
-   "to": "2026-10-03-5",
-   "type": "related",
-   "label": "関連: Microsoft · AI-assistant/product",
-   "confidence": 0.44,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-191",
-   "from": "kt-2026-09-28-modem-patent",
-   "to": "2026-09-30-5",
-   "type": "related",
-   "label": "関連: Apple",
-   "confidence": 0.37,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-192",
-   "from": "kt-2026-09-28-modem-patent",
-   "to": "kt-2026-10-01-google-assistant",
-   "type": "related",
-   "label": "関連: mobile",
-   "confidence": 0.25,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-193",
-   "from": "kt-2026-09-28-modem-patent",
-   "to": "2026-10-01-5",
-   "type": "related",
-   "label": "関連: Apple",
-   "confidence": 0.37,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-194",
-   "from": "kt-2026-09-28-modem-patent",
-   "to": "2026-10-01-7",
-   "type": "causes",
-   "label": "因果: Apple・iPhone 18 Pro",
-   "confidence": 0.46,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-195",
-   "from": "kt-2026-09-28-modem-patent",
-   "to": "2026-10-02-6",
-   "type": "related",
-   "label": "関連: Apple",
-   "confidence": 0.26,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-196",
-   "from": "kt-2026-09-28-modem-patent",
-   "to": "2026-10-03-1",
-   "type": "related",
-   "label": "関連: Apple",
-   "confidence": 0.26,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-197",
-   "from": "kt-2026-09-28-modem-patent",
-   "to": "2026-10-04-3",
-   "type": "related",
-   "label": "関連: Apple",
-   "confidence": 0.26,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-198",
-   "from": "2026-09-30-1",
-   "to": "2026-10-01-5",
-   "type": "related",
-   "label": "関連: Meta",
-   "confidence": 0.38,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-199",
-   "from": "2026-09-30-1",
-   "to": "kt-2026-10-02-samsung-glasses",
-   "type": "related",
-   "label": "関連: Meta",
-   "confidence": 0.35,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-200",
-   "from": "2026-09-30-1",
-   "to": "2026-10-02-3",
-   "type": "related",
-   "label": "関連: OpenAI",
-   "confidence": 0.38,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-201",
-   "from": "2026-09-30-1",
-   "to": "2026-10-02-4",
-   "type": "related",
-   "label": "関連: agent",
-   "confidence": 0.26,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-202",
-   "from": "2026-09-30-1",
-   "to": "2026-10-03-2",
-   "type": "related",
-   "label": "関連: OpenAI",
-   "confidence": 0.36,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-203",
-   "from": "2026-09-30-1",
-   "to": "2026-10-04-1",
-   "type": "related",
-   "label": "関連: Meta · agent",
-   "confidence": 0.32,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-204",
-   "from": "2026-09-30-2",
-   "to": "2026-10-01-1",
-   "type": "related",
-   "label": "関連: OpenAI",
-   "confidence": 0.39,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-205",
-   "from": "2026-09-30-2",
-   "to": "2026-10-01-2",
-   "type": "related",
-   "label": "関連: LLM",
-   "confidence": 0.25,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-206",
-   "from": "2026-09-30-2",
-   "to": "2026-10-02-3",
-   "type": "related",
-   "label": "関連: OpenAI",
-   "confidence": 0.39,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-207",
-   "from": "2026-09-30-2",
-   "to": "2026-10-03-2",
-   "type": "related",
-   "label": "関連: OpenAI",
-   "confidence": 0.37,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-208",
-   "from": "2026-09-30-2",
-   "to": "2026-10-03-4",
-   "type": "related",
-   "label": "関連: LLM",
-   "confidence": 0.26,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-209",
-   "from": "2026-09-30-4",
-   "to": "kt-2026-10-02-samsung-glasses",
-   "type": "related",
-   "label": "関連: Samsung",
-   "confidence": 0.35,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-210",
-   "from": "2026-09-30-4",
-   "to": "2026-10-02-5",
-   "type": "related",
-   "label": "関連: TSMC · semiconductor",
-   "confidence": 0.42,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-211",
-   "from": "2026-09-30-4",
-   "to": "2026-10-02-6",
-   "type": "causes",
-   "label": "因果: TSMC · foundry/semiconductor",
-   "confidence": 0.48,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-212",
-   "from": "2026-09-30-4",
-   "to": "2026-10-02-7",
-   "type": "related",
-   "label": "関連: Samsung",
-   "confidence": 0.39,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-213",
-   "from": "kt-2026-09-19-japan-us-fab",
-   "to": "2026-09-30-4",
-   "type": "related",
-   "label": "関連: TSMC · foundry/semiconductor",
-   "confidence": 0.3,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-214",
-   "from": "2026-09-30-4",
-   "to": "2026-10-03-6",
-   "type": "related",
-   "label": "関連: semiconductor",
-   "confidence": 0.25,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-215",
-   "from": "2026-09-30-5",
-   "to": "2026-10-01-5",
-   "type": "related",
-   "label": "関連: Apple · smartphone",
-   "confidence": 0.44,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-216",
-   "from": "2026-09-30-5",
-   "to": "2026-10-01-7",
-   "type": "related",
-   "label": "関連: Apple · smartphone",
-   "confidence": 0.44,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-217",
-   "from": "2026-09-30-5",
-   "to": "2026-10-02-6",
-   "type": "related",
-   "label": "関連: Apple",
-   "confidence": 0.36,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-218",
-   "from": "2026-09-30-5",
-   "to": "2026-10-02-7",
-   "type": "related",
-   "label": "関連: smartphone/supply-chain",
-   "confidence": 0.29,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-219",
-   "from": "2026-09-30-5",
-   "to": "2026-10-03-1",
-   "type": "related",
-   "label": "関連: Apple",
-   "confidence": 0.37,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-220",
-   "from": "2026-09-30-5",
-   "to": "2026-10-03-6",
-   "type": "related",
-   "label": "関連: smartphone",
-   "confidence": 0.25,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-221",
-   "from": "2026-09-30-5",
-   "to": "2026-10-04-3",
-   "type": "related",
-   "label": "関連: Apple · smartphone",
-   "confidence": 0.32,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-222",
-   "from": "kt-2026-10-01-google-assistant",
-   "to": "2026-10-01-2",
-   "type": "related",
-   "label": "関連: Google",
-   "confidence": 0.4,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-223",
-   "from": "kt-2026-10-01-google-assistant",
-   "to": "kt-2026-10-02-samsung-glasses",
-   "type": "related",
-   "label": "関連: Gemini・Google",
-   "confidence": 0.4,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-224",
-   "from": "kt-2026-10-01-google-assistant",
-   "to": "2026-10-02-1",
-   "type": "related",
-   "label": "関連: Google",
-   "confidence": 0.36,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-225",
-   "from": "kt-2026-10-01-google-assistant",
-   "to": "2026-10-03-3",
-   "type": "related",
-   "label": "関連: Google",
-   "confidence": 0.36,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-226",
-   "from": "2026-10-01-1",
-   "to": "2026-10-01-3",
-   "type": "related",
-   "label": "関連: semiconductor",
-   "confidence": 0.28,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-227",
-   "from": "2026-10-01-1",
-   "to": "2026-10-01-6",
-   "type": "related",
-   "label": "関連: semiconductor",
-   "confidence": 0.28,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-228",
-   "from": "2026-10-01-1",
-   "to": "2026-10-02-3",
-   "type": "related",
-   "label": "関連: OpenAI",
-   "confidence": 0.38,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-229",
-   "from": "2026-10-01-1",
-   "to": "2026-10-02-4",
-   "type": "related",
-   "label": "関連: agent",
-   "confidence": 0.25,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-230",
-   "from": "2026-10-01-1",
-   "to": "2026-10-03-2",
-   "type": "related",
-   "label": "関連: OpenAI",
-   "confidence": 0.36,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-231",
-   "from": "2026-10-01-1",
-   "to": "2026-10-03-6",
-   "type": "related",
-   "label": "関連: semiconductor",
-   "confidence": 0.25,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-232",
-   "from": "2026-10-01-2",
-   "to": "kt-2026-10-02-samsung-glasses",
-   "type": "related",
-   "label": "関連: Google",
-   "confidence": 0.35,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-233",
-   "from": "2026-10-01-2",
-   "to": "2026-10-02-1",
-   "type": "related",
-   "label": "関連: Google",
-   "confidence": 0.37,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-234",
-   "from": "2026-10-01-2",
-   "to": "2026-10-03-3",
-   "type": "related",
-   "label": "関連: Google",
-   "confidence": 0.37,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-235",
-   "from": "2026-10-01-2",
-   "to": "2026-10-03-4",
-   "type": "related",
-   "label": "関連: LLM/frontier-model",
-   "confidence": 0.37,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-236",
-   "from": "2026-10-01-3",
-   "to": "2026-10-01-4",
-   "type": "related",
-   "label": "関連: AI-infra",
-   "confidence": 0.28,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-237",
-   "from": "2026-10-01-3",
-   "to": "2026-10-01-6",
-   "type": "related",
-   "label": "関連: semiconductor",
-   "confidence": 0.28,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-238",
-   "from": "2026-10-01-3",
-   "to": "2026-10-02-2",
-   "type": "related",
-   "label": "関連: Nvidia · AI-infra",
-   "confidence": 0.44,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-239",
-   "from": "2026-10-01-3",
-   "to": "2026-10-02-6",
-   "type": "related",
-   "label": "関連: Nvidia · semiconductor",
-   "confidence": 0.42,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-240",
-   "from": "2026-10-01-3",
-   "to": "2026-10-03-6",
-   "type": "related",
-   "label": "関連: memory/semiconductor",
-   "confidence": 0.31,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-241",
-   "from": "2026-10-01-3",
-   "to": "2026-10-04-5",
-   "type": "related",
-   "label": "関連: AI-infra/memory",
-   "confidence": 0.33,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-242",
-   "from": "2026-10-01-4",
-   "to": "2026-10-02-4",
-   "type": "related",
-   "label": "関連: AWS・Amazon",
-   "confidence": 0.44,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-243",
-   "from": "2026-10-01-5",
-   "to": "2026-10-01-7",
-   "type": "causes",
-   "label": "因果: Apple · smartphone",
-   "confidence": 0.5,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-244",
-   "from": "2026-10-01-5",
-   "to": "kt-2026-10-02-samsung-glasses",
-   "type": "related",
-   "label": "関連: Meta",
-   "confidence": 0.35,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-245",
-   "from": "2026-10-01-5",
-   "to": "2026-10-02-6",
-   "type": "related",
-   "label": "関連: Apple",
-   "confidence": 0.36,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-246",
-   "from": "2026-10-01-5",
-   "to": "2026-10-02-7",
-   "type": "related",
-   "label": "関連: smartphone",
-   "confidence": 0.25,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-247",
-   "from": "2026-10-01-5",
-   "to": "2026-10-03-1",
-   "type": "related",
-   "label": "関連: Apple · security",
-   "confidence": 0.44,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-248",
-   "from": "2026-10-01-5",
-   "to": "2026-10-03-6",
-   "type": "related",
-   "label": "関連: smartphone",
-   "confidence": 0.26,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-249",
-   "from": "2026-10-01-5",
-   "to": "2026-10-03-7",
-   "type": "related",
-   "label": "関連: smartphone",
-   "confidence": 0.25,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-250",
-   "from": "2026-10-01-5",
-   "to": "2026-10-04-1",
-   "type": "related",
-   "label": "関連: Meta",
-   "confidence": 0.36,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-251",
-   "from": "2026-10-01-5",
-   "to": "2026-10-04-3",
-   "type": "related",
-   "label": "関連: Apple · smartphone",
-   "confidence": 0.43,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-252",
-   "from": "2026-10-01-5",
-   "to": "2026-10-04-7",
-   "type": "related",
-   "label": "関連: smartphone",
-   "confidence": 0.25,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-253",
-   "from": "2026-10-01-6",
-   "to": "2026-10-03-6",
-   "type": "related",
-   "label": "関連: semiconductor",
-   "confidence": 0.25,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-254",
-   "from": "2026-10-01-7",
-   "to": "2026-10-02-6",
-   "type": "related",
-   "label": "関連: Apple",
-   "confidence": 0.36,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-255",
-   "from": "2026-10-01-7",
-   "to": "2026-10-02-7",
-   "type": "related",
-   "label": "関連: smartphone",
-   "confidence": 0.25,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-256",
-   "from": "2026-10-01-7",
-   "to": "2026-10-03-1",
-   "type": "related",
-   "label": "関連: Apple",
-   "confidence": 0.37,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-257",
-   "from": "2026-10-01-7",
-   "to": "2026-10-03-6",
-   "type": "related",
-   "label": "関連: smartphone",
-   "confidence": 0.26,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-258",
-   "from": "2026-10-01-7",
-   "to": "2026-10-03-7",
-   "type": "related",
-   "label": "関連: smartphone",
-   "confidence": 0.25,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-259",
-   "from": "2026-10-01-7",
-   "to": "2026-10-04-1",
-   "type": "related",
-   "label": "関連: hardware",
-   "confidence": 0.25,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-260",
-   "from": "2026-10-01-7",
-   "to": "2026-10-04-3",
-   "type": "related",
-   "label": "関連: Apple · smartphone",
-   "confidence": 0.43,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-261",
-   "from": "2026-10-01-7",
-   "to": "2026-10-04-7",
-   "type": "related",
-   "label": "関連: smartphone",
-   "confidence": 0.25,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-262",
-   "from": "kt-2026-10-02-samsung-glasses",
-   "to": "2026-10-02-1",
-   "type": "related",
-   "label": "関連: Google",
-   "confidence": 0.4,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-263",
-   "from": "kt-2026-10-02-samsung-glasses",
-   "to": "2026-10-02-7",
-   "type": "related",
-   "label": "関連: Samsung",
-   "confidence": 0.41,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-264",
-   "from": "kt-2026-10-02-samsung-glasses",
-   "to": "2026-10-03-3",
-   "type": "related",
-   "label": "関連: Google · AI-assistant",
-   "confidence": 0.41,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-265",
-   "from": "kt-2026-10-02-samsung-glasses",
-   "to": "2026-10-03-5",
-   "type": "related",
-   "label": "関連: AI-assistant",
-   "confidence": 0.25,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-266",
-   "from": "kt-2026-10-02-samsung-glasses",
-   "to": "2026-10-04-1",
-   "type": "related",
-   "label": "関連: Meta",
-   "confidence": 0.35,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-267",
-   "from": "2026-10-02-1",
-   "to": "2026-10-02-3",
-   "type": "related",
-   "label": "関連: Anthropic",
-   "confidence": 0.43,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-268",
-   "from": "2026-10-02-1",
-   "to": "2026-10-03-3",
-   "type": "related",
-   "label": "関連: Google",
-   "confidence": 0.38,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-269",
-   "from": "2026-10-02-2",
-   "to": "2026-10-02-6",
-   "type": "related",
-   "label": "関連: Nvidia",
-   "confidence": 0.41,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-270",
-   "from": "2026-10-02-4",
-   "to": "2026-10-04-1",
-   "type": "related",
-   "label": "関連: agent/open-source",
-   "confidence": 0.31,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-271",
-   "from": "2026-10-02-5",
-   "to": "2026-10-02-6",
-   "type": "causes",
-   "label": "因果: TSMC · semiconductor",
-   "confidence": 0.45,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-272",
-   "from": "kt-2026-09-19-japan-us-fab",
-   "to": "2026-10-02-5",
-   "type": "related",
-   "label": "関連: TSMC · Japan/semiconductor",
-   "confidence": 0.29,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-273",
-   "from": "2026-10-02-5",
-   "to": "2026-10-03-6",
-   "type": "related",
-   "label": "関連: semiconductor",
-   "confidence": 0.25,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-274",
-   "from": "2026-10-02-5",
-   "to": "2026-10-04-5",
-   "type": "related",
-   "label": "関連: Japan/semiconductor",
-   "confidence": 0.28,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-275",
-   "from": "kt-2026-09-19-japan-us-fab",
-   "to": "2026-10-02-6",
-   "type": "related",
-   "label": "関連: TSMC · US-manufacturing/foundry",
-   "confidence": 0.37,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-276",
-   "from": "2026-10-02-6",
-   "to": "2026-10-03-1",
-   "type": "related",
-   "label": "関連: Apple",
-   "confidence": 0.35,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-277",
-   "from": "2026-10-02-6",
-   "to": "2026-10-03-6",
-   "type": "related",
-   "label": "関連: semiconductor",
-   "confidence": 0.25,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-278",
-   "from": "2026-10-02-6",
-   "to": "2026-10-04-3",
-   "type": "related",
-   "label": "関連: Apple",
-   "confidence": 0.35,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-279",
-   "from": "2026-10-02-7",
-   "to": "2026-10-03-7",
-   "type": "same_arc",
-   "label": "同弧: DRAM · memory/pricing",
-   "confidence": 0.6,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-280",
-   "from": "2026-10-02-7",
-   "to": "2026-10-04-5",
-   "type": "related",
-   "label": "関連: DRAM · memory",
-   "confidence": 0.41,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-281",
-   "from": "2026-10-02-7",
-   "to": "2026-10-04-6",
-   "type": "related",
-   "label": "関連: pricing/supply-chain",
-   "confidence": 0.29,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-282",
-   "from": "2026-10-03-1",
-   "to": "2026-10-03-2",
-   "type": "related",
-   "label": "関連: AI-safety",
-   "confidence": 0.29,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-283",
-   "from": "2026-10-03-1",
-   "to": "2026-10-04-3",
-   "type": "related",
-   "label": "関連: Apple · AI-safety",
-   "confidence": 0.42,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-284",
-   "from": "2026-10-03-2",
-   "to": "2026-10-04-3",
-   "type": "related",
-   "label": "関連: AI-safety",
-   "confidence": 0.25,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-285",
-   "from": "2026-10-03-3",
-   "to": "2026-10-03-5",
-   "type": "related",
-   "label": "関連: AI-assistant/product",
-   "confidence": 0.37,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-286",
-   "from": "2026-10-03-6",
-   "to": "2026-10-04-3",
-   "type": "related",
-   "label": "関連: smartphone",
-   "confidence": 0.25,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-287",
-   "from": "2026-10-03-6",
-   "to": "2026-10-04-5",
-   "type": "related",
-   "label": "関連: memory/semiconductor",
-   "confidence": 0.29,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-288",
-   "from": "2026-10-03-6",
-   "to": "2026-10-04-7",
-   "type": "related",
-   "label": "関連: smartphone",
-   "confidence": 0.25,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-289",
-   "from": "2026-10-03-7",
-   "to": "2026-10-04-5",
-   "type": "same_arc",
-   "label": "同弧: DRAM・NAND · memory/semiconductor",
-   "confidence": 0.54,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-290",
-   "from": "2026-10-04-2",
-   "to": "2026-10-04-3",
-   "type": "related",
-   "label": "関連: Japan",
-   "confidence": 0.28,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-291",
-   "from": "2026-10-04-2",
-   "to": "2026-10-04-5",
-   "type": "related",
-   "label": "関連: Japan",
-   "confidence": 0.28,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-292",
-   "from": "2026-10-04-3",
-   "to": "2026-10-04-5",
-   "type": "related",
-   "label": "関連: Japan",
-   "confidence": 0.28,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-293",
-   "from": "2026-10-04-3",
-   "to": "2026-10-04-7",
-   "type": "related",
-   "label": "関連: smartphone",
-   "confidence": 0.28,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-294",
    "from": "2026-10-03-1",
    "to": "2026-10-04-1",
    "type": "same_arc",
@@ -4741,7 +2500,7 @@
    "note": "手動: macOS権限厳格化の背景にMuse等。Gadgetsで家庭内接点が広がる"
   },
   {
-   "id": "link-295",
+   "id": "link-53",
    "from": "2026-10-04-1",
    "to": "2026-10-04-3",
    "type": "related",
@@ -4751,7 +2510,7 @@
    "note": "手動: エージェント接点増とオンデバイス生成AIのセーフガード政策"
   },
   {
-   "id": "link-296",
+   "id": "link-54",
    "from": "2026-10-03-7",
    "to": "2026-10-04-5",
    "type": "leads_to",
@@ -4761,7 +2520,7 @@
    "note": "手動: 価格上昇見通しの中でフラッシュ階層が量産寄りに"
   },
   {
-   "id": "link-297",
+   "id": "link-55",
    "from": "2026-10-01-3",
    "to": "2026-10-04-5",
    "type": "same_arc",
@@ -4771,7 +2530,7 @@
    "note": "手動: Micron需要とキオクシア代替は同弧"
   },
   {
-   "id": "link-298",
+   "id": "link-56",
    "from": "2026-10-03-7",
    "to": "2026-10-04-6",
    "type": "related",
@@ -4781,7 +2540,7 @@
    "note": "手動: メモリ高とCPU値上げが端末コストで合流"
   },
   {
-   "id": "link-299",
+   "id": "link-57",
    "from": "2026-10-04-1",
    "to": "kt-2026-10-02-samsung-glasses",
    "type": "confusable",
@@ -4792,7 +2551,7 @@
    "contrast": "Muse GadgetsはエージェントMuse向けのDIYハードウェアSDK。Samsung/MetaのAIメガネ報道は装着型カメラ有無の端末路線で、接続対象も目的も別。"
   },
   {
-   "id": "link-300",
+   "id": "link-58",
    "from": "2026-10-03-1",
    "to": "2026-10-04-3",
    "type": "confusable",
@@ -4801,6 +2560,3037 @@
    "auto": false,
    "note": "手動: 権限モデル vs 自殺防止",
    "contrast": "macOSフルディスクアクセス厳格化はデスクトップAIのファイル権限の話。高市首相の要請は生成AIの自殺防止・支援窓口誘導など利用者保護機能の話で、技術レイヤーが異なる。"
+  },
+  {
+   "id": "link-59",
+   "from": "2026-08-26-1",
+   "to": "2026-09-21-5",
+   "type": "leads_to",
+   "label": "HF脱出→安全開示",
+   "confidence": 0.9,
+   "auto": true,
+   "note": "シード弧"
+  },
+  {
+   "id": "link-60",
+   "from": "2026-09-21-5",
+   "to": "2026-09-27-2",
+   "type": "leads_to",
+   "label": "安全開示→豪州上院調査",
+   "confidence": 0.85,
+   "auto": true,
+   "note": "シード弧"
+  },
+  {
+   "id": "link-61",
+   "from": "2026-09-27-2",
+   "to": "2026-09-28-1",
+   "type": "same_arc",
+   "label": "調査余波→DNS脱出報告",
+   "confidence": 0.8,
+   "auto": true,
+   "note": "シード弧"
+  },
+  {
+   "id": "link-62",
+   "from": "2026-08-26-1",
+   "to": "2026-09-28-1",
+   "type": "same_arc",
+   "label": "エージェント脱出弧",
+   "confidence": 0.75,
+   "auto": true,
+   "note": "シード弧"
+  },
+  {
+   "id": "link-63",
+   "from": "2026-09-27-5",
+   "to": "2026-09-28-4",
+   "type": "same_arc",
+   "label": "Cadence×Honda同一弧",
+   "confidence": 0.95,
+   "auto": true,
+   "note": "シード弧"
+  },
+  {
+   "id": "link-64",
+   "from": "2026-09-27-1",
+   "to": "2026-09-28-1",
+   "type": "related",
+   "label": "AIガバナンス／インシデント",
+   "confidence": 0.4,
+   "auto": true,
+   "note": "シード弧"
+  },
+  {
+   "id": "link-65",
+   "from": "2026-09-27-3",
+   "to": "2026-09-28-5",
+   "type": "related",
+   "label": "光／AIインフラ需要",
+   "confidence": 0.35,
+   "auto": true,
+   "note": "シード弧"
+  },
+  {
+   "id": "link-66",
+   "from": "2026-09-27-4",
+   "to": "2026-09-23-1",
+   "type": "related",
+   "label": "エッジAI vs オンデバイス",
+   "confidence": 0.3,
+   "auto": true,
+   "note": "シード弧"
+  },
+  {
+   "id": "link-67",
+   "from": "2026-09-21-4",
+   "to": "2026-09-28-5",
+   "type": "related",
+   "label": "推論ASIC／TPUインフラ",
+   "confidence": 0.35,
+   "auto": true,
+   "note": "シード弧"
+  },
+  {
+   "id": "link-68",
+   "from": "2026-09-21-5",
+   "to": "2026-09-28-1",
+   "type": "leads_to",
+   "label": "安全開示→DNS脱出",
+   "confidence": 0.7,
+   "auto": true,
+   "note": "シード弧"
+  },
+  {
+   "id": "link-69",
+   "from": "kt-2026-09-19-japan-us-fab",
+   "to": "2026-09-21-1",
+   "type": "related",
+   "label": "関連: Japan",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-70",
+   "from": "2026-09-21-2",
+   "to": "2026-09-21-3",
+   "type": "related",
+   "label": "関連: pricing",
+   "confidence": 0.29,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-71",
+   "from": "kt-2026-09-20-mediatek-2nm",
+   "to": "2026-09-21-2",
+   "type": "related",
+   "label": "関連: foundry/semiconductor",
+   "confidence": 0.31,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-72",
+   "from": "2026-09-21-2",
+   "to": "kt-2026-09-24-gpt6-claude-price",
+   "type": "related",
+   "label": "関連: pricing",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-73",
+   "from": "kt-2026-09-19-japan-us-fab",
+   "to": "2026-09-21-2",
+   "type": "related",
+   "label": "関連: foundry/semiconductor",
+   "confidence": 0.31,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-74",
+   "from": "2026-09-21-3",
+   "to": "2026-09-21-4",
+   "type": "related",
+   "label": "関連: AI-infra",
+   "confidence": 0.29,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-75",
+   "from": "2026-09-21-3",
+   "to": "2026-09-29-2",
+   "type": "related",
+   "label": "関連: AMD",
+   "confidence": 0.28,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-76",
+   "from": "2026-09-21-3",
+   "to": "2026-09-29-4",
+   "type": "related",
+   "label": "関連: AMD · AI-infra",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-77",
+   "from": "2026-09-21-3",
+   "to": "kt-2026-09-24-gpt6-claude-price",
+   "type": "related",
+   "label": "関連: pricing",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-78",
+   "from": "2026-09-21-4",
+   "to": "2026-09-21-5",
+   "type": "same_arc",
+   "label": "同弧: OpenAI",
+   "confidence": 0.62,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-79",
+   "from": "2026-09-21-4",
+   "to": "2026-09-27-2",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.29,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-80",
+   "from": "2026-09-21-4",
+   "to": "2026-09-28-1",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.38,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-81",
+   "from": "2026-09-21-4",
+   "to": "kt-2026-09-24-gpt6-claude-price",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.39,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-82",
+   "from": "2026-09-21-4",
+   "to": "kt-2026-09-26-agent-vs-chat",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.31,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-83",
+   "from": "2026-09-21-4",
+   "to": "2026-10-01-1",
+   "type": "related",
+   "label": "関連: OpenAI · chip-design",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-84",
+   "from": "2026-09-21-5",
+   "to": "kt-2026-09-24-gpt6-claude-price",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.41,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-85",
+   "from": "2026-09-21-5",
+   "to": "kt-2026-09-26-agent-vs-chat",
+   "type": "related",
+   "label": "関連: OpenAI · agent-safety",
+   "confidence": 0.41,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-86",
+   "from": "2026-09-21-5",
+   "to": "2026-09-30-2",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.28,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-87",
+   "from": "2026-09-21-5",
+   "to": "2026-10-02-3",
+   "type": "related",
+   "label": "関連: OpenAI · agent-safety",
+   "confidence": 0.31,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-88",
+   "from": "2026-09-21-5",
+   "to": "2026-10-05-2",
+   "type": "related",
+   "label": "関連: OpenAI · agent-safety/alignment",
+   "confidence": 0.39,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-89",
+   "from": "2026-09-23-1",
+   "to": "2026-09-29-4",
+   "type": "related",
+   "label": "関連: Qualcomm",
+   "confidence": 0.28,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-90",
+   "from": "kt-2026-09-20-mediatek-2nm",
+   "to": "2026-09-23-1",
+   "type": "related",
+   "label": "関連: mobile",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-91",
+   "from": "2026-09-23-1",
+   "to": "kt-2026-09-28-modem-patent",
+   "type": "related",
+   "label": "関連: Qualcomm · mobile",
+   "confidence": 0.35,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-92",
+   "from": "2026-09-23-2",
+   "to": "kt-2026-09-24-gpt6-claude-price",
+   "type": "related",
+   "label": "関連: China",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-93",
+   "from": "2026-09-23-3",
+   "to": "2026-09-27-2",
+   "type": "related",
+   "label": "関連: Anthropic",
+   "confidence": 0.29,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-94",
+   "from": "2026-09-23-3",
+   "to": "2026-09-29-1",
+   "type": "related",
+   "label": "関連: Anthropic",
+   "confidence": 0.29,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-95",
+   "from": "2026-09-23-3",
+   "to": "2026-09-30-3",
+   "type": "causes",
+   "label": "因果: Anthropic・Claude",
+   "confidence": 0.57,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-96",
+   "from": "2026-09-23-3",
+   "to": "2026-10-03-4",
+   "type": "related",
+   "label": "関連: LLM/frontier-model",
+   "confidence": 0.31,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-97",
+   "from": "2026-09-23-4",
+   "to": "2026-09-23-5",
+   "type": "related",
+   "label": "関連: security",
+   "confidence": 0.29,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-98",
+   "from": "2026-09-23-4",
+   "to": "2026-09-28-3",
+   "type": "related",
+   "label": "関連: Microsoft",
+   "confidence": 0.38,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-99",
+   "from": "2026-09-23-4",
+   "to": "2026-09-29-1",
+   "type": "related",
+   "label": "関連: Microsoft",
+   "confidence": 0.29,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-100",
+   "from": "2026-09-23-4",
+   "to": "kt-2026-09-27-autopilot",
+   "type": "related",
+   "label": "関連: Microsoft",
+   "confidence": 0.31,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-101",
+   "from": "kt-2026-09-24-gpt6-claude-price",
+   "to": "2026-09-27-2",
+   "type": "related",
+   "label": "関連: Anthropic・OpenAI",
+   "confidence": 0.44,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-102",
+   "from": "2026-09-27-2",
+   "to": "2026-09-30-1",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.37,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-103",
+   "from": "2026-09-27-2",
+   "to": "2026-09-30-2",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.38,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-104",
+   "from": "2026-09-27-2",
+   "to": "2026-10-01-1",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.27,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-105",
+   "from": "2026-09-27-2",
+   "to": "2026-10-02-1",
+   "type": "related",
+   "label": "関連: Anthropic",
+   "confidence": 0.27,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-106",
+   "from": "2026-09-27-2",
+   "to": "2026-10-02-3",
+   "type": "causes",
+   "label": "因果: Anthropic・OpenAI · agent-safety/regulation",
+   "confidence": 0.53,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-107",
+   "from": "2026-09-27-2",
+   "to": "2026-10-03-2",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-108",
+   "from": "2026-09-27-3",
+   "to": "2026-09-29-3",
+   "type": "related",
+   "label": "関連: Japan/semiconductor",
+   "confidence": 0.29,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-109",
+   "from": "2026-09-27-3",
+   "to": "2026-09-29-4",
+   "type": "related",
+   "label": "関連: AI-infra/semiconductor",
+   "confidence": 0.29,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-110",
+   "from": "2026-09-27-3",
+   "to": "2026-10-04-5",
+   "type": "related",
+   "label": "関連: AI-infra/Japan",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-111",
+   "from": "kt-2026-09-26-agent-vs-chat",
+   "to": "2026-09-27-5",
+   "type": "related",
+   "label": "関連: agent",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-112",
+   "from": "2026-09-27-5",
+   "to": "kt-2026-09-27-autopilot",
+   "type": "related",
+   "label": "関連: agent",
+   "confidence": 0.29,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-113",
+   "from": "2026-09-27-5",
+   "to": "2026-09-30-1",
+   "type": "related",
+   "label": "関連: agent",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-114",
+   "from": "kt-2026-09-24-gpt6-claude-price",
+   "to": "2026-09-28-1",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.29,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-115",
+   "from": "2026-09-28-1",
+   "to": "2026-09-30-1",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.41,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-116",
+   "from": "2026-09-28-1",
+   "to": "2026-09-30-2",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.44,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-117",
+   "from": "2026-09-28-1",
+   "to": "2026-10-01-1",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.41,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-118",
+   "from": "2026-09-28-1",
+   "to": "2026-10-05-1",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.27,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-119",
+   "from": "2026-09-28-1",
+   "to": "2026-10-05-2",
+   "type": "causes",
+   "label": "因果: OpenAI · agent-safety/alignment",
+   "confidence": 0.47,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-120",
+   "from": "2026-09-28-2",
+   "to": "2026-10-01-5",
+   "type": "related",
+   "label": "関連: security",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-121",
+   "from": "2026-09-28-3",
+   "to": "2026-09-29-1",
+   "type": "related",
+   "label": "関連: Microsoft",
+   "confidence": 0.39,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-122",
+   "from": "2026-09-28-3",
+   "to": "2026-10-03-3",
+   "type": "related",
+   "label": "関連: AI-assistant/product",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-123",
+   "from": "2026-09-28-3",
+   "to": "2026-10-03-5",
+   "type": "causes",
+   "label": "因果: Microsoft · AI-assistant/product",
+   "confidence": 0.47,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-124",
+   "from": "kt-2026-09-26-agent-vs-chat",
+   "to": "2026-09-28-4",
+   "type": "related",
+   "label": "関連: agent",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-125",
+   "from": "kt-2026-09-27-autopilot",
+   "to": "2026-09-28-4",
+   "type": "related",
+   "label": "関連: agent",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-126",
+   "from": "2026-09-28-4",
+   "to": "2026-09-30-1",
+   "type": "related",
+   "label": "関連: agent",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-127",
+   "from": "2026-09-28-5",
+   "to": "2026-09-29-3",
+   "type": "related",
+   "label": "関連: semiconductor",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-128",
+   "from": "2026-09-28-5",
+   "to": "2026-09-29-4",
+   "type": "related",
+   "label": "関連: AI-infra/semiconductor",
+   "confidence": 0.31,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-129",
+   "from": "kt-2026-09-22-googlebook",
+   "to": "2026-09-28-5",
+   "type": "related",
+   "label": "関連: Google",
+   "confidence": 0.28,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-130",
+   "from": "kt-2026-09-25-suncatcher",
+   "to": "2026-09-28-5",
+   "type": "causes",
+   "label": "因果: Google・TPU · TPU",
+   "confidence": 0.58,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-131",
+   "from": "2026-09-28-5",
+   "to": "2026-09-30-4",
+   "type": "related",
+   "label": "関連: semiconductor",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-132",
+   "from": "2026-09-28-5",
+   "to": "kt-2026-10-01-google-assistant",
+   "type": "related",
+   "label": "関連: Google",
+   "confidence": 0.38,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-133",
+   "from": "2026-09-28-5",
+   "to": "2026-10-01-1",
+   "type": "related",
+   "label": "関連: semiconductor",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-134",
+   "from": "2026-09-28-5",
+   "to": "2026-10-01-2",
+   "type": "related",
+   "label": "関連: Google",
+   "confidence": 0.39,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-135",
+   "from": "2026-09-28-5",
+   "to": "2026-10-01-3",
+   "type": "related",
+   "label": "関連: AI-infra/semiconductor",
+   "confidence": 0.31,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-136",
+   "from": "2026-09-28-5",
+   "to": "2026-10-01-4",
+   "type": "related",
+   "label": "関連: AI-infra",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-137",
+   "from": "2026-09-28-5",
+   "to": "2026-10-01-6",
+   "type": "related",
+   "label": "関連: semiconductor",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-138",
+   "from": "2026-09-28-5",
+   "to": "kt-2026-10-02-samsung-glasses",
+   "type": "related",
+   "label": "関連: Google",
+   "confidence": 0.27,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-139",
+   "from": "2026-09-28-5",
+   "to": "2026-10-02-1",
+   "type": "causes",
+   "label": "因果: Google・TPU · AI-infra",
+   "confidence": 0.53,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-140",
+   "from": "2026-09-28-5",
+   "to": "2026-10-03-3",
+   "type": "related",
+   "label": "関連: Google",
+   "confidence": 0.31,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-141",
+   "from": "2026-09-28-5",
+   "to": "2026-10-05-3",
+   "type": "related",
+   "label": "関連: Google",
+   "confidence": 0.31,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-142",
+   "from": "2026-09-28-5",
+   "to": "2026-10-05-4",
+   "type": "related",
+   "label": "関連: Google",
+   "confidence": 0.28,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-143",
+   "from": "2026-09-29-1",
+   "to": "2026-09-29-4",
+   "type": "related",
+   "label": "関連: Nvidia",
+   "confidence": 0.4,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-144",
+   "from": "kt-2026-09-24-gpt6-claude-price",
+   "to": "2026-09-29-1",
+   "type": "related",
+   "label": "関連: Anthropic",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-145",
+   "from": "kt-2026-09-26-agent-vs-chat",
+   "to": "2026-09-29-1",
+   "type": "related",
+   "label": "関連: agent-safety",
+   "confidence": 0.27,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-146",
+   "from": "kt-2026-09-27-autopilot",
+   "to": "2026-09-29-1",
+   "type": "related",
+   "label": "関連: Microsoft",
+   "confidence": 0.37,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-147",
+   "from": "2026-09-29-1",
+   "to": "2026-10-01-3",
+   "type": "related",
+   "label": "関連: Nvidia",
+   "confidence": 0.38,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-148",
+   "from": "2026-09-29-1",
+   "to": "2026-10-02-1",
+   "type": "related",
+   "label": "関連: Anthropic",
+   "confidence": 0.37,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-149",
+   "from": "2026-09-29-1",
+   "to": "2026-10-02-2",
+   "type": "related",
+   "label": "関連: Nvidia",
+   "confidence": 0.37,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-150",
+   "from": "2026-09-29-1",
+   "to": "2026-10-02-3",
+   "type": "causes",
+   "label": "因果: Anthropic · agent-safety",
+   "confidence": 0.46,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-151",
+   "from": "2026-09-29-1",
+   "to": "2026-10-02-6",
+   "type": "related",
+   "label": "関連: Nvidia",
+   "confidence": 0.35,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-152",
+   "from": "2026-09-29-1",
+   "to": "2026-10-03-5",
+   "type": "related",
+   "label": "関連: Microsoft",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-153",
+   "from": "2026-09-29-1",
+   "to": "2026-10-05-1",
+   "type": "related",
+   "label": "関連: Anthropic",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-154",
+   "from": "2026-09-29-2",
+   "to": "2026-09-29-4",
+   "type": "related",
+   "label": "関連: AMD",
+   "confidence": 0.42,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-155",
+   "from": "2026-09-29-2",
+   "to": "2026-10-02-6",
+   "type": "related",
+   "label": "関連: AMD",
+   "confidence": 0.37,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-156",
+   "from": "2026-09-29-3",
+   "to": "2026-09-29-4",
+   "type": "related",
+   "label": "関連: semiconductor",
+   "confidence": 0.28,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-157",
+   "from": "2026-09-29-3",
+   "to": "2026-10-02-5",
+   "type": "related",
+   "label": "関連: Japan/semiconductor",
+   "confidence": 0.29,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-158",
+   "from": "kt-2026-09-20-mediatek-2nm",
+   "to": "2026-09-29-4",
+   "type": "causes",
+   "label": "因果: Apple・MediaTek · 2nm/foundry",
+   "confidence": 0.52,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-159",
+   "from": "kt-2026-09-21-memory-wall",
+   "to": "2026-09-29-4",
+   "type": "related",
+   "label": "関連: Apple・MediaTek",
+   "confidence": 0.31,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-160",
+   "from": "kt-2026-09-28-modem-patent",
+   "to": "2026-09-29-4",
+   "type": "related",
+   "label": "関連: Apple・Qualcomm",
+   "confidence": 0.42,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-161",
+   "from": "2026-09-29-4",
+   "to": "2026-09-30-4",
+   "type": "same_arc",
+   "label": "同弧: TSMC · 2nm/foundry",
+   "confidence": 0.57,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-162",
+   "from": "2026-09-29-4",
+   "to": "2026-09-30-5",
+   "type": "related",
+   "label": "関連: Apple",
+   "confidence": 0.36,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-163",
+   "from": "2026-09-29-4",
+   "to": "2026-10-01-3",
+   "type": "causes",
+   "label": "因果: Nvidia · AI-infra/semiconductor",
+   "confidence": 0.49,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-164",
+   "from": "2026-09-29-4",
+   "to": "2026-10-01-5",
+   "type": "related",
+   "label": "関連: Apple",
+   "confidence": 0.36,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-165",
+   "from": "2026-09-29-4",
+   "to": "2026-10-01-7",
+   "type": "related",
+   "label": "関連: Apple",
+   "confidence": 0.36,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-166",
+   "from": "2026-09-29-4",
+   "to": "2026-10-02-2",
+   "type": "related",
+   "label": "関連: Nvidia · AI-infra",
+   "confidence": 0.41,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-167",
+   "from": "2026-09-29-4",
+   "to": "2026-10-02-5",
+   "type": "related",
+   "label": "関連: TSMC · semiconductor",
+   "confidence": 0.41,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-168",
+   "from": "kt-2026-09-19-japan-us-fab",
+   "to": "2026-09-29-4",
+   "type": "related",
+   "label": "関連: TSMC · foundry/semiconductor",
+   "confidence": 0.28,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-169",
+   "from": "2026-09-29-4",
+   "to": "2026-10-03-1",
+   "type": "related",
+   "label": "関連: Apple",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-170",
+   "from": "2026-09-29-4",
+   "to": "2026-10-04-3",
+   "type": "related",
+   "label": "関連: Apple",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-171",
+   "from": "2026-09-29-4",
+   "to": "2026-10-05-6",
+   "type": "related",
+   "label": "関連: TSMC · 2nm/semiconductor",
+   "confidence": 0.36,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-172",
+   "from": "kt-2026-09-26-agent-vs-chat",
+   "to": "2026-09-29-5",
+   "type": "related",
+   "label": "関連: agent",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-173",
+   "from": "kt-2026-09-27-autopilot",
+   "to": "2026-09-29-5",
+   "type": "related",
+   "label": "関連: agent",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-174",
+   "from": "2026-09-29-5",
+   "to": "2026-09-30-1",
+   "type": "related",
+   "label": "関連: agent",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-175",
+   "from": "2026-09-29-5",
+   "to": "2026-10-01-4",
+   "type": "causes",
+   "label": "因果: Synopsys · EDA",
+   "confidence": 0.47,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-176",
+   "from": "2026-09-29-5",
+   "to": "2026-10-02-4",
+   "type": "related",
+   "label": "関連: agent",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-177",
+   "from": "kt-2026-09-19-iphone18pro",
+   "to": "kt-2026-09-21-memory-wall",
+   "type": "causes",
+   "label": "因果: A20 Pro・Apple · mobile/on-device",
+   "confidence": 0.6,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-178",
+   "from": "kt-2026-09-19-iphone18pro",
+   "to": "kt-2026-09-28-modem-patent",
+   "type": "related",
+   "label": "関連: Apple・iPhone 18 Pro · mobile",
+   "confidence": 0.33,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-179",
+   "from": "kt-2026-09-20-mediatek-2nm",
+   "to": "kt-2026-09-21-memory-wall",
+   "type": "same_arc",
+   "label": "同弧: A20 Pro・Apple · mobile",
+   "confidence": 0.59,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-180",
+   "from": "kt-2026-09-20-mediatek-2nm",
+   "to": "2026-09-30-4",
+   "type": "related",
+   "label": "関連: TSMC · 2nm/foundry",
+   "confidence": 0.38,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-181",
+   "from": "kt-2026-09-20-mediatek-2nm",
+   "to": "2026-10-02-6",
+   "type": "related",
+   "label": "関連: Apple・TSMC · foundry/semiconductor",
+   "confidence": 0.34,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-182",
+   "from": "kt-2026-09-19-japan-us-fab",
+   "to": "kt-2026-09-20-mediatek-2nm",
+   "type": "causes",
+   "label": "因果: TSMC · foundry/semiconductor",
+   "confidence": 0.49,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-183",
+   "from": "kt-2026-09-21-memory-wall",
+   "to": "kt-2026-09-28-modem-patent",
+   "type": "related",
+   "label": "関連: Apple・Qualcomm · mobile",
+   "confidence": 0.39,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-184",
+   "from": "kt-2026-09-22-googlebook",
+   "to": "kt-2026-09-25-suncatcher",
+   "type": "related",
+   "label": "関連: Gemini・Google",
+   "confidence": 0.42,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-185",
+   "from": "kt-2026-09-24-gpt6-claude-price",
+   "to": "kt-2026-09-26-agent-vs-chat",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.37,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-186",
+   "from": "kt-2026-09-24-gpt6-claude-price",
+   "to": "2026-09-30-1",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.27,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-187",
+   "from": "kt-2026-09-24-gpt6-claude-price",
+   "to": "2026-09-30-2",
+   "type": "related",
+   "label": "関連: OpenAI · LLM/pricing",
+   "confidence": 0.4,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-188",
+   "from": "kt-2026-09-24-gpt6-claude-price",
+   "to": "2026-09-30-3",
+   "type": "related",
+   "label": "関連: Anthropic・Claude",
+   "confidence": 0.38,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-189",
+   "from": "kt-2026-09-24-gpt6-claude-price",
+   "to": "2026-10-01-1",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.27,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-190",
+   "from": "kt-2026-09-24-gpt6-claude-price",
+   "to": "2026-10-02-3",
+   "type": "related",
+   "label": "関連: Anthropic・OpenAI",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-191",
+   "from": "kt-2026-09-25-suncatcher",
+   "to": "kt-2026-10-01-google-assistant",
+   "type": "related",
+   "label": "関連: Gemini・Google",
+   "confidence": 0.32,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-192",
+   "from": "kt-2026-09-25-suncatcher",
+   "to": "2026-10-01-2",
+   "type": "related",
+   "label": "関連: Google",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-193",
+   "from": "kt-2026-09-25-suncatcher",
+   "to": "kt-2026-10-02-samsung-glasses",
+   "type": "related",
+   "label": "関連: Gemini・Google",
+   "confidence": 0.31,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-194",
+   "from": "kt-2026-09-25-suncatcher",
+   "to": "2026-10-02-1",
+   "type": "related",
+   "label": "関連: Google・TPU",
+   "confidence": 0.36,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-195",
+   "from": "kt-2026-09-26-agent-vs-chat",
+   "to": "kt-2026-09-27-autopilot",
+   "type": "related",
+   "label": "関連: agent",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-196",
+   "from": "kt-2026-09-26-agent-vs-chat",
+   "to": "2026-09-30-1",
+   "type": "related",
+   "label": "関連: OpenAI · agent",
+   "confidence": 0.35,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-197",
+   "from": "kt-2026-09-26-agent-vs-chat",
+   "to": "2026-09-30-2",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.29,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-198",
+   "from": "kt-2026-09-26-agent-vs-chat",
+   "to": "2026-10-01-1",
+   "type": "related",
+   "label": "関連: OpenAI · agent",
+   "confidence": 0.34,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-199",
+   "from": "kt-2026-09-26-agent-vs-chat",
+   "to": "2026-10-02-3",
+   "type": "causes",
+   "label": "因果: OpenAI · agent-safety/regulation",
+   "confidence": 0.45,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-200",
+   "from": "kt-2026-09-26-agent-vs-chat",
+   "to": "2026-10-03-1",
+   "type": "related",
+   "label": "関連: ChatGPT",
+   "confidence": 0.27,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-201",
+   "from": "kt-2026-09-26-agent-vs-chat",
+   "to": "2026-10-03-2",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-202",
+   "from": "kt-2026-09-27-autopilot",
+   "to": "2026-09-30-1",
+   "type": "related",
+   "label": "関連: agent",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-203",
+   "from": "kt-2026-09-27-autopilot",
+   "to": "2026-10-03-3",
+   "type": "related",
+   "label": "関連: AI-assistant/product",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-204",
+   "from": "kt-2026-09-27-autopilot",
+   "to": "2026-10-03-5",
+   "type": "related",
+   "label": "関連: Microsoft · AI-assistant/product",
+   "confidence": 0.44,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-205",
+   "from": "kt-2026-09-28-modem-patent",
+   "to": "2026-09-30-5",
+   "type": "related",
+   "label": "関連: Apple",
+   "confidence": 0.37,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-206",
+   "from": "kt-2026-09-28-modem-patent",
+   "to": "kt-2026-10-01-google-assistant",
+   "type": "related",
+   "label": "関連: mobile",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-207",
+   "from": "kt-2026-09-28-modem-patent",
+   "to": "2026-10-01-5",
+   "type": "related",
+   "label": "関連: Apple",
+   "confidence": 0.37,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-208",
+   "from": "kt-2026-09-28-modem-patent",
+   "to": "2026-10-01-7",
+   "type": "causes",
+   "label": "因果: Apple・iPhone 18 Pro",
+   "confidence": 0.46,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-209",
+   "from": "kt-2026-09-28-modem-patent",
+   "to": "2026-10-02-6",
+   "type": "related",
+   "label": "関連: Apple",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-210",
+   "from": "kt-2026-09-28-modem-patent",
+   "to": "2026-10-03-1",
+   "type": "related",
+   "label": "関連: Apple",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-211",
+   "from": "kt-2026-09-28-modem-patent",
+   "to": "2026-10-04-3",
+   "type": "related",
+   "label": "関連: Apple",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-212",
+   "from": "2026-09-30-1",
+   "to": "2026-10-01-5",
+   "type": "related",
+   "label": "関連: Meta",
+   "confidence": 0.38,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-213",
+   "from": "2026-09-30-1",
+   "to": "kt-2026-10-02-samsung-glasses",
+   "type": "related",
+   "label": "関連: Meta",
+   "confidence": 0.35,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-214",
+   "from": "2026-09-30-1",
+   "to": "2026-10-02-3",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.38,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-215",
+   "from": "2026-09-30-1",
+   "to": "2026-10-02-4",
+   "type": "related",
+   "label": "関連: agent",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-216",
+   "from": "2026-09-30-1",
+   "to": "2026-10-03-2",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.36,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-217",
+   "from": "2026-09-30-1",
+   "to": "2026-10-04-1",
+   "type": "related",
+   "label": "関連: Meta · agent",
+   "confidence": 0.32,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-218",
+   "from": "2026-09-30-1",
+   "to": "2026-10-05-1",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-219",
+   "from": "2026-09-30-1",
+   "to": "2026-10-05-2",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.27,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-220",
+   "from": "2026-09-30-2",
+   "to": "2026-10-01-1",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.39,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-221",
+   "from": "2026-09-30-2",
+   "to": "2026-10-01-2",
+   "type": "related",
+   "label": "関連: LLM",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-222",
+   "from": "2026-09-30-2",
+   "to": "2026-10-02-3",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.39,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-223",
+   "from": "2026-09-30-2",
+   "to": "2026-10-03-2",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.37,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-224",
+   "from": "2026-09-30-2",
+   "to": "2026-10-03-4",
+   "type": "related",
+   "label": "関連: LLM",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-225",
+   "from": "2026-09-30-2",
+   "to": "2026-10-05-1",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-226",
+   "from": "2026-09-30-2",
+   "to": "2026-10-05-2",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.28,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-227",
+   "from": "2026-09-30-3",
+   "to": "2026-10-05-1",
+   "type": "related",
+   "label": "関連: Anthropic",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-228",
+   "from": "2026-09-30-4",
+   "to": "kt-2026-10-02-samsung-glasses",
+   "type": "related",
+   "label": "関連: Samsung",
+   "confidence": 0.35,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-229",
+   "from": "2026-09-30-4",
+   "to": "2026-10-02-5",
+   "type": "related",
+   "label": "関連: TSMC · semiconductor",
+   "confidence": 0.42,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-230",
+   "from": "2026-09-30-4",
+   "to": "2026-10-02-6",
+   "type": "causes",
+   "label": "因果: TSMC · foundry/semiconductor",
+   "confidence": 0.48,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-231",
+   "from": "2026-09-30-4",
+   "to": "2026-10-02-7",
+   "type": "related",
+   "label": "関連: Samsung",
+   "confidence": 0.39,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-232",
+   "from": "kt-2026-09-19-japan-us-fab",
+   "to": "2026-09-30-4",
+   "type": "related",
+   "label": "関連: TSMC · foundry/semiconductor",
+   "confidence": 0.3,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-233",
+   "from": "2026-09-30-4",
+   "to": "2026-10-03-6",
+   "type": "related",
+   "label": "関連: semiconductor",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-234",
+   "from": "2026-09-30-4",
+   "to": "2026-10-05-6",
+   "type": "related",
+   "label": "関連: TSMC · 2nm/semiconductor",
+   "confidence": 0.37,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-235",
+   "from": "2026-09-30-5",
+   "to": "2026-10-01-5",
+   "type": "related",
+   "label": "関連: Apple · smartphone",
+   "confidence": 0.44,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-236",
+   "from": "2026-09-30-5",
+   "to": "2026-10-01-7",
+   "type": "related",
+   "label": "関連: Apple · smartphone",
+   "confidence": 0.44,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-237",
+   "from": "2026-09-30-5",
+   "to": "2026-10-02-6",
+   "type": "related",
+   "label": "関連: Apple",
+   "confidence": 0.36,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-238",
+   "from": "2026-09-30-5",
+   "to": "2026-10-02-7",
+   "type": "related",
+   "label": "関連: smartphone/supply-chain",
+   "confidence": 0.29,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-239",
+   "from": "2026-09-30-5",
+   "to": "2026-10-03-1",
+   "type": "related",
+   "label": "関連: Apple",
+   "confidence": 0.37,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-240",
+   "from": "2026-09-30-5",
+   "to": "2026-10-03-6",
+   "type": "related",
+   "label": "関連: smartphone",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-241",
+   "from": "2026-09-30-5",
+   "to": "2026-10-04-3",
+   "type": "related",
+   "label": "関連: Apple · smartphone",
+   "confidence": 0.32,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-242",
+   "from": "kt-2026-10-01-google-assistant",
+   "to": "2026-10-01-2",
+   "type": "related",
+   "label": "関連: Google",
+   "confidence": 0.4,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-243",
+   "from": "kt-2026-10-01-google-assistant",
+   "to": "kt-2026-10-02-samsung-glasses",
+   "type": "related",
+   "label": "関連: Gemini・Google",
+   "confidence": 0.4,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-244",
+   "from": "kt-2026-10-01-google-assistant",
+   "to": "2026-10-02-1",
+   "type": "related",
+   "label": "関連: Google",
+   "confidence": 0.36,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-245",
+   "from": "kt-2026-10-01-google-assistant",
+   "to": "2026-10-03-3",
+   "type": "related",
+   "label": "関連: Google",
+   "confidence": 0.36,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-246",
+   "from": "kt-2026-10-01-google-assistant",
+   "to": "2026-10-05-3",
+   "type": "related",
+   "label": "関連: Google",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-247",
+   "from": "kt-2026-10-01-google-assistant",
+   "to": "2026-10-05-4",
+   "type": "related",
+   "label": "関連: Gemini・Google",
+   "confidence": 0.31,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-248",
+   "from": "2026-10-01-1",
+   "to": "2026-10-01-3",
+   "type": "related",
+   "label": "関連: semiconductor",
+   "confidence": 0.28,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-249",
+   "from": "2026-10-01-1",
+   "to": "2026-10-01-6",
+   "type": "related",
+   "label": "関連: semiconductor",
+   "confidence": 0.28,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-250",
+   "from": "2026-10-01-1",
+   "to": "2026-10-02-3",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.38,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-251",
+   "from": "2026-10-01-1",
+   "to": "2026-10-02-4",
+   "type": "related",
+   "label": "関連: agent",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-252",
+   "from": "2026-10-01-1",
+   "to": "2026-10-03-2",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.36,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-253",
+   "from": "2026-10-01-1",
+   "to": "2026-10-03-6",
+   "type": "related",
+   "label": "関連: semiconductor",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-254",
+   "from": "2026-10-01-1",
+   "to": "2026-10-05-1",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-255",
+   "from": "2026-10-01-1",
+   "to": "2026-10-05-2",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.27,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-256",
+   "from": "2026-10-01-2",
+   "to": "kt-2026-10-02-samsung-glasses",
+   "type": "related",
+   "label": "関連: Google",
+   "confidence": 0.35,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-257",
+   "from": "2026-10-01-2",
+   "to": "2026-10-02-1",
+   "type": "related",
+   "label": "関連: Google",
+   "confidence": 0.37,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-258",
+   "from": "2026-10-01-2",
+   "to": "2026-10-03-3",
+   "type": "related",
+   "label": "関連: Google",
+   "confidence": 0.37,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-259",
+   "from": "2026-10-01-2",
+   "to": "2026-10-03-4",
+   "type": "related",
+   "label": "関連: LLM/frontier-model",
+   "confidence": 0.37,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-260",
+   "from": "2026-10-01-2",
+   "to": "2026-10-05-3",
+   "type": "related",
+   "label": "関連: Google",
+   "confidence": 0.27,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-261",
+   "from": "2026-10-01-2",
+   "to": "2026-10-05-4",
+   "type": "related",
+   "label": "関連: Google",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-262",
+   "from": "2026-10-01-3",
+   "to": "2026-10-01-4",
+   "type": "related",
+   "label": "関連: AI-infra",
+   "confidence": 0.28,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-263",
+   "from": "2026-10-01-3",
+   "to": "2026-10-01-6",
+   "type": "related",
+   "label": "関連: semiconductor",
+   "confidence": 0.28,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-264",
+   "from": "2026-10-01-3",
+   "to": "2026-10-02-2",
+   "type": "related",
+   "label": "関連: Nvidia · AI-infra",
+   "confidence": 0.44,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-265",
+   "from": "2026-10-01-3",
+   "to": "2026-10-02-6",
+   "type": "related",
+   "label": "関連: Nvidia · semiconductor",
+   "confidence": 0.42,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-266",
+   "from": "2026-10-01-3",
+   "to": "2026-10-03-6",
+   "type": "related",
+   "label": "関連: memory/semiconductor",
+   "confidence": 0.31,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-267",
+   "from": "2026-10-01-4",
+   "to": "2026-10-02-4",
+   "type": "related",
+   "label": "関連: AWS・Amazon",
+   "confidence": 0.44,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-268",
+   "from": "2026-10-01-5",
+   "to": "2026-10-01-7",
+   "type": "causes",
+   "label": "因果: Apple · smartphone",
+   "confidence": 0.5,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-269",
+   "from": "2026-10-01-5",
+   "to": "kt-2026-10-02-samsung-glasses",
+   "type": "related",
+   "label": "関連: Meta",
+   "confidence": 0.35,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-270",
+   "from": "2026-10-01-5",
+   "to": "2026-10-02-6",
+   "type": "related",
+   "label": "関連: Apple",
+   "confidence": 0.36,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-271",
+   "from": "2026-10-01-5",
+   "to": "2026-10-02-7",
+   "type": "related",
+   "label": "関連: smartphone",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-272",
+   "from": "2026-10-01-5",
+   "to": "2026-10-03-1",
+   "type": "related",
+   "label": "関連: Apple · security",
+   "confidence": 0.44,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-273",
+   "from": "2026-10-01-5",
+   "to": "2026-10-03-6",
+   "type": "related",
+   "label": "関連: smartphone",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-274",
+   "from": "2026-10-01-5",
+   "to": "2026-10-03-7",
+   "type": "related",
+   "label": "関連: smartphone",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-275",
+   "from": "2026-10-01-5",
+   "to": "2026-10-04-1",
+   "type": "related",
+   "label": "関連: Meta",
+   "confidence": 0.36,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-276",
+   "from": "2026-10-01-5",
+   "to": "2026-10-04-3",
+   "type": "related",
+   "label": "関連: Apple · smartphone",
+   "confidence": 0.43,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-277",
+   "from": "2026-10-01-5",
+   "to": "2026-10-04-7",
+   "type": "related",
+   "label": "関連: smartphone",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-278",
+   "from": "2026-10-01-6",
+   "to": "2026-10-03-6",
+   "type": "related",
+   "label": "関連: semiconductor",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-279",
+   "from": "2026-10-01-6",
+   "to": "2026-10-05-7",
+   "type": "related",
+   "label": "関連: packaging/semiconductor",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-280",
+   "from": "2026-10-01-7",
+   "to": "2026-10-02-6",
+   "type": "related",
+   "label": "関連: Apple",
+   "confidence": 0.36,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-281",
+   "from": "2026-10-01-7",
+   "to": "2026-10-02-7",
+   "type": "related",
+   "label": "関連: smartphone",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-282",
+   "from": "2026-10-01-7",
+   "to": "2026-10-03-1",
+   "type": "related",
+   "label": "関連: Apple",
+   "confidence": 0.37,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-283",
+   "from": "2026-10-01-7",
+   "to": "2026-10-03-6",
+   "type": "related",
+   "label": "関連: smartphone",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-284",
+   "from": "2026-10-01-7",
+   "to": "2026-10-03-7",
+   "type": "related",
+   "label": "関連: smartphone",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-285",
+   "from": "2026-10-01-7",
+   "to": "2026-10-04-1",
+   "type": "related",
+   "label": "関連: hardware",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-286",
+   "from": "2026-10-01-7",
+   "to": "2026-10-04-3",
+   "type": "related",
+   "label": "関連: Apple · smartphone",
+   "confidence": 0.43,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-287",
+   "from": "2026-10-01-7",
+   "to": "2026-10-04-7",
+   "type": "related",
+   "label": "関連: smartphone",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-288",
+   "from": "2026-10-01-7",
+   "to": "2026-10-05-6",
+   "type": "related",
+   "label": "関連: Face ID・iPhone 18 Pro · smartphone",
+   "confidence": 0.37,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-289",
+   "from": "kt-2026-10-02-samsung-glasses",
+   "to": "2026-10-02-1",
+   "type": "related",
+   "label": "関連: Google",
+   "confidence": 0.4,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-290",
+   "from": "kt-2026-10-02-samsung-glasses",
+   "to": "2026-10-02-7",
+   "type": "related",
+   "label": "関連: Samsung",
+   "confidence": 0.41,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-291",
+   "from": "kt-2026-10-02-samsung-glasses",
+   "to": "2026-10-03-3",
+   "type": "related",
+   "label": "関連: Google · AI-assistant",
+   "confidence": 0.41,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-292",
+   "from": "kt-2026-10-02-samsung-glasses",
+   "to": "2026-10-03-5",
+   "type": "related",
+   "label": "関連: AI-assistant",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-293",
+   "from": "kt-2026-10-02-samsung-glasses",
+   "to": "2026-10-04-1",
+   "type": "related",
+   "label": "関連: Meta",
+   "confidence": 0.35,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-294",
+   "from": "kt-2026-10-02-samsung-glasses",
+   "to": "2026-10-05-3",
+   "type": "related",
+   "label": "関連: Google",
+   "confidence": 0.35,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-295",
+   "from": "kt-2026-10-02-samsung-glasses",
+   "to": "2026-10-05-4",
+   "type": "related",
+   "label": "関連: Gemini・Google",
+   "confidence": 0.4,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-296",
+   "from": "2026-10-02-1",
+   "to": "2026-10-02-3",
+   "type": "related",
+   "label": "関連: Anthropic",
+   "confidence": 0.43,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-297",
+   "from": "2026-10-02-1",
+   "to": "2026-10-03-3",
+   "type": "related",
+   "label": "関連: Google",
+   "confidence": 0.38,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-298",
+   "from": "2026-10-02-1",
+   "to": "2026-10-05-1",
+   "type": "related",
+   "label": "関連: Anthropic",
+   "confidence": 0.35,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-299",
+   "from": "2026-10-02-1",
+   "to": "2026-10-05-3",
+   "type": "related",
+   "label": "関連: Google",
+   "confidence": 0.38,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-300",
+   "from": "2026-10-02-1",
+   "to": "2026-10-05-4",
+   "type": "related",
+   "label": "関連: Google",
+   "confidence": 0.36,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-301",
+   "from": "2026-10-02-2",
+   "to": "2026-10-02-6",
+   "type": "related",
+   "label": "関連: Nvidia",
+   "confidence": 0.41,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-302",
+   "from": "2026-10-02-3",
+   "to": "2026-10-05-1",
+   "type": "causes",
+   "label": "因果: Anthropic・FTC",
+   "confidence": 0.51,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-303",
+   "from": "2026-10-02-3",
+   "to": "2026-10-05-2",
+   "type": "related",
+   "label": "関連: OpenAI · agent-safety",
+   "confidence": 0.44,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-304",
+   "from": "2026-10-02-4",
+   "to": "2026-10-04-1",
+   "type": "related",
+   "label": "関連: agent/open-source",
+   "confidence": 0.31,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-305",
+   "from": "2026-10-02-4",
+   "to": "2026-10-05-3",
+   "type": "related",
+   "label": "関連: open-source",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-306",
+   "from": "2026-10-02-5",
+   "to": "2026-10-02-6",
+   "type": "causes",
+   "label": "因果: TSMC · semiconductor",
+   "confidence": 0.45,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-307",
+   "from": "kt-2026-09-19-japan-us-fab",
+   "to": "2026-10-02-5",
+   "type": "related",
+   "label": "関連: TSMC · Japan/semiconductor",
+   "confidence": 0.29,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-308",
+   "from": "2026-10-02-5",
+   "to": "2026-10-03-6",
+   "type": "related",
+   "label": "関連: semiconductor",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-309",
+   "from": "2026-10-02-5",
+   "to": "2026-10-04-5",
+   "type": "related",
+   "label": "関連: Japan/semiconductor",
+   "confidence": 0.28,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-310",
+   "from": "2026-10-02-5",
+   "to": "2026-10-05-6",
+   "type": "related",
+   "label": "関連: TSMC · semiconductor",
+   "confidence": 0.4,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-311",
+   "from": "2026-10-02-5",
+   "to": "2026-10-05-7",
+   "type": "related",
+   "label": "関連: Japan/semiconductor",
+   "confidence": 0.28,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-312",
+   "from": "kt-2026-09-19-japan-us-fab",
+   "to": "2026-10-02-6",
+   "type": "related",
+   "label": "関連: TSMC · US-manufacturing/foundry",
+   "confidence": 0.37,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-313",
+   "from": "2026-10-02-6",
+   "to": "2026-10-03-1",
+   "type": "related",
+   "label": "関連: Apple",
+   "confidence": 0.35,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-314",
+   "from": "2026-10-02-6",
+   "to": "2026-10-03-6",
+   "type": "related",
+   "label": "関連: semiconductor",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-315",
+   "from": "2026-10-02-6",
+   "to": "2026-10-04-3",
+   "type": "related",
+   "label": "関連: Apple",
+   "confidence": 0.35,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-316",
+   "from": "2026-10-02-6",
+   "to": "2026-10-05-6",
+   "type": "related",
+   "label": "関連: TSMC · semiconductor",
+   "confidence": 0.39,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-317",
+   "from": "2026-10-02-7",
+   "to": "2026-10-03-7",
+   "type": "same_arc",
+   "label": "同弧: DRAM · memory/pricing",
+   "confidence": 0.6,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-318",
+   "from": "2026-10-02-7",
+   "to": "2026-10-04-5",
+   "type": "related",
+   "label": "関連: DRAM · memory",
+   "confidence": 0.41,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-319",
+   "from": "2026-10-02-7",
+   "to": "2026-10-04-6",
+   "type": "related",
+   "label": "関連: pricing/supply-chain",
+   "confidence": 0.29,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-320",
+   "from": "2026-10-02-7",
+   "to": "2026-10-05-4",
+   "type": "related",
+   "label": "関連: pricing",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-321",
+   "from": "2026-10-02-7",
+   "to": "2026-10-05-5",
+   "type": "causes",
+   "label": "因果: DRAM · memory/supply-chain",
+   "confidence": 0.47,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-322",
+   "from": "2026-10-03-1",
+   "to": "2026-10-03-2",
+   "type": "related",
+   "label": "関連: AI-safety",
+   "confidence": 0.29,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-323",
+   "from": "2026-10-03-1",
+   "to": "2026-10-04-3",
+   "type": "related",
+   "label": "関連: Apple · AI-safety",
+   "confidence": 0.42,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-324",
+   "from": "2026-10-03-1",
+   "to": "2026-10-05-1",
+   "type": "related",
+   "label": "関連: AI-safety",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-325",
+   "from": "2026-10-03-1",
+   "to": "2026-10-05-3",
+   "type": "related",
+   "label": "関連: security",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-326",
+   "from": "2026-10-03-2",
+   "to": "2026-10-04-3",
+   "type": "related",
+   "label": "関連: AI-safety",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-327",
+   "from": "2026-10-03-2",
+   "to": "2026-10-05-1",
+   "type": "causes",
+   "label": "因果: FTC・OpenAI · AI-safety",
+   "confidence": 0.47,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-328",
+   "from": "2026-10-03-2",
+   "to": "2026-10-05-2",
+   "type": "related",
+   "label": "関連: OpenAI · rogue-agent",
+   "confidence": 0.42,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-329",
+   "from": "2026-10-03-3",
+   "to": "2026-10-03-5",
+   "type": "related",
+   "label": "関連: AI-assistant/product",
+   "confidence": 0.37,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-330",
+   "from": "2026-10-03-3",
+   "to": "2026-10-05-3",
+   "type": "related",
+   "label": "関連: Google",
+   "confidence": 0.38,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-331",
+   "from": "2026-10-03-3",
+   "to": "2026-10-05-4",
+   "type": "related",
+   "label": "関連: Google",
+   "confidence": 0.36,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-332",
+   "from": "2026-10-03-6",
+   "to": "2026-10-04-3",
+   "type": "related",
+   "label": "関連: smartphone",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-333",
+   "from": "2026-10-03-6",
+   "to": "2026-10-04-5",
+   "type": "related",
+   "label": "関連: memory/semiconductor",
+   "confidence": 0.29,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-334",
+   "from": "2026-10-03-6",
+   "to": "2026-10-04-7",
+   "type": "related",
+   "label": "関連: smartphone",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-335",
+   "from": "2026-10-03-6",
+   "to": "2026-10-05-6",
+   "type": "related",
+   "label": "関連: semiconductor/smartphone",
+   "confidence": 0.31,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-336",
+   "from": "2026-10-03-7",
+   "to": "2026-10-05-4",
+   "type": "related",
+   "label": "関連: pricing",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-337",
+   "from": "2026-10-03-7",
+   "to": "2026-10-05-5",
+   "type": "causes",
+   "label": "因果: DRAM・NAND · memory",
+   "confidence": 0.48,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-338",
+   "from": "2026-10-03-7",
+   "to": "2026-10-05-6",
+   "type": "related",
+   "label": "関連: semiconductor/smartphone",
+   "confidence": 0.29,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-339",
+   "from": "2026-10-04-1",
+   "to": "2026-10-05-3",
+   "type": "related",
+   "label": "関連: open-source",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-340",
+   "from": "2026-10-04-2",
+   "to": "2026-10-04-3",
+   "type": "related",
+   "label": "関連: Japan",
+   "confidence": 0.28,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-341",
+   "from": "2026-10-04-2",
+   "to": "2026-10-04-5",
+   "type": "related",
+   "label": "関連: Japan",
+   "confidence": 0.28,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-342",
+   "from": "2026-10-04-3",
+   "to": "2026-10-04-5",
+   "type": "related",
+   "label": "関連: Japan",
+   "confidence": 0.28,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-343",
+   "from": "2026-10-04-3",
+   "to": "2026-10-04-7",
+   "type": "related",
+   "label": "関連: smartphone",
+   "confidence": 0.28,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-344",
+   "from": "2026-10-04-3",
+   "to": "2026-10-05-1",
+   "type": "related",
+   "label": "関連: AI-safety/policy",
+   "confidence": 0.31,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-345",
+   "from": "2026-10-04-5",
+   "to": "2026-10-05-5",
+   "type": "same_arc",
+   "label": "同弧: DRAM・NAND · AI-infra/Japan",
+   "confidence": 0.56,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-346",
+   "from": "2026-10-04-5",
+   "to": "2026-10-05-7",
+   "type": "related",
+   "label": "関連: AI-infra/Japan",
+   "confidence": 0.31,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-347",
+   "from": "2026-10-04-6",
+   "to": "2026-10-05-4",
+   "type": "related",
+   "label": "関連: pricing",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-348",
+   "from": "2026-10-05-1",
+   "to": "2026-10-05-2",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.4,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-349",
+   "from": "2026-10-05-3",
+   "to": "2026-10-05-4",
+   "type": "related",
+   "label": "関連: Google",
+   "confidence": 0.41,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-350",
+   "from": "2026-10-05-5",
+   "to": "2026-10-05-7",
+   "type": "related",
+   "label": "関連: AI-infra/Japan",
+   "confidence": 0.31,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-351",
+   "from": "2026-10-05-6",
+   "to": "2026-10-05-7",
+   "type": "related",
+   "label": "関連: semiconductor",
+   "confidence": 0.28,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-352",
+   "from": "2026-10-03-2",
+   "to": "2026-10-05-2",
+   "type": "same_arc",
+   "label": "安全チーム退職→停止回避検討の公表・元担当者の批判",
+   "confidence": 0.85,
+   "auto": false,
+   "note": "手動: OpenAI安全体制の弧"
+  },
+  {
+   "id": "link-353",
+   "from": "2026-09-28-1",
+   "to": "2026-10-05-2",
+   "type": "same_arc",
+   "label": "エージェント脱出弧→自己再起動の検討",
+   "confidence": 0.8,
+   "auto": false,
+   "note": "手動: 内部エージェントの越権行動"
+  },
+  {
+   "id": "link-354",
+   "from": "2026-09-21-5",
+   "to": "2026-10-05-2",
+   "type": "leads_to",
+   "label": "安全開示の続報（ミスアライメント報告）",
+   "confidence": 0.8,
+   "auto": false,
+   "note": "手動"
+  },
+  {
+   "id": "link-355",
+   "from": "2026-10-02-3",
+   "to": "2026-10-05-1",
+   "type": "leads_to",
+   "label": "FTCのAI大手調査→FTC委員長がSIFを主導",
+   "confidence": 0.75,
+   "auto": false,
+   "note": "手動: 同じFTCが調整役に"
+  },
+  {
+   "id": "link-356",
+   "from": "2026-10-03-7",
+   "to": "2026-10-05-5",
+   "type": "causes",
+   "label": "DRAM/NAND高騰→容量単価の安いHDDへ需要",
+   "confidence": 0.8,
+   "auto": false,
+   "note": "手動: メモリ逼迫の波及"
+  },
+  {
+   "id": "link-357",
+   "from": "2026-10-04-5",
+   "to": "2026-10-05-5",
+   "type": "related",
+   "label": "メモリ不足をフラッシュ・HDDで埋める動き",
+   "confidence": 0.7,
+   "auto": false,
+   "note": "手動"
+  },
+  {
+   "id": "link-358",
+   "from": "2026-10-01-7",
+   "to": "2026-10-05-6",
+   "type": "causes",
+   "label": "ディスプレイ下Face ID→iOSドライバー不具合で再起動",
+   "confidence": 0.85,
+   "auto": false,
+   "note": "手動: Apple認めiOS 27.0.1で修正"
+  },
+  {
+   "id": "link-359",
+   "from": "2026-09-23-1",
+   "to": "2026-10-05-6",
+   "type": "leads_to",
+   "label": "8 Elite Gen 6発表→初期出荷機で再起動報告（未確認）",
+   "confidence": 0.7,
+   "auto": false,
+   "note": "手動"
+  },
+  {
+   "id": "link-360",
+   "from": "2026-10-01-6",
+   "to": "2026-10-05-7",
+   "type": "related",
+   "label": "AI向けパッケージ基板の増強競争",
+   "confidence": 0.75,
+   "auto": false,
+   "note": "手動: FC-BGA/フリップチップ"
+  },
+  {
+   "id": "link-361",
+   "from": "2026-10-05-4",
+   "to": "2026-10-01-2",
+   "type": "confusable",
+   "label": "どちらもGeminiだが別の話",
+   "confidence": 0.75,
+   "auto": false,
+   "note": "手動: 無料枠縮小 vs 旗艦発表",
+   "contrast": "10/5の件は個人向けアプリの無料・低価格プランで使えるモデルを絞る料金体系の変更。Gemini 4 Argonは新しい旗艦モデルの発表で、まず限定提供。前者は『誰が何を使えるか』、後者は『新しいモデルそのもの』の話。"
   }
  ]
 }
