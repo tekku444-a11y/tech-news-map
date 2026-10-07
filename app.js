@@ -3,7 +3,7 @@
  *  2) #/t/<theme>   that theme's items, newest on top + dimmed directly-linked items of other themes
  *  3) #/t/<theme>/i/<id>  (or #/i/<id>)  focus: item + direct neighbours, detail sheet
  * Browser back works through the hash history. Weak links (auto, confidence < 0.4) are hidden
- * unless 「弱いリンクも」 is on; the period filter (全期間 / 直近2週間) applies at every level.
+ * unless 「弱いリンクも」 is on; period (全期間 / 直近2週間) and slot (すべて / 朝の5本 / 別枠) filters apply at every level.
  */
 (function () {
   "use strict";
@@ -21,13 +21,19 @@
   var SIDE_PANEL = window.matchMedia("(min-width: 900px) and (min-height: 500px)"); // keep in sync with app.css
   var state = {
     items: [], links: [], byId: {}, themes: [], themeBy: {}, latest: "", cutoff: "",
-    showWeak: false, period: "all", view: { level: "overview" }, network: null, sheetMin: false,
+    showWeak: false, period: "all", slot: "all", view: { level: "overview" }, network: null, sheetMin: false,
     overview: null, token: 0,
   };
 
   // ------------------------------------------------------------------ helpers
   function isKt(it) { return !!it && it.kind === "koredake_post"; }
+  function isExtra(it) { return !!it && String(it.slot || "").toLowerCase() === "extra"; }
   function hasAddenda(it) { return !!it && Array.isArray(it.addenda) && it.addenda.length > 0; }
+  function sourceLabel(src) {
+    if (!src) return "";
+    if (typeof src === "object") return src.label || src.url || "";
+    return String(src);
+  }
   // hand-written follow-up notes (items.addenda): labeled box, one <p> per line, source links
   function addendaHtml(it) {
     if (!hasAddenda(it)) return "";
@@ -70,6 +76,12 @@
   }
   function themeOf(it) { return state.themeBy[it && it.theme] || state.themeBy.other || OTHER; }
   function inPeriod(it) { return state.period === "all" || it.date >= state.cutoff; }
+  function inSlot(it) {
+    if (state.slot === "extra") return isExtra(it);
+    if (state.slot === "morning") return !isExtra(it);
+    return true;
+  }
+  function itemVisible(it) { return inPeriod(it) && inSlot(it); }
   function linkShown(L) { return state.showWeak || !isWeak(L); }
   function byNewest(a, b) { return a.date < b.date ? 1 : a.date > b.date ? -1 : (a.id < b.id ? -1 : a.id > b.id ? 1 : 0); }
   function addDays(iso, n) {
@@ -91,7 +103,7 @@
       var other = state.byId[L.from === id ? L.to : L.from];
       if (!other) return;
       if (!linkShown(L)) { hiddenWeak++; return; }
-      if (!inPeriod(other)) { hiddenPeriod++; return; }
+      if (!itemVisible(other)) { hiddenPeriod++; return; }
       var dir = L.type === "causes" || L.type === "leads_to" ? (L.from === id ? "→" : "←") : "↔";
       out.push({ L: L, it: other, dir: dir });
     });
@@ -408,18 +420,18 @@
   function buildOverview() {
     var counts = {}, fresh = {};
     state.items.forEach(function (it) {
-      if (!inPeriod(it)) return;
+      if (!itemVisible(it)) return;
       var k = themeOf(it).key;
       counts[k] = (counts[k] || 0) + 1;
       if (it.date === state.latest) fresh[k] = (fresh[k] || 0) + 1;
     });
     var keys = state.themes.filter(function (t) { return counts[t.key]; }).map(function (t) { return t.key; });
-    if (!keys.length) return { nodes: [], edges: [], empty: "この期間のニュースはありません。" };
+    if (!keys.length) return { nodes: [], edges: [], empty: "この条件のニュースはありません。" };
     var pairW = {};
     state.links.forEach(function (L) {
       if (!linkShown(L) || L.type === "confusable") return;
       var a = state.byId[L.from], b = state.byId[L.to];
-      if (!a || !b || !inPeriod(a) || !inPeriod(b)) return;
+      if (!a || !b || !itemVisible(a) || !itemVisible(b)) return;
       var ka = themeOf(a).key, kb = themeOf(b).key;
       if (ka === kb) return;
       var pk = ka < kb ? ka + "|" + kb : kb + "|" + ka;
@@ -509,9 +521,11 @@
       node.font = nodeFont(fs, ext ? "rgba(252,231,243,0.72)" : "#fce7f3", tagged ? hexA(th.color, ext ? 0.8 : 1) : null);
     } else {
       node.label = tag + shortDate(it.date) + (it.posts && it.posts.length ? " ▶" : "") + (latest && !ext ? " 新" : "") +
+        (isExtra(it) ? " 別枠" : "") +
         (hasAddenda(it) && !ext && !opt.tag ? " 追加情報あり" : "") + "\n" + T(vtrunc(it.title, opt.units));
-      node.color = { background: ext ? "rgba(18,24,32,0.92)" : focus ? hexA(th.color, 0.22) : "rgba(22,29,38,0.97)",
-        border: ext ? hexA(th.color, 0.55) : th.color };
+      var extra = isExtra(it);
+      node.color = { background: ext ? "rgba(18,24,32,0.92)" : focus ? hexA(th.color, 0.22) : extra ? "rgba(8,47,73,0.95)" : "rgba(22,29,38,0.97)",
+        border: ext ? hexA(th.color, 0.55) : extra ? "#22d3ee" : th.color };
       node.font = nodeFont(fs, ext ? "rgba(203,213,225,0.8)" : "#f1f5f9", tagged ? hexA(th.color, ext ? 0.85 : 1) : null);
     }
     if ((latest && !ext) || focus) node.shadow = { enabled: true, color: hexA(isKt(it) ? KT_COLOR : th.color, 0.5), size: 14, x: 0, y: 0 };
@@ -534,8 +548,8 @@
 
   function buildTheme(key) {
     var th = state.themeBy[key];
-    var mine = state.items.filter(function (it) { return themeOf(it).key === key && inPeriod(it); }).sort(byNewest);
-    if (!mine.length) return { nodes: [], edges: [], empty: th.name + "\nこの期間のニュースはありません。\n「全期間」に切り替えてください。" };
+    var mine = state.items.filter(function (it) { return themeOf(it).key === key && itemVisible(it); }).sort(byNewest);
+    if (!mine.length) return { nodes: [], edges: [], empty: th.name + "\nこの条件のニュースはありません。\n期間・枠のフィルタを切り替えてください。" };
     var inTheme = {}; mine.forEach(function (it, i) { inTheme[it.id] = i; });
     var ext = {}, edges = [], hasConf = false, hasKt = mine.some(isKt);
     state.links.forEach(function (L) {
@@ -548,7 +562,7 @@
         return;
       }
       var oid = fa ? L.to : L.from, mid = fa ? L.from : L.to, o = state.byId[oid];
-      if (!o || !inPeriod(o)) return;
+      if (!o || !itemVisible(o)) return;
       (ext[oid] = ext[oid] || { it: o, to: [] }).to.push(mid);
       edges.push(linkEdge(L, { dim: true }));
       if (L.type === "confusable") hasConf = true;
@@ -558,7 +572,9 @@
     var colX = extList.length ? -(EW + GAPX) / 2 : 0, extX = colX + (TW + 22) / 2 + GAPX + (EW + 22) / 2;
     var nodes = mine.map(function (it, i) { return itemNode(it, { x: colX, y: i * 130, width: TW, font: 20, units: 36 }); });
     extList.forEach(function (e) { nodes.push(itemNode(e.it, { ext: true, x: extX, y: 0, width: EW, font: 16, units: 22 })); });
+    var nExtra = mine.filter(isExtra).length;
     var hint = "上ほど新しい（" + mine.length + "件）";
+    if (nExtra) hint += "・別枠 " + nExtra;
     if (extList.length) hint += "・右の薄い箱＝つながる他テーマ";
     if (hasKt) hint += '<br><i class="kt"></i>投稿回';
     if (hasConf) hint += (hasKt ? "　" : "<br>") + '<i class="dash"></i>似て聞こえる（中身は別）';
@@ -674,6 +690,7 @@
     var html = '<div class="date"><span>' + esc(it.date) + "</span>" +
       '<button type="button" class="chip" data-theme="' + esc(th.key) + '" style="background:' + th.color + '">' + esc(th.name) + "</button>" +
       (isKt(it) ? '<span class="chip kt">▶ 投稿回</span>' : "") +
+      (isExtra(it) ? '<span class="chip extra">別枠</span>' : "") +
       (it.ai === true ? '<span class="chip ai">AI</span>' : it.ai === false ? '<span class="chip nonai">AI以外</span>' : "") +
       (!isKt(it) && it.posts && it.posts.length ? '<span class="chip posted">▶ 投稿済</span>' : "") +
       (hasAddenda(it) ? '<span class="chip addm">追加情報あり</span>' : "") + "</div>";
@@ -701,12 +718,16 @@
     html += addendaHtml(it);
     var meta = [];
     if (it.entities && it.entities.length) meta.push("関係: " + it.entities.map(esc).join("、"));
-    if (it.source) meta.push("出典: " + esc(it.source));
+    if (it.source) {
+      var sl = sourceLabel(it.source);
+      var su = (typeof it.source === "object" && it.source && it.source.url) ? it.source.url : "";
+      meta.push("出典: " + (su ? '<a href="' + esc(su) + '" target="_blank" rel="noopener">' + esc(sl || su) + "</a>" : esc(sl)));
+    }
     if (meta.length) html += '<div class="meta">' + meta.join("<br>") + "</div>";
     html += "<h3>つながり（" + conns.length + "件）<span style='font-weight:400'>　タップで移動</span></h3>";
     var notes = [];
     if (cs.hiddenWeak) notes.push("弱いリンク " + cs.hiddenWeak + " 件は非表示（上の「弱いリンクも」で表示）");
-    if (cs.hiddenPeriod) notes.push("期間外 " + cs.hiddenPeriod + " 件は非表示（「全期間」で表示）");
+    if (cs.hiddenPeriod) notes.push("期間・枠フィルタ外 " + cs.hiddenPeriod + " 件は非表示");
     if (!conns.length) html += '<p class="empty">表示できるつながりはありません。</p>';
     else {
       html += '<ul class="conn">';
@@ -776,6 +797,15 @@
     b.addEventListener("click", function () {
       state.period = b.getAttribute("data-period");
       Array.prototype.forEach.call(document.querySelectorAll("[data-period]"), function (x) {
+        x.setAttribute("aria-pressed", x === b ? "true" : "false");
+      });
+      if (state.network) render();
+    });
+  });
+  Array.prototype.forEach.call(document.querySelectorAll("[data-slot]"), function (b) {
+    b.addEventListener("click", function () {
+      state.slot = b.getAttribute("data-slot") || "all";
+      Array.prototype.forEach.call(document.querySelectorAll("[data-slot]"), function (x) {
         x.setAttribute("aria-pressed", x === b ? "true" : "false");
       });
       if (state.network) render();
