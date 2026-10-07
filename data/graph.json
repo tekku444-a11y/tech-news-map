@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-10-07T11:39:40+09:00",
- "lastUpdated": "2026-10-07",
+ "generatedAt": "2026-10-08T08:16:57+09:00",
+ "lastUpdated": "2026-10-08",
  "counts": {
-  "items": 100,
-  "links": 530
+  "items": 115,
+  "links": 702
  },
  "themes": [
   {
@@ -11,7 +11,7 @@
    "name": "AIエージェント・安全",
    "short": "AI安全",
    "color": "#f87171",
-   "count": 16
+   "count": 17
   },
   {
    "key": "security",
@@ -25,49 +25,49 @@
    "name": "政策・規制",
    "short": "政策・規制",
    "color": "#e879f9",
-   "count": 8
+   "count": 9
   },
   {
    "key": "chipdesign",
    "name": "AIチップ設計・EDA",
    "short": "チップ設計",
    "color": "#38bdf8",
-   "count": 6
+   "count": 7
   },
   {
    "key": "device",
    "name": "スマホ・端末",
    "short": "スマホ・端末",
    "color": "#4ade80",
-   "count": 17
+   "count": 18
   },
   {
    "key": "infra",
    "name": "AIインフラ・DC",
    "short": "AIインフラ",
    "color": "#2dd4bf",
-   "count": 7
+   "count": 10
   },
   {
    "key": "semi",
    "name": "半導体・製造",
    "short": "半導体",
    "color": "#fbbf24",
-   "count": 19
+   "count": 23
   },
   {
    "key": "model",
    "name": "AIモデル・サービス",
    "short": "AIモデル",
    "color": "#818cf8",
-   "count": 18
+   "count": 21
   },
   {
    "key": "other",
    "name": "その他",
    "short": "その他",
    "color": "#94a3b8",
-   "count": 2
+   "count": 3
   }
  ],
  "items": [
@@ -2511,6 +2511,362 @@
    "ai": false,
    "slot": "extra",
    "theme": "other"
+  },
+  {
+   "id": "2026-10-08-1",
+   "date": "2026-10-08",
+   "title": "OpenAI、ChatGPTに「GPT-6」を全プランへ——答えにボタンや図を組み込む「Intelligent UI」も",
+   "summary": "OpenAIは10月7日（現地）、ChatGPTのチャット画面にGPT-6を広げ、答えの中に押せるボタン、計算ツール、動かせるグラフ、地図、チェックリストなどを組み込む新機能「Intelligent UI」を始めた（TechCrunch・MacRumors）。Plus／Pro／Business／Enterprise向けは「GPT-6 Sol」で即日、無料版とGoは「GPT-6 Luna」で翌日から。考えながら答え始める仕組みで応答も速くなるという。対象はChatタブのみで、Work（エージェント）やCodexのモデルは変わらない。図の多さは設定で減らせる。",
+   "entities": [
+    "OpenAI",
+    "ChatGPT",
+    "GPT-6",
+    "GPT-6 Sol",
+    "GPT-6 Luna"
+   ],
+   "themes": [
+    "model",
+    "consumer-ai"
+   ],
+   "source": {
+    "label": "TechCrunch",
+    "url": "https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface/"
+   },
+   "ai": true,
+   "theme": "model"
+  },
+  {
+   "id": "2026-10-08-10",
+   "date": "2026-10-08",
+   "title": "Intel、Applied MaterialsのEPICセンターに参加——次世代トランジスタと3D積層パッケージを共同研究",
+   "summary": "Applied Materialsは10月6日、シリコンバレーの研究拠点EPICセンターにIntelが創設パートナーとして加わると発表した。トランジスタ、配線、Foverosなどの3D先端パッケージを、IntelのオレゴンR&D拠点と結んで研究から量産までの時間を縮める。TSMCやMicronも参加済み。",
+   "entities": [
+    "Intel",
+    "Applied Materials",
+    "Foveros",
+    "TSMC",
+    "Micron"
+   ],
+   "themes": [
+    "packaging",
+    "semi"
+   ],
+   "source": {
+    "label": "Applied Materials発表（GlobeNewswire）",
+    "url": "https://www.globenewswire.com/news-release/2026/10/06/3375587/0/en/applied-materials-and-intel-collaborate-to-accelerate-chipmaking-innovations-for-ai-driven-computing.html"
+   },
+   "ai": false,
+   "slot": "extra",
+   "theme": "semi"
+  },
+  {
+   "id": "2026-10-08-11",
+   "date": "2026-10-08",
+   "title": "ザッカーバーグ氏系のBiohub、米政府・Google DeepMindなどと18億ドルで『AI向け細胞データ』整備",
+   "summary": "Chan Zuckerberg Biohubは10月7日、米エネルギー省・NIH、Google DeepMind・Isomorphic Labs・Metaと組み、細胞が遺伝子や薬にどう反応するかをAIで予測するための標準データを作る計画を拡大した。総額は約18億ドル。最初のデータは1年後、モデルは5年後を目指す。",
+   "entities": [
+    "Biohub",
+    "Chan Zuckerberg",
+    "DOE",
+    "NIH",
+    "Google DeepMind",
+    "Meta",
+    "Isomorphic Labs"
+   ],
+   "themes": [
+    "ai-science"
+   ],
+   "source": {
+    "label": "CNBC",
+    "url": "https://www.cnbc.com/2026/10/07/government-google-join-zuckerberg-backed-biohub-ai-biology-data.html"
+   },
+   "ai": true,
+   "slot": "extra",
+   "theme": "model"
+  },
+  {
+   "id": "2026-10-08-12",
+   "date": "2026-10-08",
+   "title": "Liquid AI、端末向け『判断専用』の小型AI「d1」をオープン公開——Jetsonで50ミリ秒以内",
+   "summary": "米Liquid AIは10月7日、文章を長く生成せず「はい／いいえ」や点数を一発で返す判断用モデル「d1-3B」と、画像・音声も扱う「d1-omni-600M」をHugging Faceで公開した。d1-3BはRTX 4090で8ミリ秒、小型のJetson Orin Nanoでも50ミリ秒で答えるという。",
+   "entities": [
+    "Liquid AI",
+    "Nvidia",
+    "Jetson",
+    "Hugging Face"
+   ],
+   "themes": [
+    "model",
+    "edge-ai"
+   ],
+   "source": {
+    "label": "Liquid AI公式ブログ",
+    "url": "https://www.liquid.ai/blog/d1-open"
+   },
+   "ai": true,
+   "slot": "extra",
+   "theme": "model"
+  },
+  {
+   "id": "2026-10-08-13",
+   "date": "2026-10-08",
+   "title": "Sierra、『電話の相手はAIか』を見抜くモデル「fleming-1」——個人エージェント向けの共通ルールも提案",
+   "summary": "企業向けAI接客のSierraは10月8日、電話をかけてきた相手がAIエージェントかをリアルタイムで判定する「fleming-1」を発表した。前日には、個人のエージェントが『AIであること・誰の代理か』を名乗って企業とやり取りする共通規格「Personal Agent Protocol」も提案している。",
+   "entities": [
+    "Sierra",
+    "fleming-1",
+    "Personal Agent Protocol"
+   ],
+   "themes": [
+    "agent-safety",
+    "agents"
+   ],
+   "source": {
+    "label": "Sierra公式ブログ",
+    "url": "https://sierra.ai/blog/caller-id-in-the-age-of-agents"
+   },
+   "ai": true,
+   "slot": "extra",
+   "theme": "agent"
+  },
+  {
+   "id": "2026-10-08-14",
+   "date": "2026-10-08",
+   "title": "ルネサス、初の低耐圧GaNパワー半導体——AIデータセンター電源や人型ロボット向け100V品",
+   "summary": "ルネサス エレクトロニクスは10月6日、同社初の低耐圧GaN（窒化ガリウム）パワー半導体として100V耐圧のGaN FETを発表した。米EPCからのライセンス技術を生かした独自開発で、48V→12V→1Vと電圧を下げるAIサーバー向け電源や、ヒューマノイド、産業用モーターを狙う。",
+   "entities": [
+    "Renesas",
+    "EPC",
+    "GaN"
+   ],
+   "themes": [
+    "power-semi",
+    "semi"
+   ],
+   "source": {
+    "label": "EDN Japan",
+    "url": "https://edn.itmedia.co.jp/edn/articles/2610/06/news069.html"
+   },
+   "ai": false,
+   "slot": "extra",
+   "theme": "semi"
+  },
+  {
+   "id": "2026-10-08-15",
+   "date": "2026-10-08",
+   "title": "2027年は『推論用の独自AIチップ』が本格化、TSMC逼迫でSamsungの受託が増えそう（日経クロステック）",
+   "summary": "日経クロステックは10月8日、クラウド大手やOpenAIのような新興勢が推論向けの独自AI半導体を2027年に本格導入すると分析した。多くはTSMCに製造を委託してきたが生産が逼迫しており、Samsungなど他の受託製造会社に回る例が27年以降増えそうだという。",
+   "entities": [
+    "OpenAI",
+    "TSMC",
+    "Samsung",
+    "custom chips"
+   ],
+   "themes": [
+    "custom-chips",
+    "semi"
+   ],
+   "source": {
+    "label": "日経クロステック",
+    "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03740/092900005/"
+   },
+   "ai": true,
+   "slot": "extra",
+   "theme": "chipdesign"
+  },
+  {
+   "id": "2026-10-08-2",
+   "date": "2026-10-08",
+   "title": "Samsung、7〜9月期の営業利益が約107兆ウォンで過去最高——前年の約9倍、韓国企業で初の100兆超え",
+   "summary": "Samsung Electronicsは10月8日、2026年7〜9月期の暫定業績を発表し、売上高約195兆ウォン、営業利益約107.4兆ウォンと4四半期連続で過去最高を更新した（前年同期は12.17兆ウォン、約783%増）。韓国企業の四半期営業利益が100兆ウォンを超えるのは初めて。AI向けの供給不足でメモリー価格が上がり、HBM4の量産も7〜9月期に本格化した。ウォン高やスマホなど製品部門の弱さはあったが、メモリーで吸収した形。詳細は10月下旬に発表する。",
+   "entities": [
+    "Samsung",
+    "HBM4",
+    "HBM",
+    "memory",
+    "Micron"
+   ],
+   "themes": [
+    "memory",
+    "earnings",
+    "semi"
+   ],
+   "source": {
+    "label": "Samsung Newsroom",
+    "url": "https://news.samsung.com/global/samsung-electronics-announces-earnings-guidance-for-third-quarter-2026"
+   },
+   "ai": false,
+   "theme": "semi"
+  },
+  {
+   "id": "2026-10-08-3",
+   "date": "2026-10-08",
+   "title": "Microsoft×Nvidia、RTX Spark搭載「Surface Laptop Ultra」を予約開始——最大128GBメモリーで大きなAIを手元で",
+   "summary": "Microsoftは10月7日、サンフランシスコのWindows・Surfaceイベントで、NvidiaのArm系チップ「RTX Spark」を積んだ15インチの「Surface Laptop Ultra」（2599ドルから、10月16日発売）と開発者向け小型機「Surface RTX Spark Dev Box」（5999ドル、11月出荷）を発表した（The Verge・Tom's Hardware）。CPUとGPUで共有する最大128GBのメモリーで、従来のノートに載らない規模のAIモデルを動かせるという。ASUS・Dell・Lenovo・HP・MSIも同日から順次発売。Windows 11には、PC内のファイルを使って操作するCopilotや、ローカルとクラウドのエージェントを使い分ける機能も入る。",
+   "entities": [
+    "Microsoft",
+    "Nvidia",
+    "RTX Spark",
+    "Surface Laptop Ultra",
+    "Windows",
+    "Copilot",
+    "ASUS"
+   ],
+   "themes": [
+    "pc",
+    "chips",
+    "device"
+   ],
+   "source": {
+    "label": "The Verge",
+    "url": "https://www.theverge.com/tech/1007147/microsoft-surface-laptop-ultra-windows-event-everything-announced"
+   },
+   "ai": false,
+   "theme": "device"
+  },
+  {
+   "id": "2026-10-08-4",
+   "date": "2026-10-08",
+   "title": "AIチップ代を『借金』で——BroadcomがOpenAI向け独自チップに500億ドル超、Oracle・SpaceXも巨額融資を模索（WSJ）",
+   "summary": "WSJは10月7日、BroadcomがOpenAIと共同開発中の独自AIチップ（社内名Nexus、第1・第2世代はJalapeño・Serrano）の調達資金として500億ドル超の融資を組もうとしており、ApolloやBlackstoneに打診していると報じた。Oracleも別会社にチップを買わせて借りる形の資金調達をApollo・Goldman Sachsと協議、SpaceXもNvidia製チップ向けに約400億ドルを話し合っているという。いずれも初期段階で、年内成立を目指す。社債市場だけではAI投資をまかないきれず、プライベートクレジットへの依存が強まっている。",
+   "entities": [
+    "Broadcom",
+    "OpenAI",
+    "Oracle",
+    "SpaceX",
+    "Nvidia",
+    "Apollo",
+    "Blackstone",
+    "Goldman Sachs"
+   ],
+   "themes": [
+    "ai-financing",
+    "infra"
+   ],
+   "source": {
+    "label": "investingLive（WSJ報道の要約）",
+    "url": "https://investinglive.com/stocks/wsj-broadcom-seeks-over-50-billion-for-openai-chips-as-oracle-spacex-chase-ai-debt-deals/"
+   },
+   "ai": true,
+   "theme": "infra"
+  },
+  {
+   "id": "2026-10-08-5",
+   "date": "2026-10-08",
+   "title": "AMDのリサ・スーCEO、台湾に続きソウルへ——Samsung・SK hynixのHBM4でMI455の出荷開始、受託製造は含み",
+   "summary": "台湾訪問に続いて韓国を訪れたAMDのリサ・スーCEOは10月7日、Samsungの半導体部門トップ全永鉉氏、SK hynixの郭魯正CEOと個別に会談した（Korea Herald）。両社のHBM4を使う次世代AI向けアクセラレーターMI455とHelios（ラック型システム）の出荷を始めたと明かし、HBMでの協力は『1世代でなく複数世代』と述べた。Samsungの受託製造（ファウンドリー）を使うかは明言せず『供給網を広げたい』とした。韓国のAIチップ新興13社との協業や、年内の韓国AI研究拠点設立も表明。",
+   "entities": [
+    "AMD",
+    "Lisa Su",
+    "Samsung",
+    "SK hynix",
+    "HBM4",
+    "HBM",
+    "MI455",
+    "TSMC"
+   ],
+   "themes": [
+    "memory",
+    "semi",
+    "supply-chain"
+   ],
+   "source": {
+    "label": "The Korea Herald",
+    "url": "https://www.koreaherald.com/article/10895779"
+   },
+   "ai": false,
+   "theme": "semi"
+  },
+  {
+   "id": "2026-10-08-6",
+   "date": "2026-10-08",
+   "title": "Google、AI生成かを調べる「SynthID Detector」を誰でも利用可能に——OpenAI・Nvidia作の画像なども判定",
+   "summary": "Googleは10月7日、画像・動画・音声がAIで作られたかを電子透かしで調べる「SynthID Detector」を、synthid.comで世界の誰でも（まず英語で）使えるようにした。Google製に加え、透かしに対応するOpenAI・Nvidia・Kakao製、近くAppleの生成物も判定できる。これまで180億件超の画像・動画に透かしを入れたという。",
+   "entities": [
+    "Google",
+    "SynthID",
+    "OpenAI",
+    "Nvidia",
+    "Apple"
+   ],
+   "themes": [
+    "watermark",
+    "policy"
+   ],
+   "source": {
+    "label": "Google公式ブログ",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content/"
+   },
+   "ai": true,
+   "slot": "extra",
+   "theme": "policy"
+  },
+  {
+   "id": "2026-10-08-7",
+   "date": "2026-10-08",
+   "title": "IBM、DARPAの量子コンピューター評価で第3段階へ——2029年に誤り耐性機を目指す",
+   "summary": "IBMは10月8日、DARPA（米国防高等研究計画局）の量子ベンチマーク計画（QBI）で第3段階「Stage C」に選ばれたと発表した。今後は独立した専門家チームが実機を検証する。IBMは2029年に初の誤り耐性量子コンピューターを届ける計画を改めて示した。",
+   "entities": [
+    "IBM",
+    "DARPA",
+    "quantum"
+   ],
+   "themes": [
+    "quantum"
+   ],
+   "source": {
+    "label": "IBM発表（PR Newswire転載）",
+    "url": "https://www.centralcharts.com/en/1145444-ibm/news/5801372-ibm-advances-to-stage-c-of-darpa-quantum-benchmarking-initiative"
+   },
+   "ai": false,
+   "slot": "extra",
+   "theme": "other"
+  },
+  {
+   "id": "2026-10-08-8",
+   "date": "2026-10-08",
+   "title": "Nvidia、人型ロボットのFigure AIに追加で約10億ドル出資を協議（The Information）",
+   "summary": "NvidiaがFigure AIへ約10億ドルの追加出資を話し合ったとThe Informationが報じた（10月7日）。Figureはテキサス州でNvidia製GPUによる大規模な学習用計算基盤を計画しており、ロボット向けAIでも半導体需要が広がっている。成立は未確認。",
+   "entities": [
+    "Nvidia",
+    "Figure AI",
+    "robotics"
+   ],
+   "themes": [
+    "robotics",
+    "ai-financing"
+   ],
+   "source": {
+    "label": "Crypto Briefing（The Information報道）",
+    "url": "https://cryptobriefing.com/nvidia-discusses-1-billion-figure-ai-investment/"
+   },
+   "ai": true,
+   "slot": "extra",
+   "theme": "infra"
+  },
+  {
+   "id": "2026-10-08-9",
+   "date": "2026-10-08",
+   "title": "CoreWeave、インド初進出——Adani系とムンバイ近郊に240MWのAIデータセンター",
+   "summary": "米AIクラウドのCoreWeaveは10月7日、AdaniConneXと組みナビムンバイのタロージャに240MW（80MW×3棟、さらに240MW拡張可）のAIデータセンターを置くと発表した。稼働は2028年半ばからで、NvidiaのVera Rubinを使う。",
+   "entities": [
+    "CoreWeave",
+    "AdaniConneX",
+    "Nvidia",
+    "India",
+    "Vera Rubin"
+   ],
+   "themes": [
+    "datacenter",
+    "infra"
+   ],
+   "source": {
+    "label": "CoreWeave発表",
+    "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Enters-India-Expanding-AI-Cloud-Platform-With-AdaniConneX/default.aspx"
+   },
+   "ai": true,
+   "slot": "extra",
+   "theme": "infra"
   }
  ],
  "links": [
@@ -4037,17 +4393,17 @@
   },
   {
    "id": "link-151",
-   "from": "kt-2026-09-26-agent-vs-chat",
-   "to": "2026-09-28-4",
+   "from": "2026-09-28-3",
+   "to": "2026-10-08-3",
    "type": "related",
-   "label": "関連: agent",
-   "confidence": 0.25,
+   "label": "関連: Copilot・Microsoft",
+   "confidence": 0.26,
    "auto": true,
    "note": ""
   },
   {
    "id": "link-152",
-   "from": "kt-2026-09-27-autopilot",
+   "from": "kt-2026-09-26-agent-vs-chat",
    "to": "2026-09-28-4",
    "type": "related",
    "label": "関連: agent",
@@ -4057,6 +4413,16 @@
   },
   {
    "id": "link-153",
+   "from": "kt-2026-09-27-autopilot",
+   "to": "2026-09-28-4",
+   "type": "related",
+   "label": "関連: agent",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-154",
    "from": "2026-09-28-4",
    "to": "2026-09-30-1",
    "type": "related",
@@ -4066,7 +4432,7 @@
    "note": ""
   },
   {
-   "id": "link-154",
+   "id": "link-155",
    "from": "2026-09-28-5",
    "to": "2026-09-29-3",
    "type": "related",
@@ -4076,7 +4442,7 @@
    "note": ""
   },
   {
-   "id": "link-155",
+   "id": "link-156",
    "from": "2026-09-28-5",
    "to": "2026-09-29-4",
    "type": "related",
@@ -4086,7 +4452,7 @@
    "note": ""
   },
   {
-   "id": "link-156",
+   "id": "link-157",
    "from": "kt-2026-09-22-googlebook",
    "to": "2026-09-28-5",
    "type": "related",
@@ -4096,7 +4462,7 @@
    "note": ""
   },
   {
-   "id": "link-157",
+   "id": "link-158",
    "from": "kt-2026-09-25-suncatcher",
    "to": "2026-09-28-5",
    "type": "causes",
@@ -4106,7 +4472,7 @@
    "note": ""
   },
   {
-   "id": "link-158",
+   "id": "link-159",
    "from": "2026-09-28-5",
    "to": "2026-09-30-4",
    "type": "related",
@@ -4116,7 +4482,7 @@
    "note": ""
   },
   {
-   "id": "link-159",
+   "id": "link-160",
    "from": "2026-09-28-5",
    "to": "kt-2026-10-01-google-assistant",
    "type": "related",
@@ -4126,7 +4492,7 @@
    "note": ""
   },
   {
-   "id": "link-160",
+   "id": "link-161",
    "from": "2026-09-28-5",
    "to": "2026-10-01-1",
    "type": "related",
@@ -4136,7 +4502,7 @@
    "note": ""
   },
   {
-   "id": "link-161",
+   "id": "link-162",
    "from": "2026-09-28-5",
    "to": "2026-10-01-2",
    "type": "related",
@@ -4146,7 +4512,7 @@
    "note": ""
   },
   {
-   "id": "link-162",
+   "id": "link-163",
    "from": "2026-09-28-5",
    "to": "2026-10-01-3",
    "type": "related",
@@ -4156,7 +4522,7 @@
    "note": ""
   },
   {
-   "id": "link-163",
+   "id": "link-164",
    "from": "2026-09-28-5",
    "to": "2026-10-01-4",
    "type": "related",
@@ -4166,7 +4532,7 @@
    "note": ""
   },
   {
-   "id": "link-164",
+   "id": "link-165",
    "from": "2026-09-28-5",
    "to": "2026-10-01-6",
    "type": "related",
@@ -4176,7 +4542,7 @@
    "note": ""
   },
   {
-   "id": "link-165",
+   "id": "link-166",
    "from": "2026-09-28-5",
    "to": "kt-2026-10-02-samsung-glasses",
    "type": "related",
@@ -4186,7 +4552,7 @@
    "note": ""
   },
   {
-   "id": "link-166",
+   "id": "link-167",
    "from": "2026-09-28-5",
    "to": "2026-10-02-1",
    "type": "causes",
@@ -4196,19 +4562,9 @@
    "note": ""
   },
   {
-   "id": "link-167",
-   "from": "2026-09-28-5",
-   "to": "2026-10-03-3",
-   "type": "related",
-   "label": "関連: Google",
-   "confidence": 0.31,
-   "auto": true,
-   "note": ""
-  },
-  {
    "id": "link-168",
    "from": "2026-09-28-5",
-   "to": "2026-10-05-3",
+   "to": "2026-10-03-3",
    "type": "related",
    "label": "関連: Google",
    "confidence": 0.31,
@@ -4218,6 +4574,16 @@
   {
    "id": "link-169",
    "from": "2026-09-28-5",
+   "to": "2026-10-05-3",
+   "type": "related",
+   "label": "関連: Google",
+   "confidence": 0.31,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-170",
+   "from": "2026-09-28-5",
    "to": "2026-10-05-4",
    "type": "related",
    "label": "関連: Google",
@@ -4226,7 +4592,7 @@
    "note": ""
   },
   {
-   "id": "link-170",
+   "id": "link-171",
    "from": "2026-09-29-1",
    "to": "2026-09-29-4",
    "type": "related",
@@ -4236,7 +4602,7 @@
    "note": ""
   },
   {
-   "id": "link-171",
+   "id": "link-172",
    "from": "kt-2026-09-24-gpt6-claude-price",
    "to": "2026-09-29-1",
    "type": "related",
@@ -4246,7 +4612,7 @@
    "note": ""
   },
   {
-   "id": "link-172",
+   "id": "link-173",
    "from": "kt-2026-09-26-agent-vs-chat",
    "to": "2026-09-29-1",
    "type": "related",
@@ -4256,7 +4622,7 @@
    "note": ""
   },
   {
-   "id": "link-173",
+   "id": "link-174",
    "from": "kt-2026-09-27-autopilot",
    "to": "2026-09-29-1",
    "type": "related",
@@ -4266,7 +4632,7 @@
    "note": ""
   },
   {
-   "id": "link-174",
+   "id": "link-175",
    "from": "2026-09-29-1",
    "to": "2026-10-01-3",
    "type": "related",
@@ -4276,7 +4642,7 @@
    "note": ""
   },
   {
-   "id": "link-175",
+   "id": "link-176",
    "from": "2026-09-29-1",
    "to": "2026-10-02-1",
    "type": "related",
@@ -4286,7 +4652,7 @@
    "note": ""
   },
   {
-   "id": "link-176",
+   "id": "link-177",
    "from": "2026-09-29-1",
    "to": "2026-10-02-2",
    "type": "related",
@@ -4296,7 +4662,7 @@
    "note": ""
   },
   {
-   "id": "link-177",
+   "id": "link-178",
    "from": "2026-09-29-1",
    "to": "2026-10-02-3",
    "type": "causes",
@@ -4306,7 +4672,7 @@
    "note": ""
   },
   {
-   "id": "link-178",
+   "id": "link-179",
    "from": "2026-09-29-1",
    "to": "2026-10-02-6",
    "type": "related",
@@ -4316,7 +4682,7 @@
    "note": ""
   },
   {
-   "id": "link-179",
+   "id": "link-180",
    "from": "2026-09-29-1",
    "to": "2026-10-03-5",
    "type": "related",
@@ -4326,19 +4692,9 @@
    "note": ""
   },
   {
-   "id": "link-180",
-   "from": "2026-09-29-1",
-   "to": "2026-10-05-1",
-   "type": "related",
-   "label": "関連: Anthropic",
-   "confidence": 0.25,
-   "auto": true,
-   "note": ""
-  },
-  {
    "id": "link-181",
    "from": "2026-09-29-1",
-   "to": "2026-10-06-1",
+   "to": "2026-10-05-1",
    "type": "related",
    "label": "関連: Anthropic",
    "confidence": 0.25,
@@ -4348,6 +4704,16 @@
   {
    "id": "link-182",
    "from": "2026-09-29-1",
+   "to": "2026-10-06-1",
+   "type": "related",
+   "label": "関連: Anthropic",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-183",
+   "from": "2026-09-29-1",
    "to": "2026-10-06-6",
    "type": "related",
    "label": "関連: Nvidia",
@@ -4356,7 +4722,7 @@
    "note": ""
   },
   {
-   "id": "link-183",
+   "id": "link-184",
    "from": "2026-09-29-2",
    "to": "2026-09-29-4",
    "type": "related",
@@ -4366,7 +4732,7 @@
    "note": ""
   },
   {
-   "id": "link-184",
+   "id": "link-185",
    "from": "2026-09-29-2",
    "to": "2026-10-02-6",
    "type": "related",
@@ -4376,7 +4742,7 @@
    "note": ""
   },
   {
-   "id": "link-185",
+   "id": "link-186",
    "from": "2026-09-29-3",
    "to": "2026-09-29-4",
    "type": "related",
@@ -4386,7 +4752,7 @@
    "note": ""
   },
   {
-   "id": "link-186",
+   "id": "link-187",
    "from": "2026-09-29-3",
    "to": "2026-10-02-5",
    "type": "related",
@@ -4396,7 +4762,7 @@
    "note": ""
   },
   {
-   "id": "link-187",
+   "id": "link-188",
    "from": "kt-2026-09-20-mediatek-2nm",
    "to": "2026-09-29-4",
    "type": "causes",
@@ -4406,7 +4772,7 @@
    "note": ""
   },
   {
-   "id": "link-188",
+   "id": "link-189",
    "from": "kt-2026-09-21-memory-wall",
    "to": "2026-09-29-4",
    "type": "related",
@@ -4416,7 +4782,7 @@
    "note": ""
   },
   {
-   "id": "link-189",
+   "id": "link-190",
    "from": "kt-2026-09-28-modem-patent",
    "to": "2026-09-29-4",
    "type": "related",
@@ -4426,7 +4792,7 @@
    "note": ""
   },
   {
-   "id": "link-190",
+   "id": "link-191",
    "from": "2026-09-29-4",
    "to": "2026-09-30-4",
    "type": "same_arc",
@@ -4436,7 +4802,7 @@
    "note": ""
   },
   {
-   "id": "link-191",
+   "id": "link-192",
    "from": "2026-09-29-4",
    "to": "2026-09-30-5",
    "type": "related",
@@ -4446,7 +4812,7 @@
    "note": ""
   },
   {
-   "id": "link-192",
+   "id": "link-193",
    "from": "2026-09-29-4",
    "to": "2026-10-01-3",
    "type": "causes",
@@ -4456,19 +4822,9 @@
    "note": ""
   },
   {
-   "id": "link-193",
-   "from": "2026-09-29-4",
-   "to": "2026-10-01-5",
-   "type": "related",
-   "label": "関連: Apple",
-   "confidence": 0.36,
-   "auto": true,
-   "note": ""
-  },
-  {
    "id": "link-194",
    "from": "2026-09-29-4",
-   "to": "2026-10-01-7",
+   "to": "2026-10-01-5",
    "type": "related",
    "label": "関連: Apple",
    "confidence": 0.36,
@@ -4478,6 +4834,16 @@
   {
    "id": "link-195",
    "from": "2026-09-29-4",
+   "to": "2026-10-01-7",
+   "type": "related",
+   "label": "関連: Apple",
+   "confidence": 0.36,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-196",
+   "from": "2026-09-29-4",
    "to": "2026-10-02-2",
    "type": "related",
    "label": "関連: Nvidia · AI-infra",
@@ -4486,7 +4852,7 @@
    "note": ""
   },
   {
-   "id": "link-196",
+   "id": "link-197",
    "from": "2026-09-29-4",
    "to": "2026-10-02-5",
    "type": "related",
@@ -4496,7 +4862,7 @@
    "note": ""
   },
   {
-   "id": "link-197",
+   "id": "link-198",
    "from": "kt-2026-09-19-japan-us-fab",
    "to": "2026-09-29-4",
    "type": "related",
@@ -4506,19 +4872,9 @@
    "note": ""
   },
   {
-   "id": "link-198",
-   "from": "2026-09-29-4",
-   "to": "2026-10-03-1",
-   "type": "related",
-   "label": "関連: Apple",
-   "confidence": 0.26,
-   "auto": true,
-   "note": ""
-  },
-  {
    "id": "link-199",
    "from": "2026-09-29-4",
-   "to": "2026-10-04-3",
+   "to": "2026-10-03-1",
    "type": "related",
    "label": "関連: Apple",
    "confidence": 0.26,
@@ -4528,6 +4884,16 @@
   {
    "id": "link-200",
    "from": "2026-09-29-4",
+   "to": "2026-10-04-3",
+   "type": "related",
+   "label": "関連: Apple",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-201",
+   "from": "2026-09-29-4",
    "to": "2026-10-05-6",
    "type": "related",
    "label": "関連: TSMC · 2nm/semiconductor",
@@ -4536,7 +4902,7 @@
    "note": ""
   },
   {
-   "id": "link-201",
+   "id": "link-202",
    "from": "2026-09-29-4",
    "to": "2026-10-06-5",
    "type": "related",
@@ -4546,7 +4912,7 @@
    "note": ""
   },
   {
-   "id": "link-202",
+   "id": "link-203",
    "from": "2026-09-29-4",
    "to": "2026-10-06-6",
    "type": "related",
@@ -4556,7 +4922,7 @@
    "note": ""
   },
   {
-   "id": "link-203",
+   "id": "link-204",
    "from": "2026-09-29-4",
    "to": "2026-10-07-5",
    "type": "related",
@@ -4566,18 +4932,8 @@
    "note": ""
   },
   {
-   "id": "link-204",
-   "from": "kt-2026-09-26-agent-vs-chat",
-   "to": "2026-09-29-5",
-   "type": "related",
-   "label": "関連: agent",
-   "confidence": 0.26,
-   "auto": true,
-   "note": ""
-  },
-  {
    "id": "link-205",
-   "from": "kt-2026-09-27-autopilot",
+   "from": "kt-2026-09-26-agent-vs-chat",
    "to": "2026-09-29-5",
    "type": "related",
    "label": "関連: agent",
@@ -4587,8 +4943,8 @@
   },
   {
    "id": "link-206",
-   "from": "2026-09-29-5",
-   "to": "2026-09-30-1",
+   "from": "kt-2026-09-27-autopilot",
+   "to": "2026-09-29-5",
    "type": "related",
    "label": "関連: agent",
    "confidence": 0.26,
@@ -4598,6 +4954,16 @@
   {
    "id": "link-207",
    "from": "2026-09-29-5",
+   "to": "2026-09-30-1",
+   "type": "related",
+   "label": "関連: agent",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-208",
+   "from": "2026-09-29-5",
    "to": "2026-10-01-4",
    "type": "causes",
    "label": "因果: Synopsys · EDA",
@@ -4606,7 +4972,7 @@
    "note": ""
   },
   {
-   "id": "link-208",
+   "id": "link-209",
    "from": "2026-09-29-5",
    "to": "2026-10-02-4",
    "type": "related",
@@ -4616,7 +4982,7 @@
    "note": ""
   },
   {
-   "id": "link-209",
+   "id": "link-210",
    "from": "2026-09-29-5",
    "to": "2026-10-07-12",
    "type": "related",
@@ -4626,7 +4992,7 @@
    "note": ""
   },
   {
-   "id": "link-210",
+   "id": "link-211",
    "from": "kt-2026-09-19-iphone18pro",
    "to": "kt-2026-09-21-memory-wall",
    "type": "causes",
@@ -4636,7 +5002,7 @@
    "note": ""
   },
   {
-   "id": "link-211",
+   "id": "link-212",
    "from": "kt-2026-09-19-iphone18pro",
    "to": "kt-2026-09-28-modem-patent",
    "type": "related",
@@ -4646,7 +5012,7 @@
    "note": ""
   },
   {
-   "id": "link-212",
+   "id": "link-213",
    "from": "kt-2026-09-20-mediatek-2nm",
    "to": "kt-2026-09-21-memory-wall",
    "type": "same_arc",
@@ -4656,7 +5022,7 @@
    "note": ""
   },
   {
-   "id": "link-213",
+   "id": "link-214",
    "from": "kt-2026-09-20-mediatek-2nm",
    "to": "2026-09-30-4",
    "type": "related",
@@ -4666,7 +5032,7 @@
    "note": ""
   },
   {
-   "id": "link-214",
+   "id": "link-215",
    "from": "kt-2026-09-20-mediatek-2nm",
    "to": "2026-10-02-6",
    "type": "related",
@@ -4676,7 +5042,7 @@
    "note": ""
   },
   {
-   "id": "link-215",
+   "id": "link-216",
    "from": "kt-2026-09-19-japan-us-fab",
    "to": "kt-2026-09-20-mediatek-2nm",
    "type": "causes",
@@ -4686,7 +5052,7 @@
    "note": ""
   },
   {
-   "id": "link-216",
+   "id": "link-217",
    "from": "kt-2026-09-21-memory-wall",
    "to": "kt-2026-09-28-modem-patent",
    "type": "related",
@@ -4696,7 +5062,7 @@
    "note": ""
   },
   {
-   "id": "link-217",
+   "id": "link-218",
    "from": "kt-2026-09-22-googlebook",
    "to": "kt-2026-09-25-suncatcher",
    "type": "related",
@@ -4706,7 +5072,7 @@
    "note": ""
   },
   {
-   "id": "link-218",
+   "id": "link-219",
    "from": "kt-2026-09-24-gpt6-claude-price",
    "to": "kt-2026-09-26-agent-vs-chat",
    "type": "related",
@@ -4716,7 +5082,7 @@
    "note": ""
   },
   {
-   "id": "link-219",
+   "id": "link-220",
    "from": "kt-2026-09-24-gpt6-claude-price",
    "to": "2026-09-30-1",
    "type": "related",
@@ -4726,7 +5092,7 @@
    "note": ""
   },
   {
-   "id": "link-220",
+   "id": "link-221",
    "from": "kt-2026-09-24-gpt6-claude-price",
    "to": "2026-09-30-2",
    "type": "related",
@@ -4736,7 +5102,7 @@
    "note": ""
   },
   {
-   "id": "link-221",
+   "id": "link-222",
    "from": "kt-2026-09-24-gpt6-claude-price",
    "to": "2026-09-30-3",
    "type": "related",
@@ -4746,7 +5112,7 @@
    "note": ""
   },
   {
-   "id": "link-222",
+   "id": "link-223",
    "from": "kt-2026-09-24-gpt6-claude-price",
    "to": "2026-10-01-1",
    "type": "related",
@@ -4756,7 +5122,7 @@
    "note": ""
   },
   {
-   "id": "link-223",
+   "id": "link-224",
    "from": "kt-2026-09-24-gpt6-claude-price",
    "to": "2026-10-02-3",
    "type": "related",
@@ -4766,7 +5132,7 @@
    "note": ""
   },
   {
-   "id": "link-224",
+   "id": "link-225",
    "from": "kt-2026-09-25-suncatcher",
    "to": "kt-2026-10-01-google-assistant",
    "type": "related",
@@ -4776,7 +5142,7 @@
    "note": ""
   },
   {
-   "id": "link-225",
+   "id": "link-226",
    "from": "kt-2026-09-25-suncatcher",
    "to": "2026-10-01-2",
    "type": "related",
@@ -4786,7 +5152,7 @@
    "note": ""
   },
   {
-   "id": "link-226",
+   "id": "link-227",
    "from": "kt-2026-09-25-suncatcher",
    "to": "kt-2026-10-02-samsung-glasses",
    "type": "related",
@@ -4796,7 +5162,7 @@
    "note": ""
   },
   {
-   "id": "link-227",
+   "id": "link-228",
    "from": "kt-2026-09-25-suncatcher",
    "to": "2026-10-02-1",
    "type": "related",
@@ -4806,7 +5172,7 @@
    "note": ""
   },
   {
-   "id": "link-228",
+   "id": "link-229",
    "from": "kt-2026-09-26-agent-vs-chat",
    "to": "kt-2026-09-27-autopilot",
    "type": "related",
@@ -4816,7 +5182,7 @@
    "note": ""
   },
   {
-   "id": "link-229",
+   "id": "link-230",
    "from": "kt-2026-09-26-agent-vs-chat",
    "to": "2026-09-30-1",
    "type": "related",
@@ -4826,7 +5192,7 @@
    "note": ""
   },
   {
-   "id": "link-230",
+   "id": "link-231",
    "from": "kt-2026-09-26-agent-vs-chat",
    "to": "2026-09-30-2",
    "type": "related",
@@ -4836,7 +5202,7 @@
    "note": ""
   },
   {
-   "id": "link-231",
+   "id": "link-232",
    "from": "kt-2026-09-26-agent-vs-chat",
    "to": "2026-10-01-1",
    "type": "related",
@@ -4846,7 +5212,7 @@
    "note": ""
   },
   {
-   "id": "link-232",
+   "id": "link-233",
    "from": "kt-2026-09-26-agent-vs-chat",
    "to": "2026-10-02-3",
    "type": "causes",
@@ -4856,7 +5222,7 @@
    "note": ""
   },
   {
-   "id": "link-233",
+   "id": "link-234",
    "from": "kt-2026-09-26-agent-vs-chat",
    "to": "2026-10-03-1",
    "type": "related",
@@ -4866,7 +5232,7 @@
    "note": ""
   },
   {
-   "id": "link-234",
+   "id": "link-235",
    "from": "kt-2026-09-26-agent-vs-chat",
    "to": "2026-10-03-2",
    "type": "related",
@@ -4876,7 +5242,7 @@
    "note": ""
   },
   {
-   "id": "link-235",
+   "id": "link-236",
    "from": "kt-2026-09-26-agent-vs-chat",
    "to": "2026-10-06-3",
    "type": "related",
@@ -4886,7 +5252,7 @@
    "note": ""
   },
   {
-   "id": "link-236",
+   "id": "link-237",
    "from": "kt-2026-09-26-agent-vs-chat",
    "to": "2026-10-07-6",
    "type": "related",
@@ -4896,7 +5262,17 @@
    "note": ""
   },
   {
-   "id": "link-237",
+   "id": "link-238",
+   "from": "kt-2026-09-26-agent-vs-chat",
+   "to": "2026-10-08-1",
+   "type": "related",
+   "label": "関連: ChatGPT・OpenAI",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-239",
    "from": "kt-2026-09-27-autopilot",
    "to": "2026-09-30-1",
    "type": "related",
@@ -4906,7 +5282,7 @@
    "note": ""
   },
   {
-   "id": "link-238",
+   "id": "link-240",
    "from": "kt-2026-09-27-autopilot",
    "to": "2026-10-03-3",
    "type": "related",
@@ -4916,7 +5292,7 @@
    "note": ""
   },
   {
-   "id": "link-239",
+   "id": "link-241",
    "from": "kt-2026-09-27-autopilot",
    "to": "2026-10-03-5",
    "type": "related",
@@ -4926,7 +5302,7 @@
    "note": ""
   },
   {
-   "id": "link-240",
+   "id": "link-242",
    "from": "kt-2026-09-28-modem-patent",
    "to": "2026-09-30-5",
    "type": "related",
@@ -4936,7 +5312,7 @@
    "note": ""
   },
   {
-   "id": "link-241",
+   "id": "link-243",
    "from": "kt-2026-09-28-modem-patent",
    "to": "kt-2026-10-01-google-assistant",
    "type": "related",
@@ -4946,7 +5322,7 @@
    "note": ""
   },
   {
-   "id": "link-242",
+   "id": "link-244",
    "from": "kt-2026-09-28-modem-patent",
    "to": "2026-10-01-5",
    "type": "related",
@@ -4956,7 +5332,7 @@
    "note": ""
   },
   {
-   "id": "link-243",
+   "id": "link-245",
    "from": "kt-2026-09-28-modem-patent",
    "to": "2026-10-01-7",
    "type": "causes",
@@ -4966,7 +5342,7 @@
    "note": ""
   },
   {
-   "id": "link-244",
+   "id": "link-246",
    "from": "kt-2026-09-28-modem-patent",
    "to": "2026-10-02-6",
    "type": "related",
@@ -4976,7 +5352,7 @@
    "note": ""
   },
   {
-   "id": "link-245",
+   "id": "link-247",
    "from": "kt-2026-09-28-modem-patent",
    "to": "2026-10-03-1",
    "type": "related",
@@ -4986,7 +5362,7 @@
    "note": ""
   },
   {
-   "id": "link-246",
+   "id": "link-248",
    "from": "kt-2026-09-28-modem-patent",
    "to": "2026-10-04-3",
    "type": "related",
@@ -4996,7 +5372,7 @@
    "note": ""
   },
   {
-   "id": "link-247",
+   "id": "link-249",
    "from": "2026-09-30-1",
    "to": "2026-10-01-5",
    "type": "related",
@@ -5006,7 +5382,7 @@
    "note": ""
   },
   {
-   "id": "link-248",
+   "id": "link-250",
    "from": "2026-09-30-1",
    "to": "kt-2026-10-02-samsung-glasses",
    "type": "related",
@@ -5016,7 +5392,7 @@
    "note": ""
   },
   {
-   "id": "link-249",
+   "id": "link-251",
    "from": "2026-09-30-1",
    "to": "2026-10-02-3",
    "type": "related",
@@ -5026,7 +5402,7 @@
    "note": ""
   },
   {
-   "id": "link-250",
+   "id": "link-252",
    "from": "2026-09-30-1",
    "to": "2026-10-02-4",
    "type": "related",
@@ -5036,7 +5412,7 @@
    "note": ""
   },
   {
-   "id": "link-251",
+   "id": "link-253",
    "from": "2026-09-30-1",
    "to": "2026-10-03-2",
    "type": "related",
@@ -5046,7 +5422,7 @@
    "note": ""
   },
   {
-   "id": "link-252",
+   "id": "link-254",
    "from": "2026-09-30-1",
    "to": "2026-10-04-1",
    "type": "related",
@@ -5056,29 +5432,9 @@
    "note": ""
   },
   {
-   "id": "link-253",
-   "from": "2026-09-30-1",
-   "to": "2026-10-05-1",
-   "type": "related",
-   "label": "関連: OpenAI",
-   "confidence": 0.26,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-254",
-   "from": "2026-09-30-1",
-   "to": "2026-10-05-2",
-   "type": "related",
-   "label": "関連: OpenAI",
-   "confidence": 0.27,
-   "auto": true,
-   "note": ""
-  },
-  {
    "id": "link-255",
    "from": "2026-09-30-1",
-   "to": "2026-10-06-1",
+   "to": "2026-10-05-1",
    "type": "related",
    "label": "関連: OpenAI",
    "confidence": 0.26,
@@ -5088,7 +5444,7 @@
   {
    "id": "link-256",
    "from": "2026-09-30-1",
-   "to": "2026-10-06-3",
+   "to": "2026-10-05-2",
    "type": "related",
    "label": "関連: OpenAI",
    "confidence": 0.27,
@@ -5098,7 +5454,7 @@
   {
    "id": "link-257",
    "from": "2026-09-30-1",
-   "to": "2026-10-07-1",
+   "to": "2026-10-06-1",
    "type": "related",
    "label": "関連: OpenAI",
    "confidence": 0.26,
@@ -5108,17 +5464,17 @@
   {
    "id": "link-258",
    "from": "2026-09-30-1",
-   "to": "2026-10-07-2",
+   "to": "2026-10-06-3",
    "type": "related",
    "label": "関連: OpenAI",
-   "confidence": 0.26,
+   "confidence": 0.27,
    "auto": true,
    "note": ""
   },
   {
    "id": "link-259",
    "from": "2026-09-30-1",
-   "to": "2026-10-07-6",
+   "to": "2026-10-07-1",
    "type": "related",
    "label": "関連: OpenAI",
    "confidence": 0.26,
@@ -5128,6 +5484,26 @@
   {
    "id": "link-260",
    "from": "2026-09-30-1",
+   "to": "2026-10-07-2",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-261",
+   "from": "2026-09-30-1",
+   "to": "2026-10-07-6",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-262",
+   "from": "2026-09-30-1",
    "to": "2026-10-07-15",
    "type": "related",
    "label": "関連: OpenAI",
@@ -5136,7 +5512,7 @@
    "note": ""
   },
   {
-   "id": "link-261",
+   "id": "link-263",
    "from": "2026-09-30-2",
    "to": "2026-10-01-1",
    "type": "related",
@@ -5146,7 +5522,7 @@
    "note": ""
   },
   {
-   "id": "link-262",
+   "id": "link-264",
    "from": "2026-09-30-2",
    "to": "2026-10-01-2",
    "type": "related",
@@ -5156,7 +5532,7 @@
    "note": ""
   },
   {
-   "id": "link-263",
+   "id": "link-265",
    "from": "2026-09-30-2",
    "to": "2026-10-02-3",
    "type": "related",
@@ -5166,7 +5542,7 @@
    "note": ""
   },
   {
-   "id": "link-264",
+   "id": "link-266",
    "from": "2026-09-30-2",
    "to": "2026-10-03-2",
    "type": "related",
@@ -5176,7 +5552,7 @@
    "note": ""
   },
   {
-   "id": "link-265",
+   "id": "link-267",
    "from": "2026-09-30-2",
    "to": "2026-10-03-4",
    "type": "related",
@@ -5186,29 +5562,9 @@
    "note": ""
   },
   {
-   "id": "link-266",
-   "from": "2026-09-30-2",
-   "to": "2026-10-05-1",
-   "type": "related",
-   "label": "関連: OpenAI",
-   "confidence": 0.26,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-267",
-   "from": "2026-09-30-2",
-   "to": "2026-10-05-2",
-   "type": "related",
-   "label": "関連: OpenAI",
-   "confidence": 0.28,
-   "auto": true,
-   "note": ""
-  },
-  {
    "id": "link-268",
    "from": "2026-09-30-2",
-   "to": "2026-10-06-1",
+   "to": "2026-10-05-1",
    "type": "related",
    "label": "関連: OpenAI",
    "confidence": 0.26,
@@ -5218,7 +5574,7 @@
   {
    "id": "link-269",
    "from": "2026-09-30-2",
-   "to": "2026-10-06-3",
+   "to": "2026-10-05-2",
    "type": "related",
    "label": "関連: OpenAI",
    "confidence": 0.28,
@@ -5228,7 +5584,7 @@
   {
    "id": "link-270",
    "from": "2026-09-30-2",
-   "to": "2026-10-07-1",
+   "to": "2026-10-06-1",
    "type": "related",
    "label": "関連: OpenAI",
    "confidence": 0.26,
@@ -5238,6 +5594,26 @@
   {
    "id": "link-271",
    "from": "2026-09-30-2",
+   "to": "2026-10-06-3",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.28,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-272",
+   "from": "2026-09-30-2",
+   "to": "2026-10-07-1",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-273",
+   "from": "2026-09-30-2",
    "to": "2026-10-07-2",
    "type": "related",
    "label": "関連: OpenAI",
@@ -5246,7 +5622,7 @@
    "note": ""
   },
   {
-   "id": "link-272",
+   "id": "link-274",
    "from": "2026-09-30-2",
    "to": "2026-10-07-6",
    "type": "related",
@@ -5256,7 +5632,7 @@
    "note": ""
   },
   {
-   "id": "link-273",
+   "id": "link-275",
    "from": "2026-09-30-2",
    "to": "2026-10-07-15",
    "type": "related",
@@ -5266,7 +5642,7 @@
    "note": ""
   },
   {
-   "id": "link-274",
+   "id": "link-276",
    "from": "2026-09-30-3",
    "to": "2026-10-05-1",
    "type": "related",
@@ -5276,7 +5652,7 @@
    "note": ""
   },
   {
-   "id": "link-275",
+   "id": "link-277",
    "from": "2026-09-30-3",
    "to": "2026-10-06-1",
    "type": "related",
@@ -5286,7 +5662,7 @@
    "note": ""
   },
   {
-   "id": "link-276",
+   "id": "link-278",
    "from": "2026-09-30-3",
    "to": "2026-10-07-7",
    "type": "related",
@@ -5296,7 +5672,7 @@
    "note": ""
   },
   {
-   "id": "link-277",
+   "id": "link-279",
    "from": "2026-09-30-3",
    "to": "2026-10-07-8",
    "type": "related",
@@ -5306,7 +5682,7 @@
    "note": ""
   },
   {
-   "id": "link-278",
+   "id": "link-280",
    "from": "2026-09-30-3",
    "to": "2026-10-07-10",
    "type": "related",
@@ -5316,7 +5692,7 @@
    "note": ""
   },
   {
-   "id": "link-279",
+   "id": "link-281",
    "from": "2026-09-30-3",
    "to": "2026-10-07-13",
    "type": "related",
@@ -5326,7 +5702,7 @@
    "note": ""
   },
   {
-   "id": "link-280",
+   "id": "link-282",
    "from": "2026-09-30-4",
    "to": "kt-2026-10-02-samsung-glasses",
    "type": "related",
@@ -5336,7 +5712,7 @@
    "note": ""
   },
   {
-   "id": "link-281",
+   "id": "link-283",
    "from": "2026-09-30-4",
    "to": "2026-10-02-5",
    "type": "related",
@@ -5346,7 +5722,7 @@
    "note": ""
   },
   {
-   "id": "link-282",
+   "id": "link-284",
    "from": "2026-09-30-4",
    "to": "2026-10-02-6",
    "type": "causes",
@@ -5356,7 +5732,7 @@
    "note": ""
   },
   {
-   "id": "link-283",
+   "id": "link-285",
    "from": "2026-09-30-4",
    "to": "2026-10-02-7",
    "type": "related",
@@ -5366,7 +5742,7 @@
    "note": ""
   },
   {
-   "id": "link-284",
+   "id": "link-286",
    "from": "kt-2026-09-19-japan-us-fab",
    "to": "2026-09-30-4",
    "type": "related",
@@ -5376,7 +5752,7 @@
    "note": ""
   },
   {
-   "id": "link-285",
+   "id": "link-287",
    "from": "2026-09-30-4",
    "to": "2026-10-03-6",
    "type": "related",
@@ -5386,7 +5762,7 @@
    "note": ""
   },
   {
-   "id": "link-286",
+   "id": "link-288",
    "from": "2026-09-30-4",
    "to": "2026-10-05-6",
    "type": "related",
@@ -5396,7 +5772,7 @@
    "note": ""
   },
   {
-   "id": "link-287",
+   "id": "link-289",
    "from": "2026-09-30-4",
    "to": "2026-10-07-4",
    "type": "related",
@@ -5406,7 +5782,7 @@
    "note": ""
   },
   {
-   "id": "link-288",
+   "id": "link-290",
    "from": "2026-09-30-4",
    "to": "2026-10-07-11",
    "type": "related",
@@ -5416,7 +5792,17 @@
    "note": ""
   },
   {
-   "id": "link-289",
+   "id": "link-291",
+   "from": "2026-09-30-4",
+   "to": "2026-10-08-15",
+   "type": "related",
+   "label": "関連: Samsung・TSMC",
+   "confidence": 0.28,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-292",
    "from": "2026-09-30-5",
    "to": "2026-10-01-5",
    "type": "related",
@@ -5426,7 +5812,7 @@
    "note": ""
   },
   {
-   "id": "link-290",
+   "id": "link-293",
    "from": "2026-09-30-5",
    "to": "2026-10-01-7",
    "type": "related",
@@ -5436,7 +5822,7 @@
    "note": ""
   },
   {
-   "id": "link-291",
+   "id": "link-294",
    "from": "2026-09-30-5",
    "to": "2026-10-02-6",
    "type": "related",
@@ -5446,7 +5832,7 @@
    "note": ""
   },
   {
-   "id": "link-292",
+   "id": "link-295",
    "from": "2026-09-30-5",
    "to": "2026-10-02-7",
    "type": "related",
@@ -5456,7 +5842,7 @@
    "note": ""
   },
   {
-   "id": "link-293",
+   "id": "link-296",
    "from": "2026-09-30-5",
    "to": "2026-10-03-1",
    "type": "related",
@@ -5466,7 +5852,7 @@
    "note": ""
   },
   {
-   "id": "link-294",
+   "id": "link-297",
    "from": "2026-09-30-5",
    "to": "2026-10-03-6",
    "type": "related",
@@ -5476,7 +5862,7 @@
    "note": ""
   },
   {
-   "id": "link-295",
+   "id": "link-298",
    "from": "2026-09-30-5",
    "to": "2026-10-04-3",
    "type": "related",
@@ -5486,7 +5872,7 @@
    "note": ""
   },
   {
-   "id": "link-296",
+   "id": "link-299",
    "from": "2026-09-30-5",
    "to": "2026-10-06-6",
    "type": "related",
@@ -5496,7 +5882,7 @@
    "note": ""
   },
   {
-   "id": "link-297",
+   "id": "link-300",
    "from": "2026-09-30-5",
    "to": "2026-10-07-4",
    "type": "related",
@@ -5506,7 +5892,7 @@
    "note": ""
   },
   {
-   "id": "link-298",
+   "id": "link-301",
    "from": "kt-2026-10-01-google-assistant",
    "to": "2026-10-01-2",
    "type": "related",
@@ -5516,7 +5902,7 @@
    "note": ""
   },
   {
-   "id": "link-299",
+   "id": "link-302",
    "from": "kt-2026-10-01-google-assistant",
    "to": "kt-2026-10-02-samsung-glasses",
    "type": "related",
@@ -5526,7 +5912,7 @@
    "note": ""
   },
   {
-   "id": "link-300",
+   "id": "link-303",
    "from": "kt-2026-10-01-google-assistant",
    "to": "2026-10-02-1",
    "type": "related",
@@ -5536,7 +5922,7 @@
    "note": ""
   },
   {
-   "id": "link-301",
+   "id": "link-304",
    "from": "kt-2026-10-01-google-assistant",
    "to": "2026-10-03-3",
    "type": "related",
@@ -5546,7 +5932,7 @@
    "note": ""
   },
   {
-   "id": "link-302",
+   "id": "link-305",
    "from": "kt-2026-10-01-google-assistant",
    "to": "2026-10-05-3",
    "type": "related",
@@ -5556,7 +5942,7 @@
    "note": ""
   },
   {
-   "id": "link-303",
+   "id": "link-306",
    "from": "kt-2026-10-01-google-assistant",
    "to": "2026-10-05-4",
    "type": "related",
@@ -5566,7 +5952,17 @@
    "note": ""
   },
   {
-   "id": "link-304",
+   "id": "link-307",
+   "from": "kt-2026-10-01-google-assistant",
+   "to": "2026-10-08-6",
+   "type": "related",
+   "label": "関連: Google",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-308",
    "from": "2026-10-01-1",
    "to": "2026-10-01-3",
    "type": "related",
@@ -5576,7 +5972,7 @@
    "note": ""
   },
   {
-   "id": "link-305",
+   "id": "link-309",
    "from": "2026-10-01-1",
    "to": "2026-10-01-6",
    "type": "related",
@@ -5586,7 +5982,7 @@
    "note": ""
   },
   {
-   "id": "link-306",
+   "id": "link-310",
    "from": "2026-10-01-1",
    "to": "2026-10-02-3",
    "type": "related",
@@ -5596,7 +5992,7 @@
    "note": ""
   },
   {
-   "id": "link-307",
+   "id": "link-311",
    "from": "2026-10-01-1",
    "to": "2026-10-02-4",
    "type": "related",
@@ -5606,7 +6002,7 @@
    "note": ""
   },
   {
-   "id": "link-308",
+   "id": "link-312",
    "from": "2026-10-01-1",
    "to": "2026-10-03-2",
    "type": "related",
@@ -5616,7 +6012,7 @@
    "note": ""
   },
   {
-   "id": "link-309",
+   "id": "link-313",
    "from": "2026-10-01-1",
    "to": "2026-10-03-6",
    "type": "related",
@@ -5626,49 +6022,9 @@
    "note": ""
   },
   {
-   "id": "link-310",
-   "from": "2026-10-01-1",
-   "to": "2026-10-05-1",
-   "type": "related",
-   "label": "関連: OpenAI",
-   "confidence": 0.26,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-311",
-   "from": "2026-10-01-1",
-   "to": "2026-10-05-2",
-   "type": "related",
-   "label": "関連: OpenAI",
-   "confidence": 0.27,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-312",
-   "from": "2026-10-01-1",
-   "to": "2026-10-06-1",
-   "type": "related",
-   "label": "関連: OpenAI",
-   "confidence": 0.26,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-313",
-   "from": "2026-10-01-1",
-   "to": "2026-10-06-3",
-   "type": "related",
-   "label": "関連: OpenAI",
-   "confidence": 0.27,
-   "auto": true,
-   "note": ""
-  },
-  {
    "id": "link-314",
    "from": "2026-10-01-1",
-   "to": "2026-10-07-1",
+   "to": "2026-10-05-1",
    "type": "related",
    "label": "関連: OpenAI",
    "confidence": 0.26,
@@ -5678,17 +6034,17 @@
   {
    "id": "link-315",
    "from": "2026-10-01-1",
-   "to": "2026-10-07-2",
+   "to": "2026-10-05-2",
    "type": "related",
    "label": "関連: OpenAI",
-   "confidence": 0.26,
+   "confidence": 0.27,
    "auto": true,
    "note": ""
   },
   {
    "id": "link-316",
    "from": "2026-10-01-1",
-   "to": "2026-10-07-6",
+   "to": "2026-10-06-1",
    "type": "related",
    "label": "関連: OpenAI",
    "confidence": 0.26,
@@ -5698,6 +6054,46 @@
   {
    "id": "link-317",
    "from": "2026-10-01-1",
+   "to": "2026-10-06-3",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.27,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-318",
+   "from": "2026-10-01-1",
+   "to": "2026-10-07-1",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-319",
+   "from": "2026-10-01-1",
+   "to": "2026-10-07-2",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-320",
+   "from": "2026-10-01-1",
+   "to": "2026-10-07-6",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-321",
+   "from": "2026-10-01-1",
    "to": "2026-10-07-12",
    "type": "related",
    "label": "関連: Synopsys · EDA",
@@ -5706,7 +6102,7 @@
    "note": ""
   },
   {
-   "id": "link-318",
+   "id": "link-322",
    "from": "2026-10-01-1",
    "to": "2026-10-07-15",
    "type": "related",
@@ -5716,7 +6112,47 @@
    "note": ""
   },
   {
-   "id": "link-319",
+   "id": "link-323",
+   "from": "2026-10-01-1",
+   "to": "2026-10-08-1",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.27,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-324",
+   "from": "2026-10-01-1",
+   "to": "2026-10-08-4",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-325",
+   "from": "2026-10-01-1",
+   "to": "2026-10-08-6",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.27,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-326",
+   "from": "2026-10-01-1",
+   "to": "2026-10-08-15",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.28,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-327",
    "from": "2026-10-01-2",
    "to": "kt-2026-10-02-samsung-glasses",
    "type": "related",
@@ -5726,7 +6162,7 @@
    "note": ""
   },
   {
-   "id": "link-320",
+   "id": "link-328",
    "from": "2026-10-01-2",
    "to": "2026-10-02-1",
    "type": "related",
@@ -5736,7 +6172,7 @@
    "note": ""
   },
   {
-   "id": "link-321",
+   "id": "link-329",
    "from": "2026-10-01-2",
    "to": "2026-10-03-3",
    "type": "related",
@@ -5746,7 +6182,7 @@
    "note": ""
   },
   {
-   "id": "link-322",
+   "id": "link-330",
    "from": "2026-10-01-2",
    "to": "2026-10-03-4",
    "type": "related",
@@ -5756,7 +6192,7 @@
    "note": ""
   },
   {
-   "id": "link-323",
+   "id": "link-331",
    "from": "2026-10-01-2",
    "to": "2026-10-05-3",
    "type": "related",
@@ -5766,7 +6202,7 @@
    "note": ""
   },
   {
-   "id": "link-324",
+   "id": "link-332",
    "from": "2026-10-01-2",
    "to": "2026-10-05-4",
    "type": "related",
@@ -5776,7 +6212,7 @@
    "note": ""
   },
   {
-   "id": "link-325",
+   "id": "link-333",
    "from": "2026-10-01-2",
    "to": "2026-10-06-2",
    "type": "related",
@@ -5786,7 +6222,17 @@
    "note": ""
   },
   {
-   "id": "link-326",
+   "id": "link-334",
+   "from": "2026-10-01-2",
+   "to": "2026-10-08-6",
+   "type": "related",
+   "label": "関連: Google",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-335",
    "from": "2026-10-01-3",
    "to": "2026-10-01-4",
    "type": "related",
@@ -5796,7 +6242,7 @@
    "note": ""
   },
   {
-   "id": "link-327",
+   "id": "link-336",
    "from": "2026-10-01-3",
    "to": "2026-10-01-6",
    "type": "related",
@@ -5806,7 +6252,7 @@
    "note": ""
   },
   {
-   "id": "link-328",
+   "id": "link-337",
    "from": "2026-10-01-3",
    "to": "2026-10-02-2",
    "type": "related",
@@ -5816,7 +6262,7 @@
    "note": ""
   },
   {
-   "id": "link-329",
+   "id": "link-338",
    "from": "2026-10-01-3",
    "to": "2026-10-02-6",
    "type": "related",
@@ -5826,7 +6272,7 @@
    "note": ""
   },
   {
-   "id": "link-330",
+   "id": "link-339",
    "from": "2026-10-01-3",
    "to": "2026-10-03-6",
    "type": "related",
@@ -5836,7 +6282,7 @@
    "note": ""
   },
   {
-   "id": "link-331",
+   "id": "link-340",
    "from": "2026-10-01-3",
    "to": "2026-10-06-6",
    "type": "related",
@@ -5846,7 +6292,7 @@
    "note": ""
   },
   {
-   "id": "link-332",
+   "id": "link-341",
    "from": "2026-10-01-3",
    "to": "2026-10-07-3",
    "type": "related",
@@ -5856,7 +6302,7 @@
    "note": ""
   },
   {
-   "id": "link-333",
+   "id": "link-342",
    "from": "2026-10-01-3",
    "to": "2026-10-07-10",
    "type": "related",
@@ -5866,7 +6312,97 @@
    "note": ""
   },
   {
-   "id": "link-334",
+   "id": "link-343",
+   "from": "2026-10-01-3",
+   "to": "2026-10-08-2",
+   "type": "same_arc",
+   "label": "AIメモリー好況：Micronに続きSamsungも過去最高",
+   "confidence": 0.85,
+   "auto": false,
+   "note": "2026-10-08 朝ラン手動強化"
+  },
+  {
+   "id": "link-344",
+   "from": "2026-10-01-3",
+   "to": "2026-10-08-3",
+   "type": "related",
+   "label": "関連: Nvidia",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-345",
+   "from": "2026-10-01-3",
+   "to": "2026-10-08-4",
+   "type": "related",
+   "label": "関連: Nvidia",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-346",
+   "from": "2026-10-01-3",
+   "to": "2026-10-08-5",
+   "type": "related",
+   "label": "関連: HBM · memory",
+   "confidence": 0.31,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-347",
+   "from": "2026-10-01-3",
+   "to": "2026-10-08-6",
+   "type": "related",
+   "label": "関連: Nvidia",
+   "confidence": 0.28,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-348",
+   "from": "2026-10-01-3",
+   "to": "2026-10-08-8",
+   "type": "related",
+   "label": "関連: Nvidia",
+   "confidence": 0.31,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-349",
+   "from": "2026-10-01-3",
+   "to": "2026-10-08-9",
+   "type": "related",
+   "label": "関連: Nvidia",
+   "confidence": 0.28,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-350",
+   "from": "2026-10-01-3",
+   "to": "2026-10-08-10",
+   "type": "related",
+   "label": "関連: Micron",
+   "confidence": 0.28,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-351",
+   "from": "2026-10-01-3",
+   "to": "2026-10-08-12",
+   "type": "related",
+   "label": "関連: Nvidia",
+   "confidence": 0.29,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-352",
    "from": "2026-10-01-4",
    "to": "2026-10-02-4",
    "type": "related",
@@ -5876,7 +6412,7 @@
    "note": ""
   },
   {
-   "id": "link-335",
+   "id": "link-353",
    "from": "2026-10-01-4",
    "to": "2026-10-07-12",
    "type": "related",
@@ -5886,7 +6422,7 @@
    "note": ""
   },
   {
-   "id": "link-336",
+   "id": "link-354",
    "from": "2026-10-01-5",
    "to": "2026-10-01-7",
    "type": "causes",
@@ -5896,7 +6432,7 @@
    "note": ""
   },
   {
-   "id": "link-337",
+   "id": "link-355",
    "from": "2026-10-01-5",
    "to": "kt-2026-10-02-samsung-glasses",
    "type": "related",
@@ -5906,7 +6442,7 @@
    "note": ""
   },
   {
-   "id": "link-338",
+   "id": "link-356",
    "from": "2026-10-01-5",
    "to": "2026-10-02-6",
    "type": "related",
@@ -5916,7 +6452,7 @@
    "note": ""
   },
   {
-   "id": "link-339",
+   "id": "link-357",
    "from": "2026-10-01-5",
    "to": "2026-10-02-7",
    "type": "related",
@@ -5926,7 +6462,7 @@
    "note": ""
   },
   {
-   "id": "link-340",
+   "id": "link-358",
    "from": "2026-10-01-5",
    "to": "2026-10-03-1",
    "type": "related",
@@ -5936,7 +6472,7 @@
    "note": ""
   },
   {
-   "id": "link-341",
+   "id": "link-359",
    "from": "2026-10-01-5",
    "to": "2026-10-03-6",
    "type": "related",
@@ -5946,7 +6482,7 @@
    "note": ""
   },
   {
-   "id": "link-342",
+   "id": "link-360",
    "from": "2026-10-01-5",
    "to": "2026-10-03-7",
    "type": "related",
@@ -5956,7 +6492,7 @@
    "note": ""
   },
   {
-   "id": "link-343",
+   "id": "link-361",
    "from": "2026-10-01-5",
    "to": "2026-10-04-1",
    "type": "related",
@@ -5966,7 +6502,7 @@
    "note": ""
   },
   {
-   "id": "link-344",
+   "id": "link-362",
    "from": "2026-10-01-5",
    "to": "2026-10-04-3",
    "type": "related",
@@ -5976,7 +6512,7 @@
    "note": ""
   },
   {
-   "id": "link-345",
+   "id": "link-363",
    "from": "2026-10-01-5",
    "to": "2026-10-04-7",
    "type": "related",
@@ -5986,7 +6522,27 @@
    "note": ""
   },
   {
-   "id": "link-346",
+   "id": "link-364",
+   "from": "2026-10-01-5",
+   "to": "2026-10-08-6",
+   "type": "related",
+   "label": "関連: Apple",
+   "confidence": 0.27,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-365",
+   "from": "2026-10-01-5",
+   "to": "2026-10-08-11",
+   "type": "related",
+   "label": "関連: Meta",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-366",
    "from": "2026-10-01-6",
    "to": "2026-10-03-6",
    "type": "related",
@@ -5996,7 +6552,7 @@
    "note": ""
   },
   {
-   "id": "link-347",
+   "id": "link-367",
    "from": "2026-10-01-7",
    "to": "2026-10-02-6",
    "type": "related",
@@ -6006,7 +6562,7 @@
    "note": ""
   },
   {
-   "id": "link-348",
+   "id": "link-368",
    "from": "2026-10-01-7",
    "to": "2026-10-02-7",
    "type": "related",
@@ -6016,7 +6572,7 @@
    "note": ""
   },
   {
-   "id": "link-349",
+   "id": "link-369",
    "from": "2026-10-01-7",
    "to": "2026-10-03-1",
    "type": "related",
@@ -6026,7 +6582,7 @@
    "note": ""
   },
   {
-   "id": "link-350",
+   "id": "link-370",
    "from": "2026-10-01-7",
    "to": "2026-10-03-6",
    "type": "related",
@@ -6036,7 +6592,7 @@
    "note": ""
   },
   {
-   "id": "link-351",
+   "id": "link-371",
    "from": "2026-10-01-7",
    "to": "2026-10-03-7",
    "type": "related",
@@ -6046,7 +6602,7 @@
    "note": ""
   },
   {
-   "id": "link-352",
+   "id": "link-372",
    "from": "2026-10-01-7",
    "to": "2026-10-04-1",
    "type": "related",
@@ -6056,7 +6612,7 @@
    "note": ""
   },
   {
-   "id": "link-353",
+   "id": "link-373",
    "from": "2026-10-01-7",
    "to": "2026-10-04-3",
    "type": "related",
@@ -6066,7 +6622,7 @@
    "note": ""
   },
   {
-   "id": "link-354",
+   "id": "link-374",
    "from": "2026-10-01-7",
    "to": "2026-10-04-7",
    "type": "related",
@@ -6076,7 +6632,17 @@
    "note": ""
   },
   {
-   "id": "link-355",
+   "id": "link-375",
+   "from": "2026-10-01-7",
+   "to": "2026-10-08-6",
+   "type": "related",
+   "label": "関連: Apple",
+   "confidence": 0.27,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-376",
    "from": "kt-2026-10-02-samsung-glasses",
    "to": "2026-10-02-1",
    "type": "related",
@@ -6086,7 +6652,7 @@
    "note": ""
   },
   {
-   "id": "link-356",
+   "id": "link-377",
    "from": "kt-2026-10-02-samsung-glasses",
    "to": "2026-10-02-7",
    "type": "related",
@@ -6096,7 +6662,7 @@
    "note": ""
   },
   {
-   "id": "link-357",
+   "id": "link-378",
    "from": "kt-2026-10-02-samsung-glasses",
    "to": "2026-10-03-3",
    "type": "related",
@@ -6106,7 +6672,7 @@
    "note": ""
   },
   {
-   "id": "link-358",
+   "id": "link-379",
    "from": "kt-2026-10-02-samsung-glasses",
    "to": "2026-10-03-5",
    "type": "related",
@@ -6116,7 +6682,7 @@
    "note": ""
   },
   {
-   "id": "link-359",
+   "id": "link-380",
    "from": "kt-2026-10-02-samsung-glasses",
    "to": "2026-10-04-1",
    "type": "related",
@@ -6126,7 +6692,7 @@
    "note": ""
   },
   {
-   "id": "link-360",
+   "id": "link-381",
    "from": "kt-2026-10-02-samsung-glasses",
    "to": "2026-10-05-3",
    "type": "related",
@@ -6136,7 +6702,7 @@
    "note": ""
   },
   {
-   "id": "link-361",
+   "id": "link-382",
    "from": "kt-2026-10-02-samsung-glasses",
    "to": "2026-10-05-4",
    "type": "related",
@@ -6146,7 +6712,37 @@
    "note": ""
   },
   {
-   "id": "link-362",
+   "id": "link-383",
+   "from": "kt-2026-10-02-samsung-glasses",
+   "to": "2026-10-08-2",
+   "type": "related",
+   "label": "関連: Samsung",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-384",
+   "from": "kt-2026-10-02-samsung-glasses",
+   "to": "2026-10-08-6",
+   "type": "related",
+   "label": "関連: Google",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-385",
+   "from": "kt-2026-10-02-samsung-glasses",
+   "to": "2026-10-08-15",
+   "type": "related",
+   "label": "関連: Samsung",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-386",
    "from": "2026-10-02-1",
    "to": "2026-10-02-3",
    "type": "related",
@@ -6156,7 +6752,7 @@
    "note": ""
   },
   {
-   "id": "link-363",
+   "id": "link-387",
    "from": "2026-10-02-1",
    "to": "2026-10-03-3",
    "type": "related",
@@ -6166,7 +6762,7 @@
    "note": ""
   },
   {
-   "id": "link-364",
+   "id": "link-388",
    "from": "2026-10-02-1",
    "to": "2026-10-05-1",
    "type": "related",
@@ -6176,7 +6772,7 @@
    "note": ""
   },
   {
-   "id": "link-365",
+   "id": "link-389",
    "from": "2026-10-02-1",
    "to": "2026-10-05-3",
    "type": "related",
@@ -6186,7 +6782,7 @@
    "note": ""
   },
   {
-   "id": "link-366",
+   "id": "link-390",
    "from": "2026-10-02-1",
    "to": "2026-10-05-4",
    "type": "related",
@@ -6196,7 +6792,7 @@
    "note": ""
   },
   {
-   "id": "link-367",
+   "id": "link-391",
    "from": "2026-10-02-1",
    "to": "2026-10-06-1",
    "type": "related",
@@ -6206,7 +6802,7 @@
    "note": ""
   },
   {
-   "id": "link-368",
+   "id": "link-392",
    "from": "2026-10-02-1",
    "to": "2026-10-06-2",
    "type": "related",
@@ -6216,7 +6812,7 @@
    "note": ""
   },
   {
-   "id": "link-369",
+   "id": "link-393",
    "from": "2026-10-02-1",
    "to": "2026-10-07-7",
    "type": "related",
@@ -6226,7 +6822,7 @@
    "note": ""
   },
   {
-   "id": "link-370",
+   "id": "link-394",
    "from": "2026-10-02-1",
    "to": "2026-10-07-8",
    "type": "related",
@@ -6236,7 +6832,7 @@
    "note": ""
   },
   {
-   "id": "link-371",
+   "id": "link-395",
    "from": "2026-10-02-1",
    "to": "2026-10-07-10",
    "type": "related",
@@ -6246,7 +6842,7 @@
    "note": ""
   },
   {
-   "id": "link-372",
+   "id": "link-396",
    "from": "2026-10-02-1",
    "to": "2026-10-07-13",
    "type": "related",
@@ -6256,7 +6852,27 @@
    "note": ""
   },
   {
-   "id": "link-373",
+   "id": "link-397",
+   "from": "2026-10-02-1",
+   "to": "2026-10-08-4",
+   "type": "same_arc",
+   "label": "Broadcomが顧客AIラボのチップ代を資金面でも支える構図（Anthropic→OpenAI）",
+   "confidence": 0.85,
+   "auto": false,
+   "note": "2026-10-08 朝ラン手動強化"
+  },
+  {
+   "id": "link-398",
+   "from": "2026-10-02-1",
+   "to": "2026-10-08-6",
+   "type": "related",
+   "label": "関連: Google",
+   "confidence": 0.27,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-399",
    "from": "2026-10-02-2",
    "to": "2026-10-02-6",
    "type": "related",
@@ -6266,7 +6882,7 @@
    "note": ""
   },
   {
-   "id": "link-374",
+   "id": "link-400",
    "from": "2026-10-02-2",
    "to": "2026-10-06-6",
    "type": "related",
@@ -6276,7 +6892,7 @@
    "note": ""
   },
   {
-   "id": "link-375",
+   "id": "link-401",
    "from": "2026-10-02-2",
    "to": "2026-10-07-3",
    "type": "related",
@@ -6286,7 +6902,7 @@
    "note": ""
   },
   {
-   "id": "link-376",
+   "id": "link-402",
    "from": "2026-10-02-2",
    "to": "2026-10-07-10",
    "type": "related",
@@ -6296,7 +6912,67 @@
    "note": ""
   },
   {
-   "id": "link-377",
+   "id": "link-403",
+   "from": "2026-10-02-2",
+   "to": "2026-10-08-3",
+   "type": "related",
+   "label": "関連: Nvidia",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-404",
+   "from": "2026-10-02-2",
+   "to": "2026-10-08-4",
+   "type": "related",
+   "label": "関連: Apollo・Blackstone",
+   "confidence": 0.38,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-405",
+   "from": "2026-10-02-2",
+   "to": "2026-10-08-6",
+   "type": "related",
+   "label": "関連: Nvidia",
+   "confidence": 0.27,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-406",
+   "from": "2026-10-02-2",
+   "to": "2026-10-08-8",
+   "type": "related",
+   "label": "関連: Nvidia",
+   "confidence": 0.29,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-407",
+   "from": "2026-10-02-2",
+   "to": "2026-10-08-9",
+   "type": "related",
+   "label": "関連: Nvidia",
+   "confidence": 0.27,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-408",
+   "from": "2026-10-02-2",
+   "to": "2026-10-08-12",
+   "type": "related",
+   "label": "関連: Nvidia",
+   "confidence": 0.28,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-409",
    "from": "2026-10-02-3",
    "to": "2026-10-05-2",
    "type": "related",
@@ -6306,7 +6982,7 @@
    "note": ""
   },
   {
-   "id": "link-378",
+   "id": "link-410",
    "from": "2026-10-02-3",
    "to": "2026-10-06-1",
    "type": "related",
@@ -6316,7 +6992,7 @@
    "note": ""
   },
   {
-   "id": "link-379",
+   "id": "link-411",
    "from": "2026-10-02-3",
    "to": "2026-10-06-3",
    "type": "related",
@@ -6326,7 +7002,7 @@
    "note": ""
   },
   {
-   "id": "link-380",
+   "id": "link-412",
    "from": "2026-10-02-3",
    "to": "2026-10-07-1",
    "type": "related",
@@ -6336,7 +7012,7 @@
    "note": ""
   },
   {
-   "id": "link-381",
+   "id": "link-413",
    "from": "2026-10-02-3",
    "to": "2026-10-07-2",
    "type": "related",
@@ -6346,7 +7022,7 @@
    "note": ""
   },
   {
-   "id": "link-382",
+   "id": "link-414",
    "from": "2026-10-02-3",
    "to": "2026-10-07-6",
    "type": "related",
@@ -6356,7 +7032,7 @@
    "note": ""
   },
   {
-   "id": "link-383",
+   "id": "link-415",
    "from": "2026-10-02-3",
    "to": "2026-10-07-7",
    "type": "related",
@@ -6366,7 +7042,7 @@
    "note": ""
   },
   {
-   "id": "link-384",
+   "id": "link-416",
    "from": "2026-10-02-3",
    "to": "2026-10-07-8",
    "type": "related",
@@ -6376,7 +7052,7 @@
    "note": ""
   },
   {
-   "id": "link-385",
+   "id": "link-417",
    "from": "2026-10-02-3",
    "to": "2026-10-07-10",
    "type": "related",
@@ -6386,7 +7062,7 @@
    "note": ""
   },
   {
-   "id": "link-386",
+   "id": "link-418",
    "from": "2026-10-02-3",
    "to": "2026-10-07-13",
    "type": "related",
@@ -6396,7 +7072,7 @@
    "note": ""
   },
   {
-   "id": "link-387",
+   "id": "link-419",
    "from": "2026-10-02-3",
    "to": "2026-10-07-15",
    "type": "related",
@@ -6406,7 +7082,47 @@
    "note": ""
   },
   {
-   "id": "link-388",
+   "id": "link-420",
+   "from": "2026-10-02-3",
+   "to": "2026-10-08-1",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.27,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-421",
+   "from": "2026-10-02-3",
+   "to": "2026-10-08-4",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-422",
+   "from": "2026-10-02-3",
+   "to": "2026-10-08-6",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.27,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-423",
+   "from": "2026-10-02-3",
+   "to": "2026-10-08-15",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.28,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-424",
    "from": "2026-10-02-4",
    "to": "2026-10-04-1",
    "type": "related",
@@ -6416,7 +7132,7 @@
    "note": ""
   },
   {
-   "id": "link-389",
+   "id": "link-425",
    "from": "2026-10-02-4",
    "to": "2026-10-05-3",
    "type": "related",
@@ -6426,7 +7142,7 @@
    "note": ""
   },
   {
-   "id": "link-390",
+   "id": "link-426",
    "from": "2026-10-02-5",
    "to": "2026-10-02-6",
    "type": "causes",
@@ -6436,7 +7152,7 @@
    "note": ""
   },
   {
-   "id": "link-391",
+   "id": "link-427",
    "from": "kt-2026-09-19-japan-us-fab",
    "to": "2026-10-02-5",
    "type": "related",
@@ -6446,7 +7162,7 @@
    "note": ""
   },
   {
-   "id": "link-392",
+   "id": "link-428",
    "from": "2026-10-02-5",
    "to": "2026-10-03-6",
    "type": "related",
@@ -6456,7 +7172,7 @@
    "note": ""
   },
   {
-   "id": "link-393",
+   "id": "link-429",
    "from": "2026-10-02-5",
    "to": "2026-10-04-5",
    "type": "related",
@@ -6466,7 +7182,7 @@
    "note": ""
   },
   {
-   "id": "link-394",
+   "id": "link-430",
    "from": "2026-10-02-5",
    "to": "2026-10-05-6",
    "type": "related",
@@ -6476,7 +7192,7 @@
    "note": ""
   },
   {
-   "id": "link-395",
+   "id": "link-431",
    "from": "2026-10-02-5",
    "to": "2026-10-05-7",
    "type": "related",
@@ -6486,7 +7202,7 @@
    "note": ""
   },
   {
-   "id": "link-396",
+   "id": "link-432",
    "from": "2026-10-02-5",
    "to": "2026-10-07-11",
    "type": "related",
@@ -6496,7 +7212,27 @@
    "note": ""
   },
   {
-   "id": "link-397",
+   "id": "link-433",
+   "from": "2026-10-02-5",
+   "to": "2026-10-08-10",
+   "type": "related",
+   "label": "関連: TSMC",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-434",
+   "from": "2026-10-02-5",
+   "to": "2026-10-08-15",
+   "type": "related",
+   "label": "関連: TSMC",
+   "confidence": 0.27,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-435",
    "from": "kt-2026-09-19-japan-us-fab",
    "to": "2026-10-02-6",
    "type": "related",
@@ -6506,7 +7242,7 @@
    "note": ""
   },
   {
-   "id": "link-398",
+   "id": "link-436",
    "from": "2026-10-02-6",
    "to": "2026-10-03-1",
    "type": "related",
@@ -6516,7 +7252,7 @@
    "note": ""
   },
   {
-   "id": "link-399",
+   "id": "link-437",
    "from": "2026-10-02-6",
    "to": "2026-10-03-6",
    "type": "related",
@@ -6526,7 +7262,7 @@
    "note": ""
   },
   {
-   "id": "link-400",
+   "id": "link-438",
    "from": "2026-10-02-6",
    "to": "2026-10-04-3",
    "type": "related",
@@ -6536,7 +7272,7 @@
    "note": ""
   },
   {
-   "id": "link-401",
+   "id": "link-439",
    "from": "2026-10-02-6",
    "to": "2026-10-05-6",
    "type": "related",
@@ -6546,7 +7282,7 @@
    "note": ""
   },
   {
-   "id": "link-402",
+   "id": "link-440",
    "from": "2026-10-02-6",
    "to": "2026-10-06-6",
    "type": "related",
@@ -6556,7 +7292,7 @@
    "note": ""
   },
   {
-   "id": "link-403",
+   "id": "link-441",
    "from": "2026-10-02-6",
    "to": "2026-10-07-4",
    "type": "related",
@@ -6566,7 +7302,7 @@
    "note": ""
   },
   {
-   "id": "link-404",
+   "id": "link-442",
    "from": "2026-10-02-6",
    "to": "2026-10-07-10",
    "type": "related",
@@ -6576,7 +7312,7 @@
    "note": ""
   },
   {
-   "id": "link-405",
+   "id": "link-443",
    "from": "2026-10-02-6",
    "to": "2026-10-07-11",
    "type": "related",
@@ -6586,7 +7322,77 @@
    "note": ""
   },
   {
-   "id": "link-406",
+   "id": "link-444",
+   "from": "2026-10-02-6",
+   "to": "2026-10-08-5",
+   "type": "related",
+   "label": "関連: AMD・TSMC",
+   "confidence": 0.29,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-445",
+   "from": "2026-10-02-6",
+   "to": "2026-10-08-6",
+   "type": "related",
+   "label": "関連: Apple・Nvidia",
+   "confidence": 0.32,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-446",
+   "from": "2026-10-02-6",
+   "to": "2026-10-08-8",
+   "type": "related",
+   "label": "関連: Nvidia",
+   "confidence": 0.27,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-447",
+   "from": "2026-10-02-6",
+   "to": "2026-10-08-9",
+   "type": "related",
+   "label": "関連: Nvidia",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-448",
+   "from": "2026-10-02-6",
+   "to": "2026-10-08-10",
+   "type": "related",
+   "label": "関連: TSMC",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-449",
+   "from": "2026-10-02-6",
+   "to": "2026-10-08-12",
+   "type": "related",
+   "label": "関連: Nvidia",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-450",
+   "from": "2026-10-02-6",
+   "to": "2026-10-08-15",
+   "type": "related",
+   "label": "関連: TSMC",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-451",
    "from": "2026-10-02-7",
    "to": "2026-10-03-7",
    "type": "same_arc",
@@ -6596,7 +7402,7 @@
    "note": ""
   },
   {
-   "id": "link-407",
+   "id": "link-452",
    "from": "2026-10-02-7",
    "to": "2026-10-04-5",
    "type": "related",
@@ -6606,7 +7412,7 @@
    "note": ""
   },
   {
-   "id": "link-408",
+   "id": "link-453",
    "from": "2026-10-02-7",
    "to": "2026-10-04-6",
    "type": "related",
@@ -6616,7 +7422,7 @@
    "note": ""
   },
   {
-   "id": "link-409",
+   "id": "link-454",
    "from": "2026-10-02-7",
    "to": "2026-10-05-4",
    "type": "related",
@@ -6626,7 +7432,7 @@
    "note": ""
   },
   {
-   "id": "link-410",
+   "id": "link-455",
    "from": "2026-10-02-7",
    "to": "2026-10-05-5",
    "type": "causes",
@@ -6636,7 +7442,7 @@
    "note": ""
   },
   {
-   "id": "link-411",
+   "id": "link-456",
    "from": "2026-10-02-7",
    "to": "2026-10-07-4",
    "type": "related",
@@ -6646,7 +7452,37 @@
    "note": ""
   },
   {
-   "id": "link-412",
+   "id": "link-457",
+   "from": "2026-10-02-7",
+   "to": "2026-10-08-2",
+   "type": "related",
+   "label": "関連: Samsung · memory",
+   "confidence": 0.34,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-458",
+   "from": "2026-10-02-7",
+   "to": "2026-10-08-5",
+   "type": "related",
+   "label": "関連: Samsung · memory/supply-chain",
+   "confidence": 0.4,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-459",
+   "from": "2026-10-02-7",
+   "to": "2026-10-08-15",
+   "type": "related",
+   "label": "関連: Samsung",
+   "confidence": 0.29,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-460",
    "from": "2026-10-03-1",
    "to": "2026-10-03-2",
    "type": "related",
@@ -6656,7 +7492,7 @@
    "note": ""
   },
   {
-   "id": "link-413",
+   "id": "link-461",
    "from": "2026-10-03-1",
    "to": "2026-10-04-3",
    "type": "related",
@@ -6666,7 +7502,7 @@
    "note": ""
   },
   {
-   "id": "link-414",
+   "id": "link-462",
    "from": "2026-10-03-1",
    "to": "2026-10-05-1",
    "type": "related",
@@ -6676,7 +7512,7 @@
    "note": ""
   },
   {
-   "id": "link-415",
+   "id": "link-463",
    "from": "2026-10-03-1",
    "to": "2026-10-05-3",
    "type": "related",
@@ -6686,7 +7522,7 @@
    "note": ""
   },
   {
-   "id": "link-416",
+   "id": "link-464",
    "from": "2026-10-03-1",
    "to": "2026-10-06-1",
    "type": "related",
@@ -6696,7 +7532,7 @@
    "note": ""
   },
   {
-   "id": "link-417",
+   "id": "link-465",
    "from": "2026-10-03-1",
    "to": "2026-10-06-3",
    "type": "related",
@@ -6706,7 +7542,27 @@
    "note": ""
   },
   {
-   "id": "link-418",
+   "id": "link-466",
+   "from": "2026-10-03-1",
+   "to": "2026-10-08-1",
+   "type": "related",
+   "label": "関連: ChatGPT",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-467",
+   "from": "2026-10-03-1",
+   "to": "2026-10-08-6",
+   "type": "related",
+   "label": "関連: Apple",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-468",
    "from": "2026-10-03-2",
    "to": "2026-10-04-3",
    "type": "related",
@@ -6716,7 +7572,7 @@
    "note": ""
   },
   {
-   "id": "link-419",
+   "id": "link-469",
    "from": "2026-10-03-2",
    "to": "2026-10-05-1",
    "type": "causes",
@@ -6726,7 +7582,7 @@
    "note": ""
   },
   {
-   "id": "link-420",
+   "id": "link-470",
    "from": "2026-10-03-2",
    "to": "2026-10-06-1",
    "type": "related",
@@ -6736,7 +7592,7 @@
    "note": ""
   },
   {
-   "id": "link-421",
+   "id": "link-471",
    "from": "2026-10-03-2",
    "to": "2026-10-06-3",
    "type": "related",
@@ -6746,7 +7602,7 @@
    "note": ""
   },
   {
-   "id": "link-422",
+   "id": "link-472",
    "from": "2026-10-03-2",
    "to": "2026-10-07-2",
    "type": "related",
@@ -6756,7 +7612,7 @@
    "note": ""
   },
   {
-   "id": "link-423",
+   "id": "link-473",
    "from": "2026-10-03-2",
    "to": "2026-10-07-6",
    "type": "related",
@@ -6766,7 +7622,7 @@
    "note": ""
   },
   {
-   "id": "link-424",
+   "id": "link-474",
    "from": "2026-10-03-2",
    "to": "2026-10-07-15",
    "type": "related",
@@ -6776,7 +7632,37 @@
    "note": ""
   },
   {
-   "id": "link-425",
+   "id": "link-475",
+   "from": "2026-10-03-2",
+   "to": "2026-10-08-1",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-476",
+   "from": "2026-10-03-2",
+   "to": "2026-10-08-6",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-477",
+   "from": "2026-10-03-2",
+   "to": "2026-10-08-15",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-478",
    "from": "2026-10-03-3",
    "to": "2026-10-03-5",
    "type": "related",
@@ -6786,7 +7672,7 @@
    "note": ""
   },
   {
-   "id": "link-426",
+   "id": "link-479",
    "from": "2026-10-03-3",
    "to": "2026-10-05-3",
    "type": "related",
@@ -6796,7 +7682,7 @@
    "note": ""
   },
   {
-   "id": "link-427",
+   "id": "link-480",
    "from": "2026-10-03-3",
    "to": "2026-10-05-4",
    "type": "related",
@@ -6806,7 +7692,7 @@
    "note": ""
   },
   {
-   "id": "link-428",
+   "id": "link-481",
    "from": "2026-10-03-3",
    "to": "2026-10-06-2",
    "type": "related",
@@ -6816,7 +7702,17 @@
    "note": ""
   },
   {
-   "id": "link-429",
+   "id": "link-482",
+   "from": "2026-10-03-3",
+   "to": "2026-10-08-6",
+   "type": "related",
+   "label": "関連: Google",
+   "confidence": 0.27,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-483",
    "from": "2026-10-03-4",
    "to": "2026-10-07-1",
    "type": "related",
@@ -6826,7 +7722,27 @@
    "note": ""
   },
   {
-   "id": "link-430",
+   "id": "link-484",
+   "from": "2026-10-03-4",
+   "to": "2026-10-08-12",
+   "type": "related",
+   "label": "関連: Hugging Face",
+   "confidence": 0.27,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-485",
+   "from": "2026-10-03-5",
+   "to": "2026-10-08-3",
+   "type": "related",
+   "label": "関連: Microsoft",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-486",
    "from": "2026-10-03-6",
    "to": "2026-10-04-3",
    "type": "related",
@@ -6836,7 +7752,7 @@
    "note": ""
   },
   {
-   "id": "link-431",
+   "id": "link-487",
    "from": "2026-10-03-6",
    "to": "2026-10-04-5",
    "type": "related",
@@ -6846,7 +7762,7 @@
    "note": ""
   },
   {
-   "id": "link-432",
+   "id": "link-488",
    "from": "2026-10-03-6",
    "to": "2026-10-04-7",
    "type": "related",
@@ -6856,7 +7772,7 @@
    "note": ""
   },
   {
-   "id": "link-433",
+   "id": "link-489",
    "from": "2026-10-03-6",
    "to": "2026-10-05-6",
    "type": "related",
@@ -6866,7 +7782,7 @@
    "note": ""
   },
   {
-   "id": "link-434",
+   "id": "link-490",
    "from": "2026-10-03-7",
    "to": "2026-10-05-4",
    "type": "related",
@@ -6876,7 +7792,7 @@
    "note": ""
   },
   {
-   "id": "link-435",
+   "id": "link-491",
    "from": "2026-10-03-7",
    "to": "2026-10-05-6",
    "type": "related",
@@ -6886,7 +7802,27 @@
    "note": ""
   },
   {
-   "id": "link-436",
+   "id": "link-492",
+   "from": "2026-10-03-7",
+   "to": "2026-10-08-2",
+   "type": "related",
+   "label": "関連: HBM · memory",
+   "confidence": 0.33,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-493",
+   "from": "2026-10-03-7",
+   "to": "2026-10-08-5",
+   "type": "related",
+   "label": "関連: HBM · memory",
+   "confidence": 0.31,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-494",
    "from": "2026-10-04-1",
    "to": "2026-10-05-3",
    "type": "related",
@@ -6896,7 +7832,7 @@
    "note": ""
   },
   {
-   "id": "link-437",
+   "id": "link-495",
    "from": "2026-10-04-2",
    "to": "2026-10-04-3",
    "type": "related",
@@ -6906,7 +7842,7 @@
    "note": ""
   },
   {
-   "id": "link-438",
+   "id": "link-496",
    "from": "2026-10-04-2",
    "to": "2026-10-04-5",
    "type": "related",
@@ -6916,7 +7852,7 @@
    "note": ""
   },
   {
-   "id": "link-439",
+   "id": "link-497",
    "from": "2026-10-04-2",
    "to": "2026-10-07-9",
    "type": "related",
@@ -6926,7 +7862,7 @@
    "note": ""
   },
   {
-   "id": "link-440",
+   "id": "link-498",
    "from": "2026-10-04-2",
    "to": "2026-10-07-14",
    "type": "related",
@@ -6936,7 +7872,7 @@
    "note": ""
   },
   {
-   "id": "link-441",
+   "id": "link-499",
    "from": "2026-10-04-3",
    "to": "2026-10-04-5",
    "type": "related",
@@ -6946,7 +7882,7 @@
    "note": ""
   },
   {
-   "id": "link-442",
+   "id": "link-500",
    "from": "2026-10-04-3",
    "to": "2026-10-04-7",
    "type": "related",
@@ -6956,7 +7892,7 @@
    "note": ""
   },
   {
-   "id": "link-443",
+   "id": "link-501",
    "from": "2026-10-04-3",
    "to": "2026-10-05-1",
    "type": "related",
@@ -6966,7 +7902,7 @@
    "note": ""
   },
   {
-   "id": "link-444",
+   "id": "link-502",
    "from": "2026-10-04-3",
    "to": "2026-10-06-1",
    "type": "related",
@@ -6976,7 +7912,7 @@
    "note": ""
   },
   {
-   "id": "link-445",
+   "id": "link-503",
    "from": "2026-10-04-3",
    "to": "2026-10-07-6",
    "type": "related",
@@ -6986,7 +7922,7 @@
    "note": ""
   },
   {
-   "id": "link-446",
+   "id": "link-504",
    "from": "2026-10-04-3",
    "to": "2026-10-07-8",
    "type": "related",
@@ -6996,7 +7932,7 @@
    "note": ""
   },
   {
-   "id": "link-447",
+   "id": "link-505",
    "from": "2026-10-04-3",
    "to": "2026-10-07-15",
    "type": "related",
@@ -7006,7 +7942,17 @@
    "note": ""
   },
   {
-   "id": "link-448",
+   "id": "link-506",
+   "from": "2026-10-04-3",
+   "to": "2026-10-08-6",
+   "type": "related",
+   "label": "関連: Apple · policy",
+   "confidence": 0.33,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-507",
    "from": "2026-10-04-5",
    "to": "2026-10-05-7",
    "type": "related",
@@ -7016,7 +7962,7 @@
    "note": ""
   },
   {
-   "id": "link-449",
+   "id": "link-508",
    "from": "2026-10-04-6",
    "to": "2026-10-05-4",
    "type": "related",
@@ -7026,7 +7972,7 @@
    "note": ""
   },
   {
-   "id": "link-450",
+   "id": "link-509",
    "from": "2026-10-04-6",
    "to": "2026-10-06-6",
    "type": "related",
@@ -7036,7 +7982,7 @@
    "note": ""
   },
   {
-   "id": "link-451",
+   "id": "link-510",
    "from": "2026-10-04-6",
    "to": "2026-10-07-4",
    "type": "related",
@@ -7046,7 +7992,7 @@
    "note": ""
   },
   {
-   "id": "link-452",
+   "id": "link-511",
    "from": "2026-10-04-6",
    "to": "2026-10-07-11",
    "type": "related",
@@ -7056,7 +8002,17 @@
    "note": ""
   },
   {
-   "id": "link-453",
+   "id": "link-512",
+   "from": "2026-10-04-6",
+   "to": "2026-10-08-10",
+   "type": "related",
+   "label": "関連: Intel",
+   "confidence": 0.28,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-513",
    "from": "2026-10-04-7",
    "to": "2026-10-07-5",
    "type": "related",
@@ -7066,7 +8022,7 @@
    "note": ""
   },
   {
-   "id": "link-454",
+   "id": "link-514",
    "from": "2026-10-05-1",
    "to": "2026-10-05-2",
    "type": "related",
@@ -7076,7 +8032,7 @@
    "note": ""
   },
   {
-   "id": "link-455",
+   "id": "link-515",
    "from": "2026-10-05-1",
    "to": "2026-10-06-1",
    "type": "causes",
@@ -7086,7 +8042,7 @@
    "note": ""
   },
   {
-   "id": "link-456",
+   "id": "link-516",
    "from": "2026-10-05-1",
    "to": "2026-10-06-3",
    "type": "related",
@@ -7096,7 +8052,7 @@
    "note": ""
   },
   {
-   "id": "link-457",
+   "id": "link-517",
    "from": "2026-10-05-1",
    "to": "2026-10-07-1",
    "type": "related",
@@ -7106,7 +8062,7 @@
    "note": ""
   },
   {
-   "id": "link-458",
+   "id": "link-518",
    "from": "2026-10-05-1",
    "to": "2026-10-07-2",
    "type": "related",
@@ -7116,7 +8072,7 @@
    "note": ""
   },
   {
-   "id": "link-459",
+   "id": "link-519",
    "from": "2026-10-05-1",
    "to": "2026-10-07-6",
    "type": "related",
@@ -7126,7 +8082,7 @@
    "note": ""
   },
   {
-   "id": "link-460",
+   "id": "link-520",
    "from": "2026-10-05-1",
    "to": "2026-10-07-7",
    "type": "related",
@@ -7136,7 +8092,7 @@
    "note": ""
   },
   {
-   "id": "link-461",
+   "id": "link-521",
    "from": "2026-10-05-1",
    "to": "2026-10-07-8",
    "type": "related",
@@ -7146,7 +8102,7 @@
    "note": ""
   },
   {
-   "id": "link-462",
+   "id": "link-522",
    "from": "2026-10-05-1",
    "to": "2026-10-07-10",
    "type": "related",
@@ -7156,7 +8112,7 @@
    "note": ""
   },
   {
-   "id": "link-463",
+   "id": "link-523",
    "from": "2026-10-05-1",
    "to": "2026-10-07-13",
    "type": "related",
@@ -7166,7 +8122,7 @@
    "note": ""
   },
   {
-   "id": "link-464",
+   "id": "link-524",
    "from": "2026-10-05-1",
    "to": "2026-10-07-15",
    "type": "causes",
@@ -7176,7 +8132,47 @@
    "note": ""
   },
   {
-   "id": "link-465",
+   "id": "link-525",
+   "from": "2026-10-05-1",
+   "to": "2026-10-08-1",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.35,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-526",
+   "from": "2026-10-05-1",
+   "to": "2026-10-08-4",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.34,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-527",
+   "from": "2026-10-05-1",
+   "to": "2026-10-08-6",
+   "type": "related",
+   "label": "関連: OpenAI · policy",
+   "confidence": 0.44,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-528",
+   "from": "2026-10-05-1",
+   "to": "2026-10-08-15",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.35,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-529",
    "from": "2026-10-05-2",
    "to": "2026-10-06-1",
    "type": "related",
@@ -7186,7 +8182,7 @@
    "note": ""
   },
   {
-   "id": "link-466",
+   "id": "link-530",
    "from": "2026-10-05-2",
    "to": "2026-10-06-2",
    "type": "related",
@@ -7196,7 +8192,7 @@
    "note": ""
   },
   {
-   "id": "link-467",
+   "id": "link-531",
    "from": "2026-10-05-2",
    "to": "2026-10-06-3",
    "type": "related",
@@ -7206,7 +8202,7 @@
    "note": ""
   },
   {
-   "id": "link-468",
+   "id": "link-532",
    "from": "2026-10-05-2",
    "to": "2026-10-07-2",
    "type": "related",
@@ -7216,7 +8212,7 @@
    "note": ""
   },
   {
-   "id": "link-469",
+   "id": "link-533",
    "from": "2026-10-05-2",
    "to": "2026-10-07-6",
    "type": "related",
@@ -7226,7 +8222,7 @@
    "note": ""
   },
   {
-   "id": "link-470",
+   "id": "link-534",
    "from": "2026-10-05-2",
    "to": "2026-10-07-8",
    "type": "related",
@@ -7236,7 +8232,7 @@
    "note": ""
   },
   {
-   "id": "link-471",
+   "id": "link-535",
    "from": "2026-10-05-2",
    "to": "2026-10-07-14",
    "type": "related",
@@ -7246,7 +8242,7 @@
    "note": ""
   },
   {
-   "id": "link-472",
+   "id": "link-536",
    "from": "2026-10-05-2",
    "to": "2026-10-07-15",
    "type": "related",
@@ -7256,7 +8252,57 @@
    "note": ""
   },
   {
-   "id": "link-473",
+   "id": "link-537",
+   "from": "2026-10-05-2",
+   "to": "2026-10-08-1",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.36,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-538",
+   "from": "2026-10-05-2",
+   "to": "2026-10-08-4",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.35,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-539",
+   "from": "2026-10-05-2",
+   "to": "2026-10-08-6",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.36,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-540",
+   "from": "2026-10-05-2",
+   "to": "2026-10-08-13",
+   "type": "related",
+   "label": "関連: agent-safety",
+   "confidence": 0.27,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-541",
+   "from": "2026-10-05-2",
+   "to": "2026-10-08-15",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.37,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-542",
    "from": "2026-10-05-3",
    "to": "2026-10-05-4",
    "type": "related",
@@ -7266,7 +8312,7 @@
    "note": ""
   },
   {
-   "id": "link-474",
+   "id": "link-543",
    "from": "2026-10-05-3",
    "to": "2026-10-06-2",
    "type": "related",
@@ -7276,7 +8322,17 @@
    "note": ""
   },
   {
-   "id": "link-475",
+   "id": "link-544",
+   "from": "2026-10-05-3",
+   "to": "2026-10-08-6",
+   "type": "related",
+   "label": "関連: Google",
+   "confidence": 0.37,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-545",
    "from": "2026-10-05-4",
    "to": "2026-10-06-2",
    "type": "related",
@@ -7286,7 +8342,7 @@
    "note": ""
   },
   {
-   "id": "link-476",
+   "id": "link-546",
    "from": "2026-10-05-4",
    "to": "2026-10-06-4",
    "type": "related",
@@ -7296,7 +8352,37 @@
    "note": ""
   },
   {
-   "id": "link-477",
+   "id": "link-547",
+   "from": "2026-10-05-4",
+   "to": "2026-10-08-1",
+   "type": "related",
+   "label": "関連: model",
+   "confidence": 0.37,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-548",
+   "from": "2026-10-05-4",
+   "to": "2026-10-08-6",
+   "type": "related",
+   "label": "関連: Google",
+   "confidence": 0.35,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-549",
+   "from": "2026-10-05-4",
+   "to": "2026-10-08-12",
+   "type": "related",
+   "label": "関連: model",
+   "confidence": 0.27,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-550",
    "from": "2026-10-05-5",
    "to": "2026-10-05-7",
    "type": "related",
@@ -7306,7 +8392,7 @@
    "note": ""
   },
   {
-   "id": "link-478",
+   "id": "link-551",
    "from": "2026-10-05-5",
    "to": "2026-10-07-4",
    "type": "related",
@@ -7316,7 +8402,7 @@
    "note": ""
   },
   {
-   "id": "link-479",
+   "id": "link-552",
    "from": "2026-10-05-5",
    "to": "2026-10-07-11",
    "type": "related",
@@ -7326,7 +8412,17 @@
    "note": ""
   },
   {
-   "id": "link-480",
+   "id": "link-553",
+   "from": "2026-10-05-5",
+   "to": "2026-10-08-5",
+   "type": "related",
+   "label": "関連: memory/supply-chain",
+   "confidence": 0.29,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-554",
    "from": "2026-10-05-6",
    "to": "2026-10-05-7",
    "type": "related",
@@ -7336,7 +8432,7 @@
    "note": ""
   },
   {
-   "id": "link-481",
+   "id": "link-555",
    "from": "2026-10-05-6",
    "to": "2026-10-07-4",
    "type": "related",
@@ -7346,7 +8442,7 @@
    "note": ""
   },
   {
-   "id": "link-482",
+   "id": "link-556",
    "from": "2026-10-05-6",
    "to": "2026-10-07-11",
    "type": "related",
@@ -7356,7 +8452,47 @@
    "note": ""
   },
   {
-   "id": "link-483",
+   "id": "link-557",
+   "from": "2026-10-05-6",
+   "to": "2026-10-08-5",
+   "type": "related",
+   "label": "関連: TSMC",
+   "confidence": 0.34,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-558",
+   "from": "2026-10-05-6",
+   "to": "2026-10-08-10",
+   "type": "related",
+   "label": "関連: TSMC",
+   "confidence": 0.35,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-559",
+   "from": "2026-10-05-6",
+   "to": "2026-10-08-15",
+   "type": "related",
+   "label": "関連: TSMC",
+   "confidence": 0.35,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-560",
+   "from": "2026-10-05-7",
+   "to": "2026-10-08-10",
+   "type": "related",
+   "label": "関連: packaging",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-561",
    "from": "2026-10-06-1",
    "to": "2026-10-06-3",
    "type": "causes",
@@ -7366,7 +8502,7 @@
    "note": ""
   },
   {
-   "id": "link-484",
+   "id": "link-562",
    "from": "2026-10-06-1",
    "to": "2026-10-07-1",
    "type": "related",
@@ -7376,7 +8512,7 @@
    "note": ""
   },
   {
-   "id": "link-485",
+   "id": "link-563",
    "from": "2026-10-06-1",
    "to": "2026-10-07-2",
    "type": "related",
@@ -7386,7 +8522,7 @@
    "note": ""
   },
   {
-   "id": "link-486",
+   "id": "link-564",
    "from": "2026-10-06-1",
    "to": "2026-10-07-6",
    "type": "related",
@@ -7396,7 +8532,7 @@
    "note": ""
   },
   {
-   "id": "link-487",
+   "id": "link-565",
    "from": "2026-10-06-1",
    "to": "2026-10-07-7",
    "type": "related",
@@ -7406,7 +8542,7 @@
    "note": ""
   },
   {
-   "id": "link-488",
+   "id": "link-566",
    "from": "2026-10-06-1",
    "to": "2026-10-07-8",
    "type": "related",
@@ -7416,7 +8552,7 @@
    "note": ""
   },
   {
-   "id": "link-489",
+   "id": "link-567",
    "from": "2026-10-06-1",
    "to": "2026-10-07-10",
    "type": "related",
@@ -7426,7 +8562,7 @@
    "note": ""
   },
   {
-   "id": "link-490",
+   "id": "link-568",
    "from": "2026-10-06-1",
    "to": "2026-10-07-13",
    "type": "related",
@@ -7436,7 +8572,7 @@
    "note": ""
   },
   {
-   "id": "link-491",
+   "id": "link-569",
    "from": "2026-10-06-1",
    "to": "2026-10-07-15",
    "type": "related",
@@ -7446,7 +8582,47 @@
    "note": ""
   },
   {
-   "id": "link-492",
+   "id": "link-570",
+   "from": "2026-10-06-1",
+   "to": "2026-10-08-1",
+   "type": "related",
+   "label": "関連: ChatGPT・OpenAI",
+   "confidence": 0.41,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-571",
+   "from": "2026-10-06-1",
+   "to": "2026-10-08-4",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.34,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-572",
+   "from": "2026-10-06-1",
+   "to": "2026-10-08-6",
+   "type": "causes",
+   "label": "因果: OpenAI・SynthID · policy/watermark",
+   "confidence": 0.64,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-573",
+   "from": "2026-10-06-1",
+   "to": "2026-10-08-15",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.35,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-574",
    "from": "2026-10-06-2",
    "to": "2026-10-07-1",
    "type": "related",
@@ -7456,7 +8632,7 @@
    "note": ""
   },
   {
-   "id": "link-493",
+   "id": "link-575",
    "from": "2026-10-06-2",
    "to": "2026-10-07-6",
    "type": "related",
@@ -7466,7 +8642,7 @@
    "note": ""
   },
   {
-   "id": "link-494",
+   "id": "link-576",
    "from": "2026-10-06-2",
    "to": "2026-10-07-8",
    "type": "related",
@@ -7476,7 +8652,7 @@
    "note": ""
   },
   {
-   "id": "link-495",
+   "id": "link-577",
    "from": "2026-10-06-2",
    "to": "2026-10-07-14",
    "type": "related",
@@ -7486,7 +8662,27 @@
    "note": ""
   },
   {
-   "id": "link-496",
+   "id": "link-578",
+   "from": "2026-10-06-2",
+   "to": "2026-10-08-6",
+   "type": "related",
+   "label": "関連: Google",
+   "confidence": 0.35,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-579",
+   "from": "2026-10-06-2",
+   "to": "2026-10-08-13",
+   "type": "related",
+   "label": "関連: agent-safety",
+   "confidence": 0.27,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-580",
    "from": "2026-10-06-3",
    "to": "2026-10-07-1",
    "type": "related",
@@ -7496,7 +8692,7 @@
    "note": ""
   },
   {
-   "id": "link-497",
+   "id": "link-581",
    "from": "2026-10-06-3",
    "to": "2026-10-07-2",
    "type": "related",
@@ -7506,7 +8702,7 @@
    "note": ""
   },
   {
-   "id": "link-498",
+   "id": "link-582",
    "from": "2026-10-06-3",
    "to": "2026-10-07-6",
    "type": "related",
@@ -7516,7 +8712,7 @@
    "note": ""
   },
   {
-   "id": "link-499",
+   "id": "link-583",
    "from": "2026-10-06-3",
    "to": "2026-10-07-13",
    "type": "related",
@@ -7526,7 +8722,7 @@
    "note": ""
   },
   {
-   "id": "link-500",
+   "id": "link-584",
    "from": "2026-10-06-3",
    "to": "2026-10-07-15",
    "type": "related",
@@ -7536,7 +8732,47 @@
    "note": ""
   },
   {
-   "id": "link-501",
+   "id": "link-585",
+   "from": "2026-10-06-3",
+   "to": "2026-10-08-1",
+   "type": "related",
+   "label": "関連: ChatGPT・OpenAI",
+   "confidence": 0.44,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-586",
+   "from": "2026-10-06-3",
+   "to": "2026-10-08-4",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.35,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-587",
+   "from": "2026-10-06-3",
+   "to": "2026-10-08-6",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.36,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-588",
+   "from": "2026-10-06-3",
+   "to": "2026-10-08-15",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.37,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-589",
    "from": "2026-10-06-4",
    "to": "2026-10-06-5",
    "type": "related",
@@ -7546,7 +8782,27 @@
    "note": ""
   },
   {
-   "id": "link-502",
+   "id": "link-590",
+   "from": "2026-10-06-4",
+   "to": "2026-10-08-1",
+   "type": "related",
+   "label": "関連: model",
+   "confidence": 0.27,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-591",
+   "from": "2026-10-06-4",
+   "to": "2026-10-08-12",
+   "type": "related",
+   "label": "関連: model",
+   "confidence": 0.27,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-592",
    "from": "2026-10-06-5",
    "to": "2026-10-07-5",
    "type": "related",
@@ -7556,7 +8812,7 @@
    "note": ""
   },
   {
-   "id": "link-503",
+   "id": "link-593",
    "from": "2026-10-06-6",
    "to": "2026-10-07-3",
    "type": "related",
@@ -7566,7 +8822,7 @@
    "note": ""
   },
   {
-   "id": "link-504",
+   "id": "link-594",
    "from": "2026-10-06-6",
    "to": "2026-10-07-10",
    "type": "related",
@@ -7576,7 +8832,7 @@
    "note": ""
   },
   {
-   "id": "link-505",
+   "id": "link-595",
    "from": "2026-10-06-6",
    "to": "2026-10-07-11",
    "type": "related",
@@ -7586,7 +8842,87 @@
    "note": ""
   },
   {
-   "id": "link-506",
+   "id": "link-596",
+   "from": "2026-10-06-6",
+   "to": "2026-10-08-2",
+   "type": "related",
+   "label": "関連: earnings",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-597",
+   "from": "2026-10-06-6",
+   "to": "2026-10-08-3",
+   "type": "related",
+   "label": "関連: Nvidia",
+   "confidence": 0.35,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-598",
+   "from": "2026-10-06-6",
+   "to": "2026-10-08-4",
+   "type": "related",
+   "label": "関連: Nvidia",
+   "confidence": 0.35,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-599",
+   "from": "2026-10-06-6",
+   "to": "2026-10-08-5",
+   "type": "related",
+   "label": "関連: supply-chain",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-600",
+   "from": "2026-10-06-6",
+   "to": "2026-10-08-6",
+   "type": "related",
+   "label": "関連: Nvidia",
+   "confidence": 0.36,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-601",
+   "from": "2026-10-06-6",
+   "to": "2026-10-08-8",
+   "type": "related",
+   "label": "関連: Nvidia",
+   "confidence": 0.38,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-602",
+   "from": "2026-10-06-6",
+   "to": "2026-10-08-9",
+   "type": "related",
+   "label": "関連: Nvidia",
+   "confidence": 0.36,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-603",
+   "from": "2026-10-06-6",
+   "to": "2026-10-08-12",
+   "type": "related",
+   "label": "関連: Nvidia",
+   "confidence": 0.37,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-604",
    "from": "2026-10-07-1",
    "to": "2026-10-07-2",
    "type": "related",
@@ -7596,7 +8932,7 @@
    "note": ""
   },
   {
-   "id": "link-507",
+   "id": "link-605",
    "from": "2026-10-07-1",
    "to": "2026-10-07-6",
    "type": "same_arc",
@@ -7606,7 +8942,7 @@
    "note": ""
   },
   {
-   "id": "link-508",
+   "id": "link-606",
    "from": "2026-10-07-1",
    "to": "2026-10-07-8",
    "type": "related",
@@ -7616,7 +8952,7 @@
    "note": ""
   },
   {
-   "id": "link-509",
+   "id": "link-607",
    "from": "2026-10-07-1",
    "to": "2026-10-07-14",
    "type": "related",
@@ -7626,7 +8962,7 @@
    "note": ""
   },
   {
-   "id": "link-510",
+   "id": "link-608",
    "from": "2026-10-07-1",
    "to": "2026-10-07-15",
    "type": "related",
@@ -7636,7 +8972,67 @@
    "note": ""
   },
   {
-   "id": "link-511",
+   "id": "link-609",
+   "from": "2026-10-07-1",
+   "to": "2026-10-08-1",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.35,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-610",
+   "from": "2026-10-07-1",
+   "to": "2026-10-08-4",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.34,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-611",
+   "from": "2026-10-07-1",
+   "to": "2026-10-08-6",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.35,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-612",
+   "from": "2026-10-07-1",
+   "to": "2026-10-08-12",
+   "type": "related",
+   "label": "関連: Hugging Face",
+   "confidence": 0.35,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-613",
+   "from": "2026-10-07-1",
+   "to": "2026-10-08-13",
+   "type": "related",
+   "label": "関連: agent-safety",
+   "confidence": 0.29,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-614",
+   "from": "2026-10-07-1",
+   "to": "2026-10-08-15",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.35,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-615",
    "from": "2026-10-07-2",
    "to": "2026-10-07-6",
    "type": "related",
@@ -7646,7 +9042,7 @@
    "note": ""
   },
   {
-   "id": "link-512",
+   "id": "link-616",
    "from": "2026-10-07-2",
    "to": "2026-10-07-15",
    "type": "related",
@@ -7656,7 +9052,47 @@
    "note": ""
   },
   {
-   "id": "link-513",
+   "id": "link-617",
+   "from": "2026-10-07-2",
+   "to": "2026-10-08-1",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.35,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-618",
+   "from": "2026-10-07-2",
+   "to": "2026-10-08-4",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.34,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-619",
+   "from": "2026-10-07-2",
+   "to": "2026-10-08-6",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.35,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-620",
+   "from": "2026-10-07-2",
+   "to": "2026-10-08-15",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.36,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-621",
    "from": "2026-10-07-3",
    "to": "2026-10-07-10",
    "type": "related",
@@ -7666,7 +9102,67 @@
    "note": ""
   },
   {
-   "id": "link-514",
+   "id": "link-622",
+   "from": "2026-10-07-3",
+   "to": "2026-10-08-3",
+   "type": "related",
+   "label": "関連: Nvidia",
+   "confidence": 0.34,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-623",
+   "from": "2026-10-07-3",
+   "to": "2026-10-08-4",
+   "type": "related",
+   "label": "関連: Nvidia",
+   "confidence": 0.34,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-624",
+   "from": "2026-10-07-3",
+   "to": "2026-10-08-6",
+   "type": "related",
+   "label": "関連: Nvidia",
+   "confidence": 0.35,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-625",
+   "from": "2026-10-07-3",
+   "to": "2026-10-08-8",
+   "type": "related",
+   "label": "関連: Nvidia",
+   "confidence": 0.36,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-626",
+   "from": "2026-10-07-3",
+   "to": "2026-10-08-9",
+   "type": "related",
+   "label": "関連: Nvidia",
+   "confidence": 0.35,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-627",
+   "from": "2026-10-07-3",
+   "to": "2026-10-08-12",
+   "type": "related",
+   "label": "関連: Nvidia",
+   "confidence": 0.35,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-628",
    "from": "2026-10-07-4",
    "to": "2026-10-07-5",
    "type": "related",
@@ -7676,7 +9172,7 @@
    "note": ""
   },
   {
-   "id": "link-515",
+   "id": "link-629",
    "from": "2026-10-07-4",
    "to": "2026-10-07-11",
    "type": "same_arc",
@@ -7686,7 +9182,7 @@
    "note": ""
   },
   {
-   "id": "link-516",
+   "id": "link-630",
    "from": "2026-10-07-4",
    "to": "2026-10-07-12",
    "type": "related",
@@ -7696,7 +9192,47 @@
    "note": ""
   },
   {
-   "id": "link-517",
+   "id": "link-631",
+   "from": "2026-10-07-4",
+   "to": "2026-10-08-2",
+   "type": "related",
+   "label": "関連: HBM4・Samsung",
+   "confidence": 0.38,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-632",
+   "from": "2026-10-07-4",
+   "to": "2026-10-08-5",
+   "type": "leads_to",
+   "label": "スー氏の供給網行脚：台湾（TSMC・後工程）→韓国（HBM4）",
+   "confidence": 0.85,
+   "auto": false,
+   "note": "2026-10-08 朝ラン手動強化"
+  },
+  {
+   "id": "link-633",
+   "from": "2026-10-07-4",
+   "to": "2026-10-08-10",
+   "type": "related",
+   "label": "関連: TSMC",
+   "confidence": 0.34,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-634",
+   "from": "2026-10-07-4",
+   "to": "2026-10-08-15",
+   "type": "related",
+   "label": "関連: Samsung・TSMC",
+   "confidence": 0.39,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-635",
    "from": "2026-10-07-5",
    "to": "2026-10-07-12",
    "type": "related",
@@ -7706,7 +9242,7 @@
    "note": ""
   },
   {
-   "id": "link-518",
+   "id": "link-636",
    "from": "2026-10-07-6",
    "to": "2026-10-07-8",
    "type": "related",
@@ -7716,7 +9252,7 @@
    "note": ""
   },
   {
-   "id": "link-519",
+   "id": "link-637",
    "from": "2026-10-07-6",
    "to": "2026-10-07-14",
    "type": "related",
@@ -7726,7 +9262,7 @@
    "note": ""
   },
   {
-   "id": "link-520",
+   "id": "link-638",
    "from": "2026-10-07-6",
    "to": "2026-10-07-15",
    "type": "causes",
@@ -7736,7 +9272,57 @@
    "note": ""
   },
   {
-   "id": "link-521",
+   "id": "link-639",
+   "from": "2026-10-07-6",
+   "to": "2026-10-08-1",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.35,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-640",
+   "from": "2026-10-07-6",
+   "to": "2026-10-08-4",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.34,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-641",
+   "from": "2026-10-07-6",
+   "to": "2026-10-08-6",
+   "type": "related",
+   "label": "関連: OpenAI · policy",
+   "confidence": 0.44,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-642",
+   "from": "2026-10-07-6",
+   "to": "2026-10-08-13",
+   "type": "related",
+   "label": "関連: agent-safety",
+   "confidence": 0.27,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-643",
+   "from": "2026-10-07-6",
+   "to": "2026-10-08-15",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.36,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-644",
    "from": "2026-10-07-7",
    "to": "2026-10-07-8",
    "type": "related",
@@ -7746,7 +9332,7 @@
    "note": ""
   },
   {
-   "id": "link-522",
+   "id": "link-645",
    "from": "2026-10-07-7",
    "to": "2026-10-07-10",
    "type": "related",
@@ -7756,7 +9342,7 @@
    "note": ""
   },
   {
-   "id": "link-523",
+   "id": "link-646",
    "from": "2026-10-07-7",
    "to": "2026-10-07-13",
    "type": "related",
@@ -7766,7 +9352,7 @@
    "note": ""
   },
   {
-   "id": "link-524",
+   "id": "link-647",
    "from": "2026-10-07-8",
    "to": "2026-10-07-10",
    "type": "related",
@@ -7776,7 +9362,7 @@
    "note": ""
   },
   {
-   "id": "link-525",
+   "id": "link-648",
    "from": "2026-10-07-8",
    "to": "2026-10-07-13",
    "type": "related",
@@ -7786,7 +9372,7 @@
    "note": ""
   },
   {
-   "id": "link-526",
+   "id": "link-649",
    "from": "2026-10-07-8",
    "to": "2026-10-07-14",
    "type": "related",
@@ -7796,7 +9382,7 @@
    "note": ""
   },
   {
-   "id": "link-527",
+   "id": "link-650",
    "from": "2026-10-07-8",
    "to": "2026-10-07-15",
    "type": "related",
@@ -7806,7 +9392,27 @@
    "note": ""
   },
   {
-   "id": "link-528",
+   "id": "link-651",
+   "from": "2026-10-07-8",
+   "to": "2026-10-08-6",
+   "type": "related",
+   "label": "関連: policy",
+   "confidence": 0.27,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-652",
+   "from": "2026-10-07-8",
+   "to": "2026-10-08-13",
+   "type": "related",
+   "label": "関連: agent-safety",
+   "confidence": 0.27,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-653",
    "from": "2026-10-07-9",
    "to": "2026-10-07-14",
    "type": "related",
@@ -7816,7 +9422,7 @@
    "note": ""
   },
   {
-   "id": "link-529",
+   "id": "link-654",
    "from": "2026-10-07-10",
    "to": "2026-10-07-13",
    "type": "related",
@@ -7826,7 +9432,67 @@
    "note": ""
   },
   {
-   "id": "link-530",
+   "id": "link-655",
+   "from": "2026-10-07-10",
+   "to": "2026-10-08-3",
+   "type": "related",
+   "label": "関連: Nvidia",
+   "confidence": 0.35,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-656",
+   "from": "2026-10-07-10",
+   "to": "2026-10-08-4",
+   "type": "related",
+   "label": "関連: Blackstone・Nvidia",
+   "confidence": 0.39,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-657",
+   "from": "2026-10-07-10",
+   "to": "2026-10-08-6",
+   "type": "related",
+   "label": "関連: Nvidia",
+   "confidence": 0.35,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-658",
+   "from": "2026-10-07-10",
+   "to": "2026-10-08-8",
+   "type": "related",
+   "label": "関連: Nvidia",
+   "confidence": 0.37,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-659",
+   "from": "2026-10-07-10",
+   "to": "2026-10-08-9",
+   "type": "related",
+   "label": "関連: Nvidia",
+   "confidence": 0.35,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-660",
+   "from": "2026-10-07-10",
+   "to": "2026-10-08-12",
+   "type": "related",
+   "label": "関連: Nvidia",
+   "confidence": 0.36,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-661",
    "from": "2026-10-07-11",
    "to": "2026-10-07-12",
    "type": "related",
@@ -7834,6 +9500,417 @@
    "confidence": 0.31,
    "auto": true,
    "note": ""
+  },
+  {
+   "id": "link-662",
+   "from": "2026-10-07-11",
+   "to": "2026-10-08-4",
+   "type": "related",
+   "label": "関連: SpaceX",
+   "confidence": 0.34,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-663",
+   "from": "2026-10-07-11",
+   "to": "2026-10-08-5",
+   "type": "related",
+   "label": "関連: TSMC · supply-chain",
+   "confidence": 0.43,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-664",
+   "from": "2026-10-07-11",
+   "to": "2026-10-08-10",
+   "type": "related",
+   "label": "関連: Intel・TSMC",
+   "confidence": 0.41,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-665",
+   "from": "2026-10-07-11",
+   "to": "2026-10-08-15",
+   "type": "related",
+   "label": "関連: TSMC",
+   "confidence": 0.35,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-666",
+   "from": "2026-10-07-14",
+   "to": "2026-10-08-13",
+   "type": "related",
+   "label": "関連: agent-safety",
+   "confidence": 0.27,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-667",
+   "from": "2026-10-07-15",
+   "to": "2026-10-08-1",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.36,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-668",
+   "from": "2026-10-07-15",
+   "to": "2026-10-08-4",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.35,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-669",
+   "from": "2026-10-07-15",
+   "to": "2026-10-08-6",
+   "type": "related",
+   "label": "関連: OpenAI · policy",
+   "confidence": 0.45,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-670",
+   "from": "2026-10-07-15",
+   "to": "2026-10-08-15",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.37,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-671",
+   "from": "2026-10-08-1",
+   "to": "2026-10-08-4",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.4,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-672",
+   "from": "2026-10-08-1",
+   "to": "2026-10-08-6",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.41,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-673",
+   "from": "2026-10-08-1",
+   "to": "2026-10-08-12",
+   "type": "related",
+   "label": "関連: model",
+   "confidence": 0.33,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-674",
+   "from": "2026-10-08-1",
+   "to": "2026-10-08-15",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.42,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-675",
+   "from": "2026-10-08-2",
+   "to": "2026-10-08-5",
+   "type": "related",
+   "label": "AMDのMI455がSamsungのHBM4を採用、HBM4量産が利益を押し上げ",
+   "confidence": 0.8,
+   "auto": false,
+   "note": "2026-10-08 朝ラン手動強化"
+  },
+  {
+   "id": "link-676",
+   "from": "2026-10-08-2",
+   "to": "2026-10-08-10",
+   "type": "causes",
+   "label": "因果: Micron · semi",
+   "confidence": 0.5,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-677",
+   "from": "2026-10-08-2",
+   "to": "2026-10-08-14",
+   "type": "related",
+   "label": "関連: semi",
+   "confidence": 0.31,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-678",
+   "from": "2026-10-08-2",
+   "to": "2026-10-08-15",
+   "type": "same_arc",
+   "label": "同弧: Samsung · semi",
+   "confidence": 0.51,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-679",
+   "from": "2026-10-08-3",
+   "to": "2026-10-08-4",
+   "type": "related",
+   "label": "関連: Nvidia",
+   "confidence": 0.39,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-680",
+   "from": "2026-10-08-3",
+   "to": "2026-10-08-6",
+   "type": "related",
+   "label": "関連: Nvidia",
+   "confidence": 0.4,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-681",
+   "from": "2026-10-08-3",
+   "to": "2026-10-08-8",
+   "type": "related",
+   "label": "関連: Nvidia",
+   "confidence": 0.41,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-682",
+   "from": "2026-10-08-3",
+   "to": "2026-10-08-9",
+   "type": "related",
+   "label": "関連: Nvidia",
+   "confidence": 0.4,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-683",
+   "from": "2026-10-08-3",
+   "to": "2026-10-08-12",
+   "type": "related",
+   "label": "関連: Nvidia",
+   "confidence": 0.4,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-684",
+   "from": "2026-10-08-4",
+   "to": "2026-10-08-6",
+   "type": "related",
+   "label": "関連: Nvidia・OpenAI",
+   "confidence": 0.45,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-685",
+   "from": "2026-10-08-4",
+   "to": "2026-10-08-8",
+   "type": "same_arc",
+   "label": "同弧: Nvidia · ai-financing",
+   "confidence": 0.52,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-686",
+   "from": "2026-10-08-4",
+   "to": "2026-10-08-9",
+   "type": "same_arc",
+   "label": "同弧: Nvidia · infra",
+   "confidence": 0.51,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-687",
+   "from": "2026-10-08-4",
+   "to": "2026-10-08-12",
+   "type": "related",
+   "label": "関連: Nvidia",
+   "confidence": 0.4,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-688",
+   "from": "2026-10-08-4",
+   "to": "2026-10-08-15",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.4,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-689",
+   "from": "2026-10-08-5",
+   "to": "2026-10-08-10",
+   "type": "causes",
+   "label": "因果: TSMC · semi",
+   "confidence": 0.48,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-690",
+   "from": "2026-10-08-5",
+   "to": "2026-10-08-14",
+   "type": "related",
+   "label": "関連: semi",
+   "confidence": 0.31,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-691",
+   "from": "2026-10-08-5",
+   "to": "2026-10-08-15",
+   "type": "same_arc",
+   "label": "同弧: Samsung・TSMC · semi",
+   "confidence": 0.55,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-692",
+   "from": "2026-10-08-6",
+   "to": "2026-10-08-8",
+   "type": "related",
+   "label": "関連: Nvidia",
+   "confidence": 0.43,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-693",
+   "from": "2026-10-08-6",
+   "to": "2026-10-08-9",
+   "type": "related",
+   "label": "関連: Nvidia",
+   "confidence": 0.41,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-694",
+   "from": "2026-10-08-6",
+   "to": "2026-10-08-12",
+   "type": "related",
+   "label": "関連: Nvidia",
+   "confidence": 0.42,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-695",
+   "from": "2026-10-08-6",
+   "to": "2026-10-08-15",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.42,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-696",
+   "from": "2026-10-08-8",
+   "to": "2026-10-08-9",
+   "type": "related",
+   "label": "関連: Nvidia",
+   "confidence": 0.43,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-697",
+   "from": "2026-10-08-8",
+   "to": "2026-10-08-12",
+   "type": "related",
+   "label": "関連: Nvidia",
+   "confidence": 0.44,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-698",
+   "from": "2026-10-08-9",
+   "to": "2026-10-08-12",
+   "type": "related",
+   "label": "関連: Nvidia",
+   "confidence": 0.42,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-699",
+   "from": "2026-10-08-10",
+   "to": "2026-10-08-14",
+   "type": "related",
+   "label": "関連: semi",
+   "confidence": 0.33,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-700",
+   "from": "2026-10-08-10",
+   "to": "2026-10-08-15",
+   "type": "same_arc",
+   "label": "同弧: TSMC · semi",
+   "confidence": 0.54,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-701",
+   "from": "2026-10-08-14",
+   "to": "2026-10-08-15",
+   "type": "related",
+   "label": "関連: semi",
+   "confidence": 0.33,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-702",
+   "from": "2026-10-08-1",
+   "to": "2026-09-30-2",
+   "type": "confusable",
+   "label": "同じGPT-6系でも別物",
+   "confidence": 0.9,
+   "auto": false,
+   "note": "2026-10-08 朝ラン追加",
+   "contrast": "今回はChatGPTの『Chat』タブ向けGPT-6（Sol/Luna）＋Intelligent UI。9/30のGPT-6.1 SolはWork・Codex・API向けの更新で、Chatには未対応だった"
   }
  ]
 }
