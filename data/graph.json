@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-16T08:11:18+09:00",
+ "generatedAt": "2026-10-16T08:11:36+09:00",
  "lastUpdated": "2026-10-16",
  "counts": {
   "items": 143,
@@ -12005,11 +12005,11 @@
    "id": "link-1024",
    "from": "2026-10-15-1",
    "to": "2026-10-16-2",
-   "type": "causes",
-   "label": "因果: SOX · AI-infrastructure/valuation",
-   "confidence": 0.45,
-   "auto": true,
-   "note": ""
+   "type": "leads_to",
+   "label": "AI投資コスト懸念→債務・CDS悪化",
+   "confidence": 0.82,
+   "auto": false,
+   "note": "手動補強: 14〜15日のSOX売りにCoreWeave社債ストレスが重なった"
   },
   {
    "id": "link-1025",
