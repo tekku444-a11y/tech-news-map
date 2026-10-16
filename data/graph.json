@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-10-17T08:10:10+09:00",
+ "generatedAt": "2026-10-17T08:11:09+09:00",
  "lastUpdated": "2026-10-17",
  "counts": {
   "items": 149,
-  "links": 885
+  "links": 887
  },
  "themes": [
   {
@@ -11,7 +11,7 @@
    "name": "AIエージェント・安全",
    "short": "AI安全",
    "color": "#f87171",
-   "count": 22
+   "count": 21
   },
   {
    "key": "security",
@@ -46,21 +46,21 @@
    "name": "AIインフラ・DC",
    "short": "AIインフラ",
    "color": "#2dd4bf",
-   "count": 16
+   "count": 15
   },
   {
    "key": "semi",
    "name": "半導体・製造",
    "short": "半導体",
    "color": "#fbbf24",
-   "count": 30
+   "count": 31
   },
   {
    "key": "model",
    "name": "AIモデル・サービス",
    "short": "AIモデル",
    "color": "#818cf8",
-   "count": 21
+   "count": 22
   },
   {
    "key": "other",
@@ -3647,7 +3647,7 @@
     "url": "https://research.meta.ai/blog/muse-spark-open"
    },
    "ai": true,
-   "theme": "agent"
+   "theme": "model"
   },
   {
    "id": "2026-10-17-5",
@@ -3672,7 +3672,7 @@
     "url": "https://gf.com/news-and-events/news/globalfoundries-selected-to-operate-two-new-semiconductor-fabs-in-new-york-under-landmark-us-japan-initiative/"
    },
    "ai": false,
-   "theme": "infra"
+   "theme": "semi"
   },
   {
    "id": "2026-10-17-8",
@@ -12570,6 +12570,26 @@
    "label": "関連: geopolitics",
    "confidence": 0.29,
    "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-886",
+   "from": "2026-10-14-6",
+   "to": "2026-10-17-4",
+   "type": "related",
+   "label": "",
+   "confidence": 0.72,
+   "auto": false,
+   "note": ""
+  },
+  {
+   "id": "link-887",
+   "from": "kt-2026-09-19-japan-us-fab",
+   "to": "2026-10-17-5",
+   "type": "leads_to",
+   "label": "",
+   "confidence": 0.8,
+   "auto": false,
    "note": ""
   }
  ]
