@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-19T08:11:23+09:00",
+ "generatedAt": "2026-10-19T08:32:20+09:00",
  "lastUpdated": "2026-10-19",
  "counts": {
-  "items": 161,
+  "items": 162,
   "links": 975
  },
  "themes": [
@@ -39,7 +39,7 @@
    "name": "スマホ・端末",
    "short": "スマホ・端末",
    "color": "#4ade80",
-   "count": 27
+   "count": 28
   },
   {
    "key": "infra",
@@ -3555,6 +3555,48 @@
     "url": "https://9to5mac.com/2026/10/15/idc-apple-closes-in-on-samsung-as-global-smartphone-shipments-see-record-decline-in-q3/"
    },
    "ai": false,
+   "theme": "device"
+  },
+  {
+   "id": "2026-10-16-6",
+   "date": "2026-10-16",
+   "title": "テスラ、空飛ぶ新型ロードスターを発表（量産は2028年）",
+   "summary": "テスラは米国時間10月15日、SpaceXの試験場で新型ロードスターを発表。SpaceX由来の小型スラスターと吸着ファンで、坂を逆さに走り、空中で回転し、トラックを飛び越えるデモを見せた。0-60mph 1秒未満、最高速370km/h超、航続約480km。量産は2028年、価格未発表（予約金はPerformance 5万ドル、Thrust 25万ドル、招待制Rocket版あり）。公道走行は未承認で、FAAは管轄外と回答、運輸省の監督も不明確。業績への影響は小さいとの見方。テスラ・SpaceX合併観測を強め、10月21日の決算を前にした発表。",
+   "entities": [
+    "Tesla",
+    "SpaceX",
+    "Roadster",
+    "FAA",
+    "Elon Musk"
+   ],
+   "themes": [
+    "EV/モビリティ",
+    "テスラ",
+    "SpaceX",
+    "規制"
+   ],
+   "source": {
+    "label": "Reuters (Investing.com)",
+    "url": "https://www.investing.com/news/stock-market-news/tesla-set-to-unveil-next-generation-roadster-sports-ev-after-years-of-delay-4951021"
+   },
+   "ai": false,
+   "addenda": [
+    {
+     "date": "2026-10-19",
+     "title": "他の出典",
+     "body": "CNBC・POLITICOの報道。",
+     "sources": [
+      {
+       "label": "CNBC",
+       "url": "https://www.cnbc.com/2026/10/15/tesla-roadster-reveal-what-to-know-about-the-delayed-ev.html"
+      },
+      {
+       "label": "POLITICO",
+       "url": "https://www.politico.com/news/2026/10/16/faa-tesla-flying-car-01123316"
+      }
+     ]
+    }
+   ],
    "theme": "device"
   },
   {
@@ -13425,7 +13467,7 @@
    "note": ""
   },
   {
-   "id": "link-1138",
+   "id": "link-1137",
    "from": "2026-10-16-4",
    "to": "2026-10-17-4",
    "type": "related",
@@ -13435,7 +13477,7 @@
    "note": ""
   },
   {
-   "id": "link-1139",
+   "id": "link-1138",
    "from": "2026-10-16-4",
    "to": "2026-10-18-2",
    "type": "related",
@@ -13445,7 +13487,7 @@
    "note": ""
   },
   {
-   "id": "link-1140",
+   "id": "link-1139",
    "from": "2026-10-16-4",
    "to": "2026-10-18-3",
    "type": "related",
@@ -13455,7 +13497,7 @@
    "note": ""
   },
   {
-   "id": "link-1141",
+   "id": "link-1140",
    "from": "2026-10-16-4",
    "to": "2026-10-18-5",
    "type": "related",
@@ -13465,7 +13507,7 @@
    "note": ""
   },
   {
-   "id": "link-1143",
+   "id": "link-1142",
    "from": "2026-10-16-5",
    "to": "2026-10-17-4",
    "type": "related",
@@ -13475,7 +13517,7 @@
    "note": ""
   },
   {
-   "id": "link-1145",
+   "id": "link-1144",
    "from": "2026-10-16-5",
    "to": "2026-10-18-4",
    "type": "related",
@@ -13485,7 +13527,7 @@
    "note": ""
   },
   {
-   "id": "link-1146",
+   "id": "link-1145",
    "from": "2026-10-16-5",
    "to": "2026-10-19-2",
    "type": "related",
@@ -13495,7 +13537,7 @@
    "note": ""
   },
   {
-   "id": "link-1147",
+   "id": "link-1146",
    "from": "2026-10-16-5",
    "to": "2026-10-19-3",
    "type": "related",
@@ -13505,7 +13547,7 @@
    "note": ""
   },
   {
-   "id": "link-1149",
+   "id": "link-1147",
    "from": "2026-10-17-1",
    "to": "2026-10-17-2",
    "type": "related",
@@ -13515,7 +13557,7 @@
    "note": ""
   },
   {
-   "id": "link-1150",
+   "id": "link-1148",
    "from": "2026-10-17-1",
    "to": "2026-10-17-3",
    "type": "related",
@@ -13525,7 +13567,7 @@
    "note": ""
   },
   {
-   "id": "link-1151",
+   "id": "link-1149",
    "from": "2026-10-17-1",
    "to": "2026-10-17-5",
    "type": "related",
@@ -13535,7 +13577,7 @@
    "note": ""
   },
   {
-   "id": "link-1152",
+   "id": "link-1150",
    "from": "2026-10-17-1",
    "to": "2026-10-18-5",
    "type": "related",
@@ -13545,7 +13587,7 @@
    "note": ""
   },
   {
-   "id": "link-1153",
+   "id": "link-1151",
    "from": "2026-10-17-2",
    "to": "2026-10-17-5",
    "type": "related",
@@ -13555,7 +13597,7 @@
    "note": ""
   },
   {
-   "id": "link-1154",
+   "id": "link-1152",
    "from": "2026-10-17-3",
    "to": "2026-10-18-2",
    "type": "related",
@@ -13565,7 +13607,7 @@
    "note": ""
   },
   {
-   "id": "link-1156",
+   "id": "link-1154",
    "from": "2026-10-17-3",
    "to": "2026-10-19-1",
    "type": "related",
@@ -13575,7 +13617,7 @@
    "note": ""
   },
   {
-   "id": "link-1157",
+   "id": "link-1155",
    "from": "2026-10-17-3",
    "to": "2026-10-19-4",
    "type": "causes",
@@ -13585,7 +13627,7 @@
    "note": ""
   },
   {
-   "id": "link-1158",
+   "id": "link-1156",
    "from": "2026-10-17-3",
    "to": "2026-10-19-5",
    "type": "related",
@@ -13595,7 +13637,7 @@
    "note": ""
   },
   {
-   "id": "link-1159",
+   "id": "link-1157",
    "from": "2026-10-17-4",
    "to": "2026-10-18-2",
    "type": "related",
@@ -13605,7 +13647,7 @@
    "note": ""
   },
   {
-   "id": "link-1160",
+   "id": "link-1158",
    "from": "2026-10-17-4",
    "to": "2026-10-18-4",
    "type": "related",
@@ -13615,7 +13657,7 @@
    "note": ""
   },
   {
-   "id": "link-1161",
+   "id": "link-1159",
    "from": "2026-10-17-4",
    "to": "2026-10-18-5",
    "type": "related",
@@ -13625,7 +13667,7 @@
    "note": ""
   },
   {
-   "id": "link-1163",
+   "id": "link-1161",
    "from": "2026-10-17-5",
    "to": "2026-10-19-2",
    "type": "related",
@@ -13635,7 +13677,7 @@
    "note": ""
   },
   {
-   "id": "link-1166",
+   "id": "link-1164",
    "from": "2026-10-17-8",
    "to": "2026-10-19-3",
    "type": "causes",
@@ -13645,7 +13687,7 @@
    "note": ""
   },
   {
-   "id": "link-1169",
+   "id": "link-1166",
    "from": "2026-10-18-1",
    "to": "2026-10-19-2",
    "type": "related",
@@ -13655,7 +13697,7 @@
    "note": ""
   },
   {
-   "id": "link-1170",
+   "id": "link-1167",
    "from": "2026-10-18-1",
    "to": "2026-10-19-3",
    "type": "related",
@@ -13665,7 +13707,7 @@
    "note": ""
   },
   {
-   "id": "link-1171",
+   "id": "link-1168",
    "from": "2026-10-18-2",
    "to": "2026-10-18-5",
    "type": "related",
@@ -13675,7 +13717,7 @@
    "note": ""
   },
   {
-   "id": "link-1174",
+   "id": "link-1171",
    "from": "2026-10-18-2",
    "to": "2026-10-19-4",
    "type": "related",
@@ -13685,7 +13727,7 @@
    "note": ""
   },
   {
-   "id": "link-1175",
+   "id": "link-1172",
    "from": "2026-10-18-2",
    "to": "2026-10-19-5",
    "type": "causes",
@@ -13695,7 +13737,7 @@
    "note": ""
   },
   {
-   "id": "link-1176",
+   "id": "link-1173",
    "from": "2026-10-18-3",
    "to": "2026-10-18-4",
    "type": "related",
@@ -13705,7 +13747,7 @@
    "note": ""
   },
   {
-   "id": "link-1177",
+   "id": "link-1174",
    "from": "2026-10-18-3",
    "to": "2026-10-19-4",
    "type": "related",
@@ -13715,7 +13757,7 @@
    "note": ""
   },
   {
-   "id": "link-1178",
+   "id": "link-1175",
    "from": "2026-10-18-4",
    "to": "2026-10-19-4",
    "type": "related",
@@ -13725,7 +13767,7 @@
    "note": ""
   },
   {
-   "id": "link-1179",
+   "id": "link-1176",
    "from": "2026-10-18-5",
    "to": "2026-10-18-8",
    "type": "same_arc",
@@ -13735,7 +13777,7 @@
    "note": ""
   },
   {
-   "id": "link-1182",
+   "id": "link-1179",
    "from": "2026-10-19-1",
    "to": "2026-10-19-4",
    "type": "related",
@@ -13745,7 +13787,7 @@
    "note": ""
   },
   {
-   "id": "link-1183",
+   "id": "link-1180",
    "from": "2026-10-19-1",
    "to": "2026-10-19-5",
    "type": "related",
@@ -13755,7 +13797,7 @@
    "note": ""
   },
   {
-   "id": "link-1184",
+   "id": "link-1181",
    "from": "2026-10-19-2",
    "to": "2026-10-19-3",
    "type": "same_arc",
@@ -13765,7 +13807,7 @@
    "note": ""
   },
   {
-   "id": "link-1187",
+   "id": "link-1182",
    "from": "2026-10-19-4",
    "to": "2026-10-19-5",
    "type": "causes",
