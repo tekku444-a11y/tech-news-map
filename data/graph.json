@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-10-23T08:10:11+09:00",
+ "generatedAt": "2026-10-23T08:10:27+09:00",
  "lastUpdated": "2026-10-23",
  "counts": {
-  "items": 187,
-  "links": 1127
+  "items": 188,
+  "links": 1128
  },
  "themes": [
   {
@@ -18,7 +18,7 @@
    "name": "セキュリティ・攻撃",
    "short": "セキュリティ",
    "color": "#fb923c",
-   "count": 15
+   "count": 16
   },
   {
    "key": "policy",
@@ -4736,6 +4736,32 @@
    },
    "ai": true,
    "theme": "model"
+  },
+  {
+   "id": "2026-10-23-6",
+   "date": "2026-10-23",
+   "title": "【続報】Microsoft、中国系とみる『Storm-0940』がAI侵入ツール『ARTEX』でConnectWise経由の攻撃——2250超のテナントに、毎分2900回のサインイン試行",
+   "summary": "Microsoftは10月21日、中国国家と連携するとみる攻撃者Storm-0940が、オープンソースのエージェント型侵入テストツール『ARTEX』で偵察やパスワードスプレーを自動化し、侵害したConnectWiseのアプリの認証情報で2250を超えるMicrosoft 365テナントへのアクセスを試みたと発表した。10月10〜14日には15万件を超える認証失敗を観測し、ピークは毎分2900回だった。航空宇宙、金融、政府、製造など数百の組織が標的で、標的選びから特権アクセスまで3時間未満の例もあった。ARTEXは10月12日に伝えた韓国の銀行への攻撃でも使われたツール。",
+   "entities": [
+    "Microsoft",
+    "Storm-0940",
+    "ARTEX",
+    "ConnectWise",
+    "Microsoft 365"
+   ],
+   "themes": [
+    "security",
+    "agent",
+    "AI-abuse",
+    "supply-chain"
+   ],
+   "source": {
+    "label": "Microsoft Security Blogの記事",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/"
+   },
+   "ai": true,
+   "slot": "extra",
+   "theme": "security"
   }
  ],
  "links": [
@@ -16030,6 +16056,16 @@
    "confidence": 0.33,
    "auto": true,
    "note": ""
+  },
+  {
+   "id": "link-1433",
+   "from": "2026-10-12-1",
+   "to": "2026-10-23-6",
+   "type": "same_arc",
+   "label": "ARTEXの攻撃利用が拡大",
+   "confidence": 0.8,
+   "auto": false,
+   "note": "手動: 同じAI侵入ツールARTEXが韓国の銀行攻撃に続きConnectWise経由の大規模攻撃に"
   }
  ]
 }
