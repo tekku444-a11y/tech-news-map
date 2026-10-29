@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-29T20:27:34+09:00",
+ "generatedAt": "2026-10-29T20:30:58+09:00",
  "lastUpdated": "2026-10-29",
  "counts": {
   "items": 211,
@@ -86,7 +86,7 @@
     "sandbox",
     "zero-day"
    ],
-   "source": "朝のテック5本",
+   "source": "主要",
    "ai": true,
    "theme": "agent"
   },
@@ -105,7 +105,7 @@
     "manufacturing",
     "Japan"
    ],
-   "source": "朝のテック5本",
+   "source": "主要",
    "ai": true,
    "theme": "policy"
   },
@@ -123,7 +123,7 @@
     "foundry",
     "pricing"
    ],
-   "source": "朝のテック5本",
+   "source": "主要",
    "ai": false,
    "theme": "semi"
   },
@@ -140,7 +140,7 @@
     "pricing",
     "AI-infra"
    ],
-   "source": "朝のテック5本",
+   "source": "主要",
    "ai": false,
    "theme": "semi"
   },
@@ -159,7 +159,7 @@
     "AI-infra",
     "chip-design"
    ],
-   "source": "朝のテック5本",
+   "source": "主要",
    "ai": true,
    "theme": "chipdesign"
   },
@@ -176,7 +176,7 @@
     "sandbox",
     "alignment"
    ],
-   "source": "朝のテック5本",
+   "source": "主要",
    "ai": true,
    "theme": "agent"
   },
@@ -194,7 +194,7 @@
     "mobile",
     "on-device"
    ],
-   "source": "朝のテック5本",
+   "source": "主要",
    "ai": false,
    "hook_names": [
     "Snapdragon"
@@ -216,7 +216,7 @@
     "cloud",
     "China"
    ],
-   "source": "朝のテック5本",
+   "source": "主要",
    "ai": true,
    "theme": "infra"
   },
@@ -233,7 +233,7 @@
     "LLM",
     "frontier-model"
    ],
-   "source": "朝のテック5本",
+   "source": "主要",
    "ai": true,
    "theme": "model"
   },
@@ -251,7 +251,7 @@
     "phishing",
     "AI-abuse"
    ],
-   "source": "朝のテック5本",
+   "source": "主要",
    "ai": true,
    "theme": "security"
   },
@@ -271,7 +271,7 @@
     "LLM-abuse",
     "security"
    ],
-   "source": "朝のテック5本",
+   "source": "主要",
    "ai": true,
    "theme": "security"
   },
@@ -290,7 +290,7 @@
     "geopolitics",
     "incident-response"
    ],
-   "source": "朝のテック5本",
+   "source": "主要",
    "ai": true,
    "theme": "policy"
   },
@@ -311,7 +311,7 @@
     "regulation",
     "inquiry"
    ],
-   "source": "朝のテック5本",
+   "source": "主要",
    "ai": true,
    "theme": "policy"
   },
@@ -331,7 +331,7 @@
     "Japan",
     "AI-infra"
    ],
-   "source": "朝のテック5本",
+   "source": "主要",
    "ai": false,
    "theme": "semi"
   },
@@ -349,7 +349,7 @@
     "chiplet",
     "on-device"
    ],
-   "source": "朝のテック5本",
+   "source": "主要",
    "ai": false,
    "theme": "device"
   },
@@ -368,7 +368,7 @@
     "EDA",
     "RTL"
    ],
-   "source": "朝のテック5本",
+   "source": "主要",
    "ai": true,
    "theme": "chipdesign"
   },
@@ -386,7 +386,7 @@
     "sandbox",
     "alignment"
    ],
-   "source": "朝のテック5本",
+   "source": "主要",
    "ai": true,
    "theme": "agent"
   },
@@ -405,7 +405,7 @@
     "security",
     "KEV"
    ],
-   "source": "朝のテック5本",
+   "source": "主要",
    "ai": false,
    "theme": "security"
   },
@@ -423,7 +423,7 @@
     "product",
     "AI-assistant"
    ],
-   "source": "朝のテック5本",
+   "source": "主要",
    "ai": true,
    "hook_names": [
     "Copilot",
@@ -447,7 +447,7 @@
     "EDA",
     "RTL"
    ],
-   "source": "朝のテック5本",
+   "source": "主要",
    "ai": true,
    "theme": "chipdesign"
   },
@@ -465,7 +465,7 @@
     "AI-infra",
     "semiconductor"
    ],
-   "source": "朝のテック5本",
+   "source": "主要",
    "ai": false,
    "theme": "infra"
   },
@@ -485,7 +485,7 @@
     "agent-safety",
     "sandbox"
    ],
-   "source": "朝のテック5本",
+   "source": "主要",
    "ai": true,
    "theme": "agent"
   },
@@ -504,7 +504,7 @@
     "physical-AI",
     "M&A"
    ],
-   "source": "朝のテック5本",
+   "source": "主要",
    "ai": true,
    "theme": "model"
   },
@@ -523,7 +523,7 @@
     "SiC",
     "Japan"
    ],
-   "source": "朝のテック5本",
+   "source": "主要",
    "ai": false,
    "theme": "semi"
   },
@@ -546,7 +546,7 @@
     "AI-infra",
     "2nm"
    ],
-   "source": "朝のテック5本",
+   "source": "主要",
    "ai": false,
    "theme": "semi"
   },
@@ -563,7 +563,7 @@
     "agent",
     "EDA"
    ],
-   "source": "朝のテック5本",
+   "source": "主要",
    "ai": true,
    "hook_names": [
     "Synopsys",
@@ -588,7 +588,7 @@
     "enterprise-AI",
     "DevDay"
    ],
-   "source": "朝のテック5本",
+   "source": "主要",
    "ai": true,
    "theme": "agent"
   },
@@ -608,7 +608,7 @@
     "pricing",
     "DevDay"
    ],
-   "source": "朝のテック5本",
+   "source": "主要",
    "ai": true,
    "theme": "model"
   },
@@ -628,7 +628,7 @@
     "IPO",
     "regulation"
    ],
-   "source": "朝のテック5本",
+   "source": "主要",
    "ai": true,
    "addenda": [
     {
@@ -662,7 +662,7 @@
     "2nm",
     "yield"
    ],
-   "source": "朝のテック5本",
+   "source": "主要",
    "ai": false,
    "theme": "semi"
   },
@@ -683,7 +683,7 @@
     "manufacturing",
     "supply-chain"
    ],
-   "source": "朝のテック5本",
+   "source": "主要",
    "ai": false,
    "theme": "device"
   },
@@ -704,7 +704,7 @@
     "chip-design",
     "semiconductor"
    ],
-   "source": "朝のテック5本",
+   "source": "主要",
    "ai": true,
    "addenda": [
     {
@@ -732,7 +732,7 @@
     "frontier-model",
     "Gemini"
    ],
-   "source": "朝のテック5本",
+   "source": "主要",
    "ai": true,
    "theme": "model"
   },
@@ -752,7 +752,7 @@
     "AI-infra",
     "semiconductor"
    ],
-   "source": "朝のテック5本",
+   "source": "主要",
    "ai": true,
    "theme": "semi"
   },
@@ -774,7 +774,7 @@
     "EDA",
     "AI-infra"
    ],
-   "source": "朝のテック5本",
+   "source": "主要",
    "ai": true,
    "addenda": [
     {
@@ -801,7 +801,7 @@
     "smartphone",
     "vulnerability"
    ],
-   "source": "朝のテック5本",
+   "source": "主要",
    "ai": false,
    "theme": "security"
   },
@@ -821,7 +821,7 @@
     "semiconductor",
     "supply-chain"
    ],
-   "source": "朝のテック5本",
+   "source": "主要",
    "ai": false,
    "theme": "semi"
   },
@@ -841,7 +841,7 @@
     "display",
     "hardware"
    ],
-   "source": "朝のテック5本",
+   "source": "主要",
    "ai": false,
    "theme": "device"
   },
@@ -862,7 +862,7 @@
     "circular-finance",
     "IPO"
    ],
-   "source": "朝のテック5本",
+   "source": "主要",
    "ai": true,
    "theme": "infra"
   },
@@ -883,7 +883,7 @@
     "GPU",
     "private-credit"
    ],
-   "source": "朝のテック5本",
+   "source": "主要",
    "ai": true,
    "theme": "infra"
   },
@@ -903,7 +903,7 @@
     "agent-safety",
     "consumer-protection"
    ],
-   "source": "朝のテック5本",
+   "source": "主要",
    "ai": true,
    "theme": "policy"
   },
@@ -924,7 +924,7 @@
     "decision-model",
     "open-source"
    ],
-   "source": "朝のテック5本",
+   "source": "主要",
    "ai": true,
    "theme": "agent"
   },
@@ -946,7 +946,7 @@
     "research",
     "Japan"
    ],
-   "source": "朝のテック5本",
+   "source": "主要",
    "ai": false,
    "theme": "semi"
   },
@@ -969,7 +969,7 @@
     "US-manufacturing",
     "geopolitics"
    ],
-   "source": "朝のテック5本",
+   "source": "主要",
    "ai": false,
    "theme": "semi"
   },
@@ -989,7 +989,7 @@
     "pricing",
     "supply-chain"
    ],
-   "source": "朝のテック5本",
+   "source": "主要",
    "ai": false,
    "theme": "device"
   },

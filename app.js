@@ -3,7 +3,7 @@
  *  2) #/t/<theme>   that theme's items, newest on top + dimmed directly-linked items of other themes
  *  3) #/t/<theme>/i/<id>  (or #/i/<id>)  focus: item + direct neighbours, detail sheet
  * Browser back works through the hash history. Weak links (auto, confidence < 0.4) are hidden
- * unless 「弱いリンクも」 is on; period (全期間 / 直近2週間) and slot (すべて / 朝の5本 / 別枠) filters apply at every level.
+ * unless 「弱いリンクも」 is on; period (全期間 / 直近2週間) and slot (すべて / 主要 / 追加) filters apply at every level.
  */
 (function () {
   "use strict";
@@ -521,7 +521,7 @@
       node.font = nodeFont(fs, ext ? "rgba(252,231,243,0.72)" : "#fce7f3", tagged ? hexA(th.color, ext ? 0.8 : 1) : null);
     } else {
       node.label = tag + shortDate(it.date) + (it.posts && it.posts.length ? " ▶" : "") + (latest && !ext ? " 新" : "") +
-        (isExtra(it) ? " 別枠" : "") +
+        (isExtra(it) ? " 追加" : "") +
         (hasAddenda(it) && !ext && !opt.tag ? " 追加情報あり" : "") + "\n" + T(vtrunc(it.title, opt.units));
       var extra = isExtra(it);
       node.color = { background: ext ? "rgba(18,24,32,0.92)" : focus ? hexA(th.color, 0.22) : extra ? "rgba(8,47,73,0.95)" : "rgba(22,29,38,0.97)",
@@ -574,7 +574,7 @@
     extList.forEach(function (e) { nodes.push(itemNode(e.it, { ext: true, x: extX, y: 0, width: EW, font: 16, units: 22 })); });
     var nExtra = mine.filter(isExtra).length;
     var hint = "上ほど新しい（" + mine.length + "件）";
-    if (nExtra) hint += "・別枠 " + nExtra;
+    if (nExtra) hint += "・追加 " + nExtra;
     if (extList.length) hint += "・右の薄い箱＝つながる他テーマ";
     if (hasKt) hint += '<br><i class="kt"></i>投稿回';
     if (hasConf) hint += (hasKt ? "　" : "<br>") + '<i class="dash"></i>似て聞こえる（中身は別）';
@@ -690,7 +690,7 @@
     var html = '<div class="date"><span>' + esc(it.date) + "</span>" +
       '<button type="button" class="chip" data-theme="' + esc(th.key) + '" style="background:' + th.color + '">' + esc(th.name) + "</button>" +
       (isKt(it) ? '<span class="chip kt">▶ 投稿回</span>' : "") +
-      (isExtra(it) ? '<span class="chip extra">別枠</span>' : "") +
+      (isExtra(it) ? '<span class="chip extra">追加</span>' : "") +
       (it.ai === true ? '<span class="chip ai">AI</span>' : it.ai === false ? '<span class="chip nonai">AI以外</span>' : "") +
       (!isKt(it) && it.posts && it.posts.length ? '<span class="chip posted">▶ 投稿済</span>' : "") +
       (hasAddenda(it) ? '<span class="chip addm">追加情報あり</span>' : "") + "</div>";
