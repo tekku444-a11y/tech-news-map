@@ -1,6 +1,6 @@
 {
-  "name": "テック相関図",
-  "short_name": "テック相関",
+  "name": "テック相関ノート",
+  "short_name": "相関ノート",
   "description": "テックニュースの相関グラフ（閲覧専用）",
   "lang": "ja",
   "dir": "ltr",

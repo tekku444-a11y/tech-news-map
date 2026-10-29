@@ -1,4 +1,4 @@
-/* テックニュース相関図 — view-only PWA (3 levels)
+/* テック相関ノート — view-only PWA (3 levels)
  *  1) #/            theme bubbles (count + cross-theme link counts)
  *  2) #/t/<theme>   that theme's items, newest on top + dimmed directly-linked items of other themes
  *  3) #/t/<theme>/i/<id>  (or #/i/<id>)  focus: item + direct neighbours, detail sheet
@@ -170,7 +170,7 @@
     if (v.level === "theme" && th) title = th.name;
     if (v.level === "item") { var it = state.byId[v.item]; title = shortDate(it.date) + " " + (isKt(it) ? "▶ " + stripKt(it.title) : it.title); }
     $("#title").textContent = title;
-    document.title = (v.level === "overview" ? "" : title + " — ") + "テックニュース相関図";
+    document.title = (v.level === "overview" ? "" : title + " — ") + "テック相関ノート";
     var hint = $("#hint");
     hint.style.top = ($("#hdr").getBoundingClientRect().bottom + 6) + "px";
   }
