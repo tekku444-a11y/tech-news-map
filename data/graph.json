@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-29T20:23:31+09:00",
+ "generatedAt": "2026-10-29T20:27:34+09:00",
  "lastUpdated": "2026-10-29",
  "counts": {
   "items": 211,
@@ -200,17 +200,7 @@
     "Snapdragon"
    ],
    "hook_contrast": "同じ「8 Elite Gen 6」でもExtremeは別チップ、旗艦が2つ",
-   "theme": "device",
-   "posts": [
-    {
-     "post_date": null,
-     "title": "Snapdragon Extreme Gen 6 チップ内メモリー"
-    },
-    {
-     "post_date": "2026-09-29",
-     "title": "Snapdragon｜旗艦が2つ"
-    }
-   ]
+   "theme": "device"
   },
   {
    "id": "2026-09-23-2",
@@ -245,13 +235,7 @@
    ],
    "source": "朝のテック5本",
    "ai": true,
-   "theme": "model",
-   "posts": [
-    {
-     "post_date": "2026-09-24",
-     "title": "AI値下げ"
-    }
-   ]
+   "theme": "model"
   },
   {
    "id": "2026-09-23-4",
@@ -329,13 +313,7 @@
    ],
    "source": "朝のテック5本",
    "ai": true,
-   "theme": "policy",
-   "posts": [
-    {
-     "post_date": "2026-09-26",
-     "title": "エージェント｜チャットと別物"
-    }
-   ]
+   "theme": "policy"
   },
   {
    "id": "2026-09-27-3",
@@ -452,13 +430,7 @@
     "Autopilot"
    ],
    "hook_contrast": "同じAutopilotでも、こちらはMicrosoft Copilotの製品名（Synopsysのは設計エージェント）",
-   "theme": "model",
-   "posts": [
-    {
-     "post_date": "2026-09-27",
-     "title": "Autopilot"
-    }
-   ]
+   "theme": "model"
   },
   {
    "id": "2026-09-28-4",
@@ -713,13 +685,7 @@
    ],
    "source": "朝のテック5本",
    "ai": false,
-   "theme": "device",
-   "posts": [
-    {
-     "post_date": "2026-09-30",
-     "title": "iPhone Duo｜歩留まり60%"
-    }
-   ]
+   "theme": "device"
   },
   {
    "id": "2026-10-01-1",
