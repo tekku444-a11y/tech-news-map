@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-29T20:30:58+09:00",
+ "generatedAt": "2026-10-29T20:38:34+09:00",
  "lastUpdated": "2026-10-29",
  "counts": {
   "items": 211,
@@ -196,10 +196,6 @@
    ],
    "source": "主要",
    "ai": false,
-   "hook_names": [
-    "Snapdragon"
-   ],
-   "hook_contrast": "同じ「8 Elite Gen 6」でもExtremeは別チップ、旗艦が2つ",
    "theme": "device"
   },
   {
@@ -425,11 +421,6 @@
    ],
    "source": "主要",
    "ai": true,
-   "hook_names": [
-    "Copilot",
-    "Autopilot"
-   ],
-   "hook_contrast": "同じAutopilotでも、こちらはMicrosoft Copilotの製品名（Synopsysのは設計エージェント）",
    "theme": "model"
   },
   {
@@ -565,11 +556,6 @@
    ],
    "source": "主要",
    "ai": true,
-   "hook_names": [
-    "Synopsys",
-    "Autopilot"
-   ],
-   "hook_contrast": "同じAutopilotでも、こちらはチップ設計エージェント（MicrosoftのはCopilotの製品名）",
    "theme": "chipdesign"
   },
   {
@@ -2503,10 +2489,6 @@
     "url": "https://counterpointresearch.com/en/insights/global-smartphone-shipments-hit-a-new-low-with-20-percent-yoy-decline-lowest-in-14-years"
    },
    "ai": false,
-   "hook_names": [
-    "スマホ"
-   ],
-   "hook_contrast": "売れないのではなく、メモリーが足りず作れない",
    "theme": "device"
   },
   {
